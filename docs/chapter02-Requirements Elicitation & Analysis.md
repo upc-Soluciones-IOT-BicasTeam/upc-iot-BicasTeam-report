@@ -199,7 +199,13 @@ Con el fin de obtener y separar correctamente toda la información obtenida dura
 - **Inicio de la entrevista:** 0:00
 - **Duración:** 2:10 min
 - **RESUMEN:**
-Marco tiene más de 15 años de experiencia gestionando flotas de transporte. Trabaja como gestor de camiones para trasladar materiales de construcción. Normalmente para la asignación de entregas a cada conductor lo hace verbalmente o en otros casos mediante whatsapp. Actualmente en su trabajo no cuentan con una herramienta o sistema que les facilite la gestión de transportes. Considera que le sería muy útil una aplicación para el asignamiento de cada transportista. Por último, nos comentó que estaría dispuesto a la implementación de la app en la empresa.
+- **Demografía (Edad, lugar):** 57 años, Puente Piedra, Lima.  
+- **Rol & Experiencia:** Gestor de camiones dedicado al transporte de materiales de construcción; más de 15 años coordinando flotas.  
+- **Objetivos / “Jobs”:** Asignar entregas a cada conductor de forma ágil y documentada; minimizar el tiempo invertido en llamadas o mensajes dispersos.  
+- **Motivaciones / Valores:** Eficiencia operativa y control transparente de las tareas diarias; disposición a modernizar el negocio si la solución simplifica procesos.  
+- **Frustraciones (“Pains”):** La asignación es verbal o por WhatsApp, lo que provoca desorden y poca trazabilidad.  
+- **Habilidades (Skills):** Liderazgo operativo, conocimiento de logística de materiales y coordinación básica con herramientas móviles.  
+- **Tecnología & Canales:** Smartphone con WhatsApp (principal), sin software formal de gestión aún.  
 
 **Entrevista N°2:**<br>
 **Figura 2.**<br>
@@ -215,7 +221,13 @@ Marco tiene más de 15 años de experiencia gestionando flotas de transporte. Tr
 - **Inicio de la entrevista:** 2:10 min
 - **Duración:** 7:53 min
 - **RESUMEN:**
-Gilver Flores es un empresario con una década de experiencia en la gestión de flotas de transporte, valora el rastreo por GPS para la seguridad y la puntualidad, y utiliza WhatsApp para coordinar con los conductores. Está abierto a adoptar nuevas tecnologías para mejorar la competitividad y la responsabilidad de su empresa, y ve el valor en características como la optimización de la asignación de rutas. Reconoce la importancia de un mantenimiento de vehículos efectivo y cree que la optimización de las rutas y los sistemas de seguimiento de mantenimiento virtual pueden mejorar las operaciones. Evalúa el éxito de las soluciones de gestión de flotas en función de cómo mejoran la puntualidad y las prácticas de mantenimiento preventivo.
+- **Demografía (Edad, lugar):** 48 años, Villa El Salvador, Lima.  
+- **Rol & Experiencia:** Empresario; una década gestionando flotas de transporte mixto.  
+- **Objetivos / “Jobs”:** Optimizar asignación de rutas, garantizar puntualidad y mantener los buses en óptimas condiciones.  
+- **Motivaciones / Valores:** Competitividad, seguridad de pasajeros y reputación corporativa; ve la tecnología como ventaja estratégica.  
+- **Frustraciones (“Pains”):** Procesos manuales y falta de visibilidad integral sobre mantenimiento y desempeño.  
+- **Habilidades (Skills):** Toma de decisiones basada en KPI, manejo de GPS básico, gestión de personal.  
+- **Tecnología & Canales:** WhatsApp para coordinación diaria; rastreo GPS para monitoreo; abierto a apps SaaS de flota.  
 
 **Entrevista N°3:**<br>
 **Figura 3.**<br>
@@ -231,7 +243,14 @@ Gilver Flores es un empresario con una década de experiencia en la gestión de 
 -**Inicio de la entrevista:** 7:53 min
 - **Duración:** 16:21 min
 - **RESUMEN:**
-Abraham Quenta es un emprendedor en el sector del transporte con 6 años de experiencia, gestiona su empresa utilizando Excel para tareas como la emisión de billetes y WhatsApp para la comunicación interna. Desea un sistema donde los pasajeros puedan reservar asientos y donde pueda rastrear la ubicación de los conductores durante los viajes. Considera que la implementación de una aplicación con estas características es crucial para la eficiencia operativa. Enfatiza la importancia de cumplir con las regulaciones de entidades como la ATU y el Ministerio de Transporte. Finalmente, destaca la importancia de tener información actualizada sobre el mantenimiento del vehículo integrada en un sistema de seguimiento.
+## Abraham Quenta
+- **Demografía (Edad, lugar):** 28 años, Tacna.  
+- **Rol & Experiencia:** Emprendedor del rubro transporte; 6 años dirigiendo su propia empresa.  
+- **Objetivos / “Jobs”:** Habilitar reservas de asientos en línea y rastrear a conductores en tiempo real.  
+- **Motivaciones / Valores:** Cumplir regulaciones de ATU y MTC; ofrecer un servicio moderno y conveniente a los pasajeros.  
+- **Frustraciones (“Pains”):** Dependencia de Excel y WhatsApp para operaciones críticas; información dispersa sobre mantenimiento.  
+- **Habilidades (Skills):** Gestión básica de datos en Excel, administración de pequeñas operaciones logísticas.  
+- **Tecnología & Canales:** Excel para emisión de billetes, WhatsApp para comunicación interna; busca plataforma unificada.
 
 **Segmento 2: TRANSPORTISTAS**<br>
 **Entrevista N°1:**<br>
@@ -248,7 +267,13 @@ Abraham Quenta es un emprendedor en el sector del transporte con 6 años de expe
 - **Inicio de entrevista:** 16:21 min
 - **Duración:** 26:26 min
 - **RESUMEN:**
-Ricardo es un experimentado conductor de autobuses, con más de 25 años de experiencia en el transporte personal y turismo. Trabaja para la empresa Arellano, que presta servicios a empresas como Gloria, Textil Creditex y Faber-Castell. Además de su función como conductor, Gilbert también desempeña el rol de supervisor de la flota de buses. En cuanto a la comunicación, utiliza celulares con WhatsApp para coordinar con los conductores y la empresa. La gestión de viajes y rutas se realiza a través de una secretaria que asigna las rutas a cada conductor. En cuanto a tecnología, utiliza una aplicación móvil para conocer la ruta asignada. Gilbert está dispuesto a adoptar nuevas tecnologías para mejorar la eficiencia en su trabajo, destacando la importancia de mejorar la comunicación en la empresa y la implementación de tecnología para agilizar procesos
+- **Demografía (Edad, lugar):** 45 años, Cercado de Lima.  
+- **Rol & Experiencia:** Conductor y supervisor de flota en Arellanos; más de 25 años en transporte de personal y turismo.  
+- **Objetivos / “Jobs”:** Recibir rutas claras y reportar incidencias sin demora; supervisar cumplimiento de otros conductores.  
+- **Motivaciones / Valores:** Orden, puntualidad y buena comunicación con la central.  
+- **Frustraciones (“Pains”):** Las rutas le llegan vía secretaria y hay retrasos; coordinar sólo por WhatsApp limita la trazabilidad.  
+- **Habilidades (Skills):** Conducción segura, supervisión de flota, uso básico de apps móviles para rutas.  
+- **Tecnología & Canales:** Smartphone con WhatsApp y aplicación interna para visualizar rutas asignadas.
 
 **Entrevista N°2:**<br>
 **Figura 5.**<br>
@@ -264,7 +289,13 @@ Ricardo es un experimentado conductor de autobuses, con más de 25 años de expe
 - **Inicio de entrevista:** 26:26 min
 - **Duración:** 31:37 min
 - **RESUMEN:**
-Víctor Fogotista, con 25 años de experiencia como conductor, trabaja para una empresa que ofrece servicio trupal. Utiliza WhatsApp como principal medio de comunicación con la empresa y los conductores. Los viajes son programados por la empresa, y el mantenimiento de los buses se basa en un calendario establecido por kilometraje. Víctor está familiarizado con aplicaciones como Uber y Waze, y utiliza GPS y WhatsApp en su vida diaria para el trabajo. Sugiere mejorar la comunicación y la calidad del servicio en la empresa.
+- **Demografía (Edad, lugar):** 42 años, Villa El Salvador, Lima.  
+- **Rol & Experiencia:** Conductor con 25 años en servicio de transporte grupal.  
+- **Objetivos / “Jobs”:** Cumplir itinerarios y mantener el bus conforme al calendario de kilometraje.  
+- **Motivaciones / Valores:** Calidad de servicio y seguridad de los pasajeros.  
+- **Frustraciones (“Pains”):** Comunicación fragmentada; mantenimiento reactivo genera imprevistos.  
+- **Habilidades (Skills):** Amplia pericia en conducción, familiaridad con apps de navegación.  
+- **Tecnología & Canales:** WhatsApp, GPS integrado, aplicaciones como Uber y Waze para referencias de tráfico. 
 
 **Entrevista N°3:**<br>
 **Figura 6.**<br>
@@ -280,7 +311,14 @@ Víctor Fogotista, con 25 años de experiencia como conductor, trabaja para una 
 - **Inicio de entrevista:** 31:37 min
 - **Duración:** 39:39 min
 - **RESUMEN:**
-Martín Merino Ávila, con 35 años de experiencia como conductor, trabaja para Serellano de Personal de SACA, una empresa dedicada al transporte de personal. Utiliza WhatsApp y GPS como principales herramientas de comunicación y control en su trabajo. Los viajes y rutas son programados por la empresa, y el mantenimiento de los buses se basa en un calendario establecido por kilometraje. Martín está dispuesto a utilizar nuevas tecnologías para mejorar la gestión de su trabajo, y sugiere mejorar la flota de buses y el trato al cliente en la empresa. Tiene planes futuros de tener su propio auto y posiblemente una flotilla de taxis.
+- **Demografía (Edad, lugar):** 50 años, Villa El Salvador, Lima.  
+- **Rol & Experiencia:** Conductor con 35 años en transporte de personal.  
+- **Objetivos / “Jobs”:** Ejecutar rutas programadas con puntualidad y participar en mejoras de flota.  
+- **Motivaciones / Valores:** Servicio eficiente y trato cordial al cliente; aspiración a formar su propia flotilla de taxis.  
+- **Frustraciones (“Pains”):** Buses antiguos y procesos de comunicación poco ágiles; desea mejor infraestructura para el pasajero.  
+- **Habilidades (Skills):** Conducción de larga data, uso práctico de GPS y seguimiento de incidencias.  
+- **Tecnología & Canales:** WhatsApp y GPS como herramientas diarias; predispuesto a probar nuevas apps de gestión.  
+
 
 ### 2.2.3 Análisis de entrevistas
 **EMPRESARIOS** 
