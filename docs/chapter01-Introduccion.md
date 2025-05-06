@@ -178,7 +178,7 @@ Los segmentos objetivos de MoviGestion son:
 
 En este contexto, según un informe de Infobae, una empresa de transporte en Perú reveló que el 70% de sus ingresos corresponde a empresas y atienden alrededor de 2 mil empresas mensualmente. Además, un estudio de flotas y movilidad reveló que más de un tercio de las empresas peruanas ya han adaptado o están considerando adaptar su política de movilidad debido al teletrabajo.
 
-![Imagen de Empresarios](/assets/chapter01/chap1%20empresario.jpg)
+![Imagen de Empresarios](/assets/chapter01/empresarios.jpg)
 
 <!-- CÓDIGO PARA MODIFICAR EL TAMAÑO <img src="https://delcorp.pe/wp-content/uploads/2017/07/motorizado_inhousev2.jpg" alt="Imagen de Empresarios" width="400" height="350"> -->
 
