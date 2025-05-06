@@ -56,15 +56,19 @@ Nuestro equipo decidió usar la técnica “start-with-simple” ya que empezamo
 Hemos identificado 4 Bounded Context.
 
 - IAM:
+
 ![IAM](/assets/chapter04/IAM.png)
 
 - Vehicles & Tracking:
+
 ![Vehicles & Tracking](/assets/chapter04/vehicles_tracking.png)
 
 - Shipment:
+
 ![Shipment](/assets/chapter04/shipment.png)
 
 - Analytics:
+
 ![Analytics](/assets/chapter04/analytics.png)
 
 Link de Lucidchart:
@@ -74,12 +78,15 @@ https://lucid.app/lucidchart/c3a56cf0-cb3f-4aa2-a9fb-b84400e5ec12/edit?viewport_
 En esta sección, se describe el proceso utilizado para visualizar la interacción entre los diferentes bounded contexts que conforman el sistema. El objetivo principal es entender cómo estos contextos colaboran para resolver los casos de uso del negocio y satisfacer las necesidades de los usuarios. Para lograr esto, se aplicó la técnica de Domain Storytelling, que facilita la representación gráfica de los flujos de mensajes entre actores, contextos y sistemas, permitiendo identificar claramente las responsabilidades y los puntos de comunicación entre cada componente del dominio
 
 - IAM -> Vehicles & Tracking
+
 ![IAM -> Vehicles & Tracking](/assets/chapter04/IAM_to_vehicles_tracking.png)
 
 - IAM -> Analytics
+
 ![IAM -> Analytics](/assets/chapter04/IAM_to_analytics.png)
 
 - IAM -> Shipment
+
 ![IAM -> Shipment](/assets/chapter04/IAM_to_shipment.png)
 
 #### 4.1.1.3 Bounded Context Canvases
