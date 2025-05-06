@@ -95,13 +95,18 @@ En esta parte del documento se describen las acciones realizadas por el equipo p
 Gracias a este enfoque, el equipo pudo construir los bounded contexts de forma sólida, asegurando que cada uno cumpliera con su función dentro del sistema global.
 
 - Bounded Context Canvases IAM:
+
 ![Bounded Context Canvases IAM](/assets/chapter04/canvases_IAM.png)
 
 - Bounded Context Canvases Vehicles & Tracking:
+
 ![Bounded Context Canvases Vehicles & Tracking](/assets/chapter04/canvases_vehicles_tracking.png)
 
 - Bounded Context Canvases Shipment:
+
 ![Bounded Context Canvases Shipment](/assets/chapter04/canvases_shipment.png)
+
+Link de Context Canvases: https://miro.com/welcomeonboard/aWJYTFBpYTJ0WVdEN203MzdEdk9EOXk5VGtsb09lNlFtTHEyNHkyNUZGNXhQTlkyRkNJU3NNeG14cUx5VEpKMmRoQjBBUFg1VUFyMUdEc1p1NmkrcncxL29WaGdiUGVsR1ZZb2NyRURPSjBjYnlWWExvbFR4REdqVXFZU0ZaSmd0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=517257946153 
 
 ### 4.1.2 Context Mapping
 En esta sección, se analizan las relaciones entre los bounded contexts identificados y se asignan patrones de context mapping adecuados para cada uno:
