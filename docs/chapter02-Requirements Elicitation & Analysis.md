@@ -312,3 +312,82 @@ Para el análisis de las entrevistas, se pueden identificar varias característi
 - La edad de los entrevistados se encuentra en el rango de 40 a 50 años. 
 - La mayoría de nuestros entrevistados reside en el distrito de Villa el Salvador, como también en el Cercado de Lima. Además, el 100% de nuestros entrevistados vive con su familia. 
 - El 100% de entrevistados cree que la comunicación debe ser mejorada dentro de la empresa y la consideran vital para un buen desempeño.
+
+## 2.3 Needfinding
+Según lo señalado por Patnaik (2017), la metodología del Needfinding se concentra principalmente en la acción de descubrir las necesidades, tanto explícitas como implícitas, de los segmentos objetivos seleccionados con el fin de poder crear soluciones adecuadas. Para esto, es necesario ver más allá de todo lo tangible y concentrarse en ideas más abstractas y conceptos más amigables para todos los usuarios.
+
+Para reconocer las demandas de los usuarios, empleamos diversos enfoques. Primero, segmentamos a los usuarios en diferentes categorías y generamos perfiles que representan a nuestro público objetivo, mediante la creación de User Persona. Esto nos permitió agrupar las necesidades específicas de cada tipo de usuario. Luego, para corroborar y validar las necesidades que habíamos determinado previamente para cada categoría de usuario, realizamos entrevistas con representantes de los dos conjuntos de usuarios que habíamos identificado utilizando los User Persona.
+
+### 2.3.1 User Personas
+El proceso de creación de user personas es esencial para comprender las necesidades, desafíos y expectativas de los diferentes segmentos de usuarios en el contexto de nuestra aplicación MoviGestion, que se enfoca en brindar soluciones tecnológicas a academias deportivas. Estas user personas sirven como representaciones ficticias pero realistas de los usuarios reales con los que interactuamos en el ámbito empresarial.
+
+Las fichas de User Persona son herramientas fundamentales para comprender las necesidades, comportamientos y características de los usuarios en un segmento objetivo específico. Estas fichas se basan en el análisis de entrevistas realizadas a conductores de autobuses, así como en la identificación de patrones comunes y aspectos relevantes para la construcción de arquetipos. A través de estas fichas, se representan de manera visual y detallada las características clave de cada User Persona, lo que facilita la comprensión y empatía con los usuarios por parte del equipo de desarrollo y diseño.
+
+**Figura 7.**<br>
+*User Persona del primer segmento objetivo: Conductor.*
+![User Persona del primer segmento objetivo: Conductor.](/assets/chapter02/user_persona_conductor.png)
+
+**Figura 8.**<br>
+*User Persona del segundo segmento objetivo: Empresario.*
+![User Persona del segundo segmento objetivo: Empresario.](/assets/chapter02/user_persona_empresario.png)
+
+
+### 2.3.2 User Task Matrix
+Según lo señalado por Patnaik Una Matriz de Tareas de Usuario es una herramienta utilizada en el diseño de experiencia de usuario (UX) y desarrollo de productos para organizar y visualizar las tareas que los usuarios realizan en un sistema o plataforma. Esta matriz ayuda a identificar las diversas acciones que los usuarios llevarán a cabo en el producto, así como la frecuencia y la importancia de cada una de estas tareas (Patnaik, 2017).
+
+**Figura 9.**<br>
+*User Task Matrix para el primer y segundo User Persona.*
+![User Task Matrix para el primer y segundo User Persona.](/assets/chapter02/user_task_matrix.png)
+
+
+**Diferencias:** Los empresarios se centran más en tareas relacionadas con la gestión general de la flota, como monitoreo del rendimiento, registro de incidencias y planificación de rutas. 
+Los transportistas, por otro lado, se centran en tareas más operativas, como seguimiento de envíos, mantenimiento de vehículos y comunicación con conductores. 
+Coincidencias: Ambos grupos reconocen la importancia de la seguridad en la gestión de flotas, lo que se refleja en tareas como el registro de incidencias y la implementación de medidas de seguridad. Tanto los empresarios como los transportistas valoran la eficiencia operativa, como se evidencia en tareas como el monitoreo del rendimiento y la planificación de rutas.
+
+### 2.3.3 User Journey Mapping
+Según Patnaik (2017), un Mapeo de Viaje es una técnica utilizada en el diseño de experiencia de usuario (UX) para visualizar y comprender la experiencia que tiene un usuario al interactuar con un producto o servicio a lo largo del tiempo. El proceso de creación de un Journey Map implica mapear los diferentes puntos de contacto entre el usuario y el producto o servicio, desde el inicio hasta la finalización de su interacción. Esto puede incluir todas las etapas del viaje del usuario, desde el descubrimiento inicial del producto hasta la compra, el uso continuo y el soporte posterior a la venta.
+
+**Figura 10.**<br>
+*User Journey Map para el primer User Persona.*
+![User Journey Map para el primer User Persona.](/assets/chapter02/user_journey_map_conductor.png)
+
+**Figura 11.**<br>
+*User Journey Map para el segundo User Persona.*
+![User Journey Map para el segundo User Persona.](/assets/chapter02/user_journey_map_empresario.png)
+
+### 2.3.4 Empathy Mapping
+Un Mapeo de Empatía es una herramienta utilizada en el diseño de experiencia de usuario (UX) y el desarrollo de productos para comprender mejor las necesidades, deseos, emociones y comportamientos de los usuarios. El objetivo principal del Empathy Mapping es fomentar la empatía entre los miembros del equipo de diseño y los usuarios finales del producto o servicio (Patnaik, 2017).
+
+**Figura 12.**<br>
+*User Empathy Map del primer User Persona.*
+![User Empathy Map del primer User Persona.](/assets/chapter02/user_empathy_map_conductor.png)
+
+**Figura 13.**<br>
+*User Empathy Map del segundo User Persona.*
+![User Empathy Map del segundo User Persona.](/assets/chapter02/user_empathy_map_empresario.png)
+
+
+### 2.3.5 As-is Scenario Mapping
+**Figura 14.**<br>
+*As-is Scenario Mapping del primer User Persona.*
+![As-is Scenario Mapping del primer User Persona.](/assets/chapter02/as_is_scenario_map_conductor.png)
+
+**Figura 15.**<br>
+*As-is Scenario Mapping del segundo User Persona.*
+![As-is Scenario Mapping del segundo User Persona.](/assets/chapter02/as_is_scenario_map_empresario.png)
+
+
+## 2.4 Ubiquitous Language
+Ubiquitous Language (o Lenguaje Ubicuo) es un conjunto de términos compartidos y consistentes que se utilizan en todo un equipo de desarrollo (diseñadores, programadores, analistas, stakeholders, etc.) para describir el dominio del problema. Es muy común en metodologías como Domain-Driven Design (DDD).
+
+| Término | Definición |
+| --- | --- |
+| Administrador | Persona encargada de gestionar la academia y supervisar la flota de transporte. |
+| Transportista | Encargado de operar los vehículos, realizar rutas y reportar incidencias. |
+| Conductor | Persona que conduce los autobuses y está en contacto directo con los atletas. |
+| Unidad (Vehículo) | Autobús o transporte asignado para movilizar a los atletas. |
+| Ruta | Trayecto predefinido que sigue una unidad para trasladar usuarios. |
+| Incidencia | Evento anómalo o problema reportado durante el servicio de transporte. |
+| Planificación de Rutas | Proceso de definir y optimizar los recorridos de los vehículos. |
+| Panel de Control | Interfaz dentro de la aplicación que muestra métricas y estado de la flota. |
+
