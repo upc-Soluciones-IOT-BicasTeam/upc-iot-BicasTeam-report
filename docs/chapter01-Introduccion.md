@@ -184,4 +184,4 @@ En este contexto, según un informe de Infobae, una empresa de transporte en Per
 
 **Transportistas**: En el próspero mercado de transporte de carga por carretera en Perú, estimado en 8,31 mil millones de dólares en 2024 y proyectado a crecer a 10,75 mil millones en 2029 con una tasa anual del 6,5%, se encuentra un segmento fundamental: los transportistas. Este grupo, que incluye a conductores y operadores de vehículos de flota, se enfrenta a la necesidad de gestionar eficientemente sus tareas diarias de transporte. Las características demográficas de los transportistas varían ampliamente, con edades que van desde los 20 hasta los 60 años, predominantemente hombres aunque con una creciente presencia femenina. Además, todos ellos requieren licencias de conducir válidas y experiencia en la conducción de vehículos de flota.
 
-![Imagen de Transportistas](/assets/chapter01/chap1%20transportistas.jpeg)
+![Imagen de Transportistas](/assets/chapter01/transportista.jpeg)
