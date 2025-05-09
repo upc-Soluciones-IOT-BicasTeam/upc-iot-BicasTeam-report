@@ -516,10 +516,337 @@ En la capa de Infrastructure Layer, se encuentran los repositorios que permiten 
 - Métodos para extraer información (ej. userId, sessionId, roles) de un token válido.
 
 #### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams]()
+![Component Level Diagrams IAM]()
 
 ##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams]()
+![Bounded Context Domain Layer Class Diagrams IAM]()
 
 ##### 4.2.1.6.2 Bounded Context Database Design Diagram
-![Bounded Context Database Design Diagram]()
+![Bounded Context Database Design Diagram IAM]()
+
+### 4.2.2 Bounded Context: Vehicles & Tracking
+Este bounded context centraliza la gestión de los vehículos de la flota, sus características, rutas asignadas, informes de infracciones y reportes de velocidad mediante geolocalización en tiempo real, asegurando el monitoreo y control de las unidades.
+
+#### 4.2.2.1 Domain Layer
+**Aggregate 1: Vehicles**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| Vehicles | Entity / Aggregate | Representa al vehículo en sí; es la entidad principal que gestiona sus rutas, reportes y sensores. |
+
+**Attributes**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| vehicleId | UUID | Private | Identificador único del vehículo en el sistema. |
+| vehiclePlate | String | Private | Matrícula o placa del vehículo. |
+| brand | String | Private | Marca del vehículo (ej: Toyota, Volvo). |
+| model | String | Private | Modelo del vehículo (ej: Corolla, FH16). |
+| year | Int | Private | Año de fabricación del vehículo. |
+| status | String | Private | Estado actual del vehículo (ej: activo, en mantenimiento). |
+| speedSensor | SpeedSensor | Private | Objeto que almacena información del sensor de velocidad. |
+| humeditySensor | HumeditySensor | Private | Objeto que almacena información del sensor de humedad. |
+| gpsSensor | GPSSensor | Private | Objeto que almacena información del sensor GPS. |
+| driverHistory | List<Driverhistory> | Private | Historial de conductores asociados al vehículo. |
+| vehicleRoutes | List<VehicleRoute> | Private | Rutas asignadas o recorridas por el vehículo. |
+| vehicleReports | List<ReportVehicle> | Private | Lista de reportes generales sobre el vehículo. |
+		
+**Methods**<br>
+| Nombre| Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| generateVehicleReport() | ReportVehicle | Public | Genera un reporte de condiciones generales del vehículo. |
+| assignDriver(DriverHistory driverHistory) | Void | Public | Asigna o actualiza el historial de conductor para el vehículo. |
+
+**Aggregate 2: VehicleRoute**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| VehicleRoute | Entity | Representa las rutas asignadas a un vehículo, indicando su recorrido planificado o histórico. |
+
+**Attributes**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| routeId | UUID | Private | Identificador único de la ruta. |
+| vehicleId | UUID | Private | Identificador del vehículo asociado a la ruta. |
+| startLocation | String | Private | Punto de partida de la ruta. |
+| endLocation | String | Private | Punto de destino de la ruta. |
+| waypoints | List<string> | Private | Lista de puntos intermedios o paradas durante la ruta. |
+| estimatedTime | Integer | Private | Tiempo estimado en minutos para completar la ruta. |
+| distance | Double | Private | Distancia total de la ruta en kilómetros. |
+| status | String | Private | Estado de la ruta (Ej: "Programada", "En curso", "Completada", "Cancelada"). |
+| startTime | DateTime | Private | Hora y fecha de inicio programado de la ruta. |
+| endTime | DateTime | Private | Hora y fecha de finalización programada o real de la ruta. |
+		
+**Methods**<br>
+| Nombre| Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| startRoute() | Void | Public | Inicia la ruta actualizando el estado a "En curso" y registrando la hora de inicio. |
+| completeRoute() | Void | Public | Finaliza la ruta, actualizando el estado a "Completada" y registrando la hora de fin. |
+| updateWaypoints(newWaypoints: List<String>) | Void | Public | Actualiza la lista de puntos intermedios de la ruta. |
+| calculateDistance() | Double | Public | Calcula y devuelve la distancia total de la ruta basándose en las coordenadas. |
+| getRouteDuration() | Integer | Public | Retorna la duración total (en minutos) entre el inicio y el final de la ruta. |
+| isRouteActive() | Boolean | Public | Verifica si la ruta está actualmente en estado "En curso". |
+
+**Aggregate 3: RouteTracking**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| RouteTracking | Entity | Representa la ubicación en tiempo real y el seguimiento de las rutas. |
+
+**Attributes**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| trackingId | UUID | Private | Identificador único del seguimiento de ruta. |
+| vehicleId | UUID | Private | Identificador del vehículo que está siendo rastreado. |
+| currentLocation | String | Private | Ubicación actual del vehículo (puede ser en coordenadas o nombre de lugar). |
+| speed | Double | Private | Velocidad actual del vehículo en km/h. |
+| timestamp | DateTime | Private | Fecha y hora del último registro de seguimiento. |
+| routeId | UUID | Private | Ruta asignada en la cual se está realizando el seguimiento. |
+| isOverSpeeding | Boolean | Private | Indica si el vehículo está excediendo el límite de velocidad permitido |
+		
+**Methods**<br>
+| Nombre| Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| updateLocation(newLocation: String) | Void | Public | Actualiza la ubicación actual del vehículo. |
+| detectOverSpeed(limit: Double) | Boolean | Public | Detecta si la velocidad actual supera el límite establecido. |
+| getTrackingSummary() | String | Public | Devuelve un resumen textual del estado actual de seguimiento. |
+| isOnRoute() | Boolean | Public | Verifica si el vehículo aún sigue dentro de la ruta asignada. |
+| refreshTimestamp() | Void | Public | Actualiza el timestamp al momento actual para el nuevo dato registrado. |
+
+**Value Object: GPSSensor**<br>
+| Nombre| Categoría | Descripción | 
+| --- | --- | ---|
+| GPSSensor | Value Object | Representa el dispositivo GPS que rastrea la localización del vehículo en tiempo real. |
+
+**Attributes**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción | 
+| --- | --- | --- | --- |
+| gpsId | UUID | Private | Identificador único del sensor GPS. |
+| vehicleId | UUID | Private | Identificador del vehículo que está siendo geolocalizado. |
+| latitude | Double | Private | Latitud actual registrada por el GPS. |
+| longitude | Double | Private | Longitud actual registrada por el GPS. |
+| accuracy | Double | Private | Precisión de la ubicación registrada (en metros). |
+| timestamp | DateTime | Private | Hora en la que se registró la ubicación. |
+		
+**Methods**<br>
+| Nombre| Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| updateCoordinates(newLat: Double, newLong: Double) | Void | Public | Actualiza las coordenadas geográficas actuales. |
+| getLocation() | String | Public | Devuelve la ubicación actual como un string formateado. |
+| getAccuracy() | Double | Public | Obtiene la precisión del último registro de ubicación. |
+| refreshTimestamp() | Void | Public | Actualiza el tiempo del último registro de datos. |
+
+**Value Object: SpeedSensor**<br>
+| Nombre| Categoría | Descripción | 
+| --- | --- | ---|
+| SpeedSensor | Value Object | Representa el sensor de velocidad del vehículo, almacenando datos de medición. |
+
+**Attributes**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción | 
+| --- | --- | --- | --- |
+| speedSensorId | UUID | Private | Identificador único del sensor de velocidad. |
+| vehicleId | UUID | Private | Identificador del vehículo que está siendo rastreado. |
+| currentSpeed | Double | Private | Velocidad actual detectada por el sensor (km/h). |
+| speedLimit | Double | Private | Límite de velocidad permitido. |
+| timestamp | DateTime | Private | Fecha y hora del último dato registrado. |
+		
+**Methods**<br>
+| Nombre| Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| updateSpeed(newSpeed: Double) | Void | Public | Actualiza la velocidad medida por el sensor. |
+| isOverSpeeding() | Boolean | Public | Verifica si se supera el límite de velocidad. |
+| setSpeedLimit(limit: Double) | Void | Public | Establece un nuevo límite de velocidad. |
+| refreshTimestamp() | Void | Public | Actualiza el tiempo del último dato de velocidad. |
+
+**Value Object: HumiditySensor**<br>
+| Nombre| Categoría | Descripción | 
+| --- | --- | ---|
+| HumiditySensor | Value Object | Representa el sensor de humedad instalado en el vehículo. |
+
+**Attributes**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción | 
+| --- | --- | --- | --- |
+| humidityId | UUID | Private | Identificador único del sensor de humedad. |
+| vehicleId | UUID | Private | ID del vehículo al que está asociado el sensor. |
+| humidity | Float | Private | Porcentaje de humedad relativa actual (0-100%). |
+| status | String | Private | Estado del sensor ("Active", "Inactive", "Error", etc.). |
+| timestamp | DateTime | Private | Hora del último registro de humedad. |
+| minThreshold | Float | Private | Valor mínimo aceptable de humedad. |
+| maxThreshold | Float | Private | Valor máximo aceptable de humedad. |
+	
+**Methods**<br>
+| Nombre| Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| updateCoordinates(newLat: Double, newLong: Double) | Void | Public | Actualiza las coordenadas geográficas actuales. |
+| getLocation() | String | Public | Devuelve la ubicación actual como un string formateado. |
+| getAccuracy() | Double | Public | Obtiene la precisión del último registro de ubicación. |
+| refreshTimestamp() | Void | Public | Actualiza el tiempo del último registro de datos. |
+
+#### 4.2.2.2 Interface Layer
+**Controller 1: VehicleController**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| VehicleController | Controller | Controlador para los endpoints relacionados con la gestión del ciclo de vida de vehículos y sus componentes IoT (registro, actualización, monitoreo y desactivación de vehículos). |
+
+**Attributes**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| vehicleService | VehicleService | Private | Servicio de la capa de Aplicación para lógica de gestión del ciclo de vida de vehículos. |
+| vehicleMapper | VehicleMapper | Private | Mapper para convertir entre DTOs y objetos usados por Application/Domain |
+
+**Endpoints**<br>
+| Ruta| Método | Descripción |
+| --- | --- | --- |
+| /vehicles | POST | Crea un nuevo vehículo en el sistema. |
+| /vehicles/{id} | PUT | Actualiza la información de un vehículo existente. |
+| /vehicles/{id} | GET | Recupera la información de un vehículo usando su ID. |
+| /vehicles | GET | Obtiene todos los vehículos registrados en el sistema. |
+
+**Controller 2: RouteController**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| RouteController | Controller | Controlador para gestionar las operaciones relacionadas con las rutas de vehículos, incluyendo creación, actualización, seguimiento en tiempo real y análisis histórico de trayectorias. |
+
+**Attributes**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| routeService | RouteService | Private | Servicio de la capa de Aplicación para las rutas de vehículos. |
+| routeMapper | RouteMapper | Private | Mapper para convertir entre DTOs y objetos usados por Application/Domain |
+
+**Endpoints**<br>
+| Ruta| Método | Descripción |
+| --- | --- | --- |
+| /routes | POST | Crea una nueva ruta para un vehículo. |
+| /routes/{id} | PUT | Actualiza la información de una ruta existente. |
+| /routes/{id} | GET | Recupera los detalles de una ruta específica. |
+| /routes | GET | Obtiene todas las rutas activas o completadas. |
+Ruta
+
+**Controller 3: TrackingController**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| TrackingController | Controller | Controlador encargado del monitoreo en tiempo real de vehículos, gestionando la recopilación de datos GPS, actualización continua de ubicaciones, detección de desviaciones de ruta, generación de alertas inmediatas y visualización dinámica de flotas en mapas interactivos. |
+
+**Attributes**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| trackingService | TrackingService | Private | Servicio de la capa de Aplicación para el monitoreo en tiempo real de vehículos. |
+| trackingMapper | TrackingMapper | Private | Mapper para convertir entre DTOs y objetos usados por Application/Domain |
+
+**Endpoints**<br>
+| Ruta| Método | Descripción |
+| --- | --- | --- |
+| /tracking/{id} | GET | Recupera el seguimiento en tiempo real de una ruta. |
+| /tracking/{id}/update | POST | Actualiza la ubicación y velocidad de un vehículo en seguimiento. |
+| /tracking/{id}/speed-warning | GET | Verifica si el vehículo ha superado el límite de velocidad. |
+
+**DTOs**<br>
+| Nombre| Descripción |
+| --- | --- |
+| RegisterVehicleRequestDto | { licensePlate: String, brand: String, model: String, status: String } |
+| UpdateVehicleRequestDto | { vehicleId: UUID, licensePlate: String, brand: String, model: String, status: String } |
+| VehicleResponseDto | { vehicleId: UUID, licensePlate: String, brand: String, model: String, status: String } |
+| RegisterRouteRequestDto | { vehicleId: UUID, startLocation: String, endLocation: String, status: String } |
+| UpdateRouteRequestDto | { routeId: UUID, vehicleId: UUID, startLocation: String, endLocation: String, status: String } |
+| RouteResponseDto | { routeId: UUID, vehicleId: UUID, startLocation: String, endLocation: String, status: String } |
+| TrackingRequestDto | { trackingId: UUID, vehicleId: UUID, currentLocation: String, currentSpeed: Double, overSpeeding: Boolean } |
+| TrackingResponseDto | { trackingId: UUID, vehicleId: UUID, currentLocation: String, currentSpeed: Double, overSpeeding: Boolean } |
+| SpeedWarningRequestDto | { vehicleId: UUID, speedLimit: Double, currentSpeed: Double } |
+| SpeedWarningResponseDto | { vehicleId: UUID, speedLimit: Double, isOverSpeeding: Boolean } |
+
+#### 4.2.2.3Application Layer
+
+**Service 1: VehicleService**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| VehicleService | Service | Servicio que coordina la lógica relacionada con los vehículos. Maneja la creación, actualización y eliminación de vehículos. |
+	
+**Dependencies**<br>
+| Nombre| Tipo de Objeto | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| vehicleRepository | VehicleRepository | Private | Repositorio que interactúa con la base de datos para persistir la información de los vehículos. |
+| vehicleMapper | VehicleMapper | Private | Mapea objetos de tipo VehicleDto a entidades del dominio y viceversa. |
+| notificationService | NotificationService | Private | Servicio que maneja la notificación de eventos relacionados con los vehículos, como la creación o actualización. |
+
+**Methods**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| registerVehicle | void | Public | Registra un nuevo vehículo en el sistema. |
+| updateVehicle | void | Public | Actualiza los detalles de un vehículo ya registrado. |
+| deleteVehicle | void | Public | Elimina un vehículo del sistema. |
+
+**Service 2: RouteService**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| RouteService | Service | Servicio que maneja la creación, actualización y eliminación de rutas en el sistema de bicicletas y vehículos. |
+	
+**Dependencies**<br>
+| Nombre| Tipo de Objeto | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| routeRepository | RouteRepository | Private | Repositorio que maneja la persistencia de datos relacionados con las rutas. |
+| routeMapper | RouteMapper | Private | Mapea objetos de tipo RouteDto a entidades del dominio y viceversa. |
+| auditService | AuditService | Private | Servicio que maneja el registro de auditoría para la creación y modificación de rutas. |
+
+**Methods**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| createRoute | void | Public | Crea una nueva ruta en el sistema. |
+| updateRoute | void | Public | Actualiza los detalles de una ruta existente. |
+| deleteRoute | void | Public | Elimina una ruta del sistema. |
+
+#### 4.2.2.4 Infrastructure Layer
+**VehicleRepositoryImpl**<br>
+| Nombre| Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| VehicleRepositoryImpl |Repositorio | VehicleRepository | Implementación del repositorio para acceder a la base de datos de vehículos. |
+
+**Funcionalidad clave**<br>
+- Busca y carga vehículos por ID, nombre, tipo, etc.
+- Guarda (inserta/actualiza) vehículos.
+- Elimina vehículos.
+- Verifica la existencia de vehículos por ID.
+- Filtra vehículos por estado o tipo.
+
+**TrackingRepositoryImpl**<br>
+| Nombre| Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| TrackingRepositoryImpl |Repositorio | TrackingRepository | Implementación del repositorio para acceder a los registros de tracking de los vehículos. |
+
+**Funcionalidad clave**<br>
+- Busca y carga datos de seguimiento por ID de vehículo.
+- Guarda (inserta/actualiza) registros de tracking.
+- Elimina registros de tracking.
+- Verifica la existencia de registros de tracking por ID de vehículo.
+- Filtra registros de tracking por rango de fecha.
+
+**VehicleTrackingServiceImpl**<br>
+| Nombre| Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| VehicleTrackingServiceImpl |Servicio | VehicleTrackingService | Servicio que maneja la lógica de negocio para gestionar vehículos y su seguimiento. |
+
+**Funcionalidades clave**<br>
+- Obtiene el historial de posiciones de un vehículo dentro de un rango de tiempo.
+- Calcula la ruta recorrida por un vehículo basado en los datos de tracking.
+- Actualiza la información de seguimiento de un vehículo en tiempo real.
+- Verifica la disponibilidad de un vehículo para su seguimiento.
+- Envía alertas relacionadas con el estado de los vehículos, como el exceso de velocidad o la detención prolongada.
+
+**GeoLocationServiceImpl**<br>
+| Nombre| Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| GeoLocationServiceImpl |Servicio | GeoLocationService | Servicio que maneja la lógica para obtener y calcular las ubicaciones geográficas de los vehículos. |
+
+**Funcionalidades clave**<br>
+- Obtiene la ubicación geográfica actual de un vehículo usando GPS.
+- Calcula la distancia entre dos ubicaciones geográficas.
+- Determina la ruta más corta entre dos puntos usando datos de ubicación.
+- Proporciona información de tráfico en tiempo real para optimizar rutas.
+- Actualiza la ubicación del vehículo en tiempo real en el sistema de seguimiento.
+
+#### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams
+![Component Level Diagrams V&T]()
+
+#### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
+![Bounded Context Domain Layer Class Diagrams V&T]()
+
+##### 4.2.2.6.2 Bounded Context Database Design Diagram
+![Bounded Context Database Design Diagram V&T]()
+
