@@ -183,8 +183,8 @@ TRANSPORTISTA
 
 
 
-Product Backlog Pivotal tracker:
+Product Backlog Trello:
 
 ![Product Backlog](/assets/chapter03/Product%20backlog.png)
 
-LINK Pivotal Tracker:https://www.pivotaltracker.com/projects/2700650
+LINK Trello:https://trello.com/invite/b/681b1bb284ae33c3cde2d3f9/ATTI7409bdfdff2c58f940a572089c2a573b1D184B4C/bicasteam-movigestion-requirementsspecification
