@@ -850,3 +850,310 @@ Ruta
 ##### 4.2.2.6.2 Bounded Context Database Design Diagram
 ![Bounded Context Database Design Diagram V&T]()
 
+### 4.2.3 Bounded Context: Shipment
+El bounded context de envíos gestiona el seguimiento de paquetes, asignaciones de transporte, costos asociados y destinos de entrega, permitiendo una trazabilidad eficiente de la carga dentro del sistema.
+
+#### 4.2.3.1 Domain Layer
+**Aggregate 1: Packet**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| Packet | Aggregate | Representa un paquete siendo transportado, incluyendo detalles como el estado, destino y asignación a vehículos. |
+
+**Attributes**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | UUID | Private | Identificador único del paquete. |
+| destination | String | Private | Dirección de destino del paquete. |
+| weight | Float | Private | Peso del paquete, necesario para calcular el costo de transporte. |
+| status | String | Private | Estado del paquete (pendiente, en tránsito, entregado, etc.). |
+| deliveryDate | Date | Private | Fecha de entrega del paquete, si ya fue entregado. |
+| vehicleAssigned | Vehicle | Private | Vehículo asignado al transporte del paquete. |
+
+**Methods**<br>
+| Nombre| Tipo de retorno | Visibilidad | Descripción |	
+| --- | --- | --- | --- |
+| assignVehicle | Void | Public | Asigna un vehículo al paquete. |
+| updateStatus | Void | Public | Actualiza el estado del paquete (en tránsito, entregado, etc.). |
+| calculateShippingCost | Float | Public | Calcula el costo de envío basado en el peso, distancia y otros parámetros del paquete. |
+
+**Value Object: Items**<br>
+| Nombre| Categoría | Descripción | 
+| --- | --- | ---|
+| Items | Value Object | Representa los artículos dentro de un paquete, tales como producto, cantidad, valor, etc. |
+
+**Attributes**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | UUID | Private | Identificador único del ítem. |
+| itemName | String | Private | Nombre del artículo dentro del paquete. |
+| quantity | Integer | Private | Cantidad de artículos en el paquete. |
+| value | Float | Private | Valor del artículo, usado para estimar el seguro o el valor del paquete. |
+| description | String | Private | Descripción del ítem. |
+
+**Methods**<br>
+| Nombre| Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| calculateValue | Float | Public | Calcula el valor total de los artículos dentro del paquete (cantidad * valor por artículo). |
+| updateQuantity | Void | Public | Actualiza la cantidad de artículos en el paquete. |
+| getItemName | String | Public | Devuelve el nombre del artículo. |
+
+**Entity: HasShipped**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| HasShipped | Entity | Relaciona un paquete con su estado de envío, incluyendo la fecha de envío y los detalles de seguimiento. |
+
+**Attributes**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| packetId | UUID | Private | ID del paquete que está siendo enviado. |
+| shippingDate | Date | Private | Fecha en la que el paquete fue enviado. |
+| trackingId | String | Private | Número de seguimiento del paquete |
+| status | String | Private | Estado del envío (en tránsito, entregado, retrasado). |
+| deadline | Date | Private | Tiempo límite para la entrega. |
+
+**Methods**<br>
+| Nombre| Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| updateShippingStatus | Void | Public | Actualiza la cantidad de artículos en el paquete. |
+| getShippingDetails | String | Public | Devuelve los detalles completos del envío (fecha, estado, trackingId). |
+
+**Entity: TransportationCost**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| TransportationCost | Entity | Representa el costo de transporte de un paquete, incluyendo tarifas basadas en peso, distancia, etc. |
+
+**Attributes**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| cost | Float | Private | Costo total del transporte del paquete. |
+| weightFactor | Float | Private | Factor que depende del peso del paquete. |
+| distanceFactor | Float | Private | Factor que depende de la distancia a recorrer. |
+| costType | String | Private | Tipo de costo (pago por distancia, pago por peso, etc.). |
+
+**Methods**<br>
+| Nombre| Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| calculateCost | Float | Public | Calcula el costo de transporte basándose en el peso, distancia y tipo de costo. |
+| updateCost | Void | Public | Actualiza el costo del transporte si ocurren cambios en los parámetros. |
+| getCostDetails | String | Public | Devuelve un resumen detallado del costo de transporte. |
+
+**Entity: Managers**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| Managers | Entity | Representa a los gestores responsables de la logística y seguimiento de los envíos. |
+
+**Attributes**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | UUID | Private | Identificador único del manager. |
+| fullName | String | Private | Nombre del manager. |
+| lastName | String | Private | Apellido del manager. |
+| email | String | Private | Correo electrónico del manager. |
+| phone | String | Private | Número de teléfono del manager. |
+| assignedRoutes | List<Route> | Private | Rutas asignadas al manager para supervisar y gestionar. |
+
+**Methods**<br>
+| Nombre| Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| assignRoute | Void | Public | Asigna una ruta al manager. |
+| updateManagerInfo | Void | Public | Actualiza la información del manager, como su nombre o correo. |
+| getManagerDetails | String | Public | Devuelve los detalles del manager, incluyendo rutas y contacto. |
+
+**Entity: Carriers**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| Carriers | Entity | Representa a los transportistas (empresas o individuos) encargados del transporte de los paquetes. |
+
+**Attributes**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | UUID | Private | Identificador único del transportista. |
+| companyName | String | Private | Nombre de la empresa de transporte o nombre del transportista. |
+| contactDetails | String | Private | Información de contacto (teléfono, correo, etc.). |
+| vehicles | List<Vehicle> | Private | Lista de vehículos disponibles para el transporte. |
+
+**Methods**<br>
+| Nombre| Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| assignVehicle | Void | Public | Asigna un vehículo al transportista para el transporte de paquetes. |
+| updateCarrierInfo | Void | Public | Actualiza la información del transportista, como su nombre o datos de contacto. |
+| getCarrierDetails | String | Public | Devuelve los detalles del transportista y los vehículos disponibles. |
+
+#### 4.2.3.2 Interface Layer
+**Controller 1: PacketController**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| PacketController | Controller | Controlador encargado de la gestión de paquetes, incluyendo la creación, modificación y consulta de los mismos. |
+
+**Attributes**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| packetService | PacketService | Private | Servicio de la capa de Aplicación para lógica de gestión paquetes. |
+| packetMapper | PacketMapper | Private | Mapper para convertir entre DTOs y objetos usados por Application/Domain |
+
+**Endpoints**<br>
+| Ruta| Método | Descripción |
+| --- | --- | --- |
+| /api/packets | POST | Crea un nuevo paquete en el sistema. |
+| /api/packets/{id} | PUT | Actualiza la información de un paquete existente. |
+| /api/packets/{id} | GET | Obtiene la información de un paquete específico por su ID. |
+
+**Controller 2: ItemsController**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| ItemsController | Controller | Controlador encargado de gestionar los artículos dentro de los paquetes. |
+
+**Attributes**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| itemsService | ItemsService | Private | Servicio de la capa de Aplicación para lógica de gestión de artículos dentro de los paquetes. |
+| itemsMapper | ItemsMapper | Private | Mapper para convertir entre DTOs y objetos usados por Application/Domain |
+
+**Endpoints**<br>
+| Ruta| Método | Descripción |
+| --- | --- | --- |
+| /api/items | POST | Crea un nuevo ítem dentro de un paquete. |
+| /api/items/{id} | PUT | Actualiza la información de un ítem existente. |
+| /api/items/{id} | GET | Obtiene la información de un ítem dentro de un paquete por su ID. |
+
+**DTOs**<br>
+| Nombre| Descripción |
+| --- | --- |
+| RegisterPacketRequestDto | { licensePlate: String, brand: String, model: String, status: String } |
+| UpdatePacketRequestDto | { packetId: UUID, licensePlate: String, brand: String, model: String, status: String } |
+| PacketResponseDto | { packetId: UUID, licensePlate: String, brand: String, model: String, status: String } |
+| RegisterItemRequestDto | { packetId: UUID, description: String, quantity: Integer, weight: Double } |
+| UpdateItemRequestDto | { itemId: UUID, packetId: UUID, description: String, quantity: Integer, weight: Double } |
+| ItemResponseDto | { itemId: UUID, description: String, quantity: Integer, weight: Double } |
+
+#### 4.2.3.3 Application Layer
+
+**Service 1: PacketService**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| PacketService | Service | Maneja la lógica de negocio relacionada con la creación, actualización, eliminación y consulta de paquetes. |
+	
+**Dependencies**<br>
+| Nombre| Tipo de Objeto | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| PacketRepository | Repositorio | Private | Interfaz para interactuar con la base de datos de paquetes. |
+| HasShippedService | Servicio | Private | Servicio que gestiona la información sobre el estado de los paquetes enviados. |
+| TransportationCostService | Servicio | Private | Servicio que calcula los costos asociados al transporte de paquetes. |
+
+**Methods**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| createPacket | Packet | Público | Crea un nuevo paquete con los datos proporcionados. |
+| updatePacket | Packet | Público | Actualiza los detalles de un paquete existente. |
+| getPacketById | Packet | Público | Recupera un paquete por su ID. |
+| deletePacket | Void | Público | Elimina un paquete dado su ID. |
+
+**Service 2: ItemService**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| ItemService | Service | Maneja la lógica de negocio relacionada con los ítems de los paquetes, incluyendo la creación, actualización y consulta. |
+	
+**Dependencies**<br>
+| Nombre| Tipo de Objeto | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| ItemRepository | Repositorio | Private | Interfaz para interactuar con la base de datos de ítems. |
+| PacketService | Servicio | Private | Servicio que gestiona la información relacionada con los paquetes. |
+
+**Methods**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| createItem | Item | Público | Crea un nuevo ítem dentro de un paquete. |
+| updateItem | Item | Público | Actualiza los detalles de un ítem existente. |
+| getItemById | Item | Público | Recupera un ítem por su ID. |
+| deleteItem | Void | Público | Elimina un ítem dado su ID. |
+
+**Service 3: TransportationCostService**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| TransportationCostService | Service | Calcula los costos asociados al transporte de paquetes, considerando peso, distancia y otros factores. |
+	
+**Dependencies**<br>
+| Nombre| Tipo de Objeto | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| TransportationCostRepository | Repositorio | Private | Interfaz para interactuar con la base de datos de costos de transporte. |
+| PacketService | Servicio | Private | Servicio que gestiona la información relacionada con los paquetes, necesaria para calcular los costos. |
+
+**Methods**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| calculateTransportationCost | Double | Público | Calcula el costo de transporte de un paquete en base a distancia, peso y otros factores. |
+| getCostByPacketId | Double | Público | Obtiene el costo de transporte de un paquete dado su ID. |
+
+**Service 4: CarrierService**<br>
+| Nombre| Categoría | Descripción |
+| --- | --- | --- |
+| CarrierService | Service | Gestiona la creación, actualización y consulta de los transportistas encargados de entregar los paquetes. |
+
+**Dependencies**<br>
+| Nombre| Tipo de Objeto | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| CarrierRepository | Repositorio | Private | Interfaz para interactuar con la base de datos de transportistas. |
+| PacketService | Servicio | Private | Servicio que gestiona la información de los paquetes asignados a los transportistas. |
+
+**Methods**<br>
+| Nombre| Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| createCarrier | Carrier | Público | Crea un nuevo transportista. |
+| updateCarrier | Carrier | Público | Actualiza los detalles de un transportista existente. |
+| getCarrierById | Carrier | Público | Recupera un transportista por su ID. |
+| deleteCarrier | Void | Público | Elimina un transportista dado su ID. |
+
+#### 4.2.3.4 Infrastructure Layer
+**PacketRepositoryImpl**<br>
+| Nombre| Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| PacketRepositoryImpl | Repositorio | PacketRepository | Maneja el acceso y almacenamiento de los paquetes en la base de datos. |
+
+**Funcionalidades clave**<br>
+- Busca paquetes por ID.
+- Guarda (inserta/actualiza) paquetes.
+- Elimina paquetes.
+- Lista todos los paquetes.
+
+**ItemRepositoryImpl**<br>
+| Nombre| Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| ItemRepositoryImpl | Repositorio | ItemRepository | Maneja el acceso y almacenamiento de ítems de los paquetes. |
+
+**Funcionalidades clave:**<br>
+- Busca ítems por ID.
+- Guarda (inserta/actualiza) ítems.
+- Elimina ítems.
+- Lista ítems por ID de paquete.
+
+**TransportationCostRepositoryImpl**<br>
+| Nombre| Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| TransportationCostRepositoryImpl | Repositorio | TransportationCostRepository | Administra los datos de costos de transporte asociados a los paquetes. |
+
+**Funcionalidades clave**<br>
+- Busca costos de transporte por ID de paquete.
+- Guarda (inserta/actualiza) costos de transporte.
+- Lista todos los costos registrados.
+
+**CarrierRepositoryImpl**<br>
+| Nombre| Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| CarrierRepositoryImpl | Repositorio | CarrierRepository | Maneja el acceso y almacenamiento de transportistas. |
+
+**Funcionalidades clave**<br>
+- Busca carriers por ID.
+- Guarda (inserta/actualiza) carriers.
+- Elimina carriers.
+- Lista todos los carriers.
+
+#### 4.2.3.5 Bounded Context Software Architecture Component Level Diagrams
+![Component Level Diagrams Shipment]()
+
+#### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
+![Bounded Context Domain Layer Class Diagrams Shipment]()
+
+##### 4.2.3.6.2 Bounded Context Database Design Diagram
+![Bounded Context Database Design Diagram Shipment]()
