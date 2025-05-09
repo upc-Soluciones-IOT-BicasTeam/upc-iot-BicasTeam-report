@@ -159,20 +159,21 @@ Se concluyó que IAM ya está correctamente enfocado en su Core Capability (Iden
 ![Context Mapping](/assets/chapter04/context_mapping.png)
 
 #### 4.1.3.1 Software Architecture System Lanscape Diagram
-
-![Software Architecture System Lanscape Diagram]()
+El diagrama muestra todo el entorno de MoviGestión. Dentro del recuadro punteado están las personas de la empresa: el gerente (Business Owner) y el conductor, quienes usan la plataforma MoviGestión para crear envíos, asignar vehículos y ver reportes. Fuera del recuadro están dos sistemas externos: los sensores instalados en los vehículos, que envían su ubicación y datos de temperatura a la plataforma, y la API de Google Maps, que la plataforma consulta para mostrar los mapas y las rutas
+![Software Architecture System Lanscape Diagram](/assets/chapter04/structurizr-28201-SystemLandscapeMovi.png)
 
 #### 4.1.3.2 Software Architecture Context Level Diagram
+El diagrama de contexto muestra cómo se conecta la plataforma MoviGestión con su entorno directo: el Business Owner y el Driver usan la plataforma para gestionar envíos, vehículos y reportes; los sensores IoT instalados en los vehículos le envían datos de ubicación, temperatura y humedad; y la plataforma consulta la API de Google Maps para obtener y mostrar rutas y mapas. Así, de un vistazo se ve quién interactúa con la plataforma y qué servicios externos la alimentan o le dan soporte.
 
-![Software Architecture Context Level Diagram]()
+![Software Architecture Context Level Diagram](/assets/chapter04/structurizr-SystemContext-001%20(5).png)
 
 #### 4.1.3.3 Software Architecture Container Level Diagrams
-
-![Software Architecture Container Level Diagrams]()
+El diagrama de contenedores detalla cómo se reparte la solución MoviGestión en piezas internas: el Web App y la Mobile App son las dos interfaces; ambas se conectan al Backend. El backend contiene los módulos de envíos, vehículos, conductores, reportes, identidad y telemetría, consulta la Relational DB (Azure SQL) para guardar y leer datos. El Backend se conecta a los sistemas externos Google Maps API y Vehicular IoT   para obtener rutas, mapas y obtener la telemetría (GPS, temperatura, humedad).
+![Software Architecture Container Level Diagrams](/assets/chapter04/structurizr-Container-001%20(5).png)
 
 #### 4.1.3.4 Software Architecture Deployment Diagrams
-
-![Software Architecture Deployment Diagrams]()
+El diagrama de despliegue muestra cómo el sistema MoviGestión opera en producción: el gerente accede desde su navegador web (Chrome, Firefox, Safari o Edge) y tanto él como el conductor utilizan la aplicación móvil (Flutter/Dart) en Android; ambas interfaces consumen los servicios REST de la API Backend (Java/Spring Boot) desplegada en un Azure App Service, que a su vez lee y escribe datos en una Azure SQL Database (usuarios, vehículos, rutas y telemetría) y procesa las llamadas HTTPS/JSON provenientes de los sistemas externos de GPS Telemática y de los sensores IoT de temperatura, humedad y mapas integrados en el hardware a bordo.
+![Software Architecture Deployment Diagrams](/assets/chapter04/structurizr-Deployment-001%20(4).png)
 
 ## 4.2 Tactical-Level Domain-Driven Design
 ### 4.2.1 Bounded Context: IAM
