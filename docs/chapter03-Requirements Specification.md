@@ -12,336 +12,89 @@ EMPRESARIO:
 ## 3.2 User Stories
 
 USER STORIES 
-<table>
-<tr>
-        <th>Epic ID</th>
-        <th>Titulo</th>
-        <th>Descripcion</th>
-    </tr>
-    <tr>
-        <td>EP01</td>
-        <td>Technical Histories</td>
-        <td>Como desarrollador quiero manejar la aplicación mediante APIrest para controlar los datos y el flujo de este por toda la solución.</td>
-    </tr>
-    <tr>
-        <td>EP02</td>
-        <td>Información del sitio web</td>
-        <td>Como visitante quiero información detallada y precisa de lo que ofrece el sitio web para tomar mejores decisiones.</td>
-    </tr>
-    <tr>
-        <td>EP03</td>
-        <td> Navegación de sitio web</td>
-        <td>Como visitante quiero una navegación fluida y detallada para tomar una desicion a conciencia</td>
-    </tr>
-    <tr>
-        <td>EP04</td>
-        <td> Visualización de estadísticas de transportistas</td>
-        <td>Como gerente quiero tener un registro de actividades hechas por todos los transportistas para tener un control y seguimiento del rendimiento general de mis empleados.</td>
-    </tr>
-    <tr>
-        <td>EP05</td>
-        <td>Visualización de estadísticas propias</td>
-        <td>Como transportista quiero ver las acciones hechas durante mi trabajo para tener un registro de las actividades hechas en mi labor.</td>
-    </tr>
-    <tr>
-        <td>EP06</td>
-        <td>Gestión de envíos</td>
-        <td>Como gerente quiero un registrar envíos a mis transportistas y tener un control de ello a través del tiempo para mejorar el rendimiento de los envíos de mi empresa.</td>
-    </tr>
-    <tr>
-        <td>EP07</td>
-        <td>Gestión de vehículos</td>
-        <td>Como gerente quiero un registro de mis vehículos a si como quien esta a cargo de ellos para tener un seguimiento de su estado a través del tiempo.</td>
-    </tr>
-    <tr>
-        <td>EP08</td>
-        <td>Gestión de datos personales</td>
-        <td>Como usuario quiero manejar mi información personal para tenerla actualizada en todo momento.</td>
-    </tr>
-    <tr>
-        <td>EP09</td>
-        <td>Reporte de problemas</td>
-        <td>Como transportista quiero reportar problemas que puedan suceder en mi labor para que se tomen las medidas necesarias.</td>
-    </tr>
-    <tr>
-        <th>Epic Id</th>
-        <th>Story Id</th>
-        <th>Titulo</th>
-        <th>Descripcion</th>
-        <th>Criterios de aceptacion</th>
-    </tr>
-    <!-- SEPARACION DE ENCABEZADOS -->
-    <tr>
-        <td rowspan="6">EP04</td>
-        <td rowspan="2">US01</td>
-        <td rowspan="2">Visualización de paquetes entregados por un transportista</td>
-        <td rowspan="2">Como gerente quiero visualizar el registro de paquetes entregados por un transportista para medir rendimiento del transportista</td>
-        <td>Visualización del Registro de Paquetes Entregados - Dado el gerente está autenticado en la aplicación MoviGestion. Cuando el gerente accede al perfil del transportista cuyo rendimiento desea medir. Entonces se muestra un registro claro y detallado de todos los paquetes entregados por el transportista, incluyendo la fecha y hora de entrega, la descripción del paquete y cualquier otra información relevante.</td>
-    </tr>
-    <tr>
-        <td>Filtrado y Ordenación de Registros - Dado el gerente está visualizando el registro de paquetes entregados por el transportista. Cuando el gerente necesita analizar los datos de manera específica. Entonces se proporcionan opciones para filtrar y ordenar los registros según diferentes criterios, como la fecha de entrega, el estado del paquete o el cliente, lo que permite al gerente acceder a la información relevante de manera rápida y eficiente.</td>
-    </tr>
-    <tr>
-        <td rowspan="2">US02</td>
-        <td rowspan="2">Visualización de reportes de un transportista</td>
-        <td rowspan="2">Como gerente quiero ver los reportes hechos por mis transportistas para tomar decisiones estratégicas en los próximos envíos.</td>
-        <td>Visualización de reportes - Dado el gerente esta autenticado en la aplicación. Cuando el gerente accede a la sección de reportes de la aplicación. Entonces se muestra un resumen claro y detallado de todos los reportes realizados por los transportistas.</td>
-    </tr>
-    <tr>
-        <td>Análisis para Decisiones Estratégicas - Dado el gerente está visualizando los reportes de los transportistas. Cuando el gerente revisa los reportes de manera detallada. Entonces el gerente utiliza la información de los reportes para tomar decisiones estratégicas en cuanto a la asignación de rutas, la mejora de los procesos operativos y la implementación de medidas correctivas, con el objetivo de optimizar el rendimiento y la eficiencia en los próximos envíos.</td>
-    </tr>
-    <tr>
-        <td rowspan="2">US03</td>
-        <td rowspan="2">Visualización de envíos asignados a un transportista</td>
-        <td rowspan="2">Como gerente quiero ver los envíos asignados de un transportista para poder medir el rendimiento de mis empleados.</td>
-        <td>Visualización de Envíos Asignados - Dado el gerente está autenticado en la aplicación MoviGestion. Cuando el gerente accede al perfil del transportista cuyo rendimiento desea medir. Entonces se muestra un listado claro y completo de todos los envíos asignados al transportista, incluyendo detalles como el origen, destino, fecha de entrega programada y estado actual de cada envío.</td>
-    </tr>
-    <tr>
-        <td>Acceso a Detalles de Envíos - Dado el gerente está visualizando los envíos asignados de un transportista. Cuando el gerente selecciona un envío específico de la lista. Entonces se despliegan los detalles completos del envío seleccionado, incluyendo información detallada sobre la carga, instrucciones especiales del cliente y cualquier otra información relevante para la entrega.</td>
-    </tr>
-    <!-- SEPARACION DE EPIC 4 -->
-    <tr>
-        <td rowspan="8">EP05</td>
-        <td rowspan="3">US04</td>
-        <td rowspan="3">Visualización de envíos asignados</td>
-        <td rowspan="3">Como transportista, quiero poder ver los envíos que me han sido asignados, incluyendo detalles sobre los envíos y destinos correspondientes para poder organizar mejor el orden de mis tareas.</td>
-        <td>Visualización de Envíos Asignados - Dado el transportista está autenticado en la aplicación MoviGestion. Cuando el transportista accede a la sección de "Mis Envíos" en la aplicación. Entonces el transportista puede ver una lista clara y actualizada de todos los envíos que le han sido asignados, con detalles completos sobre cada envío.</td>
-    </tr>
-    <tr>
-        <td>Detalles Claros y Accesibles - Dado el transportista está viendo los envíos asignados. Cuando el transportista selecciona un envío específico de la lista. Entonces se muestran los detalles detallados del envío de manera clara y accesible, incluyendo la dirección de recogida, la dirección de entrega, la fecha límite de entrega y cualquier instrucción especial asociada con el envío.</td>
-    </tr>
-    <tr>
-        <td>Facilidad de Organización - Dado el transportista está viendo los envíos asignados. Cuando el transportista necesita organizar el orden de sus tareas. Entonces se proporcionan opciones para que el transportista organice los envíos según su conveniencia, ya sea por fecha de entrega o proximidad geográfica.</td>
-    </tr>
-    <tr>
-        <td rowspan="2">US05</td>
-        <td rowspan="2">Visualización de paquetes entregados</td>
-        <td rowspan="2">Como transportista quiero visualizar los paquetes que he entregado para tener un comprobante de trabajo realizado</td>
-        <td>Visualización de Paquetes Entregados - Dado el transportista está autenticado en la aplicación MoviGestion. Cuando el transportista accede a su perfil o panel de control. Entonces se muestra un registro claro y detallado de todos los paquetes que ha entregado.</td>
-    </tr>
-    <tr>
-        <td>Acceso Fácil y Rápido a los Registros - Dado el transportista está visualizando sus paquetes entregados. Cuando el transportista necesita acceder a registros específicos. Entonces se proporcionan opciones de búsqueda y filtrado para que el transportista pueda encontrar rápidamente los paquetes entregados en función de diferentes criterios, como la fecha de entrega o el estado del paquete.</td>
-    </tr>
-    <tr>
-        <td rowspan="3">US06</td>
-        <td rowspan="3">Visualización de reportes realizados</td>
-        <td rowspan="3">Como transportista quiero visualizar los reportes que hice en mi labor para tener un historial de incidencia en mi trabajo.</td>
-        <td>Visualización de Reportes Realizados - Dado el transportista está autenticado en la aplicación MoviGestion. Cuando el transportista accede a la sección de "Mis Reportes" o "Historial de Incidencias". Entonces se muestra una lista completa y organizada de todos los reportes que el transportista ha realizado durante su labor, incluyendo problemas técnicos, infracciones vehiculares, accidentes en la carretera y problemas con los paquetes.</td>
-    </tr>
-    <tr>
-        <td>Detalles Claros y Accesibles - Dado el transportista está visualizando sus reportes realizados. Cuando el transportista selecciona un reporte específico de la lista. Entonces se muestran los detalles detallados del reporte de manera clara y accesible, incluyendo la fecha y hora del reporte, la descripción del incidente y cualquier otra información relevante asociada al reporte.</td>
-    </tr>
-    <tr>
-        <td>Funcionalidad de Búsqueda y Filtrado - Dado el transportista está visualizando sus reportes realizados. Cuando el transportista necesita encontrar un reporte específico en su historial. Entonces se proporcionan opciones de búsqueda y filtrado para que el transportista pueda buscar y acceder rápidamente a un reporte específico utilizando diferentes criterios, como la fecha del reporte o el tipo de incidencia, facilitando la navegación y la gestión del historial de incidencias.</td>
-    </tr>
-    <!-- SEPARACION DE EPIC 5-->
-    <tr>
-        <td rowspan="4">EP06</td>
-        <td rowspan="2">US07</td>
-        <td rowspan="2">Asignación de envíos</td>
-        <td rowspan="2">Como gerente, quiero poder asignar envíos a mis transportistas para distribuir eficientemente los envíos.</td>
-        <td>Asignación Exitosa de Envíos - Dado el gerente está autenticado en la aplicación MoviGestion. Cuando el gerente selecciona un envío para asignarlo a un transportista específico. Entonces el envío se asigna correctamente al transportista seleccionado en la aplicación.</td>
-    </tr>
-    <tr>
-        <td>Asignación sin éxito de envío - Dado el gerente registra un envío sin éxito. Cuando el gerente completa el formulario de envío. Entonces se muestra un mensaje de error y es dirigido a la pagina principal.</td>
-    </tr>
-    <tr>
-        <td rowspan="2">US08</td>
-        <td rowspan="2">Visualización de historial de envíos</td>
-        <td rowspan="2">Como gerente quiero ver el historial de envíos realizado para saber cuantos de estos fueron exitosos</td>
-        <td>Visualización del Historial de Envíos - Dado el gerente está autenticado en la aplicación MoviGestion. Cuando el gerente accede a la sección de historial de envíos. Entonces se muestra un registro completo y detallado de todos los envíos realizados, incluyendo información como la fecha de envío, origen, destino y estado de entrega de cada envío.</td>
-    </tr>
-    <tr>
-        <td>Filtrado por Envíos Exitosos - Dado el gerente está visualizando el historial de envíos. Cuando el gerente selecciona la opción para filtrar por envíos exitosos. Entonces se muestran únicamente los envíos que han sido completados con éxito, lo que permite al gerente identificar rápidamente la cantidad y los detalles de los envíos exitosos realizados en un período específico.</td>
-    </tr>
-    <!-- SEPARACION DE EPIC 6-->
-    <tr>
-        <td rowspan="7">EP07</td>
-        <td rowspan="3">US09</td>
-        <td rowspan="3">Asignación de flotas </td>
-        <td rowspan="3">Como gerente, quiero asignar flotas a mis transportistas para que puedan realizar encargos.</td>
-        <td>Asignación Exitosa de Flotas - Dado el gerente está autenticado en la aplicación MoviGestion. Cuando el gerente selecciona una flota para asignarla a un transportista específico. Entonces la flota se asigna correctamente al transportista seleccionado en la aplicación.</td>
-    </tr>
-    <tr>
-        <td>Asignación de flotas sin éxito - Dado el gerente asigna una flota para un transportista. Cuando el gerente registra el proceso. Entonces se muestra un mensaje de error y se redirige a la pagina principal.</td>
-    </tr>
-    <tr>
-        <td>Asignación de flota a transportista con flota ya existente: Dado el gerente asigna una flota a un transportista. Cuando el transportista ya tiene asignado una flota ya existente. Entonces se reemplaza la flota del transportista con la actual registrada.</td>
-    </tr>
-    <tr>
-        <td rowspan="4">US10</td>
-        <td rowspan="4">Gestión de inventario de flotas </td>
-        <td rowspan="4">Como gerente, quiero añadir nuevas flotas a mi negocio para tener un control activo de mis flotas.</td>
-        <td>Añadir Nuevas Flotas - Dado el gerente está autenticado en la aplicación MoviGestion. Cuando el gerente accede a la sección de gestión de flotas y selecciona la opción para añadir una nueva flota. Entonces se presenta un formulario claro y completo donde el gerente puede ingresar todos los detalles relevantes de la nueva flota como placa, modelo y numero de serie del vehículo.</td>
-    </tr>
-    <tr>
-        <td>Confirmación de Añadido Exitoso - Dado el gerente ha añadido una nueva flota con éxito. Cuando la operación de añadir la nueva flota se completa. Entonces se muestra un mensaje de confirmación claro y visible en la aplicación, informando al gerente que la nueva flota ha sido añadida con éxito a su negocio, lo que le permite tener un control activo y actualizado de todas sus flotas.</td>
-    </tr>
-    <tr>
-        <td>Añadido fallido - Dado el gerente ha completado el formulario de añadido de flota. Cuando envíe el formulario. Entonces se mostrara un mensaje de error y será redirigido a la pagina principal</td>
-    </tr>
-    <tr>
-        <td>Añadir flota existente: Dado el gerente añade una flota. Cuando el gerente añada una flota con un numero de serie ya existente. Entonces se mostrara un mensaje de error Y no se registrara la nueva flota.</td>
-    </tr>
-    <!-- SEPARACION DE EPIC 7-->
-    <tr>
-        <td rowspan="6">EP08</td>
-        <td rowspan="3">US11</td>
-        <td rowspan="3">Modificar perfil de gerente</td>
-        <td rowspan="3">Como gerente quiero gestionar mis datos para que estén actualizados</td>
-        <td>Acceso a la Gestión de Datos - Dado el gerente está autenticado en la aplicación MoviGestion. Cuando el gerente accede a su perfil personal. Entonces se muestra la opción clara y accesible para gestionar sus datos personales.</td>
-    </tr>
-    <tr>
-        <td>Modificación de Datos - Dado el gerente está en la sección de gestión de datos de su perfil. Cuando el gerente realiza cambios en sus datos, como nombre, número de contacto o dirección de correo electrónico. Entonces los cambios se reflejan de manera inmediata y precisa en su perfil, asegurando que la información esté actualizada.</td>
-    </tr>
-    <tr>
-        <td>Confirmación de Actualización Exitosa - Dado el gerente ha modificado sus datos. Cuando la modificación se completa. Entonces se muestra un mensaje de confirmación que indica que los datos se han actualizado correctamente, proporcionando retroalimentación al gerente sobre el éxito de la operación.</td>
-    </tr>
-    <tr>
-        <td rowspan="3">US12</td>
-        <td rowspan="3">Modificar perfil de transportistas</td>
-        <td rowspan="3">Acceso a la Gestión de Datos Personales - Dado el transportista está autenticado en la aplicación MoviGestion. Cuando el transportista accede a su perfil personal. Entonces se muestra la opción clara y accesible para gestionar sus datos personales.</td>
-    </tr>
-    <tr>
-        <td>Modificación de Datos Personales - Dado el transportista está en la sección de gestión de datos personales de su perfil. Cuando el transportista realiza cambios en sus datos personales, como nombre, número de contacto o dirección de correo electrónico. Entonces los cambios se reflejan de manera inmediata y precisa en su perfil, asegurando que la información esté actualizada.</td>
-    </tr>
-    <tr>
-        <td>Confirmación de Actualización Exitosa - Dado el transportista ha modificado sus datos personales. Cuando la modificación se completa. Entonces se muestra un mensaje de confirmación que indica que los datos personales se han actualizado correctamente, proporcionando retroalimentación al transportista sobre el éxito de la operación</td>
-    </tr>
-    <!-- SEPARACION DE EPIC 8-->
-    <tr>
-        <td rowspan="9">EP09</td>
-        <td rowspan="2">US13</td>
-        <td rowspan="2">Reporte de infracciones</td>
-        <td rowspan="2">Como transportista, quiero poder reportar infracciones vehiculares que ocurran durante mis viajes para que el gerente pueda tomar las medidas del caso.</td>
-        <td>Registro de Infracciones Vehiculares - Dado el transportista está autenticado en la aplicación MoviGestion. Cuando el transportista identifica una infracción vehicular durante su viaje. Entonces el transportista puede acceder a la función de reporte de infracciones vehiculares, proporcionar detalles sobre la infracción observada y enviar el reporte con éxito a la plataforma para su registro.</td>
-    </tr>
-    <tr>
-        <td>Registro fallido de infracciones - Dado el transportista envía un reporte de infracción . Cuando hay algún error en el envío. Entonces se muestra un mensaje de error y se redirige a la pagina principal.</td>
-    </tr>
-    <tr>
-        <td rowspan="2">US14</td>
-        <td rowspan="2">Reporte de accidentes en la carretera</td>
-        <td rowspan="2">Como transportista, quiero poder reportar accidentes en la carretera que ocurran durante mis viajes para que el gerente pueda organizar las futuras rutas.</td>
-        <td>Registro de Accidentes en la Carretera - Dado el transportista está autenticado en la aplicación MoviGestion. Cuando el transportista se encuentra con un accidente en la carretera durante su viaje. Entonces el transportista puede acceder a la función de reporte de accidentes en la carretera, proporcionar detalles sobre el accidente presenciado y enviar el reporte con éxito a la plataforma para su registro</td>
-    </tr>
-    <tr>
-        <td>Error en registro de accidentes - Dado el transportista completa el formulario de accidentes. Cuando envía el formulario y hay problemas. Entonces se muestra un mensaje de error y se redirige a la pagina principal.</td>
-    </tr>
-    <tr>
-        <td rowspan="2">US15</td>
-        <td rowspan="2">Reporte de problemas con el paquete</td>
-        <td rowspan="2">Como transportista, quiero poder reportar problemas con los paquetes que transporto durante mis viajes para que el gerente pueda reportarlo al cliente.</td>
-        <td>Registro de Problemas con los Paquetes - Dado el transportista está autenticado en la aplicación MoviGestion. Cuando el transportista detecta un problema con uno de los paquetes que está transportando durante su viaje. Entonces el transportista puede acceder a la función de reporte de problemas con los paquetes, proporcionar detalles sobre el problema encontrado y enviar el reporte con éxito a la plataforma para su registro.</td>
-    </tr>
-    <tr>
-        <td>Registro fallido de problema con el paquete - Dado el transportista envío un reporte de problema con el paquete. Cuando el registro presente algún error. Entonces se mostrara un mensaje de error y se redirigirá ala página principal.</td>
-    </tr>
-    <tr>
-        <td rowspan="3">US16</td>
-        <td rowspan="3">Reporte de problemas técnicos</td>
-        <td rowspan="3">Como transportista, quiero poder reportar problemas técnicos que surjan durante mis viajes para que el gerente pueda resolverlo lo antes posible.</td>
-        <td>Registro exitoso de problemas técnicos - Dado el transportista esta autenticado en la aplicación. Cuando el transportista encuentre un problema técnico durante su viaje. Entonces el transportista completa el formulario de reporte de problemas técnicos en la aplicación, proporcionando detalles sobre el problema y enviándolo con éxito para su registro.</td>
-    </tr>
-    <tr>
-        <td>Registro sin éxito de problemas técnicos - Dado que el transportista esta autenticado en la aplicación. Cuando el transportista envía un registro de reporte no exitoso. Entonces se muestra un mensaje de "error" Y el transportista es enviado a la pagina principal.</td>
-    </tr>
-    <tr>
-        <td>Seguimiento y Resolución Oportuna del Problema - Dado el gerente recibe la notificación sobre un problema técnico reportado por un transportista. Cuando el gerente revisa el reporte del problema técnico. Entonces el gerente realiza un seguimiento oportuno del problema reportado, toma las medidas necesarias para resolverlo lo antes posible y proporciona retroalimentación al transportista sobre las acciones tomadas para abordar el problema.</td>
-    </tr>
-    <!-- SEPARACION DE EPIC 9-->
-    <!-- SEPARACION ENCABEZADOS -->
-    <tr>
-        <td rowspan="6">EP02</td>
-        <td rowspan="2">US17</td>
-        <td rowspan="2">Presentación de sitio web</td>
-        <td rowspan="2">Como visitante del segmento gerente quiero un resumen rápido y asertivo sobre lo que ofrece el sitio web para tener una idea rápida sobre lo que ofrece el sitio web.</td>
-        <td>Visualización del Resumen en el Landing Page - Dado el visitante accede al landing page del sitio web. Cuando el visitante visualiza la sección de resumen rápido.Entonces se presenta un resumen claro y conciso de las principales características y beneficios del sitio web, destacando los puntos más relevantes de manera atractiva y fácil de entender.</td>
-    </tr>
-    <tr>
-        <td>Información Asertiva y Relevante - Dado el visitante está leyendo el resumen en el landing page. Cuando el visitante revisa la información presentada. Entonces la información proporcionada se centra en los aspectos más importantes y distintivos del sitio web, ofreciendo una visión rápida y clara de lo que ofrece y cómo puede beneficiar al usuario.</td>
-    </tr>
-    <tr>
-        <td rowspan="2">US18</td>
-        <td rowspan="2">Resumen de precios</td>
-        <td rowspan="2">Como visitante del segmento gerente quiero una vista detallada del plan ofrecido por el sitio web para tomar una desicion de compra a conciencia.</td>
-        <td>Acceso a la Información del Plan - Dado el visitante del segmento gerente está en el sitio web. Cuando el visitante busca información detallada sobre el plan ofrecido. Entonces se proporciona un acceso claro y visible a la página o sección que describe en detalle el plan ofrecido, ya sea a través del menú de navegación, enlaces destacados o botones de llamada a la acción</td>
-    </tr>
-    <tr>
-        <td>Descripción Completa y Clara del Plan - Dado el visitante está en la página de información del plan. Cuando el visitante lee la descripción del plan. Entonces se presenta una descripción completa y clara del plan ofrecido, incluyendo características, beneficios, limitaciones, términos y condiciones, precio y cualquier otra información relevante que permita al visitante entender completamente lo que está incluido en el plan.</td>
-    </tr>
-    <tr>
-        <td rowspan="2">US19</td>
-        <td rowspan="2">Información a pie de pagina</td>
-        <td rowspan="2">Como visitante del segmento gerente quiero un resumen del sitio web al final de este para no perder tiempo buscando algún apartado de mi interés.</td>
-        <td>Resumen Claro y Conciso - Dado el visitante del segmento gerente está en el landing page del sitio web. Cuando el visitante llega al final de la página. Entonces se presenta un resumen claro y conciso del sitio web, destacando los aspectos más relevantes, como las características principales, los servicios ofrecidos, la información de contacto y cualquier otra información importante para el visitante.</td>
-    </tr>
-    <tr>
-        <td>Navegación Rápida a Secciones Clave - Dado el visitante está revisando el resumen al final del landing page. Cuando el visitante busca acceder rápidamente a una sección específica del sitio web. Entonces se incluyen enlaces o botones que permiten al visitante navegar rápidamente a secciones clave del sitio web, como servicios, precios, testimonios, preguntas frecuentes o información de contacto, facilitando la exploración y la búsqueda de información relevante.</td>
-    </tr>
-    <!-- SEPARACION EPIC 2 -->
-    <tr>
-        <td rowspan="6">EP03</td>
-        <td rowspan="2">US20</td>
-        <td rowspan="2">Ir a aplicación web directamente</td>
-        <td rowspan="2">Como visitante del segmento gerente quiero que la pagina me permita dirigirme directamente a la aplicación web principal para ahorrar tiempo.</td>
-        <td>Llamado a la Acción Claro - Dado el visitante ha revisado el resumen en el landing page. Cuando el visitante desea obtener más información o realizar una acción específica. Entonces se presenta un llamado a la acción claro y visible que guía al visitante a explorar más a fondo el sitio web o tomar la acción deseada, como registrarse, suscribirse o contactar al equipo.</td>
-    </tr>
-    <tr>
-        <td>Facilidad de Acceso desde Dispositivos Móviles - Dado el visitante del segmento gerente accede al sitio web desde un dispositivo móvil. Cuando el visitante desea dirigirse a la aplicación web principal. Entonces el enlace o botón para acceder a la aplicación web principal está optimizado para dispositivos móviles y es fácilmente accesible y usable en pantallas más pequeñas, asegurando una experiencia de usuario fluida y sin inconvenientes.</td>
-    </tr>
-    <tr>
-        <td rowspan="2">US21</td>
-        <td rowspan="2">Navegación de información</td>
-        <td rowspan="2">Como visitante del segmento gerente quiero información precisa sobre lo que ofrece el sitio web para tomar una desicion mejor informada.</td>
-        <td>Contenido Informativo Claro y Detallado -Dado el visitante del segmento gerente está en el sitio web. Cuando el visitante busca información sobre lo que ofrece el sitio web. Entonces se presenta contenido claro, detallado y preciso que describe las características, funcionalidades y beneficios del sitio web de manera comprensible y convincente.</td>
-    </tr>
-    <tr>
-        <td>Descripción de Características Destacadas - Dado el visitante del segmento gerente está revisando la información del sitio web. Cuando el visitante busca comprender las características más destacadas. Entonces se proporciona una descripción específica de las características clave del sitio web, resaltando sus puntos fuertes y ventajas competitivas de manera clara y concisa.</td>
-    </tr>
-    <tr>
-        <td rowspan="2">US22</td>
-        <td rowspan="2">Navegación de contacto</td>
-        <td rowspan="2">Como visitante del segmento gerente quiero ver información de contacto del sitio creado para sentir mas confianza del sitio web.</td>
-        <td>Visible y Accesible en el Sitio Web - Dado el visitante del segmento gerente está en el sitio web. Cuando el visitante busca información de contacto. Entonces la información de contacto, como dirección de correo electrónico, número de teléfono y/o dirección física, se muestra claramente y de manera destacada en una sección visible del sitio web, como en el encabezado, pie de página o una sección dedicada específicamente a la información de contacto.</td>
-    </tr>
-    <tr>
-        <td>Completa y Actualizada - Dado el visitante busca información de contacto. Cuando el visitante revisa la información proporcionada. Entonces la información de contacto es completa y precisa, incluyendo todos los detalles necesarios para que el visitante pueda comunicarse con el sitio web de manera efectiva. Además, se asegura de que la información esté actualizada y corresponda a la ubicación y horario de operación vigentes.</td>
-    </tr>
-    <!-- SEPARACION EPIC 3 -->
-    <!-- SEPARACION ENCABEZADOS -->
-    <tr>
-        <td rowspan="6">EP01</td>
-        <td rowspan="2">US23</td>
-        <td rowspan="2">Technical - eliminar transportista</td>
-        <td rowspan="2">Como desarrollador, quiero poder eliminar un transportista existente a través del API para mantener la integridad de la base de datos desde otras aplicaciones.</td>
-        <td>Eliminar transportista exitosamente - Dado que el endpoint '/transportistas/{id}' está disponible Y un transportista con el ID proporcionado está almacenado en la base de datos. Cuando se envía una solicitud DELETE. Entonces se recibe una respuesta con estado 204. Y el transportista se elimina correctamente de la base de datos.</td>
-    </tr>
-    <tr>
-        <td>Intentar eliminar un transportista inexistente - Dado que el endpoint '/transportistas/{id}' está disponible Y no hay ningún transportista con el ID proporcionado almacenado en la base de datos. Cuando se envía una solicitud DELETE. Entonces se recibe una respuesta con estado 404 Y se incluye un mensaje en el cuerpo de la respuesta con el valor "Transportista no encontrado".</td>
-    </tr>
-    <tr>
-        <td rowspan="2">US24</td>
-        <td rowspan="2">Technical - Agregar transportista</td>
-        <td rowspan="2">Como desarrollador, quiero poder agregar un nuevo transportista a través del API para gestionar la base de datos de transportistas desde otras aplicaciones</td>
-        <td>Agregar transportista exitosamente - Dado que el endpoint '/transportistas' está disponible. Cuando se envía una solicitud POST con los valores de nombre, número de contacto y correo electrónico. Entonces se recibe una respuesta con estado 201 Y se incluye un recurso de transportista en el cuerpo de la respuesta con un nuevo ID asignado y los valores registrados.</td>
-    </tr>
-    <tr>
-        <td>Agregar transportista con nombre existente - Dado que el endpoint '/transportistas' está disponible Y un transportista con el mismo nombre ya está almacenado. Cuando se envía una solicitud POST con valores de nombre, número de contacto y correo electrónico idénticos. Entonces se recibe una respuesta con estado 400 Y se incluye un mensaje en el cuerpo de la respuesta con el valor "No se cumplen todas las restricciones".</td>
-    </tr>
-    <tr>
-        <td rowspan="2">US25</td>
-        <td rowspan="2">Technical - Actualizar informacion</td>
-        <td rowspan="2">Como desarrollador, quiero poder actualizar la información de un transportista existente a través del API para mantener los datos actualizados desde otras aplicaciones.</td>
-        <td>Actualizar información de transportista exitosamente - Dado que el endpoint '/transportistas/{id}' está disponible Y un transportista con el ID proporcionado está almacenado en la base de datos. Cuando se envía una solicitud PUT con valores actualizados para nombre, número de contacto o correo electrónico. Entonces se recibe una respuesta con estado 200 Y se incluye un recurso de transportista actualizado en el cuerpo de la respuesta.</td>
-    </tr>
-    <tr>
-        <td>Intentar actualizar un transportista inexistente - Dado que el endpoint '/transportistas/{id}' está disponible Y no hay ningún transportista con el ID proporcionado almacenado en la base de datos. Cuando se envía una solicitud PUT con valores actualizados para nombre, número de contacto o correo electrónico. Entonces se recibe una respuesta con estado 404 Y se incluye un mensaje en el cuerpo de la respuesta con el valor "Transportista no encontrado".</td>
-    </tr>
-    <!-- SEPARACION EPIC 1 -->
-</table>
 
-Link Pivotal Tracker:https://www.pivotaltracker.com/projects/2700650
+|Epic / Story ID|Titulo|Descripcion|Criterios de aceptacion|Relacionado con (Epic ID)|
+| :- | :- | :- | :- | :- |
+|E01|Landing Page y promoción|Página pública con información del servicio, sus ventajas y formulario de contacto.|-|-|
+|E02|Backoffice administrativo|Gestión de usuarios y validación de pagos desde el rol del administrador.|-|-|
+|E03|Gestión de usuarios|Registro, login, perfil y control de credenciales para gerentes, conductores y administrador.|-|-|
+|E04|Gestión de vehículos|Visualización, creación, asignación y monitoreo en tiempo real de vehículos y sus sensores.|-|-|
+|E05|Gestión de conductores|Administración de cuentas de conductores por parte del gerente.|-|-|
+|E06|Gestión de envíos|Creación, asignación y seguimiento de entregas con sus límites ambientales.|-|-|
+|E07|Creación y visualización de reportes|Registro de incidentes por parte de conductores y visualización de reportes por gerentes|-|-|
+|E08|Suscripción PRO y pagos|Flujo de suscripción, carga de comprobante, validación por parte del administrador.|-|-|
+|E09|Estadísticas y análisis|Visualización de KPIs, análisis de reportes, envíos y condiciones ambientales|-|-|
+|E10|Integración IoT y monitoreo|Captura y procesamiento de temperatura y humedad desde sensores|-|-|
+|E11|Edge computing (procesamiento local)|Validación y preprocesamiento de datos en el borde antes de enviarlos al backend|-|-|
+|US01|Ver descripción general del sistema|Como visitante,<br>Quiero leer un resumen claro de qué trata el sistema y para qué sirve,<br>Para entender rápidamente si me interesa registrarme.|Scenario: Mostrar resumen al acceder a la página<br>Given una persona accede a la página principal<br>When se carga el contenido inicial<br>Then visualiza una sección con la descripción general del sistema<br><br>Scenario: Ver información sin estar autenticado<br>Given una persona no ha iniciado sesión<br>When accede a la página<br>Then el sistema permite ver la descripción del sistema sin restricciones|E01|
+|US02|Ver funcionalidades clave|Como visitante,<br>Quiero visualizar las funcionalidades principales disponibles para gerentes y conductores,<br>Para entender cómo el sistema podría ayudar a mi empresa.|Scenario: Mostrar listado de funcionalidades según rol<br>Given la página está cargada correctamente<br>When una persona revisa el contenido informativo<br>Then puede visualizar funcionalidades agrupadas por rol (gerente y conductor)<br><br>Scenario: Acceso a funcionalidades sin autenticación<br>Given la persona no está registrada ni autenticada<br>When revisa las secciones informativas<br>Then el sistema muestra las funcionalidades clave sin requerir login|E01|
+|US03|Ver comparativa de cuenta gratuita vs PRO|Como visitante,<br>Quiero ver una tabla que compare las funciones entre una cuenta gratuita y una PRO,<br>Para decidir si vale la pena pagar la suscripción.|Scenario: Mostrar diferencias entre cuenta gratuita y PRO<br>Given una persona accede a la sección de planes<br>When se muestra la información<br>Then puede ver una tabla comparativa con diferencias funcionales<br><br>Scenario: Mostrar restricciones del plan gratuito<br>Given el visitante observa la información del plan gratuito<br>When visualiza sus limitaciones<br>Then el sistema indica el límite de 10 vehículos y 10 conductores|E01|
+|US04|Ver video o animación explicativa|Como visitante,<br>Quiero ver un video que explique cómo funciona el sistema en pocos minutos,<br>Para comprenderlo rápidamente sin leer demasiado.|Scenario: Acceder a material audiovisual explicativo<br>Given una persona accede a la página<br>When se encuentra con el contenido informativo<br>Then puede reproducir un video o animación que explica el sistema<br><br>Scenario: Disponibilidad del contenido en todos los dispositivos<br>Given la persona usa un dispositivo móvil o de escritorio<br>When accede a la sección explicativa<br>Then el sistema permite ver el video sin errores|E01|
+|US05|Completar formulario de contacto|Como interesado,<br>Quiero enviar mis datos de contacto para recibir más información o una demo,<br>Para poder comunicarme con el equipo del sistema.|Scenario: Envío exitoso del formulario de contacto<br>Given una persona completa los campos requeridos<br>When envía la información<br>Then el sistema procesa el mensaje exitosamente<br><br>Scenario: Validación de campos obligatorios<br>Given la persona deja un campo requerido vacío<br>When intenta enviar el formulario<br>Then el sistema bloquea el envío e indica los errores|E01|
+|US06|Redirigir al registro|Como visitante,<br>Quiero tener un botón que me lleve directamente a la página de registro,<br>Para comenzar a usar el sistema si ya estoy convencido.|Scenario: Acceso directo al registro desde la landing<br>Given una persona está en la página principal<br>When selecciona la opción de registrarse<br>Then el sistema redirige a la vista de registro de cuenta<br><br>Scenario: Accesibilidad sin autenticación<br>Given una persona no ha iniciado sesión<br>When accede al enlace de registro<br>Then el sistema permite el ingreso sin restricciones previas|E01|
+|US07|Acceder desde móvil sin errores de diseño|Como visitante desde móvil,<br>Quiero ver una landing responsive y bien adaptada a mi pantalla,<br>Para poder navegar sin problemas desde mi celular.|Scenario: Visualización correcta desde un dispositivo móvil<br>Given una persona accede desde un celular<br>When se muestra el contenido de la landing<br>Then todo el contenido se adapta correctamente al tamaño de la pantalla<br><br>Scenario: Disponibilidad de toda la información en móviles<br>Given se usa un dispositivo móvil<br>When se navega por la página<br>Then no se oculta ni distorsiona ninguna sección del contenido|E01|
+|US08|Login como administrador|Como administrador,<br>Quiero poder ingresar al sistema desde la misma pantalla de login,<br>Para acceder a mis funcionalidades internas sin una ruta separada|Scenario: Acceso correcto con credenciales válidas<br>Given el administrador tiene credenciales válidas<br>When autentica su identidad<br>Then accede al sistema como administrador<br><br>Scenario: Acceso denegado con credenciales inválidas<br>Given el administrador ingresa datos incorrectos<br>When intenta autenticarse<br>Then el sistema deniega el acceso|E02|
+|US09|Ver lista de gerentes que han enviado comprobantes|Como administrador,<br>Quiero ver una lista de gerentes que han subido comprobantes de pago,<br>Para gestionar sus solicitudes de cambio a PRO.|Scenario: Mostrar gerentes con comprobantes pendientes<br>Given el administrador está autenticado<br>When accede a la lista de comprobantes<br>Then ve todos los gerentes con estado de comprobante pendiente<br><br>Scenario: Filtrar por estado pendiente<br>Given hay comprobantes aceptados y rechazados<br>When se carga la lista de validación<br>Then el sistema muestra solo los pendientes por defecto|E02|
+|US10|Validar comprobante de pago (aceptar)|Como administrador,<br>Quiero poder aceptar un comprobante de pago,<br>Para activar la cuenta PRO del gerente correspondiente.|Scenario: Aprobación de un comprobante<br>Given el comprobante está pendiente<br>When el administrador lo aprueba<br>Then su estado cambia a aceptado<br><br>Scenario: Activación del modo PRO<br>Given el comprobante es aprobado<br>When el estado cambia a aceptado<br>Then el sistema habilita modo PRO al gerente asociado|E02|
+|US11|Validar comprobante de pago (rechazar)|Como administrador,<br>Quiero poder rechazar un comprobante inválido,<br>Para evitar otorgar acceso PRO sin verificación adecuada|Scenario: Rechazo del comprobante<br>Given el comprobante está pendiente<br>When el administrador lo rechaza<br>Then su estado cambia a denegado<br><br>Scenario: Mantener cuenta en modo gratuito<br>Given el comprobante ha sido rechazado<br>When se consulta el estado del gerente<br>Then la cuenta continúa como gratuita|E02|
+|US12|Ver todos los usuarios registrados|Como administrador,<br>Quiero ver una lista completa de usuarios (gerentes y conductores),<br>Para poder auditar la base de usuarios del sistema|Scenario: Mostrar usuarios registrados<br>Given el administrador accede al panel de usuarios<br>When se carga la vista<br>Then el sistema muestra todos los gerentes y conductores existentes<br><br>Scenario: Visualizar información básica del usuario<br>Given hay usuarios registrados<br>When el administrador revisa un registro<br>Then puede ver sus datos básicos sin restricción|E02|
+|US13|Ver el gerente asociado a un conductor|Como administrador,<br>Quiero ver el email del gerente al que está afiliado un conductor,<br>Para verificar relaciones y estructuras jerárquicas del sistema|Scenario: Mostrar vínculo entre conductor y gerente<br>Given el administrador visualiza un conductor<br>When consulta su información asociada<br>Then ve el identificador del gerente al que pertenece<br><br>Scenario: Acceso a relación jerárquica válida<br>Given un conductor está asignado a un gerente<br>When el administrador revisa esa relación<br>Then el sistema muestra correctamente la asociación|E02|
+|US14|Cambiar correo electrónico de un usuario|Como administrador,<br>Quiero editar el email de cualquier usuario,<br>Para corregir errores de registro o resolver incidencias|Scenario: Actualización correcta del email<br>Given el administrador visualiza un usuario<br>When modifica el correo y guarda los cambios<br>Then el sistema almacena el nuevo valor<br><br>Scenario: Validación del nuevo correo<br>Given el nuevo correo ya está en uso<br>When el administrador intenta guardarlo<br>Then el sistema rechaza la actualización|E02|
+|US15|Cambiar contraseña de un usuario|Como administrador,<br>Quiero resetear la contraseña de cualquier usuario,<br>Para dar soporte en caso de olvido o acceso bloqueado|Scenario: Restablecimiento de contraseña válido<br>Given el administrador edita a un usuario<br>When ingresa una nueva contraseña válida<br>Then el sistema la guarda correctamente<br><br>Scenario: Contraseña vacía o inválida<br>Given el campo de contraseña está vacío o no cumple reglas mínimas<br>When el administrador intenta guardar<br>Then el sistema impide la acción|E02|
+|US16|Registrar cuenta de gerente|Como gerente,<br>Quiero registrarme con mis datos y contraseña,<br>Para crear una cuenta nueva y comenzar a usar el sistema.|Scenario: Registro exitoso de un nuevo gerente<br>Given una persona proporciona datos válidos de registro<br>When confirma el proceso<br>Then el sistema crea una nueva cuenta de gerente<br><br>Scenario: Impedir registro con datos incompletos o inválidos<br>Given una persona omite datos requeridos o usa un email inválido<br>When intenta registrarse<br>Then el sistema bloquea el registro y muestra un error|E03|
+|US17|Iniciar sesión como gerente|Como gerente,<br>Quiero ingresar al sistema con mis credenciales,<br>Para acceder a mis funcionalidades administrativas.|Scenario: Acceso correcto con credenciales válidas<br>Given un gerente ya está registrado<br>When ingresa sus credenciales correctamente<br>Then accede al sistema con su cuenta de gerente<br><br>Scenario: Denegar acceso con credenciales incorrectas<br>Given el gerente escribe datos erróneos<br>When intenta iniciar sesión<br>Then el sistema deniega el acceso|E03|
+|US18|Iniciar sesión como conductor|Como conductor,<br>Quiero ingresar al sistema con mis credenciales,<br>Para ver mis asignaciones y reportar novedades.|Scenario: Autenticación válida como conductor<br>Given un conductor tiene una cuenta asignada<br>When se autentica con datos válidos<br>Then el sistema le concede acceso como conductor<br><br>Scenario: Impedir acceso con credenciales incorrectas<br>Given el conductor introduce datos inválidos<br>When envía el intento de acceso<br>Then el sistema no permite el ingreso|E03|
+|US19|Iniciar sesión como administrador|Como administrador,<br>Quiero ingresar al sistema desde la misma vista de login,<br>Para acceder a mi backoffice de soporte.|Scenario: Autenticación correcta del administrador<br>Given el administrador posee credenciales válidas<br>When las ingresa correctamente<br>Then accede a sus funcionalidades internas<br><br>Scenario: Impedir acceso con credenciales inválidas<br>Given los datos del administrador no son correctos<br>When intenta acceder<br>Then el sistema rechaza el intento|E03|
+|US20|Ver perfil personal|Como usuario autenticado (gerente o conductor),<br>Quiero ver mis datos personales registrados,<br>Para verificar que estén correctos.|Scenario: Mostrar información del perfil<br>Given el usuario está autenticado<br>When accede a su perfil<br>Then el sistema muestra sus datos personales registrados<br><br>Scenario: Mostrar perfil según rol<br>Given un usuario accede a su perfil<br>When es gerente o conductor<br>Then el sistema muestra los datos correspondientes al rol|E03|
+|US21|Editar datos personales|Como usuario autenticado (gerente o conductor),<br>Quiero actualizar mi nombre u otros datos personales,<br>Para mantener mi perfil actualizado.|Scenario: Actualización exitosa de datos personales<br>Given un usuario está autenticado<br>When modifica y guarda sus datos<br>Then el sistema actualiza correctamente su perfil<br><br>Scenario: Impedir datos vacíos o inválidos<br>Given el usuario deja campos vacíos o incorrectos<br>When intenta guardar los cambios<br>Then el sistema bloquea la acción|E03|
+|US22|Cambiar contraseña|Como usuario autenticado,<br>Quiero cambiar mi contraseña actual,<br>Para aumentar la seguridad de mi cuenta.|Scenario: Cambio exitoso de contraseña<br>Given un usuario accede a la sección de seguridad<br>When ingresa su contraseña actual y una nueva válida<br>Then el sistema actualiza la contraseña correctamente<br><br>Scenario: Impedir contraseña inválida<br>Given el usuario ingresa una nueva contraseña que no cumple con las reglas<br>When intenta cambiarla<br>Then el sistema rechaza el cambio|E03|
+|US23|Crear vehículo|Como gerente,<br>Quiero registrar un nuevo vehículo con placa y modelo,<br>Para asignarlo posteriormente a un conductor.|Scenario: Registro exitoso de un nuevo vehículo<br>Given un gerente tiene una cuenta válida<br>When registra un vehículo con datos correctos<br>Then el sistema guarda la información del vehículo<br><br>Scenario: Límite alcanzado para cuenta gratuita<br>Given el gerente no es PRO y ya tiene 10 vehículos registrados<br>When intenta registrar uno adicional<br>Then el sistema impide el registro<br><br>Scenario: Impedir creación con datos incompletos<br>Given el gerente omite placa<br>When intenta registrar el vehículo<br>Then el sistema rechaza la acción|E04|
+|US24|Ver listado de vehículos registrados|Como gerente,<br>Quiero ver todos los vehículos que he registrado,<br>Para controlar la flota de mi empresa.|Scenario: Mostrar todos los vehículos registrados<br>Given un gerente autenticado accede a la vista de vehículos<br>When la información se solicita<br>Then el sistema muestra la lista completa de vehículos registrados por ese gerente<br><br>Scenario: Ver datos básicos de cada vehículo<br>Given la lista de vehículos está cargada<br>When se consulta un ítem de la lista<br>Then el sistema muestra placa, modelo y conductor asignado (si lo hay)|E04|
+|US25|Asignar un conductor a un vehículo|Como gerente,<br>Quiero asignar un conductor específico a un vehículo,<br>Para vincular correctamente cada unidad con su responsable.|Scenario: Asignar conductor correctamente<br>Given un vehículo no tiene conductor asignado<br>When el gerente selecciona un conductor disponible<br>Then el sistema vincula ese conductor al vehículo<br><br>Scenario: Impedir múltiples asignaciones<br>Given un conductor ya está asignado a otro vehículo<br>When el gerente intenta asignarlo a uno nuevo<br>Then el sistema impide la acción<br><br>Scenario: Impedir asignación si el vehículo ya está vinculado a otro conductor<br>Given un vehículo ya tiene un conductor asignado<br>When el gerente intenta asignarle uno nuevo<br>Then el sistema impide la acción|E04|
+|US26|Ver datos del vehículo asignado|Como conductor,<br>Quiero ver la placa, modelo y marca del vehículo que tengo asignado,<br>Para identificar la unidad que debo utilizar.|Scenario: Mostrar información del vehículo al conductor<br>Given un conductor tiene un vehículo asignado<br>When accede a su información<br>Then el sistema muestra los datos del vehículo correctamente<br><br>Scenario: Impedir visualización si no tiene vehículo asignado<br>Given un conductor no tiene vehículo vinculado<br>When intenta acceder a los datos<br>Then el sistema muestra un mensaje indicando que no hay vehículo asignado|E04|
+|US27|Ver temperatura y humedad del vehículo|Como conductor,<br>Quiero ver la temperatura de carga y el porcentaje de humedad del vehículo,<br>Para monitorear condiciones críticas durante el envío.|Scenario: Mostrar condiciones ambientales actuales<br>Given un vehículo tiene sensores activos<br>When el conductor accede a su información<br>Then el sistema muestra la temperatura y humedad actuales<br><br>Scenario: Mostrar última lectura disponible<br>Given el sistema no recibe datos recientes del sensor<br>When el conductor accede a la información<br>Then el sistema muestra la última lectura almacenada|E04|
+|US28|Ver ubicación actual del vehículo|Como gerente,<br>Quiero ver en tiempo real la ubicación GPS del vehículo,<br>Para hacer seguimiento de su recorrido.|Scenario: Mostrar ubicación si hay señal GPS disponible<br>Given el módulo de rastreo transmite datos correctamente<br>When el gerente consulta la ubicación<br>Then el sistema muestra la posición actual del vehículo<br><br>Scenario: Indicar pérdida de señal<br>Given el sistema no ha recibido datos GPS recientes<br>When el gerente consulta la ubicación<br>Then el sistema indica que la ubicación no está disponible temporalmente|E04|
+|US29|Crear un conductor|Como gerente,<br>Quiero registrar un conductor con email y contraseña,<br>Para asignarlo a vehículos y envíos.|Scenario: Crear conductor con datos válidos<br>Given un gerente está autenticado<br>When proporciona un email y contraseña válidos<br>Then el sistema registra correctamente al nuevo conductor<br><br>Scenario: Impedir creación con email inválido o repetido<br>Given el gerente proporciona un email malformado o ya existente<br>When intenta registrar al conductor<br>Then el sistema impide la creación y muestra una validación<br><br>Scenario: Impedir creación si se supera el límite<br>Given el gerente no es PRO y ya tiene 10 conductores<br>When intenta crear un nuevo conductor<br>Then el sistema impide la acción y lo informa|E05|
+|US30|Ver lista de conductores registrados|Como gerente,<br>Quiero ver todos los conductores que he creado,<br>Para gestionar fácilmente sus asignaciones.|Scenario: Visualizar lista completa de conductores del gerente<br>Given el gerente tiene conductores registrados<br>When accede a la sección correspondiente<br>Then el sistema muestra la lista de sus conductores<br><br>Scenario: Mostrar información básica por conductor<br>Given la lista está visible<br>When se consulta un conductor específico<br>Then el sistema muestra su email y si tiene vehículo asignado|E05|
+|US31|Ver límite alcanzado (cuenta gratuita)|Como gerente no PRO,<br>Quiero ver una advertencia si intento crear más de 10 conductores,<br>Para entender que necesito una suscripción PRO para continuar.|Scenario: Mostrar advertencia al alcanzar límite<br>Given el gerente tiene 10 conductores registrados y no es PRO<br>When intenta registrar otro conductor<br>Then el sistema muestra una advertencia sobre la limitación de su cuenta<br><br>Scenario: Mostrar sugerencia para activar PRO<br>Given el gerente alcanza el límite de conductores<br>When visualiza el mensaje del sistema<br>Then se sugiere activar la cuenta PRO para continuar registrando usuarios|E05|
+|US32|Ver email del gerente (como administrador)|Como administrador,<br>Quiero ver el email del gerente al que está afiliado un conductor,<br>Para auditar las relaciones entre usuarios|Scenario: Visualizar asociación entre conductor y gerente<br>Given el administrador ha iniciado sesión<br>When consulta un conductor específico<br>Then el sistema muestra el email del gerente al que pertenece<br><br>Scenario: Asegurar integridad de la relación<br>Given existe una relación válida entre un conductor y un gerente<br>When el administrador revisa la información<br>Then la asociación se presenta correctamente|E05|
+|US33|Ver detalles del conductor (como gerente)|Como gerente,<br>Quiero consultar los datos básicos de cada conductor,<br>Para verificar si están activos y qué vehículo tienen asignado.|Scenario: Mostrar datos de un conductor existente<br>Given un gerente tiene conductores registrados<br>When consulta uno de ellos<br>Then el sistema muestra su información básica<br><br>Scenario: Ver estado de asignación del conductor<br>Given el gerente accede a la ficha de un conductor<br>When revisa su información<br>Then el sistema indica si está asignado a un vehículo o no|E05|
+|US34|Crear envío|Como gerente,<br>Quiero crear un envío indicando el destino, conductor, descripción, temperatura y humedad límite,<br>Para programar una entrega con control de condiciones ambientales.|Scenario: Crear envío con todos los datos válidos<br>Given un gerente autenticado proporciona destino, conductor, descripción, temperatura y humedad límite<br>When confirma el registro del envío<br>Then el sistema crea el envío con estado "pendiente"<br><br>Scenario: Impedir creación con datos incompletos<br>Given el gerente omite uno o más campos requeridos<br>When intenta registrar el envío<br>Then el sistema rechaza la creación<br><br>Scenario: Validar límites de temperatura y humedad<br>Given el gerente proporciona límites ambientales<br>When esos valores están fuera del rango permitido<br>Then el sistema impide guardar el envío|E06|
+|US35|Asignar envío a un conductor|Como gerente,<br>Quiero asignar un envío específico a un conductor disponible,<br>Para que sepa cuál es su siguiente trabajo.|Scenario: Asignación correcta de envío<br>Given un gerente tiene un envío sin asignar<br>When selecciona un conductor válido<br>Then el sistema vincula el envío al conductor<br><br>Scenario: Impedir asignación a conductor inexistente<br>Given el conductor no está registrado<br>When el gerente intenta asignarlo al envío<br>Then el sistema rechaza la acción|E06|
+|US36|Consultar envío asignado|Como conductor,<br>Quiero ver el envío que me han asignado,<br>Para conocer mi destino y detalles del trabajo.|Scenario: Mostrar detalles del envío asignado<br>Given un conductor tiene un envío pendiente<br>When accede a su información<br>Then el sistema muestra los datos del envío asignado<br><br>Scenario: Indicar ausencia de envío<br>Given el conductor no tiene ningún envío asignado<br>When consulta su sección de envíos<br>Then el sistema informa que no hay asignaciones actuales|E06|
+|US37|Ver estado del envío|Como conductor,<br>Quiero ver si el envío está pendiente, en proceso o terminado,<br>Para entender en qué parte del proceso estoy.|Scenario: Mostrar estado actual del envío<br>Given un conductor tiene un envío asignado<br>When accede a su información<br>Then el sistema muestra si el envío está en estado "pendiente", "en proceso" o "terminado"<br><br>Scenario: Mostrar el estado inicial como pendiente<br>Given un envío es creado<br>When se consulta por primera vez<br>Then su estado aparece como "pendiente"|E06|
+|US38|Cambiar estado del envío|Como conductor,<br>Quiero actualizar el estado del envío a “en proceso” o “terminado”,<br>Para indicar mi progreso al gerente.|Scenario: Conductor cambia estado a "en proceso"<br>Given un envío está en estado "pendiente"<br>When el conductor lo inicia<br>Then el estado cambia a "en proceso"<br><br>Scenario: Conductor cambia estado a "terminado"<br>Given un envío está en proceso<br>When el conductor lo finaliza<br>Then el estado cambia a "terminado"<br><br>Scenario: Impedir cambio de estado por otros roles<br>Given el usuario no es conductor<br>When intenta modificar el estado del envío<br>Then el sistema deniega la acción|E06|
+|US39|Visualizar lista de envíos por conductor|Como gerente,<br>Quiero ver cuántos envíos tiene o ha tenido un conductor,<br>Para evaluar su carga de trabajo o rendimiento.|Scenario: Mostrar historial de envíos por conductor<br>Given un gerente tiene varios conductores registrados<br>When selecciona uno de ellos<br>Then el sistema muestra todos los envíos que ha realizado<br><br>Scenario: Mostrar información clave de cada envío<br>Given se muestra la lista de envíos por conductor<br>When el gerente consulta los registros<br>Then el sistema presenta destino, estado y fecha de creación|E06|
+|US40|Crear un nuevo reporte|Como conductor,<br>Quiero crear un reporte indicando el tipo y una descripción,<br>Para dejar constancia de un problema o evento en el envío.|Scenario: Crear reporte con tipo y descripción válidos<br>Given un conductor autenticado proporciona el tipo de reporte y una descripción<br>When confirma la creación<br>Then el sistema guarda el reporte correctamente<br><br>Scenario: Impedir creación sin tipo de reporte<br>Given el conductor omite el campo de tipo<br>When intenta crear el reporte<br>Then el sistema rechaza la acción<br><br>Scenario: Impedir creación con descripción vacía<br>Given el conductor no escribe ninguna descripción<br>When intenta crear el reporte<br>Then el sistema impide el registro|E07|
+|US41|Guardar la fecha del reporte automáticamente|Como conductor,<br>Quiero que el sistema registre automáticamente la fecha al crear un reporte,<br>Para tener un historial cronológico confiable.|Scenario: Guardar fecha al momento de la creación<br>Given un conductor crea un nuevo reporte<br>When confirma la acción<br>Then el sistema asigna automáticamente la fecha actual al reporte<br><br>Scenario: Visualizar la fecha al consultar reportes<br>Given el reporte ya fue creado<br>When se consulta desde la base de datos o API<br>Then incluye la fecha de creación correctamente registrada|E07|
+|US42|Ver mis propios reportes|Como conductor,<br>Quiero ver la lista de reportes que yo he creado,<br>Para hacer seguimiento de mis incidentes reportados.|Scenario: Mostrar todos los reportes del conductor autenticado<br>Given un conductor tiene reportes registrados<br>When accede a su historial<br>Then el sistema muestra la lista de sus reportes<br><br>Scenario: Mostrar detalles de cada reporte<br>Given el conductor revisa uno de sus reportes<br>When lo selecciona desde la lista<br>Then el sistema presenta tipo, descripción y fecha|E07|
+|US43|Ver reportes de otros conductores de mi empresa|Como conductor,<br>Quiero consultar reportes de mis compañeros que trabajan con el mismo gerente,<br>Para aprender de sus experiencias o incidentes recientes.|Scenario: Mostrar reportes de compañeros vinculados al mismo gerente<br>Given un conductor está autenticado y forma parte de una empresa<br>When accede a la sección de reportes compartidos<br>Then puede ver los reportes de otros conductores del mismo gerente<br><br>Scenario: Ocultar reportes de otros gerentes<br>Given un conductor no pertenece a una empresa<br>When intenta ver reportes de otros gerentes<br>Then el sistema impide el acceso a esa información|E07|
+|US44|Ver reportes por conductor (como gerente)|Como gerente,<br>Quiero consultar los reportes registrados por cada conductor,<br>Para detectar patrones o conductores con más incidencias.|Scenario: Mostrar reportes por conductor específico<br>Given un gerente tiene varios conductores<br>When selecciona uno de ellos<br>Then el sistema muestra todos los reportes registrados por ese conductor<br><br>Scenario: Ver detalles de cada reporte<br>Given el gerente accede al historial de reportes<br>When selecciona uno en particular<br>Then el sistema presenta tipo, descripción y fecha|E07|
+|US45|Ver cantidad de reportes por tipo|Como gerente,<br>Quiero ver cuántos reportes de cada tipo (ruta, envío, vehículo, otro) se han registrado,<br>Para analizar los puntos más críticos del servicio.|Scenario: Mostrar total de reportes por tipo<br>Given el gerente consulta los datos estadísticos<br>When accede al resumen por tipo de reporte<br>Then el sistema muestra la cantidad total de reportes clasificados por tipo<br><br>Scenario: Incluir totales por conductor<br>Given el gerente selecciona un conductor<br>When visualiza el resumen<br>Then el sistema muestra la cantidad total de reportes por tipo generados por ese conductor|E07|
+|US46|Acceder a sección de suscripción|Como gerente,<br>Quiero ver una sección donde pueda gestionar mi suscripción PRO,<br>Para entender las ventajas y acceder a la mejora de mi cuenta.|Scenario: Acceso exitoso a la sección de suscripción<br>Given un gerente está autenticado<br>When accede a la funcionalidad de suscripción<br>Then el sistema muestra la información sobre el estado de su cuenta<br><br>Scenario: Mostrar beneficios del modo PRO<br>Given el gerente no es PRO<br>When accede a la sección de suscripción<br>Then el sistema muestra las ventajas de actualizar su cuenta|E08|
+|US47|Subir comprobante de pago|Como gerente,<br>Quiero subir una imagen del comprobante de pago,<br>Para solicitar la activación del modo PRO.|Scenario: Subida correcta de comprobante<br>Given un gerente accede a la sección de suscripción<br>When adjunta una imagen de comprobante válida<br>Then el sistema registra la solicitud con estado "pendiente"<br><br>Scenario: Impedir subida si falta el archivo<br>Given el gerente no selecciona ninguna imagen<br>When intenta completar el envío<br>Then el sistema impide la operación y muestra una advertencia|E08|
+|US48|Ver estado del comprobante|Como gerente,<br>Quiero ver si mi comprobante está en estado pendiente, aceptado o denegado,<br>Para saber si ya tengo acceso al modo PRO o si debo volver a intentarlo.|Scenario: Mostrar estado actual del pago<br>Given un gerente ha subido un comprobante<br>When accede a la sección de suscripción<br>Then el sistema muestra si está "pendiente", "aceptado" o "denegado"<br><br>Scenario: Actualización automática del estado<br>Given un administrador cambia el estado de la solicitud<br>When el gerente consulta nuevamente<br>Then el sistema refleja el nuevo estado sin necesidad de recargar datos manualmente|E08|
+|US49|Mostrar límites si no soy PRO|Como gerente sin suscripción PRO,<br>Quiero ver alertas cuando intento registrar más de 10 vehículos o conductores,<br>Para entender que necesito una cuenta PRO para continuar.|Scenario: Advertencia al alcanzar el límite de conductores<br>Given el gerente no es PRO y tiene 10 conductores registrados<br>When intenta registrar uno más<br>Then el sistema muestra una advertencia y no permite la acción<br><br>Scenario: Advertencia al alcanzar el límite de vehículos<br>Given el gerente no es PRO y tiene 10 vehículos registrados<br>When intenta crear uno nuevo<br>Then el sistema bloquea la acción y sugiere mejorar la cuenta|E08|
+|US50|Activar cuenta PRO tras validación|Como developer,<br>Quiero activar automáticamente el modo PRO cuando el administrador apruebe un comprobante,<br>Para permitir al gerente acceder a funcionalidades avanzadas.|Scenario: Activación de cuenta PRO al aceptar comprobante<br>Given un comprobante ha sido aceptado por el administrador<br>When el sistema procesa la aprobación<br>Then el gerente asociado obtiene acceso al modo PRO<br><br>Scenario: Acceso inmediato a funciones PRO<br>Given un gerente ha sido promovido a PRO<br>When intenta registrar un nuevo conductor o vehículo<br>Then el sistema permite la acción sin mostrar restricciones|E08|
+|US51|Ver estadísticas de reportes por conductor|Como gerente,<br>Quiero ver cuántos reportes ha generado cada conductor, por tipo y en total,<br>Para identificar patrones de incidencias y rendimiento.|Scenario: Mostrar cantidad total de reportes por conductor<br>Given un gerente tiene varios conductores con reportes registrados<br>When consulta la sección de estadísticas de reportes<br>Then el sistema muestra la cantidad total de reportes por cada conductor<br><br>Scenario: Mostrar desglose por tipo de reporte<br>Given los reportes tienen tipos definidos<br>When el gerente consulta las estadísticas<br>Then el sistema muestra la cantidad de reportes por tipo (vehículo, ruta, envío, otro)|E09|
+|US52|Ver cantidad de envíos por conductor|Como gerente,<br>Quiero ver cuántos envíos ha tenido cada conductor,<br>Para evaluar su carga de trabajo o eficiencia.|Scenario: Mostrar total de envíos por conductor<br>Given un gerente tiene varios conductores con envíos asignados<br>When accede a la sección de estadísticas de envíos<br>Then el sistema muestra la cantidad de envíos por cada conductor<br><br>Scenario: Mostrar valores actualizados<br>Given un envío ha sido recientemente creado o terminado<br>When el gerente actualiza la vista<br>Then el sistema refleja el cambio en el total de envíos|E09|
+|US53|Ver condiciones ambientales por vehículo|Como gerente,<br>Quiero ver la temperatura y humedad actuales de cada vehículo,<br>Para identificar si están dentro de los límites operativos.|Scenario: Mostrar temperatura y humedad actuales<br>Given un vehículo tiene sensores activos<br>When se consulta el estado ambiental<br>Then el sistema muestra los valores actuales de temperatura y humedad del vehículo<br><br>Scenario: Mostrar valores aunque no haya conductor asignado<br>Given el vehículo no tiene un conductor vinculado<br>When se accede a su información ambiental<br>Then el sistema muestra igualmente los valores registrados por los sensores|E09|
+|US54|Mostrar color según condición ambiental|Como gerente,<br>Quiero ver indicadores de color (rojo, azul, negro) según los valores y límites de cada vehículo,<br>Para detectar rápidamente problemas de temperatura o humedad.|Scenario: Mostrar color rojo si se supera el límite<br>Given la temperatura o humedad actual exceden los límites permitidos<br>When el sistema realiza el análisis<br>Then marca los valores como críticos (rojo)<br><br>Scenario: Mostrar color azul si está dentro del rango<br>Given la temperatura y humedad están dentro del rango definido<br>When el análisis se ejecuta<br>Then el sistema representa los valores como estables (azul)<br><br>Scenario: Mostrar color negro si no hay conductor asignado<br>Given un vehículo no tiene conductor<br>When el sistema analiza los datos<br>Then el color mostrado es negro por falta de contexto|E09|
+|US55|Usar el límite más bajo entre los envíos del conductor|Como developer,<br>Quiero evaluar los datos ambientales usando el envío con los límites más bajos del conductor,<br>Para maximizar la seguridad en el análisis de condiciones críticas.|Scenario: Usar el valor más estricto al analizar condiciones<br>Given un conductor tiene múltiples envíos asignados con distintos límites<br>When el sistema evalúa las condiciones de su vehículo<br>Then usa el límite más bajo de temperatura y humedad entre todos los envíos<br><br>Scenario: Actualizar límites al cambiar asignaciones<br>Given se asigna un nuevo envío al conductor con límites más bajos<br>When se actualiza el estado ambiental<br>Then el sistema usa los nuevos límites automáticamente|E09|
+|US56|Capturar temperatura desde sensor IoT|Como Developer,<br>Quiero leer datos de temperatura del sensor IoT instalado en el vehículo,<br>Para usarlos en el monitoreo de condiciones ambientales.|Scenario: Recibir lectura válida de temperatura<br>Given el sensor IoT está conectado y activo<br>When se genera una lectura válida de temperatura<br>Then el sistema recibe y almacena el dato con precisión decimal<br><br>Scenario: Rechazar lectura fuera del rango físico aceptable<br>Given el sensor envía una lectura menor a -50 o mayor a 100<br>When el sistema recibe el dato<br>Then el sistema descarta la lectura por invalidez|E10|
+|US57|Capturar humedad desde sensor IoT|Como Developer,<br>Quiero obtener lecturas de humedad desde el sensor IoT del vehículo,<br>Para evaluar si se encuentra dentro de los límites definidos.|Scenario: Registrar humedad dentro del rango<br>Given el sensor transmite un porcentaje entre 0 y 100<br>When el sistema recibe el dato<br>Then lo almacena correctamente con su timestamp<br><br>Scenario: Ignorar valores fuera del rango<br>Given el sensor envía una humedad menor a 0 o mayor a 100<br>When el dato llega al sistema<br>Then este descarta la lectura por inconsistencia|E10|
+|US58|Enviar datos de sensor al backend|Como Developer,<br>Quiero enviar los datos de temperatura y humedad al backend cada cierto intervalo,<br>Para tener información actualizada para análisis en el sistema web y móvil.|Scenario: Transmitir datos cada intervalo definido<br>Given el dispositivo IoT está operativo<br>When se cumple el intervalo de envío (ej. cada 30 segundos)<br>Then el sistema transmite temperatura y humedad al backend<br><br>Scenario: Confirmar entrega al backend<br>Given se envían datos al backend<br>When el backend los recibe exitosamente<br>Then responde con un código de estado confirmando la recepción|E10|
+|US59|Asociar datos de sensor al vehículo correspondiente|Como Developer,<br>Quiero vincular cada lectura de sensor con el vehículo que la emite,<br>Para evitar errores de asignación en el análisis de condiciones.|Scenario: Asociar lectura al vehículo correcto<br>Given el sensor está instalado en un vehículo con identificador único<br>When se recibe la lectura<br>Then el sistema vincula los datos al vehículo correspondiente<br><br>Scenario: Impedir asociación si no se reconoce el ID del sensor<br>Given el sensor no está registrado o el ID no existe<br>When llega la lectura al backend<br>Then el sistema ignora o marca el dato como no vinculado|E10|
+|US60|Enviar ubicación GPS del vehículo|Como Developer,<br>Quiero obtener y transmitir la ubicación GPS del vehículo desde el módulo IoT,<br>Para permitir seguimiento en tiempo real desde la web del gerente.|Scenario: Capturar y transmitir posición GPS<br>Given el dispositivo IoT obtiene coordenadas geográficas válidas<br>When se cumple el ciclo de envío<br>Then el sistema transmite la ubicación actual al backend<br><br>Scenario: Manejar errores de lectura GPS<br>Given el módulo GPS no puede determinar una ubicación<br>When se intenta enviar la ubicación<br>Then el sistema omite el envío e informa error localmente (log)|E10|
+|US61|` `Filtrar lecturas erráticas de sensor|Como Developer,<br>Quiero descartar valores de temperatura o humedad que estén fuera de rango físico (ej. < -10 o > 100 °C),<br>Para evitar enviar datos corruptos al backend.|Scenario: Rechazar valores fuera del rango físico<br>Given el sensor genera un dato de temperatura fuera del rango aceptable<br>When el edge device procesa la lectura<br>Then descarta la lectura y no la reenvía al backend<br><br>Scenario: Permitir solo valores dentro de los límites físicos<br>Given el valor está entre -50°C y 100°C<br>When el edge lo valida<br>Then lo marca como válido para ser enviado|E11|
+|US62|Detectar desconexión del sensor|Como Developer,<br>Quiero detectar si un sensor deja de enviar datos por más de 10 segundos,<br>Para generar una alerta local o fallback si es necesario.|Scenario: Detectar inactividad del sensor<br>Given el sensor no ha enviado datos en los últimos 10 segundos<br>When el edge detecta la ausencia de lecturas<br>Then registra un evento local de desconexión<br><br>Scenario: Activar bandera de error<br>Given un sensor deja de responder<br>When se supera el tiempo de espera<br>Then el sistema local activa una alerta interna|E11|
+|US63|Calcular promedios locales antes de enviar|Como Developer,<br>Quiero calcular el promedio móvil de las últimas N lecturas en el edge,<br>Para reducir picos momentáneos y enviar datos más estables.|Scenario: Promediar lecturas antes del envío<br>Given el sensor emite múltiples datos por minuto<br>When el edge compila las últimas N lecturas<br>Then calcula el promedio y lo marca como representativo<br><br>Scenario: Enviar solo promedios cada intervalo<br>Given el sistema calcula el promedio cada minuto<br>When se cumple el ciclo de transmisión<br>Then envía solo ese valor al backend|E11|
+|US64|Procesar eventos incluso sin conexión|Como Developer,<br>Quiero almacenar datos temporalmente si no hay conexión al backend,<br>Para reenviarlos automáticamente cuando se restablezca.|Scenario: Almacenar temporalmente lecturas locales<br>Given el edge device no tiene conexión con el backend<br>When recibe lecturas de sensores<br>Then las guarda localmente con su timestamp<br><br>Scenario: Reenviar lecturas almacenadas al reconectar<br>Given el sistema recupera la conexión con el backend<br>When detecta datos almacenados<br>Then los reenvía en orden cronológico|E11|
+|US65|Validar límites ambientales en tiempo real|Como Developer,<br>Quiero comparar la lectura actual contra los límites del envío asignado,<br>Para ejecutar acciones locales inmediatas si se supera un umbral.|Scenario: Comparar lectura con límite asignado al conductor<br>Given el edge conoce los límites ambientales del envío<br>When recibe una lectura de sensor<br>Then compara el dato contra los límites establecidos<br><br>Scenario: Activar acción local si el valor supera el límite<br>Given la lectura supera el límite de temperatura o humedad<br>When se procesa en el edge<br>Then el sistema genera una alerta local (ej. log o señal digital)|E11|
+
+
+
+Link Trello:
 
 ## 3.3 Impact Mapping
 EMPRESARIO
@@ -360,33 +113,74 @@ TRANSPORTISTA
 
 ## 3.4 Product Backlog
 
-| #Orden | User Story ID | Titulo | Descripcion | Story Points (1/2/3/5/8) |
-|--------|---------------|--------|-------------|--------------------------|
-| 1 | US17 | Presentación de sitio web | Como visitante del segmento gerente quiero un resumen rápido y asertivo sobre lo que ofrece el sitio web para tener una idea rápida sobre lo que ofrece el sitio web. | 1 |
-| 2 | US20 | Ir a aplicación web directamente | Como visitante del segmento gerente quiero que la pagina me permita dirigirme directamente a la aplicación web principal para ahorrar tiempo. | 1 |
-| 3 | US21 | Navegación de información | Como visitante del segmento gerente quiero información precisa sobre lo que ofrece el sitio web para tomar una desicion mejor informada. | 1 |
-| 4 | US22 | Navegación de contacto | Como visitante del segmento gerente quiero ver información de contacto del sitio creado para sentir mas confianza del sitio web. | 1 |
-| 5 | US18 | Resumen de precios | Como visitante del segmento gerente quiero una vista detallada del plan ofrecido por el sitio web para tomar una desicion de compra a conciencia. | 1 |
-| 6 | US19 | Información a pie de pagina |Como visitante del segmento gerente quiero un resumen del sitio web al final de este para no perder tiempo buscando algún apartado de mi interés. | 1 |
-| 7 | US07 | Asignación de envíos | Como gerente, quiero poder asignar envíos a mis transportistas para distribuir eficientemente los envíos. | 3 |
-| 8 | US09 | Asignación de flotas | Como gerente, quiero asignar flotas a mis transportistas para que puedan realizar encargos. | 3 |
-| 9 | US23 | Technical - eliminar transportista | Como desarrollador, quiero poder eliminar un transportista existente a través del API para mantener la integridad de la base de datos desde otras aplicaciones. | 3 |
-| 10 | US24 | Technical - Agregar transportista | Como desarrollador, quiero poder agregar un nuevo transportista a través del API para gestionar la base de datos de transportistas desde otras aplicaciones. | 3 |
-| 11 | US25 | Technical - Actualizar informacion | Como desarrollador, quiero poder actualizar la información de un transportista existente a través del API para mantener los datos actualizados desde otras aplicaciones | 3 |
-| 12 | US11 | Modificar perfil de gerente | Como gerente quiero gestionar mis datos para que estén actualizados | 3 |
-| 13 | US04 | Visualización de envíos asignados | Como transportista, quiero poder ver los envíos que me han sido asignados, incluyendo detalles sobre los envíos y destinos correspondientes para poder organizar mejor el orden de mis tareas. | 2 |
-| 14 | US10 | Gestión de inventario de flotas | Como gerente, quiero añadir nuevas flotas a mi negocio para tener un control activo de mis flotas. | 2 |
-| 15 | US01 | Visualización de paquetes entregados por un transportista | Como gerente quiero visualizar el registro de paquetes entregados por un transportista para medir rendimiento del transportista | 2 |
-| 16 | US05 | Visualización de paquetes entregados | Como transportista quiero visualizar los paquetes que he entregado para tener un comprobante de trabajo realizado | 2 |
-| 17 | US13 | Reporte de infracciones | Como transportista, quiero poder reportar infracciones vehiculares que ocurran durante mis viajes para que el gerente pueda tomar las medidas del caso. | 3 |
-| 18 | US14 | Reporte de accidentes en la carretera | Como transportista, quiero poder reportar accidentes en la carretera que ocurran durante mis viajes para que el gerente pueda organizar las futuras rutas. | 3 |
-| 19 | US15 |Reporte de problemas con el paquete | Como transportista, quiero poder reportar problemas con los paquetes que transporto durante mis viajes para que el gerente pueda reportarlo al cliente. | 3 |
-| 20 | US16 | Reporte de problemas técnicos | Como transportista, quiero poder reportar problemas técnicos que surjan durante mis viajes para que el gerente pueda resolverlo lo antes posible. | 3 |
-| 21 | US02 | Visualización de reportes de un transportista | Como gerente quiero ver los reportes hechos por mis transportistas para tomar decisiones estratégicas en los próximos envíos. | 2 |
-| 22 | US06 | Visualización de reportes realizados | Como transportista quiero visualizar los reportes que hice en mi labor para tener un historial de incidencia en mi trabajo. | 2 |
-| 23 | US03 | Visualización de envíos asignados a un transportista | Como gerente quiero ver los envíos asignados de un transportista para poder medir el rendimiento de mis empleados. | 2 |
-| 24 | US08 | Visualización de historial de envíos | Como gerente quiero ver el historial de envíos realizado para saber cuantos de estos fueron exitosos | 2 |
-| 25 | US12 | Modificar perfil de transportistas | Como transportista quiero gestionar mis datos personales para que estén actualizados | 3 |
+|# Orden|Story ID|Titulo|Descripcion|Story Point (1/2/3/5/8)|
+| :-: | :-: | :-: | :-: | :-: |
+|1|US01|Ver descripción general del sistema|Como visitante,<br>Quiero leer un resumen claro de qué trata el sistema y para qué sirve,<br>Para entender rápidamente si me interesa registrarme.|2|
+|2|US02|Ver funcionalidades clave|Como visitante,<br>Quiero visualizar las funcionalidades principales disponibles para gerentes y conductores,<br>Para entender cómo el sistema podría ayudar a mi empresa.|2|
+|3|US03|Ver comparativa de cuenta gratuita vs PRO|Como visitante,<br>Quiero ver una tabla que compare las funciones entre una cuenta gratuita y una PRO,<br>Para decidir si vale la pena pagar la suscripción.|1|
+|4|US04|Ver video o animación explicativa|Como visitante,<br>Quiero ver un video que explique cómo funciona el sistema en pocos minutos,<br>Para comprenderlo rápidamente sin leer demasiado.|3|
+|5|US05|Completar formulario de contacto|Como interesado,<br>Quiero enviar mis datos de contacto para recibir más información o una demo,<br>Para poder comunicarme con el equipo del sistema.|2|
+|6|US06|Redirigir al registro|Como visitante,<br>Quiero tener un botón que me lleve directamente a la página de registro,<br>Para comenzar a usar el sistema si ya estoy convencido.|1|
+|7|US46|Acceder a sección de suscripción|Como gerente,<br>Quiero ver una sección donde pueda gestionar mi suscripción PRO,<br>Para entender las ventajas y acceder a la mejora de mi cuenta.|2|
+|8|US29|Crear un conductor|Como gerente,<br>Quiero registrar un conductor con email y contraseña,<br>Para asignarlo a vehículos y envíos.|3|
+|9|US34|Crear envío|Como gerente,<br>Quiero crear un envío indicando el destino, conductor, descripción, temperatura y humedad límite,<br>Para programar una entrega con control de condiciones ambientales.|5|
+|10|US23|Crear vehículo|Como gerente,<br>Quiero registrar un nuevo vehículo con placa y modelo,<br>Para asignarlo posteriormente a un conductor.|3|
+|11|US25|Asignar un conductor a un vehículo|Como gerente,<br>Quiero asignar un conductor específico a un vehículo,<br>Para vincular correctamente cada unidad con su responsable.|3|
+|12|US35|Asignar envío a un conductor|Como gerente,<br>Quiero asignar un envío específico a un conductor disponible,<br>Para que sepa cuál es su siguiente trabajo.|3|
+|13|US36|Consultar envío asignado|Como conductor,<br>Quiero ver el envío que me han asignado,<br>Para conocer mi destino y detalles del trabajo.|2|
+|14|US26|Ver datos del vehículo asignado|Como conductor,<br>Quiero ver la placa, modelo y marca del vehículo que tengo asignado,<br>Para identificar la unidad que debo utilizar.|2|
+|15|US27|Ver temperatura y humedad del vehículo|Como conductor,<br>Quiero ver la temperatura de carga y el porcentaje de humedad del vehículo,<br>Para monitorear condiciones críticas durante el envío.|2|
+|16|US28|Ver ubicación actual del vehículo|Como gerente,<br>Quiero ver en tiempo real la ubicación GPS del vehículo,<br>Para hacer seguimiento de su recorrido.|3|
+|17|US30|Ver lista de conductores registrados|Como gerente,<br>Quiero ver todos los conductores que he creado,<br>Para gestionar fácilmente sus asignaciones.|2|
+|18|US24|Ver listado de vehículos registrados|Como gerente,<br>Quiero ver todos los vehículos que he registrado,<br>Para controlar la flota de mi empresa.|2|
+|19|US37|Ver estado del envío|Como conductor,<br>Quiero ver si el envío está pendiente, en proceso o terminado,<br>Para entender en qué parte del proceso estoy.|1|
+|20|US38|Cambiar estado del envío|Como conductor,<br>Quiero actualizar el estado del envío a “en proceso” o “terminado”,<br>Para indicar mi progreso al gerente.|3|
+|21|US40|Crear un nuevo reporte|Como conductor,<br>Quiero crear un reporte indicando el tipo y una descripción,<br>Para dejar constancia de un problema o evento en el envío.|3|
+|22|US41|Guardar la fecha del reporte automáticamente|Como conductor,<br>Quiero que el sistema registre automáticamente la fecha al crear un reporte,<br>Para tener un historial cronológico confiable.|1|
+|23|US44|Ver reportes por conductor (como gerente)|Como gerente,<br>Quiero consultar los reportes registrados por cada conductor,<br>Para detectar patrones o conductores con más incidencias.|2|
+|24|US51|Ver estadísticas de reportes por conductor|Como gerente,<br>Quiero ver cuántos reportes ha generado cada conductor, por tipo y en total,<br>Para identificar patrones de incidencias y rendimiento.|2|
+|25|US52|Ver cantidad de envíos por conductor|Como gerente,<br>Quiero ver cuántos envíos ha tenido cada conductor,<br>Para evaluar su carga de trabajo o eficiencia.|2|
+|26|US43|Ver reportes de otros conductores de mi empresa|Como conductor,<br>Quiero consultar reportes de mis compañeros que trabajan con el mismo gerente,<br>Para aprender de sus experiencias o incidentes recientes.|3|
+|27|US45|Ver cantidad de reportes por tipo|Como gerente,<br>Quiero ver cuántos reportes de cada tipo (ruta, envío, vehículo, otro) se han registrado,<br>Para analizar los puntos más críticos del servicio.|3|
+|28|US53|Ver condiciones ambientales por vehículo|Como gerente,<br>Quiero ver la temperatura y humedad actuales de cada vehículo,<br>Para identificar si están dentro de los límites operativos.|3|
+|29|US54|Mostrar color según condición ambiental|Como gerente,<br>Quiero ver indicadores de color (rojo, azul, negro) según los valores y límites de cada vehículo,<br>Para detectar rápidamente problemas de temperatura o humedad.|3|
+|30|US55|Usar el límite más bajo entre los envíos del conductor|Como developer,<br>Quiero evaluar los datos ambientales usando el envío con los límites más bajos del conductor,<br>Para maximizar la seguridad en el análisis de condiciones críticas.|5|
+|31|US47|Subir comprobante de pago|Como gerente,<br>Quiero subir una imagen del comprobante de pago,<br>Para solicitar la activación del modo PRO.|2|
+|32|US48|Ver estado del comprobante|Como gerente,<br>Quiero ver si mi comprobante está en estado pendiente, aceptado o denegado,<br>Para saber si ya tengo acceso al modo PRO o si debo volver a intentarlo.|2|
+|33|US49|Mostrar límites si no soy PRO|Como gerente sin suscripción PRO,<br>Quiero ver alertas cuando intento registrar más de 10 vehículos o conductores,<br>Para entender que necesito una cuenta PRO para continuar.|2|
+|34|US50|Activar cuenta PRO tras validación|Como developer,<br>Quiero activar automáticamente el modo PRO cuando el administrador apruebe un comprobante,<br>Para permitir al gerente acceder a funcionalidades avanzadas.|3|
+|35|US08|Login como administrador|Como administrador,<br>Quiero poder ingresar al sistema desde la misma pantalla de login,<br>Para acceder a mis funcionalidades internas sin una ruta separada|2|
+|36|US09|Ver lista de gerentes que han enviado comprobantes|Como administrador,<br>Quiero ver una lista de gerentes que han subido comprobantes de pago,<br>Para gestionar sus solicitudes de cambio a PRO.|2|
+|37|US10|Validar comprobante de pago (aceptar)|Como administrador,<br>Quiero poder aceptar un comprobante de pago,<br>Para activar la cuenta PRO del gerente correspondiente.|2|
+|38|US11|Validar comprobante de pago (rechazar)|Como administrador,<br>Quiero poder rechazar un comprobante inválido,<br>Para evitar otorgar acceso PRO sin verificación adecuada|2|
+|39|US12|Ver todos los usuarios registrados|Como administrador,<br>Quiero ver una lista completa de usuarios (gerentes y conductores),<br>Para poder auditar la base de usuarios del sistema|2|
+|40|US13|Ver el gerente asociado a un conductor|Como administrador,<br>Quiero ver el email del gerente al que está afiliado un conductor,<br>Para verificar relaciones y estructuras jerárquicas del sistema|1|
+|41|US14|Cambiar correo electrónico de un usuario|Como administrador,<br>Quiero editar el email de cualquier usuario,<br>Para corregir errores de registro o resolver incidencias|3|
+|42|US15|Cambiar contraseña de un usuario|Como administrador,<br>Quiero resetear la contraseña de cualquier usuario,<br>Para dar soporte en caso de olvido o acceso bloqueado|2|
+|43|US16|Registrar cuenta de gerente|Como gerente,<br>Quiero registrarme con mis datos y contraseña,<br>Para crear una cuenta nueva y comenzar a usar el sistema.|3|
+|44|US17|Iniciar sesión como gerente|Como gerente,<br>Quiero ingresar al sistema con mis credenciales,<br>Para acceder a mis funcionalidades administrativas.|2|
+|45|US18|Iniciar sesión como conductor|Como conductor,<br>Quiero ingresar al sistema con mis credenciales,<br>Para ver mis asignaciones y reportar novedades.|2|
+|46|US19|Iniciar sesión como administrador|Como administrador,<br>Quiero ingresar al sistema desde la misma vista de login,<br>Para acceder a mi backoffice de soporte.|2|
+|47|US20|Ver perfil personal|Como usuario autenticado (gerente o conductor),<br>Quiero ver mis datos personales registrados,<br>Para verificar que estén correctos.|1|
+|48|US21|Editar datos personales|Como usuario autenticado (gerente o conductor),<br>Quiero actualizar mi nombre u otros datos personales,<br>Para mantener mi perfil actualizado.|2|
+|49|US22|Cambiar contraseña|Como usuario autenticado,<br>Quiero cambiar mi contraseña actual,<br>Para aumentar la seguridad de mi cuenta.|2|
+|50|US39|Visualizar lista de envíos por conductor|Como gerente,<br>Quiero ver cuántos envíos tiene o ha tenido un conductor,<br>Para evaluar su carga de trabajo o rendimiento.|2|
+|51|US31|Ver límite alcanzado (cuenta gratuita)|Como gerente no PRO,<br>Quiero ver una advertencia si intento crear más de 10 conductores,<br>Para entender que necesito una suscripción PRO para continuar.|1|
+|52|US32|Ver email del gerente (como administrador)|Como administrador,<br>Quiero ver el email del gerente al que está afiliado un conductor,<br>Para auditar las relaciones entre usuarios|1|
+|53|US33|Ver detalles del conductor (como gerente)|Como gerente,<br>Quiero consultar los datos básicos de cada conductor,<br>Para verificar si están activos y qué vehículo tienen asignado.|1|
+|54|US42|Ver mis propios reportes|Como conductor,<br>Quiero ver la lista de reportes que yo he creado,<br>Para hacer seguimiento de mis incidentes reportados.|2|
+|55|US56|Capturar temperatura desde sensor IoT|Como Developer,<br>Quiero leer datos de temperatura del sensor IoT instalado en el vehículo,<br>Para usarlos en el monitoreo de condiciones ambientales.|3|
+|56|US57|Capturar humedad desde sensor IoT|Como Developer,<br>Quiero obtener lecturas de humedad desde el sensor IoT del vehículo,<br>Para evaluar si se encuentra dentro de los límites definidos.|3|
+|57|US58|Enviar datos de sensor al backend|Como Developer,<br>Quiero enviar los datos de temperatura y humedad al backend cada cierto intervalo,<br>Para tener información actualizada para análisis en el sistema web y móvil.|3|
+|58|US59|Asociar datos de sensor al vehículo correspondiente|Como Developer,<br>Quiero vincular cada lectura de sensor con el vehículo que la emite,<br>Para evitar errores de asignación en el análisis de condiciones.|3|
+|59|US60|Enviar ubicación GPS del vehículo|Como Developer,<br>Quiero obtener y transmitir la ubicación GPS del vehículo desde el módulo IoT,<br>Para permitir seguimiento en tiempo real desde la web del gerente.|3|
+|60|US61|` `Filtrar lecturas erráticas de sensor|Como Developer,<br>Quiero descartar valores de temperatura o humedad que estén fuera de rango físico (ej. < -10 o > 100 °C),<br>Para evitar enviar datos corruptos al backend.|2|
+|61|US62|Detectar desconexión del sensor|Como Developer,<br>Quiero detectar si un sensor deja de enviar datos por más de 10 segundos,<br>Para generar una alerta local o fallback si es necesario.|2|
+|62|US63|Calcular promedios locales antes de enviar|Como Developer,<br>Quiero calcular el promedio móvil de las últimas N lecturas en el edge,<br>Para reducir picos momentáneos y enviar datos más estables.|2|
+|63|US64|Procesar eventos incluso sin conexión|Como Developer,<br>Quiero almacenar datos temporalmente si no hay conexión al backend,<br>Para reenviarlos automáticamente cuando se restablezca.|3|
+|64|US65|Validar límites ambientales en tiempo real|Como Developer,<br>Quiero comparar la lectura actual contra los límites del envío asignado,<br>Para ejecutar acciones locales inmediatas si se supera un umbral.|3|
+|65|US07|Acceder desde móvil sin errores de diseño|Como visitante desde móvil,<br>Quiero ver una landing responsive y bien adaptada a mi pantalla,<br>Para poder navegar sin problemas desde mi celular.|3|
+
 
 
 Product Backlog Pivotal tracker:
