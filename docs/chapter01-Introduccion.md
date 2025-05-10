@@ -65,9 +65,10 @@ Utilizaremos la técnica de las 5W y 2Hs para desglosar el problema y entenderlo
 
 #### 1.2.2.1 Lean UX Problem Statements
 
-A pesar de la existencia de soluciones de software para la gestión de flotas, muchas de ellas no satisfacen todas las necesidades de los usuarios en el sector del transporte empresarial. Los empresarios y transportistas se enfrentan a una brecha en el mercado: la falta de una solución de gestión de flotas integral, flexible y fácil de usar. Esta brecha está afectando la eficiencia operativa, aumentando los costos y reduciendo la satisfacción del cliente.
-
-En MoviGestion, nuestra visión es llenar esta brecha proporcionando una solución tecnológica integral que simplifique y optimice la gestión de flotas de transporte. Nos comprometemos a ofrecer herramientas innovadoras y servicios de alta calidad que ayuden a nuestros usuarios a mejorar la eficiencia operativa, reducir costos y garantizar la satisfacción del cliente. Nuestro objetivo inicial es servir a los empresarios y transportistas que buscan una solución integral para la gestión de flotas de transporte.
+MoviGestión fue diseñada para optimizar la gestión de flotas de transporte mediante una plataforma web y una aplicación móvil que permita a gerentes y conductores gestionar envíos, monitorear condiciones ambientales y mejorar la eficiencia operativa.
+Hemos observado que muchas empresas de transporte en Perú aún no han adoptado tecnologías avanzadas de monitoreo en tiempo real, lo que provoca ineficiencias operativas y mayores costos. Por ejemplo, en 2023, la Cámara de Comercio de Lima reportó que las pérdidas por robos y la ineficiencia en las rutas logísticas superaron los 70 millones de dólares, destacando la necesidad de implementar tecnologías como la telemetría y el GPS para mitigar riesgos y mejorar la seguridad en la cadena de suministro.(Cámara de Comercio de Lima, reportado por Business Empresarial, 2023). 
+Actualmente, solo un porcentaje limitado de envíos se gestionan con datos precisos en tiempo real sobre la temperatura y humedad, lo que limita la capacidad de tomar decisiones informadas a tiempo.
+¿Cómo podemos mejorar la visibilidad y el control de las condiciones ambientales en tiempo real para aumentar en un 15% la eficiencia operativa de las flotas durante los próximos seis meses?
 
 #### 1.2.2.2 Lean UX Assumptions
 
