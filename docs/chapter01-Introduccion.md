@@ -12,41 +12,17 @@ Además, ofrecemos un modelo freemium escalable, ideal para empresas que deseen 
 **Visión**: Ser la platafoma líder y el socio tecnológico preferido para la gestión inteligente de flotas, impulsando la transformación digital del sector transporte a través de la innovación continua en IoT y análisis de datos para un futuro logístico más eficiente, seguro y sostenible.
 
 ### 1.1.2 Perfiles de integrantes del equipo
-| Integrante | Piero Abel Tarazona Medina |
-| --- | --- |
-| Código de estudiante | U202217633 |
-| Carrera | Ingeniería de Software |
-| Soy estudiante de 7mo ciclo de la carrera de Ingeniería de Software. Me caracterizo por mi pensamiento crítico y capacidad de encontrar soluciones viables para los distintos problemas. Tengo conocimientos en HTML, CSS, C++, Java, Javascript, C# | ![Piero](/assets/chapter01/piero.png) |
 
-| Integrante | Mauricio Sebastián Chacon Martinez |
-| --- | --- |
-| Código de estudiante | U202212911 |
-| Carrera | Ingeniería de Software |
-| Soy estudiante de 7mo ciclo de la carrera de Ingeniería de Software. Me apasiona la programación y tengo conocimientos en HTML, CSS, Javascript, y Astro. Me considero una persona responsable y comprometida con mi aprendizaje y desarrollo profesional. | ![Mauricio](/assets/chapter01/mauricio.png) |
+| Integrante | Información | Foto |
+|------------|-------------|------|
+| **Piero Abel Tarazona Medina** | `Código:` U202217633  <br> `Carrera:` Ingeniería de Software <br> Estudiante de 7mo ciclo. Me caracterizo por mi pensamiento crítico y capacidad de encontrar soluciones viables para distintos problemas. Conocimientos en HTML, CSS, C++, Java, Javascript, C#. | ![Piero](/assets/chapter01/piero.png) |
+| **Mauricio Sebastián Chacon Martinez** | `Código:` U202212911 <br> `Carrera:` Ingeniería de Software <br> Apasionado por la programación. Conocimientos en HTML, CSS, Javascript, y Astro. Persona responsable y comprometida con su desarrollo profesional. | ![Mauricio](/assets/chapter01/mauricio.png) |
+| **Miguel Huarcaya Chavez** | `Código:` U202116207 <br> `Carrera:` Ingeniería de Software <br> Conocimientos en JavaScript, TypeScript, HTML, CSS, Vue y Angular. Persona responsable y colaborativa. | ![Miguel](/assets/chapter01/miguel.jpg) |
+| **Elias Torres Espinoza** | `Código:` U20191A453 <br> `Carrera:` Ingeniería de Software <br> Conocimientos en Angular, Vue, TypeScript, JavaScript, C++, C#, Python, HTML y CSS. | ![Elias](/assets/chapter01/elias.jpg) |
+| **Moises Rodolfo Donayre Peña** | `Código:` U202216021 <br> `Carrera:` Ingeniería de Software <br> Apasionado por el desarrollo web y móvil. Conocimientos en Vue, Angular y Flutter. Persona empática y colaborativa. | ![Moises](/assets/chapter01/moises.png) |
+| **Aldhair Johan Juan Valenzuela Huillcaya** | `Código:` U20201F572 <br> `Carrera:` Ingeniería de Software <br> Comunicativo y analítico. Conocimientos en Angular, Vue, React, Flutter y Kotlin. | ![Aldahir](/assets/chapter01/aldahir.png) |
 
-| Integrante | Miguel Huarcaya Chavez |
-| --- | --- |
-| Código de estudiante | U202116207 |
-| Carrera | Ingeniería de Software |
-| Soy estudiante de 7mo ciclo. Cuento con conocimientos en JavaScript, TypeScript, HTML, CSS, Vue y Angular. Soy una persona responsable y colaborativa. | ![Miguel](/assets/chapter01/miguel.jpg) |
 
-| Integrante | Elias Torres Espinoza |
-| --- | --- |
-| Código de estudiante | U20191A453 |
-| Carrera | Ingeniería de Software |
-| Actualmente soy de 7 ciclo en la Universidad Peruana de Ciencias Aplicadas, cuento con conocimientos en Angular, vue, TypeScript, JavaScript ,C++, C#, Python, HTML y css. | ![Elias](/assets/chapter01/elias.jpg) |
-
-| Integrante | Moises Rodolfo Donayre Peña |
-| --- | --- |
-| Código de estudiante | U202216021 |
-| Carrera | Ingeniería de Software |
-| Estudiante de 7mo ciclo de la carrera Ingeniería de Software. Apasionado por el desarrollo web y movil, contando con conocimientos en Vue, Angular y Flutter. Me considero una persona empática y con intenciones de ayudar en cualquier cosa al equipo. | ![Moises](/assets/chapter01/moises.png) |
-
-| Integrante | Aldhair Johan Juan Valenzuela Huillcaya |
-| --- | --- |
-| Código de estudiante | U20201F572 |
-| Carrera | Ingeniería de Software |
-| Soy estudiante de 7mo ciclo de la carrera Ingeniería de Software. Me caracterizo como una persona comunicativa y analítica. Tengo conocimientos en programación web con Angular, Vue y React. Además, en programación móvil con Flutter y Kotlin. | ![Aldahir](/assets/chapter01/aldahir.png) |
 
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedentes y problemática
