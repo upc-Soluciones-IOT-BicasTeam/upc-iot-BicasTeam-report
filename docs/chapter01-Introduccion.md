@@ -72,16 +72,39 @@ Actualmente, solo un porcentaje limitado de envíos se gestionan con datos preci
 
 #### 1.2.2.2 Lean UX Assumptions
 
-1. Contexto: Los empresarios y transportistas a menudo utilizan múltiples herramientas y procesos manuales para gestionar sus flotas debido a la falta de soluciones integradas.
-   Assumption: Dado que muchos usuarios enfrentan dificultades con la gestión descentralizada de flotas, creemos que existe una necesidad de una plataforma integral que unifique todas las funciones de gestión de flotas en una sola solución.
-2. Contexto: Los empresarios a menudo luchan por controlar los costos operativos y reducir los gastos innecesarios en la gestión de flotas.
-   Assumption: Dado que el control de costos es una prioridad para los usuarios, creemos que una solución que ofrezca herramientas de análisis de costos y optimización de recursos será altamente valorada.
-3. Contexto: La falta de informes detallados y análisis de datos dificulta la identificación de áreas de mejora en la gestión de flotas.
-   Assumption: Dado que los usuarios necesitan información precisa y detallada sobre el rendimiento de sus flotas, creemos que una solución que proporcione informes personalizables y análisis avanzados será fundamental para la toma de decisiones informadas.
-4. Contexto: La seguridad y privacidad de los datos son preocupaciones críticas para los usuarios al adoptar nuevas soluciones tecnológicas.
-   Assumption: Dado que los usuarios son sensibles a la seguridad de los datos, creemos que una solución que garantice la protección y privacidad de la información del cliente será fundamental para generar confianza y adopción.
-5. Contexto: Los usuarios a menudo enfrentan dificultades para adaptarse a nuevas tecnologías y plataformas debido a la complejidad y la curva de aprendizaje.
-   Assumption: Dado que la facilidad de uso es crucial para la adopción de la plataforma, creemos que una solución intuitiva y fácil de usar será fundamental para la aceptación y satisfacción del usuario.
+1. Creo que mis clientes necesitan ________. <br>
+**Assumtpion**: Los gerentes de flotas y empresas de transporte en Perú (especialmente aquellos que transportan carga sensible a temperatura/humedad) necesitan una forma más efectiva y accesible de monitorear en tiempo real la ubicación y las condiciones ambientales (temperatura y humedad) de sus envíos y vehículos para reducir pérdidas e ineficiencias.
+2. Estas necesidades se pueden resolver con ________ . <br>
+**Assumtpion**: Las necesidades identificadas (monitoreo en tiempo real de ubicación y ambiente, gestión de envíos/recursos, reportes, alertas) pueden resolverse eficazmente mediante una combinación de una plataforma web robusta para gerentes, una aplicación móvil intuitiva para conductores y dispositivos IoT instalados en vehículos y/o carga.
+3. Mis clientes iniciales son (o serán) _______. <br>
+**Assumtpion**: Nuestros clientes iniciales serán principalmente pequeñas y medianas empresas de transporte en Perú que actualmente no usan soluciones integrales de monitoreo ambiental o usan métodos manuales/ineficientes, y que transportan carga donde las condiciones ambientales son un factor crítico.
+4. El valor # 1 que un cliente quiere de mi servicio es _______. <br>
+**Assumtpion**: El valor principal que buscan nuestros clientes es la reducción de pérdidas de carga sensible y la mejora de la eficiencia operativa a través de la visibilidad y el control proactivo en tiempo real sobre las condiciones ambientales y la ubicación de sus envíos.
+5. El cliente también puede obtener estos beneficios adicionales _______ . <br>
+**Assumtpion**: Los clientes también valorarán y utilizarán beneficios adicionales como:
+- Mejora en la comunicación y organización de los conductores.
+- Toma de decisiones más informada basada en datos y estadísticas.
+- Reducción de riesgos generales (no solo ambientales, también por ubicación).
+- Transparencia y mejor colaboración dentro de la flota (reportes compartidos).
+- Gestión centralizada y simplificada de sus recursos (conductores, vehículos, envíos).
+6. Voy a adquirir la mayoría de mis clientes a través de _______. <br>
+**Assumtpion**: Adquiriremos clientes principalmente a través de estrategias de marketing digital dirigidas al sector logístico en Perú, ventas directas a empresas de transporte, y la tracción generada por el modelo Freemium que permitirá probar la solución.
+7. Haré dinero a través de _______. <br>
+**Assumtpion**: Generaremos ingresos a través de un modelo de suscripción (PRO), donde los clientes que necesiten más conductores/vehículos o funcionalidades avanzadas pasarán del plan gratuito al de pago.
+8. Mi competencia principal en el mercado será _______. <br>
+**Assumtpion**: Nuestra competencia principal estará compuesta por proveedores existentes de sistemas de gestión de flotas (TMS) y monitoreo GPS en Perú (que quizás no tengan un enfoque ambiental tan fuerte), empresas que ofrecen soluciones de cadena de frío más tradicionales o puntuales, y el status quo (empresas que usan procesos manuales o básicos).
+9. Los venceremos debido a _______. <br>
+**Assumtpion**: Venceremos a la competencia debido a nuestra combinación única de monitoreo ambiental por envío, alertas proactivas e inteligentes, una plataforma dual optimizada para gerentes y conductores, un modelo de negocio Freemium accesible, y un enfoque integral que va más allá del simple GPS.
+10. Mi mayor riesgo de producto es _______. <br>
+**Assumtpion**: Nuestro mayor riesgo de producto es que los dispositivos IoT (sensores de temperatura/humedad) no sean lo suficientemente fiables, precisos o fáciles de instalar/mantener en las condiciones reales del transporte en Perú, o que su costo operativo sea prohibitivo para el cliente objetivo.
+11. Resolveremos esto a través de _______. <br>
+**Assumtpion**: Resolveremos el problema y construiremos el producto exitosamente a través de un proceso iterativo de desarrollo basado en hipótesis y validación constante con usuarios reales (enfoque Lean Startup / Lean UX).
+12. ¿Qué otras suposiciones tenemos? Eso, si se prueba que es falso, causará que nuestro negocio / proyecto no funcione? <br>
+- **Assumtpion de Riesgo Crítico #1 (Problema/Valor)**: Las empresas de transporte en Perú realmente perciben la pérdida/daño de carga por variaciones ambientales como un problema lo suficientemente COSTOSO y FRECUENTE como para justificar el pago por una solución de monitoreo en tiempo real como MoviGestion.
+- **Assumtpion de Riesgo Crítico #2 (Solución/Usabilidad)**: Los conductores adoptarán y usarán la aplicación móvil de forma consistente para actualizar estados y reportar novedades, y los gerentes encontrarán la plataforma web intuitiva y útil en su operación diaria, a pesar de la posible baja alfabetización digital en algunos segmentos.
+- **Assumtpion de Riesgo Crítico #3 (Mercado/Adquisición)**: Podemos alcanzar, convencer y convertir a nuestro cliente objetivo (PYMEs de transporte en Perú) de forma económicamente viable.
+- **Assumtpion de Riesgo Crítico #4 (Tecnología/Operación)**: La tecnología IoT (sensores, conectividad, batería) funcionará de manera fiable y a un costo operativo (comunicaciones, mantenimiento) que permita un modelo de suscripción rentable para nosotros y asequible para el cliente.
+- **Assumtpion de Riesgo Crítico #5 (Monetización)**: Un porcentaje suficiente de usuarios del plan gratuito migrará al plan PRO.
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
 
