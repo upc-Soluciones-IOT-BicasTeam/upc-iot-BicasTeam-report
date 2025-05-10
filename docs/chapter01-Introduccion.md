@@ -22,42 +22,44 @@ Además, ofrecemos un modelo freemium escalable, ideal para empresas que deseen 
 | **Moises Rodolfo Donayre Peña** | `Código:` U202216021 <br> `Carrera:` Ingeniería de Software <br> Apasionado por el desarrollo web y móvil. Conocimientos en Vue, Angular y Flutter. Persona empática y colaborativa. | ![Moises](/assets/chapter01/moises.png) |
 | **Aldhair Johan Juan Valenzuela Huillcaya** | `Código:` U20201F572 <br> `Carrera:` Ingeniería de Software <br> Comunicativo y analítico. Conocimientos en Angular, Vue, React, Flutter y Kotlin. | ![Aldahir](/assets/chapter01/aldahir.png) |
 
-
-
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedentes y problemática
 
-En el sector del transporte empresarial, la gestión eficiente de las flotas es un desafío constante. Los empresarios y transportistas se enfrentan a dificultades como la planificación de rutas, el seguimiento de vehículos, la programación de viajes y la gestión de costos. Aunque existen soluciones de software para la gestión de flotas, muchas de ellas no son lo suficientemente flexibles o integrales para satisfacer todas las necesidades de los usuarios.
-La falta de una solución de gestión de flotas integral y fácil de usar está afectando la eficiencia operativa, aumentando los costos y reduciendo la satisfacción del cliente en el sector del transporte empresarial.
+En el sector del transporte empresarial, la gestión de flotas representa un reto creciente que va más allá de la simple asignación de vehículos y conductores. La complejidad de mantener operaciones eficientes, seguras y rentables se ve agravada por la necesidad de monitorear en tiempo real variables críticas como la ubicación, la temperatura y la humedad, especialmente en cargas sensibles. Muchos sistemas actuales de gestión de fflotas se quedan cortos: carecen de flexibilidad, no ofrecen una integración real con tecnologías IoT y presentan interfaces poco amigables que limitan su adopción por parte de usuarios clave como gerentes de flota y conductores.
+Esa falta de soluciones completas genera consecuencias importantes: pérdida de productos por condiciones ambientales no controladas, falta de visibilidad operativa, toma de decisiones reactivas en lugar de proactivas, y una gestión ineficiente de recursos humanos y logísticos. Además, los empresarios y transportistas necesitan herramientas diferenciadas y especializadas que se adapten a sus roles, y que, al mismo tiempo, trabajen en conjunto dentro de un ecosistema digital centralizado.
 
 **Objetivo Principal**:
-Desarrollar una plataforma web integral, MoviGestion, que simplifique y optimice la gestión de flotas de transporte para empresarios y transportistas.
+Desarrollar una solución tecnológica integral, denominada MoviGestion, que transforme la gestión de flotas tradicionales en una operación inteligente, conectada y proactiva, incorporando monitoreo ambiental en tiempo real, analítica avanzada, y funcionalidades especializadas tanto para gerentes como para conductores.
 
 **Objetivos Específicos**:
 
-1. Interfaz de Usuario Amigable: Proporcionar una interfaz de usuario intuitiva que facilite la navegación y el uso de la plataforma.
-2. Funcionalidades Complejas: Ofrecer una variedad de características útiles para la gestión de flotas, incluyendo estadísticas de rendimiento, reporte de infracciones, registro de incidencias, seguimiento de envíos exitosos y control de sitios enviados.
-3. Informes Detallados: Proporcionar informes detallados que ayuden a los empresarios a tomar decisiones informadas.
+1. Diseñar una plataforma web robusta orientada a gerentes de flota, que centralice la planificación, seguimiento, y análisis de operaciones logísticas con foco en eficiencia y control ambiental.
+2. Desarrollar una aplicación móvil intuitiva para conductores, que facilite la gestión de sus envíos, el reporte de incidentes y el monitoreo de las condiciones de la carga.
+3. Integrar tecnología IoT avanzada, que permita el seguimiento en tiempo real de la ubicación GPS, temperatura y humedad de los vehículos y su carga.
+4. Incorporar un sistema de alertas preventivas e informes analíticos que permitan tomar decisiones informadas basadas en datos contextuales y actualizados.
 
 **Restricciones**:
 
-1. La plataforma debe ser desarrollada como una aplicación web para garantizar la accesibilidad en diferentes dispositivos.
-2. Todos los datos de los usuarios deben ser almacenados de manera segura para proteger su privacidad.
-3. La plataforma debe ser capaz de manejar un gran número de usuarios simultáneamente sin afectar su rendimiento.
+1. La plataforma debe ser accesible desde distintos dispositivos, priorizando la experiencia de uso tanto en escritorio como en móvil.
+2. Todos los datos transmitidos y almacenados deben cumplir con estándares de seguridad y privacidad.
+3. El sistema debe estar preparado para escalar y soportar múltiples usuarios concurrentes sin comprometer la estabilidad ni el rendimiento.
 
 Utilizaremos la técnica de las 5W y 2Hs para desglosar el problema y entenderlo en detalle. Esta técnica nos proporcionará respuestas claras sobre qué, cuándo, dónde, quién, por qué, cómo y cuánto, lo que nos ayudará a encontrar soluciones efectivas.
 
 **Técnica 5Ws y 2Hs**
 
-| Las 5Ws y 2Hs | Pregunta                                                    | Descripción                                                                                                                                                                       |
-| ------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| What?         | ¿Cuál es el problema?                                       | Existe una falta de eficiencia en la gestión de flotas de transporte empresarial, lo que resulta en costos elevados y disminución de la satisfacción del cliente.                 |
-| When?         | ¿Cuándo estamos viendo el problema?                         | Este problema se observa principalmente durante las horas pico de operación, cuando la demanda de transporte es alta y la planificación de rutas se vuelve más compleja.          |
-| Where?        | ¿Dónde estamos viendo los problemas?                        | El problema se presenta en todo el proceso de gestión de flotas, desde la planificación de rutas hasta el seguimiento de vehículos y la programación de viajes.                   |
-| Who?          | ¿A quién le sucede?                                         | Este problema afecta tanto a los empresarios que necesitan administrar sistemas de transporte como a los transportistas que buscan una organización eficiente en sus operaciones. |
-| Why?          | ¿Por qué sucede el problema?                                | El problema surge debido a la falta de una solución de gestión de flotas integral y fácil de usar que pueda satisfacer todas las necesidades de los usuarios.                     |
-| How?          | ¿Cómo se diferencia el problema del estado normal (óptimo)? | El problema se manifiesta en forma de costos operativos elevados, retrasos en las entregas, insatisfacción del cliente y dificultades en la planificación de rutas.               |
-| How much?     | ¿Cuánto es el impacto financiero?                           | El problema podría estar costando a las empresas miles de dólares cada mes en costos operativos adicionales y pérdida de clientes debido a la insatisfacción.                     |
+### Técnica 5Ws y 2Hs
+
+| Elemento      | Pregunta                                                                 | Descripción                                                                                                                                                                                |
+|---------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **What?**     | ¿Cuál es el problema?                                                    | Las empresas de transporte enfrentan una gestión ineficiente de sus flotas, especialmente en lo relacionado al monitoreo ambiental, trazabilidad de envíos y control operativo en tiempo real. |
+| **When?**     | ¿Cuándo se manifiesta el problema?                                       | Durante la operación diaria, especialmente en envíos críticos que requieren control ambiental o cuando hay múltiples vehículos y conductores involucrados simultáneamente.                  |
+| **Where?**    | ¿Dónde ocurre el problema?                                               | En todo el ciclo de gestión de flotas: asignación de envíos, seguimiento, monitoreo ambiental, control de recursos y comunicación entre gerentes y conductores.                            |
+| **Who?**      | ¿A quién afecta el problema?                                             | A los empresarios y gerentes de flota que requieren control y eficiencia, y a los conductores que necesitan herramientas claras para gestionar sus tareas y reportar novedades.            |
+| **Why?**      | ¿Por qué sucede el problema?                                             | Por la falta de soluciones integrales que combinen monitoreo ambiental, control en tiempo real, comunicación efectiva y análisis estratégico en una misma plataforma accesible.            |
+| **How?**      | ¿Cómo se diferencia del estado óptimo?                                   | En el estado actual, se presentan pérdidas por fallas en el control ambiental, decisiones tardías por falta de datos, y operaciones fragmentadas. El estado óptimo implicaría control total y proactividad. |
+| **How much?** | ¿Cuánto impacto genera el problema?                                      | Genera costos adicionales, riesgo de pérdida de carga sensible, baja productividad operativa y menor satisfacción del cliente. MoviGestion busca reducir significativamente ese impacto.   |
+
 
 ### 1.2.2 Lean UX Process
 
