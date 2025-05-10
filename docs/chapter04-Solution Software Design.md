@@ -517,7 +517,11 @@ En la capa de Infrastructure Layer, se encuentran los repositorios que permiten 
 - Métodos para extraer información (ej. userId, sessionId, roles) de un token válido.
 
 #### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams IAM]()
+![Component Level Diagrams IAM](/assets/chapter04/structurizr-Component-001.png)
+
+![Component Level Diagrams IAM](/assets/chapter04/structurizr-Component-002.png)
+
+![Component Level Diagrams IAM](/assets/chapter04/structurizr-MobileAppPresentationFocusView.png)
 
 ##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
 ![Bounded Context Domain Layer Class Diagrams IAM]()
