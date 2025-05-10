@@ -13,14 +13,14 @@ Además, ofrecemos un modelo freemium escalable, ideal para empresas que deseen 
 
 ### 1.1.2 Perfiles de integrantes del equipo
 
-| Integrante | Información | Foto |
-|------------|-------------|------|
-| **Piero Abel Tarazona Medina** | `Código:` U202217633  <br> `Carrera:` Ingeniería de Software <br> Estudiante de 7mo ciclo. Me caracterizo por mi pensamiento crítico y capacidad de encontrar soluciones viables para distintos problemas. Conocimientos en HTML, CSS, C++, Java, Javascript, C#. | ![Piero](/assets/chapter01/piero.png) |
-| **Mauricio Sebastián Chacon Martinez** | `Código:` U202212911 <br> `Carrera:` Ingeniería de Software <br> Apasionado por la programación. Conocimientos en HTML, CSS, Javascript, y Astro. Persona responsable y comprometida con su desarrollo profesional. | ![Mauricio](/assets/chapter01/mauricio.png) |
-| **Miguel Huarcaya Chavez** | `Código:` U202116207 <br> `Carrera:` Ingeniería de Software <br> Conocimientos en JavaScript, TypeScript, HTML, CSS, Vue y Angular. Persona responsable y colaborativa. | ![Miguel](/assets/chapter01/miguel.jpg) |
-| **Elias Torres Espinoza** | `Código:` U20191A453 <br> `Carrera:` Ingeniería de Software <br> Conocimientos en Angular, Vue, TypeScript, JavaScript, C++, C#, Python, HTML y CSS. | ![Elias](/assets/chapter01/elias.jpg) |
-| **Moises Rodolfo Donayre Peña** | `Código:` U202216021 <br> `Carrera:` Ingeniería de Software <br> Apasionado por el desarrollo web y móvil. Conocimientos en Vue, Angular y Flutter. Persona empática y colaborativa. | ![Moises](/assets/chapter01/moises.png) |
-| **Aldhair Johan Juan Valenzuela Huillcaya** | `Código:` U20201F572 <br> `Carrera:` Ingeniería de Software <br> Comunicativo y analítico. Conocimientos en Angular, Vue, React, Flutter y Kotlin. | ![Aldahir](/assets/chapter01/aldahir.png) |
+| Integrante                               | Información                                                                                                                                                                                              | Foto                                                                  |
+| :--------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------- |
+| **Piero Abel Tarazona Medina** | `Código:` U202217633  <br> `Carrera:` Ingeniería de Software <br> Estudiante de 7mo ciclo. Me caracterizo por mi pensamiento crítico y capacidad de encontrar soluciones viables para distintos problemas. Conocimientos en HTML, CSS, C++, Java, Javascript, C#. | <img src="../assets/chapter01/piero.png" alt="Piero" width="150">    |
+| **Mauricio Sebastián Chacon Martinez** | `Código:` U202212911 <br> `Carrera:` Ingeniería de Software <br> Apasionado por la programación. Conocimientos en HTML, CSS, Javascript, y Astro. Persona responsable y comprometida con su desarrollo profesional. | <img src="../assets/chapter01/mauricio.png" alt="Mauricio" width="150"> |
+| **Miguel Huarcaya Chavez** | `Código:` U202116207 <br> `Carrera:` Ingeniería de Software <br> Conocimientos en JavaScript, TypeScript, HTML, CSS, Vue y Angular. Persona responsable y colaborativa.                                  | <img src="../assets/chapter01/miguel.jpg" alt="Miguel" width="150">    |
+| **Elias Torres Espinoza** | `Código:` U20191A453 <br> `Carrera:` Ingeniería de Software <br> Conocimientos en Angular, Vue, TypeScript, JavaScript, C++, C#, Python, HTML y CSS.                                                    | <img src="../assets/chapter01/elias.jpg" alt="Elias" width="150">    |
+| **Moises Rodolfo Donayre Peña** | `Código:` U202216021 <br> `Carrera:` Ingeniería de Software <br> Apasionado por el desarrollo web y móvil. Conocimientos en Vue, Angular y Flutter. Persona empática y colaborativa.                     | <img src="../assets/chapter01/moises.png" alt="Moises" width="150">    |
+| **Aldhair Johan Juan Valenzuela Huillcaya**| `Código:` U20201F572 <br> `Carrera:` Ingeniería de Software <br> Comunicativo y analítico. Conocimientos en Angular, Vue, React, Flutter y Kotlin.                                                  | <img src="../assets/chapter01/aldahir.png" alt="Aldahir" width="150">  |
 
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedentes y problemática
