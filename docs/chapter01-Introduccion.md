@@ -1,15 +1,15 @@
 ﻿# Chapter 1
 ## 1.1 Startup Profile
 ### 1.1.1 Descripción de la Startup
-MoviGestion es una aplicación integral diseñada para superar los desafíos de gestión en el sector del transporte empresarial. Nuestro objetivo es servir tanto a empresarios que necesitan administrar sistemas de transporte, como a transportistas que buscan eficiencia y organización en sus operaciones. 
+MoviGestion transforma la gestión de flotas tradicional en una operación inteligente y conectada. Combinamos una plataforma web, una aplicación móvil intuitiva, y la integración de dispositivos IoT para el monitoreo en tiempo real de la ubicación (GPS), temperatura y humedadde la carga y/o vehículo. Maximizamos la eficiencia, aseguramos la integridad de la carga y ofrecemos control total a las empresas de transporte.
 
-Ofrecemos una variedad de características para la gestión de flotas, incluyendo estadísticas de rendimiento, reporte de infracciones, registro de incidencias, seguimiento de envíos exitosos y control de sitios enviados. Estas funciones están disponibles a través de planes de suscripción flexibles, diseñados para adaptarse a las necesidades específicas y al tamaño de cada empresa.
+Con esta combinación, ayudamos a las empresas de transporte a maximizar la eficiencia operativa, reducir costos, prevenir pérdidas por condiciones ambientales inadecuadas y tomar decisiones basadas en datos precisos. Nuestra plataforma permite una supervisión total del estado de los envíos, vehículos y conductores, con alertas inteligentes configuradas según los requisitos específicos de cada carga, lo que asegura una trazabilidad completa y la integridad del producto en cada etapa del proceso logístico.
 
-MoviGestion proporciona una solución completa que cubre todas las necesidades de gestión de transporte de una empresa. Nuestra plataforma centralizada y fácil de usar permite a los usuarios supervisar y optimizar sus operaciones de transporte, convirtiéndose en una herramienta invaluable para mejorar la eficiencia y el rendimiento en este sector.
+Además, ofrecemos un modelo freemium escalable, ideal para empresas que deseen comenzar a digitalizar sus operaciones con la posibilidad de crecer según sus necesidades. Nuestro enfoque dual –administradores y conductores– garantiza que cada usuario cuente con herramientas especializadas y eficientes adaptadas a su rol en la operación.
 
-**Misión:** En MoviGestion, nuestra misión es proporcionar una solución tecnológica integral que simplifique y optimice la gestión de flotas de transporte. Nos comprometemos a ofrecer herramientas innovadoras y servicios de alta calidad que ayuden a nuestros usuarios a mejorar la eficiencia operativa, reducir costos y garantizar la satisfacción del cliente. 
+**Misión**: Proporcionar a las empresas de trasnporte una solución tecnológica integral e inteligente que optimice la gestión de flotas, garantice la integridad de la carga mediante el monitoreo activo y la telemetría avanzada, y mejore la eficiencia operativa y la rentabilidad de nuestros clientes.
 
-**Visión:** Aspiramos a ser la plataforma líder en gestión de transporte empresarial, reconocida como un socio confiable y valioso para nuestros clientes. Nuestra visión es transformar la industria del transporte proporcionando soluciones avanzadas que impulsen el crecimiento y el éxito de las empresas, contribuyendo así al desarrollo sostenible y la eficiencia en la logística a nivel global.
+**Visión**: Ser la platafoma líder y el socio tecnológico preferido para la gestión inteligente de flotas, impulsando la transformación digital del sector transporte a través de la innovación continua en IoT y análisis de datos para un futuro logístico más eficiente, seguro y sostenible.
 
 ### 1.1.2 Perfiles de integrantes del equipo
 | Integrante | Piero Abel Tarazona Medina |
