@@ -16,7 +16,7 @@ En esta sección, los eventos identificados previamente, son agrupados en subgru
 ![Paso2](/assets/chapter04/timelines.png)
 
 **Paso 3: Paint Points**
-Durante esta fase, identificamos puntos problemáticos o (Pair Points) que son áreas donde los usuarios pueden tener dificultades al momento de realizar una respectiva funcionalidad en la aplicación. Estos puntos son importantes para mejorar la experiencia de usuario e implementar una aplicación eficiente
+Durante esta fase, identificamos puntos problemáticos o (Paint Points) que son áreas donde los usuarios pueden tener dificultades al momento de realizar una respectiva funcionalidad en la aplicación. Estos puntos son importantes para mejorar la experiencia de usuario e implementar una aplicación eficiente
 
 ![Paso3](/assets/chapter04/paint_points.png)
 
@@ -53,23 +53,35 @@ En este último paso, agrupamos los eventos y comandos que pertenecen a un agreg
 #### 4.1.1.1 Candidate Context Discovery
 Nuestro equipo decidió usar la técnica “start-with-simple” ya que empezamos a observar que esta técnica se enfoca en identificar partes del sistema que claramente pertenecen juntas desde el punto de vista funcional, de usuario o de infraestructura. Ideal para sistemas bien entendidos
 
-Hemos identificado 4 Bounded Context.
+Hemos identificado 7 Bounded Context.
+
+- Subscription & Payments:
+
+![Subscription & Payments](/assets/chapter04/Subscription%20&%20Payments.png)
 
 - IAM:
 
 ![IAM](/assets/chapter04/IAM.png)
 
+- Profile Management:
+
+![Profile Management](/assets/chapter04/Profile%20Management.png)
+
 - Vehicles & Tracking:
 
-![Vehicles & Tracking](/assets/chapter04/vehicles_tracking.png)
+![Vehicles & Tracking](/assets/chapter04/Vehicles%20&%20Tracking.png)
 
 - Shipment:
 
-![Shipment](/assets/chapter04/shipment.png)
+![Shipment](/assets/chapter04/Shipment.png)
 
 - Analytics:
 
-![Analytics](/assets/chapter04/analytics.png)
+![Analytics](/assets/chapter04/Analytics.png)
+
+- Issues:
+
+![Issues](/assets/chapter04/Issues.png)
 
 Link de Lucidchart:
 https://lucid.app/lucidchart/c3a56cf0-cb3f-4aa2-a9fb-b84400e5ec12/edit?viewport_loc=-11645%2C-2705%2C13687%2C7929%2C0_0&invitationId=inv_c09779ac-741d-4f3e-9d56-15a2f9117ad9
