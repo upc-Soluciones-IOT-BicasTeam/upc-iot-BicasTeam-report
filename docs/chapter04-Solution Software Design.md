@@ -546,10 +546,10 @@ En la capa de Infrastructure Layer, se encuentran los repositorios que permiten 
 ![Component Level Diagrams IAM](/assets/chapter04/structurizr-MobileAppPresentationFocusView.png)
 
 ##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams IAM]()
+![Bounded Context Domain Layer Class Diagrams IAM](/assets/chapter04/ClassDiagramas/ClassDiagram_IAM.png)
 
 ##### 4.2.1.6.2 Bounded Context Database Design Diagram
-![Bounded Context Database Design Diagram IAM]()
+![Bounded Context Database Design Diagram IAM](/assets/chapter04/ERDiagrams/ERDiagram_IAM.png)
 
 ### 4.2.2 Bounded Context: Vehicles & Tracking
 Este bounded context centraliza la gestión de los vehículos de la flota, sus características, rutas asignadas, informes de infracciones y reportes de velocidad mediante geolocalización en tiempo real, asegurando el monitoreo y control de las unidades.
@@ -872,10 +872,10 @@ Ruta
 #### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams V&T]()
+![Bounded Context Domain Layer Class Diagrams V&T](/assets/chapter04/ClassDiagramas/ClassDiagram_Vehicle&Tracking.png)
 
 ##### 4.2.2.6.2 Bounded Context Database Design Diagram
-![Bounded Context Database Design Diagram V&T]()
+![Bounded Context Database Design Diagram V&T](/assets/chapter04/ERDiagrams/ERDiagram_Vehicle&Tracking.png)
 
 ### 4.2.3 Bounded Context: Shipment
 El bounded context de envíos gestiona el seguimiento de paquetes, asignaciones de transporte, costos asociados y destinos de entrega, permitiendo una trazabilidad eficiente de la carga dentro del sistema.
@@ -1180,10 +1180,10 @@ El bounded context de envíos gestiona el seguimiento de paquetes, asignaciones 
 #### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams Shipment]()
+![Bounded Context Domain Layer Class Diagrams Shipment](/assets/chapter04/ClassDiagramas/ClassDiagram_Shipment.png)
 
 ##### 4.2.3.6.2 Bounded Context Database Design Diagram
-![Bounded Context Database Design Diagram Shipment]()
+![Bounded Context Database Design Diagram Shipment](/assets/chapter04/ERDiagrams/ERDiagram_Shipment.png)
 
 ### 4.2.4 Bounded Context: Analytics
 Este bounded context procesa, analiza y genera reportes basados en los datos de operación, como desempeño de los vehículos, incidentes, patrones de velocidad y envíos, proporcionando métricas e insights valiosos para la toma de decisiones. Se incluyen estadísticas visuales según estado de sensores y datos históricos por conductor.
@@ -1336,3 +1336,217 @@ Implementaciones técnicas que permiten el acceso a datos, conectividad y persis
 
 ##### 4.2.4.6.2 Bounded Context Database Design Diagram
 ![Bounded Context Database Design Diagram Analytics](/assets/chapter04/ERDiagrams/ERDiagram_Analytics.png)
+
+### 4.2.5 Bounded Context: Subscription and Payments
+Este bounded context gestiona los pagos de suscripción realizados por los gerentes, su validación por parte de los administradores, y el control del estado de la suscripción (Pendiente, Aceptado, Denegado). También se encarga del almacenamiento seguro del comprobante de pago.
+
+#### 4.2.5.1 Domain Layer
+Contiene la lógica de negocio pura y las entidades principales relacionadas al flujo de suscripción y validación de pago.
+
+**Aggregate 1: UserSubscription**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| UserSubscription | Entity | Representa una suscripción activa de un usuario a un plan, incluyendo sus fechas de vigencia, método de pago y estado. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | UUID | Private | Identificador único de la suscripción. |
+| userId | UUID | Private | Identificador del usuario asociado a la suscripción. |
+| startDate | LocalDateTime | Private | Fecha de inicio de la suscripción. |
+| endDate   | LocalDateTime | Private | Fecha de finalización de la suscripción. |
+| status | String | Private | Estado de la suscripción (Activo, Cancelado, etc.). |
+| autoRenew | Boolean | Private | Indica si la suscripción se renueva automáticamente. |
+| paymentMethod | PaymentMethod | Private | Método de pago asociado a la suscripción. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| cancel() | void | Public | Cancela la suscripción. |
+| renew() | void | Public | Renueva la suscripción actual. |
+| isActive() | Boolean | Public | Indica si la suscripción está activa. |
+
+**Agregate 2: SubscriptionPlan**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| SubscriptionPlan | Entity | Define un plan de suscripción disponible, incluyendo su precio, límites y características. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | UUID | Private | Identificador único del plan. |
+| name | String | Private | Nombre del plan. |
+| description | String | Private | Descripción del plan. |
+| features | String | Private | Características incluidas en el plan. |
+| price | Double | Private | Precio del plan. |
+| billingCycle | String | Private | Ciclo de facturación (mensual, anual, etc.). |
+| maxUsers | Int | Private | Número máximo de usuarios permitidos. |
+| maxVehicles | Int | Private | Número máximo de vehículos permitidos. |
+
+**Methods**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| isUpgradable(SubscriptionPlan newPlan) | Boolean | Public |Determina si se puede actualizar al nuevo plan. |
+
+**Aggregate 3: Invoice**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| Invoice | Entity | Representa una factura emitida por la suscripción, que incluye montos, impuestos, fechas y estado. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | UUID | Private | Identificador único de la factura. |
+| invoiceNumber | String | Private | Número de factura. |
+| amount | Double | Private | Monto total de la factura. |
+| taxAmount | Double | Private | Monto correspondiente a impuestos. |
+| issueDate | LocalDateTime | Private | Fecha de emisión de la factura. |
+| dueDate | LocalDateTime | Private | Fecha de vencimiento de la factura. |
+| status | String | Private | Estado de la factura (Pagada, Pendiente, etc.). |
+
+**Methods**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| generatePDF() | byte[] | Public | Genera una versión PDF de la factura. |
+| markAsPaid() | void | Public | Marca la factura como pagada. |
+
+**Aggregate 4: Payment**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| Payment | Entity | Representa un pago realizado por un usuario relacionado a una suscripción o factura. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | UUID | Private | Identificador único del pago. |
+| amount | Double | Private | Monto del pago realizado. |
+| transactionId | String | Private | Código de la transacción asociada. |
+| paymentDate | LocalDateTime | Private | Fecha en que se realizó el pago. |
+| status | String | Private | Estado del pago (Exitoso, Fallido, etc.). |
+
+**Methods**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| refund() | void | Public | Realiza el reembolso del pago. |
+
+**Value Object: PaymentMethod**<br>
+| Nombre | Categoría | Descripción | 
+| --- | --- | ---|
+| PaymentMethod | Value Object | Representa el método de pago utilizado por el usuario (tarjeta). |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción | 
+| --- | --- | --- | --- |
+| cardLastFourDigits | String | Private | Últimos cuatro dígitos de la tarjeta de pago. |
+| cardBrand | String | Private  Marca de la tarjeta (Visa, Mastercard, etc.). |
+| expiryDate | LocalDateTime | Private | Fecha de vencimiento de la tarjeta. |
+
+**Methods**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| isExpired() | Boolean | Public | Verifica si el método de pago está vencido. |
+
+#### 4.2.5.2 Interface Layer
+Esta capa se encarga de recibir solicitudes externas (REST), validar los datos de entrada y delegar la lógica a la capa de aplicación.
+
+**Controller 1: SubscriptionController**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| SubscriptionController | Controller | Controlador que gestiona la creación y consulta de solicitudes de suscripción. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| subscriptionService | SubscriptionAppService | Private | Servicio de aplicación que maneja lógica de suscripciones. |
+
+**Endpoints**<br>
+| Ruta | Método | Descripción |
+| --- | --- | --- |
+| /subscription/upload | POST | Permite al gerente enviar el comprobante de pago. |
+| /subscription/status | GET | Retorna el estado actual de la suscripción del gerente. |
+
+**Controller 2: AdminSubscriptionController**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| AdminSubscriptionController | Controller | Controlador que permite a un administrador aceptar o rechazar suscripciones. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| subscriptionService | SubscriptionAppService | Private | Servicio de aplicación encargado de validar suscripciones. |
+
+**Endpoints**<br>
+| Ruta | Método | Descripción |
+| --- | --- | --- |
+| /admin/subscription/{id}/accept | POST | Acepta una solicitud de suscripción. |
+| /admin/subscription/{id}/reject | POST | Rechaza una solicitud de suscripción. |
+
+**DTOs**<br>
+**Request DTOs**<br>
+| Nombre | Descripción |
+| --- | --- |
+| UploadPaymentRequestDTO | Contiene los datos del gerente y el archivo con el comprobante. |
+
+**Response DTOs**<br>
+| Nombre | Descripción |
+| --- | --- |
+| SubscriptionStatusResponseDTO | Indica el estado actual de la suscripción (Pendiente, Aceptado, Denegado). |
+
+#### 4.2.5.3 Application Layer
+Contiene la lógica de orquestación de los casos de uso, acceso a repositorios y coordinación de acciones entre capas.
+
+**Service: SubscriptionAppService**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| SubscriptionAppService | Service | Maneja los casos de uso de suscripción: subida, validación y consulta. |
+
+**Dependencies**<br>
+| Nombre | Tipo de objeto | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| subscriptionRepository | SubscriptionRepository | Private | Repositorio de acceso a suscripciones. |
+| paymentImageStorage | PaymentImageStorage | Private | Servicio técnico para almacenamiento del comprobante. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| uploadPaymentReceipt() | UUID | Public | Registra una nueva solicitud de suscripción. |
+| viewSubscriptionStatus() | EstadoSuscripcionResponseDto | Public | Devuelve el estado de la suscripción actual del gerente. |
+| approveSubscription() | Void | Public | Cambia el estado de una suscripción a "Aceptado". |
+| rejectSubscription() | Void | Public | Cambia el estado a "Denegado". |
+
+#### 4.2.5.4 Infrastructure Layer
+Proporciona implementaciones concretas de persistencia y almacenamiento externo (imágenes, documentos).
+
+**SubscriptionRepositoryImpl**<br>
+| Nombre | Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| SubscriptionRepositoryImpl | Repository | SubscriptionRepository | Implementación de acceso a base de datos para solicitudes de suscripción. |
+
+**Funcionalidades clave:**<br>
+- Busca suscripciones por ID o por ID del gerente.
+- Guarda (crea o actualiza) una suscripción.
+- Filtra suscripciones por estado (Pendiente, Aceptado, Denegado).
+- Verifica si un gerente ya tiene una suscripción activa o pendiente.
+
+**PaymentImageStorageImpl**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| PaymentImageStorageImpl | Storage | Implementación de almacenamiento de imágenes. |
+
+**Funcionalidades clave:**<br>
+- Guarda imágenes de comprobantes de pago en un repositorio externo o local.
+- Recupera la imagen correspondiente a una suscripción.
+- Elimina imágenes asociadas a suscripciones canceladas o rechazadas.
+- Verifica si una imagen ya fue almacenada.
+
+#### 4.2.5.5 Bounded Context Software Architecture Component Level Diagrams
+![Component Level Diagrams Subscription and Payments]()
+
+#### 4.2.5.6 Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
+![Bounded Context Domain Layer Class Diagrams Subscription and Payments](/assets/chapter04/ClassDiagramas/ClassDiagram_Subscription&Payment.png)
+
+##### 4.2.5.6.2 Bounded Context Database Design Diagram
+![Bounded Context Database Design Diagram Subscription and Payments](/assets/chapter04/ERDiagrams/ERDiagram_Subscription&Payment.png)
+
