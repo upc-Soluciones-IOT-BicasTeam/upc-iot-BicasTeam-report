@@ -89,17 +89,27 @@ https://lucid.app/lucidchart/c3a56cf0-cb3f-4aa2-a9fb-b84400e5ec12/edit?viewport_
 #### 4.1.1.2 Domain Message Flows Modeling
 En esta sección, se describe el proceso utilizado para visualizar la interacción entre los diferentes bounded contexts que conforman el sistema. El objetivo principal es entender cómo estos contextos colaboran para resolver los casos de uso del negocio y satisfacer las necesidades de los usuarios. Para lograr esto, se aplicó la técnica de Domain Storytelling, que facilita la representación gráfica de los flujos de mensajes entre actores, contextos y sistemas, permitiendo identificar claramente las responsabilidades y los puntos de comunicación entre cada componente del dominio
 
-- IAM -> Vehicles & Tracking
+- Subscription & Payments ->  IAM/Profile/Vehicle&Tracking
 
-![IAM -> Vehicles & Tracking](/assets/chapter04/IAM_to_vehicles_tracking.png)
+![Subscription&Payments->IAM/Profile/Vehicle&Tracking](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Subscription%20&%20Payments%20-%20IAM_Profile_Vehicle&Tracking.jpg)
 
-- IAM -> Analytics
+- Vehicles & Tracking -> Analytics
 
-![IAM -> Analytics](/assets/chapter04/IAM_to_analytics.png)
+![Vehicles&Tracking->Analytics](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Vehicles%20&%20Tracking%20-%20Analytics.jpg)
 
-- IAM -> Shipment
+- Shipment -> Analytics
 
-![IAM -> Shipment](/assets/chapter04/IAM_to_shipment.png)
+![Shipment->Analytics](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Shipment%20-%20Analytics.jpg)
+
+- Issues -> Analytics
+
+![Issues->Analytics](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Issues%20-%20Analytics.jpg)
+
+- Iam -> Profile Management
+
+![Iam->Profile Management](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Iam%20-%20Profile%20Management.jpg)
+
+Link de Miro: https://miro.com/app/board/uXjVI29fWHU=/?share_link_id=695205462333
 
 #### 4.1.1.3 Bounded Context Canvases
 En esta parte del documento se describen las acciones realizadas por el equipo para estructurar los bounded contexts que fueron reconocidos a lo largo del proceso. El desarrollo de estos contextos fue llevado a cabo de forma iterativa, garantizando que cada uno representa fielmente los principios de diseño y el conocimiento del dominio. Para cada bounded context, se llevaron a cabo los siguientes pasos principales:
