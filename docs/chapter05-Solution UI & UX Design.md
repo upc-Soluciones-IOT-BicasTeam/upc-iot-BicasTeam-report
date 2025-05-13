@@ -160,7 +160,17 @@ Estas acciones y técnicas contribuyen a una experiencia de usuario fluida y sat
  ## 5.3 Landing Page UI Design
  ### 5.3.1 Landing Page Wireframes
 
+La landing page consta de 6 secciones, sin incluir el navbar y el footer. La sección principal es un hero con el objetivo de captar la atención del usuario y motivarlo a seguir navegando. A continuación, se encuentran "about us" y "about team", donde se describen los beneficios de la web y se presentan los miembros del equipo. En la sección de "services", se pueden ver las características y funcionalidades principales de la web. Finalmente, en las secciones de "pricing" y "contact us" se describe el plan de pago y se muestra un formulario para que el usuario se ponga en contacto con nosotros.
+![Landing page Wireframe HomePage](/assets/chapter04/wireframe-Homepage.jpg)
+
+![Landing page Wireframe error 404](/assets/chapter04/wireframe-404-Page%20.jpg)
+
  ### 5.3.2 Landing Page Mock-up
+
+El mockup siguió el orden establecido previamente tanto para el Desktop Web Browser como para el Mobile Web Browser. Se priorizó el uso de una paleta de grises que se ajustara al sector del transporte con el que trabajamos, resaltando el color amarillo para fluir entre las transiciones. Además, se utilizó la tipografía Open Sans para mantener una apariencia limpia y elegante. Estos detalles se pueden encontrar en las referencias.
+![Landing page mock up HomePage](/assets/chapter04/mockup-homepage.jpg)
+
+![Landing page mock up error 404](/assets/chapter04/mockup-404-Page.jpg)
 
  ## 5.4 Applications UX/UI Design
  ### 5.4.1 Applications Wireflow  
