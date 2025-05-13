@@ -119,6 +119,82 @@ Con estas guías de estilo y convenciones de codificación, buscamos asegurar la
  #### 6.2.1.7 Services Documentation Evidence for Sprint Review
  #### 6.2.1.8 Software Deployment Evidence for Sprint Review
  #### 6.2.1.9 Team Collaboration Insights during Sprint
+### 6.2.2 Sprint 2
+  En esta sección, comentaremos y explicaremos el progreso tanto en el desarrollo del producto como en la colaboración del equipo durante el Sprint 2. Seguimos un proceso definido que abarca desde la planificación hasta la revisión y documentación del trabajo realizado. A lo largo de las siguientes secciones, detallaremos cómo se llevó a cabo la planificación del sprint, qué tareas se incluyeron en el Sprint Backlog, las pruebas y evidencia de desarrollo para la revisión del sprint, así como la documentación de los servicios y las percepciones clave sobre la colaboración del equipo durante este periodo.
+  
+ #### 6.2.2.1 Sprint Planning 2
+ <table>
+	<tbody>
+		<tr>
+			<td>Sprint #</td>
+			<td>Sprint 2</td>
+		</tr>
+		<tr>
+			<td colspan="2">Sprint Planning Background</td>
+		</tr>
+		<tr>
+			<td>Date</td>
+			<td>2025-05-04</td>
+		</tr>
+		<tr>
+			<td>Time</td>
+			<td>07:06 PM</td>
+		</tr>
+		<tr>
+			<td>Location</td>
+			<td>Google Meet</td>
+		</tr>
+		<tr>
+			<td>Prepared by</td>
+			<td>Huarcaya Chavez, Miguel Alejandro Daniel</td>
+		</tr>
+		<tr>
+			<td>Attendees (to planning meeting)</td>
+			<td>Huarcaya Chavez, Miguel Alejandro Daniel / Torres Espinoza, Elias / Tarazona Medina, Piero Abel / Chacon Martinez, Mauricio Sebastián / Donayre Peña, Moises Rodolfo / Valenzuela Huillcaya, Aldhair Johan Juan</td>
+		</tr>
+		<tr>
+			<td>Sprint 1 Review Summary</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Sprint 1 Retrospective Summary</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td colspan="2">Sprint Goal & User Stories</td>
+		</tr>
+		<tr>
+			<td>Sprint 2 Goal</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Sprint 2 Velocity</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Sum of Story Points</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+ #### 6.2.2.2 Aspect Leaders and Collaborators
+| Team Member | Github Username | IAM | Subscription & Payments | Profile Management | Analytics | Vehicles & Tracking | Shipment | Issues |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Huarcaya, Miguel | MiguelHuarcayaChavez | L | L |  |  |  |  |
+| Torres, Elias | EliasTorresEzpinoza |  |  |  |  |  | L | L |
+| Tarazona, Piero | pierotm |  |  | C | L |  |  |  |
+| Chacon, Mauricio | mxuriciocm |  |  | L | C |  |  |  |
+| Donayre, Moises | MoisesD19 |  |  |  |  | L |  |  |
+| Valenzuela, Aldhair | AldhaValenzuelaH |  |  |  |  | C |  |  |
+
+ #### 6.2.2.3 Sprint Backlog 2
+ #### 6.2.2.4 Development Evidence for Sprint Review
+ #### 6.2.2.5 Testing Suite Evidence for Sprint Review
+ #### 6.2.2.6 Execution Evidence for Sprint Review
+ #### 6.2.2.7 Services Documentation Evidence for Sprint Review
+ #### 6.2.2.8 Software Deployment Evidence for Sprint Review
+ #### 6.2.2.9 Team Collaboration Insights during Sprint
  ## 6.3 Validation Interviews
  ### 6.3.1 Diseño de Entrevistas
  ### 6.3.2 Registro de Entrevistas
