@@ -1550,3 +1550,107 @@ Proporciona implementaciones concretas de persistencia y almacenamiento externo 
 ##### 4.2.5.6.2 Bounded Context Database Design Diagram
 ![Bounded Context Database Design Diagram Subscription and Payments](/assets/chapter04/ERDiagrams/ERDiagram_Subscription&Payment.png)
 
+### 4.2.6 Bounded Context: Issues
+Este bounded context permite a los conductores crear y consultar incidencias relacionados con envíos, rutas, vehículos u otros eventos relevantes. También proporciona acceso a todos los reportes generados dentro de la empresa.
+
+#### 4.2.6.1 Domain Layer
+Contiene la lógica de negocio pura y las entidades principales relacionadas a la creación y consulta de reportes operativos.
+
+**Aggregate 1: Issue**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| Issue | Entity | Representa un reporte generado por un conductor sobre algún incidente o evento. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | UUID | Private | Identificador único del reporte. |
+| type | Enum | Private | Tipo del reporte: envío, ruta, vehículo, otro. |
+| description | String | Private | Descripción del incidente o evento reportado. |
+| createdAt | LocalDateTime | Private | Fecha y hora en que se generó el reporte. |
+| driverId | UUID | Private | Identificador del conductor que generó el reporte. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| createIssue(...) | Issue | Public | Crea una nueva instancia de reporte con validaciones de negocio. |
+| updateescription | Void | Public | Permite modificar la descripción del reporte. |
+| changeType | Void | Public | Cambia la categoría/tipo del reporte. |
+
+#### 4.2.6.2 Interface Layer
+Responsable de la recepción de peticiones externas (REST), validación de entradas y conversión de datos para delegar al Application Layer.
+
+**Controller: IssueController**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| IssueController | Controller | Controlador que gestiona operaciones de creación y consulta de reportes. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| issueService | ReporteApplicationService | Private | Servicio de aplicación encargado de gestionar reportes. |
+
+**Endpoints**<br>
+| Ruta | Método | Descripción |
+| --- | --- | --- |
+| /issues | POST | Permite a un conductor crear un nuevo reporte. |
+| /issues | GET | Devuelve la lista completa o paginada de reportes disponibles. |
+| /issues/{id} | GET | Devuelve el detalle de un reporte específico. |
+
+**DTOs**<br>
+**Request DTOs**<br>
+| Nombre | Descripción |
+| --- | --- |
+| CreateIssueRequestDto | Contiene los campos requeridos para registrar un nuevo reporte. |
+
+**Response DTOs**<br>
+
+| Nombre | Descripción |
+| --- | --- |
+| IssueResponseDto | Representa un reporte completo con todos sus campos. |
+| ListIssuesResponseDto | Contiene una lista de reportes accesibles (completa o paginada). |
+
+#### 4.2.6.3 Application Layer
+Esta capa coordina la lógica de negocio entre las entidades del dominio, infraestructura y casos de uso externos.
+
+**Service: IssueApplicationService**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| IssueApplicationService | Service | Orquesta la creación y recuperación de incidencias desde la interfaz. |
+
+**Dependencies**<br>
+| Nombre | Tipo de objeto | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| issueRepository | IssueRepository | Private | Accede a la base de datos de reportes. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| createIssue | UUID | Public | Crea un nuevo reporte con los datos del conductor. |
+| listIssues | List<IssueResponseDto> | Public | Retorna todos los reportes registrados por el conductor. |
+| getIssueById | ReporteResponseDto | Public | Obtiene los detalles de un reporte específico por su ID. |
+
+#### 4.2.6.4 Infrastructure Layer
+Incluye las implementaciones de acceso a la persistencia y servicios auxiliares utilizados por la capa de aplicación.
+
+| Nombre | Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| IssueRepositoryImpl | Repository | ReporteRepository | Implementación concreta para almacenar y consultar reportes. |
+
+**Funcionalidades clave:**<br>
+- Crea nuevos reportes registrados por conductores.
+- Busca reportes por ID o por ID del conductor.
+- Filtra reportes por tipo (envío, ruta, vehículo, otro).
+- Lista reportes paginados o completos disponibles para el usuario.
+- Actualiza descripciones o tipos de reportes existentes (si aplica políticas de edición).
+
+#### 4.2.6.5 Bounded Context Software Architecture Component Level Diagrams
+![Component Level Diagrams Issues]()
+
+#### 4.2.6.6 Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.6.6.1 Bounded Context Domain Layer Class Diagrams
+![Bounded Context Domain Layer Class Diagrams Issues](/assets/chapter04/ClassDiagramas/ClassDiagram_Issues.png)
+
+##### 4.2.6.6.2 Bounded Context Database Design Diagram
+![Bounded Context Database Design Diagram Issues](/assets/chapter04/ERDiagrams/ERDiagram_Issues.png)
