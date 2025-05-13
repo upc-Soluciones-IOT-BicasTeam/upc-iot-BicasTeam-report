@@ -1184,3 +1184,155 @@ El bounded context de envíos gestiona el seguimiento de paquetes, asignaciones 
 
 ##### 4.2.3.6.2 Bounded Context Database Design Diagram
 ![Bounded Context Database Design Diagram Shipment]()
+
+### 4.2.4 Bounded Context: Analytics
+Este bounded context procesa, analiza y genera reportes basados en los datos de operación, como desempeño de los vehículos, incidentes, patrones de velocidad y envíos, proporcionando métricas e insights valiosos para la toma de decisiones. Se incluyen estadísticas visuales según estado de sensores y datos históricos por conductor.
+
+#### 4.2.4.1 Domain Layer
+Contiene la lógica de negocio pura y las entidades principales relacionadas al análisis y estadísticas de datos operativos, encapsulando comportamiento y reglas relevantes.
+
+**Aggregate 1: VehicleAnalytics**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| VehicleAnalytics | Entity | Representa información sobre las condiciones registradas de un vehículo, como temperatura, humedad y alertas. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| vehicleId | UUID | Private | Identificador del vehículo. |
+| maxTemperatureRecorded | Double | Private | Temperatura máxima registrada. |
+| maxHumidityRecorded | Double | Private | Humedad máxima registrada. |
+| alertsCount | Int | Private | Número de alertas registradas. |
+
+**Methods**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| isInRisk() | Boolean | Public | Determina si el vehículo está en estado de riesgo. |
+
+**Aggregate 2: ShipmentAnalytics**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+|ShipmentAnalytics | Entity | Contiene información analítica sobre la eficiencia de entrega y demoras en los envíos. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| shipmentId | UUID | Private | Identificador del envío. |
+| deliveryDelay | Int | Private | Tiempo de retraso en la entrega (minutos). |
+| routeEfficiency | Double | Private | Índice de eficiencia de ruta. |
+
+**Aggregate 3: DriverAnalytics**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| DriverAnalytics | Entity | Analiza el desempeño histórico de un conductor a partir de sus entregas y reportes generados. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| driverId | UUID | Private | Identificador del conductor. |
+| totalShipments | Int | Private | Número total de envíos realizados. |
+| averageDeliveryTime | Double | Private | Tiempo promedio de entrega. |
+| reportCountByType | Map<ReportType, Integer> | Private | Conteo de reportes agrupados por tipo. |
+
+**Methods**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| calculatePerformanceScore() | Double | Public | Calcula una puntuación global de desempeño del conductor. |
+| getReportByType(type: String) | Int | Public | Devuelve el número de reportes de un tipo específico. |
+
+**Aggregate 4: AnalyticsDoc**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| AnalyticsDoc | Entity | Documento compuesto que consolida información analítica sobre vehículos, envíos y conductores. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- | --- |
+| id | UUID | Private | Identificador único del documento. |
+| createdAt | LocalDateTime | Private | Fecha de creación del documento. |
+
+**Methods**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| generateReport() | Json | Public | Genera un reporte consolidado en formato JSON. |
+| calculateMetrics() | Map<String, Double> | Public | Calcula métricas analíticas clave del documento. |
+
+#### 4.2.4.2 Interface Layer
+Esta capa se encarga de recibir solicitudes externas (API REST), validar datos, transformar objetos y delegar la lógica al Application Layer.
+
+**Controller: AnalyticsController**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| AnalyticsController | Controller | Controlador encargado de exponer los servicios de estadística y análisis. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| analyticsService | AnalyticsApplicationService | Private | Servicio de aplicación para lógica analítica. |
+
+**Endpoints**<br>
+| Ruta | Método | Descripción |
+| --- | --- | --- |
+| /analytics/vehicles | GET | Devuelve el análisis por vehículo. |
+| /analytics/shipments | GET | Devuelve análisis de eficiencia de envíos. |
+| /analytics/drivers | GET | Devuelve desempeño por conductor. |
+| /analytics/report | GET | Genera un documento consolidado de análisis. |
+
+**DTOs**<br>
+**Request DTOs**<br>
+| Nombre | Descripción |
+| --- | --- |
+| StatisticsFilterRequestDTO | Permite filtrar estadísticas por fechas o tipos de reporte. |
+
+**Response DTOs**<br>
+| Nombre | Descripción |
+| --- | --- |
+| VehicleAnalyticsResponseDTO | Contiene datos de riesgo, temperatura y humedad. |
+| ShipmentAnalyticsResponseDTO | Contiene retraso y eficiencia en la entrega. |
+| DriverAnalyticsResponseDTO | Métricas de desempeño y cantidad de reportes. |
+| AnalyticsDocResponseDTO | Reporte analítico consolidado. |
+
+#### 4.2.4.3 Application Layer
+Contiene los casos de uso que orquestan operaciones del dominio, infraestructura y servicios externos.
+
+**Service: AnalyticsApplicationService**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| AnalyticsApplicationService | Service | Servicio que coordina la lógica de agregación y análisis de datos. |
+
+**Dependencies**<br>
+| Nombre | Tipo de objeto | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| statisticsRepository | StatisticsRepository | Private | Fuente de datos agregados de reportes, envíos y sensores. |
+
+**Methods**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| getVehicleAnalytics() | List<VehicleAnalytics> | Public | Devuelve métricas por vehículo. |
+| getShipmentAnalytics() | List<ShipmentAnalytics> | Public | Devuelve métricas de envíos. |
+|getDriverAnalytics() | List<DriverAnalytics> | Public | Devuelve métricas de conductores. |
+| generateAnalyticsDoc() | AnalyticsDoc | Public | Devuelve el documento de análisis general. |
+
+#### 4.2.4.4 Infrastructure Layer
+Implementaciones técnicas que permiten el acceso a datos, conectividad y persistencia.
+
+**StatisticsRepositoryImpl**<br>
+| Nombre | Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| StatisticsRepositoryImpl | Repository | StatisticsRepository | Implementación que consulta microservicios de reportes, envíos y datos de sensores. |
+
+**Funcionalidades clave:**<br>
+- Recupera estadísticas de envíos, incluyendo tiempos de entrega y eficiencia de ruta.
+- Obtiene datos de sensores de vehículos (temperatura, humedad, alertas).
+- Filtra estadísticas por tipo de evento, fechas, zona geográfica, vehículo o conductor.
+
+#### 4.2.4.5 Bounded Context Software Architecture Component Level Diagrams
+![Component Level Diagrams Analytics]()
+
+#### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams
+![Bounded Context Domain Layer Class Diagrams Analytics](/assets/chapter04/ClassDiagramas/ClassDiagram_Analytics.png)
+
+##### 4.2.4.6.2 Bounded Context Database Design Diagram
+![Bounded Context Database Design Diagram Analytics](/assets/chapter04/ERDiagrams/ERDiagram_Analytics.png)
