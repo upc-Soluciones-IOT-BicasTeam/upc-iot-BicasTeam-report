@@ -253,6 +253,50 @@ El mockup siguió el orden establecido previamente tanto para el Desktop Web Bro
  Link para poder visualizar los Wireflows de la Web Application para el user: https://lucid.app/lucidchart/1f6692d9-3b14-4001-ac35-fbedf04a2da4/edit?invitationId=inv_4f4ae93b-0ecc-4157-9d36-e4e5a291ae3d 
 
  Link para poder visualizar los Wireflows de la Web Application para el manager: https://lucid.app/lucidchart/76446f03-d3c3-4793-828f-dad5c98f0f2b/edit?viewport_loc=-3642%2C-4338%2C16474%2C7896%2C0_0&invitationId=inv_5bf335c8-6553-4938-813b-5a175c51eb83 
+
+ **Mobile Wireflows**
+
+ **User goal**: Como usuario, deseo crear una cuenta para registrarme dentro de la aplicación.
+
+  ![Wireflow usergoal 1](/assets/chapter05/WireflowMovil1.png)
+
+  El usuario entra a la aplicación, al ser nuevo, da click en registrarse, lo que lo manda a otra pantalla donde llena un formulario con sus datos, confirma que se quiere registrar y lo dirijira a una pantalla con la confirmación de que se registro, pudiendo dar click en el botón de regresar a la pantalla principal para iniciar sesión.
+
+  **User goal**: Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación.
+
+  ![Wireflow usergoal 2](/assets/chapter05/WireflowMovil2.png)
+
+  El usuario abre la aplicación y ya registrado, inserta sus datos en los campos y le da click al botón de registrar, al darle click lo mandara a la pantalla principal de la aplicación
+
+  **User goal**: Como transportista, deseo ver los envíos que me han sido asignados, con sus detalles de destino, para organizar mi día de trabajo.
+
+  ![Wireflow usergoal 3](/assets/chapter05/WireflowMovil3.png)
+
+  El transportista selecciona la sección de envios y se muestra una lista de todos los envios asignados al tranportista.
+
+  **User goal**: Como transportista, deseo reportar infracciones vehiculares ocurri­das en ruta para que mi gerente pueda gestionar las acciones correctivas.
+
+  ![Wireflow usergoal 4](/assets/chapter05/WireflowMovil4.png)
+
+  El transportista selecciona la sección de reportes, en donde le aparecerá la lista de reportes realizados, presionará el botón para crear un nuevo reporte donde podrá seleccionar el tipo de reporte y por ultimo llenar los campos para crear el reporte.
+
+  **User goal**: Como transportista, deseo visualizar el historial de mis reportes para consultar mis incidencias previas.
+
+  ![Wireflow usergoal 5](/assets/chapter05/WireflowMovil5.png)
+
+  El transportista selecciona la sección de reportes y al entrar a la sección le aparecerán la lista de reportes que ha creado.
+
+  **User goal**: Como transportista, deseo ver la temperatura y humedad de mi vehículo para asegurar que las condiciones internas son adecuadas.
+
+  ![Wireflow usergoal 6](/assets/chapter05/WireflowMovil6.png)
+
+  El tranportista selecciona la sección de vehiculo, en donde se le mostrará la información del vehiculo y las condiciones internas de la carga.
+
+  **User goal**: Como transportista, deseo acceder a mi dashboard personal con métricas como cantidad de paquetes entregados y número de reportes realizados para conocer mi desempeño.
+
+  ![Wireflow usergoal 7](/assets/chapter05/WireflowMovil6.png)
+
+  El tranportista selecciona la sección del perfil, en donde se le mostrará algunas estadisticas como la cantidad de envios y reportes realizados.
  
  ### 5.4.3 Applications Mock-ups
  ### 5.4.4 Applications User Flow Diagrams
