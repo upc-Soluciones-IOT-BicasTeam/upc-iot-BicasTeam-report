@@ -191,11 +191,11 @@ El diagrama de contexto muestra cómo se conecta la plataforma MoviGestión con 
 
 #### 4.1.3.3 Software Architecture Container Level Diagrams
 El diagrama de contenedores de MoviGestión muestra una única aplicación monolítica compuesta por dos front-ends —la aplicación web Angular para gerentes y la aplicación móvil Flutter para conductores— que consumen la API REST del Backend en Spring Boot, el cual centraliza toda la lógica de negocio, orquesta las comunicaciones con los sensores IoT vehiculares (telemetría de ubicación, temperatura y humedad) y la Google Maps API, y persiste los datos en una base de datos relacional en Azure SQL, mientras que cada unidad vehicular mantiene localmente un SQLite para almacenar temporalmente la telemetría.
-![Software Architecture Container Level Diagrams](/assets/chapter04/structurizr-Container%20vf.png)
+![Software Architecture Container Level Diagrams](/assets/chapter04/structurizr-Container-001%20(6).png)
 
 #### 4.1.3.4 Software Architecture Deployment Diagrams
 El diagrama de despliegue muestra cómo el sistema MoviGestión opera en producción: el gerente accede desde su navegador web (Chrome, Firefox, Safari o Edge) y tanto él como el conductor utilizan la aplicación móvil (Flutter/Dart) en Android; ambas interfaces consumen los servicios REST de la API Backend (Java/Spring Boot) desplegada en un Azure App Service, que a su vez lee y escribe datos en una Azure SQL Database (usuarios, vehículos, rutas y telemetría) y procesa las llamadas HTTPS/JSON provenientes de los sistemas externos de GPS Telemática y de los sensores IoT de temperatura, humedad y mapas integrados en el hardware a bordo.
-![Software Architecture Deployment Diagrams](/assets/chapter04/structurizr-Deployment-001%20(4).png)
+![Software Architecture Deployment Diagrams](/assets/chapter04/structurizr-LiveDeployment%20(1).png)
 
 ## 4.2 Tactical-Level Domain-Driven Design
 ### 4.2.1 Bounded Context: IAM
