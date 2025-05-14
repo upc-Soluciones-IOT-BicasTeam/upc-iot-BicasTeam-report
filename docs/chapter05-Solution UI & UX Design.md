@@ -173,11 +173,16 @@ El mockup siguió el orden establecido previamente tanto para el Desktop Web Bro
 ![Landing page mock up error 404](/assets/chapter04/mockup-404-Page.jpg)
 
  ## 5.4 Applications UX/UI Design
- ### 5.4.1 Applications Wireflow  
+ ### 5.4.1 Applications Wireframes  
+
+
+ 
+ 
+ ### 5.4.2 Applications Wireflow Diagrams
 
  En esta sección se presentan los flujos de navegación entre pantallas de la aplicación, destacando las interacciones del usuario con los elementos disponibles en cada vista. Se detallan las transiciones y cambios de estado que ocurren como resultado de sus acciones dentro de la interfaz.
 
- **Web Application Wireflows**
+ **Web Application Wireflows Diagrams**
  
  **User goal**: Como usuario, deseo crear una cuenta para registrarme dentro de la aplicación.
  
@@ -249,8 +254,77 @@ El mockup siguió el orden establecido previamente tanto para el Desktop Web Bro
 
  Link para poder visualizar los Wireflows de la Web Application para el manager: https://lucid.app/lucidchart/76446f03-d3c3-4793-828f-dad5c98f0f2b/edit?viewport_loc=-3642%2C-4338%2C16474%2C7896%2C0_0&invitationId=inv_5bf335c8-6553-4938-813b-5a175c51eb83 
  
- 
- ### 5.4.2 Applications Wireflow Diagrams
  ### 5.4.3 Applications Mock-ups
  ### 5.4.4 Applications User Flow Diagrams
+
+**Web Application User Flows Diagrams**
+ 
+ **User goal**: Como usuario, deseo crear una cuenta para registrarme dentro de la aplicación.
+ 
+ ![Wirefow usergoal 1](/assets/chapter05/Userflows/Userflow1.png)
+ 
+ El usuario accede a la pantalla inicial de la aplicación y selecciona su rol. Luego, completa un formulario con datos como nombre, correo electrónico y contraseña; también acepta nuestros términos y condiciones. Al confirmar, se valida la  información y se muestra una pantalla de éxito o se indican los errores (por ejemplo, si el correo ya está registrado). El usuario puede entonces continuar al inicio de sesión.
+
+ **User goal**: Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación.
+ 
+ ![Wirefow usergoal 2](/assets/chapter05/Userflows/Userflow2.png)
+
+ El usuario abre la aplicación y accede a la pantalla de inicio de sesión. Ingresa sus credenciales (correo y contraseña) y presiona "Ingresar". Si los datos son correctos, el sistema redirige al panel principal correspondiente. En caso de error, se muestra un mensaje indicando credenciales inválidas.
+
+ **User goal**: Como gerente, deseo registrar un envío en la plataforma para dejar constancia de cada nueva orden de transporte.
+ 
+ ![Wirefow usergoal 3](/assets/chapter05/Userflows/Userflow3.png)
+
+ El gerente accede al módulo de envíos desde el menú principal. Selecciona "Nuevo envío" y se presenta un formulario donde introduce datos como conductor asignado, descripción, tiempo y fecha estimada. Al guardar, el sistema confirma el registro y actualiza la lista de envíos.
+
+ **User goal**: Como gerente, deseo asignar envíos a mis transportistas para distribuir eficientemente las cargas.
+ 
+ ![Wirefow usergoal 4](/assets/chapter05/Userflows/Userflow4.png)
+
+ Desde el formulario de registro de envío, el gerente selecciona tiene la opción de "Asignar transportista". Ingresa el nombre del transportista disponible. Al seleccionarlo, el sistema actualiza el estado del envío y lo vincula al transportista elegido.
+
+ **User goal**: Como gerente, deseo asignar flotas a mis transportistas para que cada unidad quede correctamente emparejada con su operador.
+ 
+ ![Wirefow usergoal 5](/assets/chapter05/Userflows/Userflow5.png)
+
+ El gerente entra al módulo de vehículos y al crear un vehículo tiene la opción de "Asignar flota". Aparece una lista de transportistas disponibles y se selecciona a uno. Luego, se confirma la asignación, reflejándose en el sistema la asociación entre vehículo y conductor.
+
+ **User goal**: Como gerente, deseo añadir nuevas flotas (vehículos) a mi inventario para mantener un control activo de cada unidad.
+ 
+ ![Wirefow usergoal 6](/assets/chapter05/Userflows/Userflow6.png)
+
+ Desde el módulo de flotas, el gerente accede a la opción "Agregar vehículo". Se muestra un formulario donde se ingresan datos del vehículo (placa, modelo, conductor). Una vez completado, el vehículo se registra y aparece en el inventario.
+
+ **User goal**: Como gerente, deseo registrar nuevos conductores en el sistema para que puedan empezar a operar en la plataforma.
+ 
+ ![Wirefow usergoal 7](/assets/chapter05/Userflows/Userflow7.png)
+
+ En la sección de conductores, el gerente selecciona "Agregar nuevo conductor". Se despliega un formulario donde ingresa nombre, documento, licencia y otros datos relevantes. Tras validar, el nuevo conductor queda registrado y visible en el sistema.
+
+ **User goal**: Como gerente, deseo visualizar el historial completo de envíos (fecha, origen, destino, estado) para medir el desempeño global.
+ 
+ ![Wirefow usergoal 8](/assets/chapter05/Userflows/Userflow8.png)
+
+ El gerente accede al módulo de historial desde el panel principal. Se presenta una tabla con todos los envíos registrados, con filtros por fecha, estado, origen y destino. Cada fila permite ver detalles del envío, como transportista asignado, descripción y destino.
+
+ **User goal**: Como gerente, deseo monitorear en tiempo real la ubicación, temperatura y humedad de cada vehículo para asegurar condiciones óptimas de transporte.
+ 
+ ![Wirefow usergoal 9](/assets/chapter05/Userflows/Userflow9.png)
+
+ Desde el panel de vehículos, el gerente selecciona el vehículo del cual quiere la información. Lo redirige a otra pestaña donde se podrá ver los datos del vehículo junto a la temperatura y humedad dentro del vehículo. Al hacer click en GPS, accede a un mapa interactivo donde se visualiza la ubicación en tiempo real de dicha unidad. 
+
+ **User goal**: Como gerente, deseo ver los reportes realizados por los transportistas para tomar decisiones estratégicas.
+ 
+ ![Wirefow usergoal 10](/assets/chapter05/Userflows/Userflow10.png)
+
+ En la sección de reportes, el gerente ve una lista cronológica de reportes enviados por transportistas. Al hacer clic en uno, se despliega la información del incidente (tipo, descripción, ubicación, fecha).
+
+ **User goal**: Como gerente, deseo ver estadísticas globales de todos los transportistas para evaluar el rendimiento general de mi flota.
+ 
+ ![Wirefow usergoal 11](/assets/chapter05/Userflows/Userflow11.png)
+
+ El gerente accede al módulo de estadísticas, donde se muestran opciones para poder visualizar las estadísticas de reportes, envíos y vehículos. AL hacer click en uno de ellos, se muestran estadísticas básicas de cada asección, como recuento de reportes, recuento de envíos y promedio de temperatura dentro del vehículo.
+
+ Link para poder visualizar los User Flows Diagrams de la Web Application: [https://lucid.app/lucidchart/76446f03-d3c3-4793-828f-dad5c98f0f2b/edit?viewport_loc=-3642%2C-4338%2C16474%2C7896%2C0_0&invitationId=inv_5bf335c8-6553-4938-813b-5a175c51eb83](https://overflow.io/s/TXTG3C91) 
+ 
  ## 5.5 Applications Prototyping
