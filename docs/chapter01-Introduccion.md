@@ -65,46 +65,37 @@ Utilizaremos la técnica de las 5W y 2Hs para desglosar el problema y entenderlo
 
 #### 1.2.2.1 Lean UX Problem Statements
 
-MoviGestión fue diseñada para optimizar la gestión de flotas de transporte mediante una plataforma web y una aplicación móvil que permita a gerentes y conductores gestionar envíos, monitorear condiciones ambientales y mejorar la eficiencia operativa.
-Hemos observado que muchas empresas de transporte en Perú aún no han adoptado tecnologías avanzadas de monitoreo en tiempo real, lo que provoca ineficiencias operativas y mayores costos. Por ejemplo, en 2023, la Cámara de Comercio de Lima reportó que las pérdidas por robos y la ineficiencia en las rutas logísticas superaron los 70 millones de dólares, destacando la necesidad de implementar tecnologías como la telemetría y el GPS para mitigar riesgos y mejorar la seguridad en la cadena de suministro.(Cámara de Comercio de Lima, reportado por Business Empresarial, 2023). 
-Actualmente, solo un porcentaje limitado de envíos se gestionan con datos precisos en tiempo real sobre la temperatura y humedad, lo que limita la capacidad de tomar decisiones informadas a tiempo.
-¿Cómo podemos mejorar la visibilidad y el control de las condiciones ambientales en tiempo real para aumentar en un 15% la eficiencia operativa de las flotas durante los próximos seis meses?
+El estado actual del sector de gestión de flotas y logística en el Perú se basa principalmente en procesos tradicionales, manuales y sistemas fragmentados. La mayoría de las empresas de transporte pequeñas y medianas aún dependen de herramientas básicas como el GPS o registros en papel para gestionar sus envíos, lo que limita la visibilidad en tiempo real sobre el estado de los vehículos, las condiciones de la carga y la eficiencia de las rutas.
+Lo que los productos o servicios existentes no logran resolver es la integración de monitoreo ambiental en tiempo real (temperatura, humedad), coordinación con los conductores y la toma de decisiones basada en datos, todo dentro de una solución accesible, simple y adaptada a las necesidades reales del mercado local. Las soluciones actuales suelen ser costosas, complejas o poco prácticas para empresas de menor escala.
+Nuestro producto/servicio abordará esta brecha mediante una plataforma integrada que combina un panel web, una aplicación móvil y dispositivos IoT, permitiendo a las empresas de transporte monitorear en tiempo real la ubicación de sus vehículos, las condiciones de la carga y el comportamiento de los conductores. Con esta información, podrán reducir pérdidas, mejorar la seguridad y optimizar su operación logística a través de alertas inteligentes y datos accionables.
+Nuestro enfoque inicial será atender a las pequeñas y medianas empresas de transporte en Perú que desean comenzar a digitalizar sus operaciones, pero que no cuentan con los recursos técnicos o financieros para implementar sistemas de gestión de flotas a gran escala.
+Sabremos que hemos tenido éxito cuando veamos que estas empresas utilizan activamente nuestra plataforma para monitorear al menos el 80% de su flota en tiempo real, reportan un aumento del 15% en su eficiencia operativa y una reducción en incidentes relacionados a daños en la carga o retrasos por fallas logísticas durante los primeros seis meses de uso.
 
 #### 1.2.2.2 Lean UX Assumptions
 
-1. Creo que mis clientes necesitan ________. <br>
-**Assumtpion**: Los gerentes de flotas y empresas de transporte en Perú (especialmente aquellos que transportan carga sensible a temperatura/humedad) necesitan una forma más efectiva y accesible de monitorear en tiempo real la ubicación y las condiciones ambientales (temperatura y humedad) de sus envíos y vehículos para reducir pérdidas e ineficiencias.
-2. Estas necesidades se pueden resolver con ________ . <br>
-**Assumtpion**: Las necesidades identificadas (monitoreo en tiempo real de ubicación y ambiente, gestión de envíos/recursos, reportes, alertas) pueden resolverse eficazmente mediante una combinación de una plataforma web robusta para gerentes, una aplicación móvil intuitiva para conductores y dispositivos IoT instalados en vehículos y/o carga.
-3. Mis clientes iniciales son (o serán) _______. <br>
-**Assumtpion**: Nuestros clientes iniciales serán principalmente pequeñas y medianas empresas de transporte en Perú que actualmente no usan soluciones integrales de monitoreo ambiental o usan métodos manuales/ineficientes, y que transportan carga donde las condiciones ambientales son un factor crítico.
-4. El valor # 1 que un cliente quiere de mi servicio es _______. <br>
-**Assumtpion**: El valor principal que buscan nuestros clientes es la reducción de pérdidas de carga sensible y la mejora de la eficiencia operativa a través de la visibilidad y el control proactivo en tiempo real sobre las condiciones ambientales y la ubicación de sus envíos.
-5. El cliente también puede obtener estos beneficios adicionales _______ . <br>
-**Assumtpion**: Los clientes también valorarán y utilizarán beneficios adicionales como:
-- Mejora en la comunicación y organización de los conductores.
-- Toma de decisiones más informada basada en datos y estadísticas.
-- Reducción de riesgos generales (no solo ambientales, también por ubicación).
-- Transparencia y mejor colaboración dentro de la flota (reportes compartidos).
-- Gestión centralizada y simplificada de sus recursos (conductores, vehículos, envíos).
-6. Voy a adquirir la mayoría de mis clientes a través de _______. <br>
-**Assumtpion**: Adquiriremos clientes principalmente a través de estrategias de marketing digital dirigidas al sector logístico en Perú, ventas directas a empresas de transporte, y la tracción generada por el modelo Freemium que permitirá probar la solución.
-7. Haré dinero a través de _______. <br>
-**Assumtpion**: Generaremos ingresos a través de un modelo de suscripción (PRO), donde los clientes que necesiten más conductores/vehículos o funcionalidades avanzadas pasarán del plan gratuito al de pago.
-8. Mi competencia principal en el mercado será _______. <br>
-**Assumtpion**: Nuestra competencia principal estará compuesta por proveedores existentes de sistemas de gestión de flotas (TMS) y monitoreo GPS en Perú (que quizás no tengan un enfoque ambiental tan fuerte), empresas que ofrecen soluciones de cadena de frío más tradicionales o puntuales, y el status quo (empresas que usan procesos manuales o básicos).
-9. Los venceremos debido a _______. <br>
-**Assumtpion**: Venceremos a la competencia debido a nuestra combinación única de monitoreo ambiental por envío, alertas proactivas e inteligentes, una plataforma dual optimizada para gerentes y conductores, un modelo de negocio Freemium accesible, y un enfoque integral que va más allá del simple GPS.
-10. Mi mayor riesgo de producto es _______. <br>
-**Assumtpion**: Nuestro mayor riesgo de producto es que los dispositivos IoT (sensores de temperatura/humedad) no sean lo suficientemente fiables, precisos o fáciles de instalar/mantener en las condiciones reales del transporte en Perú, o que su costo operativo sea prohibitivo para el cliente objetivo.
-11. Resolveremos esto a través de _______. <br>
-**Assumtpion**: Resolveremos el problema y construiremos el producto exitosamente a través de un proceso iterativo de desarrollo basado en hipótesis y validación constante con usuarios reales (enfoque Lean Startup / Lean UX).
-12. ¿Qué otras suposiciones tenemos? Eso, si se prueba que es falso, causará que nuestro negocio / proyecto no funcione? <br>
-- **Assumtpion de Riesgo Crítico #1 (Problema/Valor)**: Las empresas de transporte en Perú realmente perciben la pérdida/daño de carga por variaciones ambientales como un problema lo suficientemente COSTOSO y FRECUENTE como para justificar el pago por una solución de monitoreo en tiempo real como MoviGestion.
-- **Assumtpion de Riesgo Crítico #2 (Solución/Usabilidad)**: Los conductores adoptarán y usarán la aplicación móvil de forma consistente para actualizar estados y reportar novedades, y los gerentes encontrarán la plataforma web intuitiva y útil en su operación diaria, a pesar de la posible baja alfabetización digital en algunos segmentos.
-- **Assumtpion de Riesgo Crítico #3 (Mercado/Adquisición)**: Podemos alcanzar, convencer y convertir a nuestro cliente objetivo (PYMEs de transporte en Perú) de forma económicamente viable.
-- **Assumtpion de Riesgo Crítico #4 (Tecnología/Operación)**: La tecnología IoT (sensores, conectividad, batería) funcionará de manera fiable y a un costo operativo (comunicaciones, mantenimiento) que permita un modelo de suscripción rentable para nosotros y asequible para el cliente.
-- **Assumtpion de Riesgo Crítico #5 (Monetización)**: Un porcentaje suficiente de usuarios del plan gratuito migrará al plan PRO.
+1. Bussiness Assumptions
+  - Creeemos que las empresas de transporte pequeñas y medianas estarán dispuestas a invertir en una solución digital si esta reduce sus costos logísticos.
+  - Creemos que ofrecer una versión gratuita (freemiun) atraerá a empresas interesadas en digitalizar su operación sin un compromiso económico inicial.
+  - Creemos que mejorar la trazabilidad y el control de flotas aumentará la reputación de nuestros clientes ante sus propios clientes finales.
+2. Outcome Assumptions
+  - Creemos que al usar nuestra solución, los usuarios mejorarán su eficiencia operativa al menos en un 15% en los primeros seis meses.
+  - Creemos que nuestros usuarios podrán reducir la cantidad de incidencias relacionadas con mal manejo de carga sensible en un 30%.
+  - Creemos que contar con monitoreo en tiempo real motivará a los usuarios a tomar decisiones más rápidas y fundamentales ante desvíos o eventos inesperados.
+3. User Assumptions
+  - Creemos que los administradores logísticos buscan herramientas simples, con buena visualización de datos y alertas automatizadas que les ayudan a anticiparse a problemas.
+  - Creemos que los conductores valoran una app que sea intuitiva, con pocas acciones manuales, y que facilite su comunicación con la base.
+  - Creemos que ambos perfiles (administradores y conductores) están abiertos a usar tecnología móvil o web siempre que no requiera conocimientos técnicos avanzados.
+4. Feature Assumptions
+  - Creemos que el rastreo GPS en tiempo real permitirá a los administradores mejorar la supervisión de sus unidades y prevenir desviaciones no autorizadas.
+  - Creemos que el monitoreo de temperatura y humedad será especialmente valioso para empresas que transportan alimentos, medicinas u otros productos sensibles.
+  - Creemos que las alertas automaticas cuando se detectan variaciones críticas (temperatura, ruta, velocidad) ayudarán a prevenir pérdidas o daños en la carga.
+  - Creemos que una app para conductores que incluya geolocalización, recepción de instrucciones y registro de entregas facilitará su trabajo y reducirá errores.
+  - Creemos que un panel de control web con visualización de datos en tiempo real facilitará el seguimiento de múltiples vehículos de forma simultánea.
+  - Creemos que permitir a los usuarios configurar sus propios umbrales de alerta hará que la plataforma se adapte mejor a diferentes tipos de carga y necesidad operativa.
+5. User Outcome Assumptions
+  - Creemos que los administradores sentirán mayor control y seguridad al saber en todo momento la ubicación y estado de sus unidades y cargas.
+  - Creemos que los conductores se sentirán mas respaldados y organizados al usar una app que centraliza sus instrucciones y tareas diarias.
+  - Creemos que nuestros usuarios experimentarán una reducción del estrés y una mejora en la percepción de profesionalismo al digitalizar su operación logística.
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
 
