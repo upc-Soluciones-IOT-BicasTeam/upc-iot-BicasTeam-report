@@ -325,6 +325,6 @@ El mockup siguió el orden establecido previamente tanto para el Desktop Web Bro
 
  El gerente accede al módulo de estadísticas, donde se muestran opciones para poder visualizar las estadísticas de reportes, envíos y vehículos. AL hacer click en uno de ellos, se muestran estadísticas básicas de cada asección, como recuento de reportes, recuento de envíos y promedio de temperatura dentro del vehículo.
 
- Link para poder visualizar los User Flows Diagrams de la Web Application: [https://lucid.app/lucidchart/76446f03-d3c3-4793-828f-dad5c98f0f2b/edit?viewport_loc=-3642%2C-4338%2C16474%2C7896%2C0_0&invitationId=inv_5bf335c8-6553-4938-813b-5a175c51eb83](https://overflow.io/s/TXTG3C91) 
+ Link para poder visualizar los User Flows Diagrams de la Web Application: https://overflow.io/s/TXTG3C91
  
  ## 5.5 Applications Prototyping
