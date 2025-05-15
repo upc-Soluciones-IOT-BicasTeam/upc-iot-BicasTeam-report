@@ -169,28 +169,45 @@ Estas acciones y técnicas contribuyen a una experiencia de usuario fluida y sat
 
  ### 5.3.2 Landing Page Mock-up
 
-![Landing page Mockup](/assets/chapter05/MockupLanding1.png)
+![Landing page Mockup](/assets/chapter05/Mockups/MockupLanding1.png)
 
-![Landing page Mockup](/assets/chapter05/MockupLanding2.png)
+![Landing page Mockup](/assets/chapter05/Mockups/MockupLanding2.png)
 
-![Landing page Mockup](/assets/chapter05/MockupLanding3.png)
+![Landing page Mockup](/assets/chapter05/Mockups/MockupLanding3.png)
 
-![Landing page Mockup](/assets/chapter05/MockupLanding4.png)
+![Landing page Mockup](/assets/chapter05/Mockups/MockupLanding4.png)
 
-![Landing page Mockup](/assets/chapter05/MockupLanding5.png)
+![Landing page Mockup](/assets/chapter05/Mockups/MockupLanding5.png)
 
-![Landing page Mockup](/assets/chapter05/MockupLanding6.png)
+![Landing page Mockup](/assets/chapter05/Mockups/MockupLanding6.png)
 
-![Landing page Mockup](/assets/chapter05/MockupLanding7.png)
+![Landing page Mockup](/assets/chapter05/Mockups/MockupLanding7.png)
 
  ## 5.4 Applications UX/UI Design
  ### 5.4.1 Applications Wireframes  
 
-**Web Application Mock-ups**
+**Web Application Wireframes**
 
-**Mobile Application Mock-ups**
+![Web Application Wireframes](/assets/chapter05/Wireframes/WireframeWebApp1.png)
+
+![Web Application Wireframes](/assets/chapter05/Wireframes/WireframeWebApp2.png)
+
+![Web Application Wireframes](/assets/chapter05/Wireframes/WireframeWebApp3.png)
+
+![Web Application Wireframes](/assets/chapter05/Wireframes/WireframeWebApp4.png)
+
+![Web Application Wireframes](/assets/chapter05/Wireframes/WireframeWebApp5.png)
+
+**Mobile Application Wireframes**
  
- 
+ ![Mobile App Wireframes](/assets/chapter05/Wireframes/WireframeMobileApp1.png)
+
+ ![Mobile App Wireframes](/assets/chapter05/Wireframes/WireframeMobileApp2.png)
+
+ ![Mobile App Wireframes](/assets/chapter05/Wireframes/WireframeMobileApp3.png)
+
+ ![Mobile App Wireframes](/assets/chapter05/Wireframes/WireframeMobileApp4.png)
+
  ### 5.4.2 Applications Wireflow Diagrams
 
  En esta sección se presentan los flujos de navegación entre pantallas de la aplicación, destacando las interacciones del usuario con los elementos disponibles en cada vista. Se detallan las transiciones y cambios de estado que ocurren como resultado de sus acciones dentro de la interfaz.
