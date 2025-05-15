@@ -372,3 +372,13 @@ El mockup siguió el orden establecido previamente tanto para el Desktop Web Bro
  Link para poder visualizar los User Flows Diagrams de la Web Application: https://overflow.io/s/TXTG3C91
  
  ## 5.5 Applications Prototyping
+
+En esta sección presentaremos el prototipo de nuestro producto, en la cual se base en los Mockups previamente realizados y los user flows para la guía de los usuarios al realizar una funcionalidad de la aplicación.
+
+WEB APPLICATION:
+
+Link prototype video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/ER8kXIuJc_RBhiSkk7Pxf7wBL9BP8QaQrryzi9i0hjE7dg?e=51zo9b 
+
+MOBILE APPLICATION:
+
+Link prototype video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/EW5UtiiJzzNLhzqHN2R_0YABeVG1B-B9yrb1zJYNjsFfkw?e=pTAFWr 
