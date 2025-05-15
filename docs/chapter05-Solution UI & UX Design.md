@@ -183,6 +183,8 @@ Estas acciones y técnicas contribuyen a una experiencia de usuario fluida y sat
 
 ![Landing page Mockup](/assets/chapter05/Mockups/MockupLanding7.png)
 
+ Link para poder visualizar la Landing page UI Design: https://www.figma.com/design/gu0SdYkebsOKLB8p5YvOzL/BicasTeam-Movigestion?node-id=0-1&p=f&t=mTkrEesf8wt5YFwo-0
+
  ## 5.4 Applications UX/UI Design
  ### 5.4.1 Applications Wireframes  
 
@@ -207,6 +209,8 @@ Estas acciones y técnicas contribuyen a una experiencia de usuario fluida y sat
  ![Mobile App Wireframes](/assets/chapter05/Wireframes/WireframeMobileApp3.png)
 
  ![Mobile App Wireframes](/assets/chapter05/Wireframes/WireframeMobileApp4.png)
+
+ Link para poder visualizar los Applications Wireframes: https://www.figma.com/design/gu0SdYkebsOKLB8p5YvOzL/BicasTeam-Movigestion?node-id=0-1&p=f&t=mTkrEesf8wt5YFwo-0
 
  ### 5.4.2 Applications Wireflow Diagrams
 
@@ -352,103 +356,8 @@ Estas acciones y técnicas contribuyen a una experiencia de usuario fluida y sat
 
  ![Mobile App Mockup](/assets/chapter05/Mockups/MockupMobileApp4.png)
 
-![MockUp Web](/assets/chapter05/Mockups/appWeb/US01%20-%20Bussiness%20Man%20segment%20(1).png)
-
-![MockUp Web](/assets/chapter05/Mockups/appWeb/US01%20-%20Bussiness%20Man%20segment.png)
-
-![MockUp Web](/assets/chapter05/Mockups/appWeb/US01%20-%20Bussiness%20Man%20segment%20(2).png)
-
-![MockUp Web](/assets/chapter05/Mockups/appWeb/US01%20-%20Bussiness%20Man%20segment%20(3).png)
-
-![MockUp Web](/assets/chapter05/Mockups/appWeb/US01%20-%20Bussiness%20Man%20segment%20(4).png)
-
-![MockUp Web](/assets/chapter05/Mockups/appWeb/US01%20-%20Bussiness%20Man%20segment%20(5).png)
-
-![MockUp Web](/assets/chapter05/Mockups/appWeb/US01%20-%20Bussiness%20Man%20segment%20(6).png)
-
-![MockUp Web](/assets/chapter05/Mockups/appWeb/US01%20-%20Bussiness%20Man%20segment%20(7).png)
-
-![MockUp Web](/assets/chapter05/Mockups/appWeb/US01%20-%20Bussiness%20Man%20segment%20(8).png)
-
-![MockUp Web](/assets/chapter05/Mockups/appWeb/US01%20-%20Bussiness%20Man%20segment%20(9).png)
-
-![MockUp Web](/assets/chapter05/Mockups/appWeb/US01%20-%20Bussiness%20Man%20segment%20(10).png)
-
-![MockUp Web](/assets/chapter05/Mockups/appWeb/US01%20-%20Bussiness%20Man%20segment%20(11).png)
-
-![MockUp Web](/assets/chapter05/Mockups/appWeb/US01%20-%20Bussiness%20Man%20segment%20(12).png)
-
-![MockUp Web](/assets/chapter05/Mockups/appWeb/US01%20-%20Bussiness%20Man%20segment%20(13).png)
-
-![MockUp Web](/assets/chapter05/Mockups/appWeb/US01%20-%20Bussiness%20Man%20segment%20(14).png)
-
-![MockUp Web](/assets/chapter05/Mockups/appWeb/US01%20-%20Bussiness%20Man%20segment%20(15).png)
-
 
 **Mobile Application Mock-ups**
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Gerente%20-%20Carrier%20-%20New%20Carrier%20ERROR.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Gerente%20-%20Carrier%20-%20New%20Carrier.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Gerente%20-%20Conductores.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Gerente%20-%20Estadisticas%20-%20Analisis%20vehiculo.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Gerente%20-%20Estadisticas%20-%20Envios.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Gerente%20-%20Estadisticas%20-%20reportes.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Gerente%20-%20GPS%20vehicle.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Gerente%20-%20Shipments%20-%20New%20Shipment.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Gerente%20-%20Shipments.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Gerente%20-%20Vehicle%20-%20New%20Vehicle%20(1).png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Gerente%20-%20Vehicle%20-%20New%20Vehicle%20ERROR%20(1).png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Gerente%20-%20Vehicle%20-%20New%20Vehicle%20ERROR.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Gerente%20-%20Vehicle%20-%20New%20Vehicle.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Gerente%20-%20Vehicle.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Gerente%20-%20Vehicles.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Home%20-%20User.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/login.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Menu%20-%20Conductor.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Menu%20-%20Gerente.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Perfil%20-%20user%20-%20actualization.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Perfil%20-%20User%20-%20error%20actualization.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Perfil%20-%20User.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Register%20-%20Error.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Perfil%20-%20User.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Register%20-%20Error.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Register-confirmation.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Register.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Transportista%20-%20Reportes%20(1).png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Transportista%20-%20Reportes.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Transportista%20-%20Shipments.png)
-
-  ![MockUp Mobile](/assets/chapter05/Mockups/Movil/Transportista%20-%20Vehicle.png)
-
 
  ![Mobile App Mockup](/assets/chapter05/Mockups/MockupMobileApp1.png)
 
@@ -457,7 +366,9 @@ Estas acciones y técnicas contribuyen a una experiencia de usuario fluida y sat
  ![Mobile App Mockup](/assets/chapter05/Mockups/MockupMobileApp3.png)
 
  ![Mobile App Mockup](/assets/chapter05/Mockups/MockupMobileApp4.png)
- 
+
+ Link para poder visualizar los Applications Mock-ups: https://www.figma.com/design/gu0SdYkebsOKLB8p5YvOzL/BicasTeam-Movigestion?node-id=0-1&p=f&t=mTkrEesf8wt5YFwo-0
+
  ### 5.4.4 Applications User Flow Diagrams
 
 **Web Application User Flows Diagrams**
@@ -574,7 +485,7 @@ Estas acciones y técnicas contribuyen a una experiencia de usuario fluida y sat
 
   El tranportista selecciona la sección del perfil, en donde se le mostrará algunas estadisticas como la cantidad de envios y reportes realizados.
 
-  Link para poder visualizar los User Flows Diagrams de la Mobile Applicattion: 
+  Link para poder visualizar los User Flows Diagrams de la Mobile Applicattion:  https://overflow.io/s/9YFX4UGE 
  
  ## 5.5 Applications Prototyping
 
