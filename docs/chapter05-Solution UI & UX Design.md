@@ -11,13 +11,13 @@ tiempo que hemos establecido ciertas restricciones para evitar la inclusión de 
 
 La consideración de los colores es crucial porque influyen en la coherencia visual, la legibilidad y accesibilidad del diseño, la capacidad para transmitir mensajes y emociones, así como en la atracción visual y la usabilidad del producto final. En resumen, los colores dentro de las directrices de estilo son fundamentales para crear diseños atractivos, legibles, accesibles y coherentes que comuniquen eficazmente el mensaje deseado y mejoren la experiencia del usuario.
 
-![Paleta Colores 1](/assets/chapter04/color%201.png)
+![Paleta Colores 1](/assets/chapter05/color.png)
 
 * Tipografia:
 
 Las directrices de estilo, que incluyen pautas para la tipografía, son esenciales para garantizar la coherencia y legibilidad del contenido. La consideración de la tipografía es crucial porque influye en la percepción del mensaje, la jerarquía de la información y la experiencia del usuario. Establecer reglas sobre el tamaño, el estilo y el espaciado de la fuente ayuda a mantener la coherencia visual y a garantizar una lectura cómoda, mientras que la elección de tipos de letra adecuados puede reflejar la identidad de la marca y transmitir emociones específicas. En resumen, las directrices de estilo para la tipografía son fundamentales para crear diseños legibles, coherentes y efectivos que mejoren la experiencia del usuario y fortalezcan la identidad de la marca.
 
-![Tipografia](/assets/chapter04/tipografia%201.png)
+![Tipografia](/assets/chapter05/tipografia.png)
 
 * Tono de comunicacion y lenguaje aplicado:
 
@@ -32,18 +32,18 @@ Los colores utilizados en la web de nuestra aplicación siguen las pautas de la 
 
 Para asegurar una estética clásica que se adapte a los diversos fondos degradados presentes en nuestras aplicaciones, hemos elegido una paleta de grises. Esta decisión permite una mayor versatilidad visual, manteniendo la elegancia y la legibilidad del contenido sin importar la combinación de colores específica en la pantalla.
 
-![Fondos](/assets/chapter04/color%202.png)
+![Fondos](/assets/chapter05/fondos.png)
 
 * Tipografia:
 
 La elección de colores en el diseño dependerá del fondo en el que se sitúen, y para mantener un estilo clásico, hemos optado por una paleta de grises que se adapta a la mayoría de los tipos de fondo. Esta selección permite una versatilidad visual que conserva la elegancia y la sobriedad requeridas para un estilo clásico, mientras garantiza una armonía estética con una amplia variedad de contextos. Además, los tonos de gris ofrecen un contraste suave y equilibrado, lo que asegura una legibilidad óptima del contenido en cualquier entorno, añadiendo una sensación de atemporalidad al diseño.
 
-![Tipografia Color](/assets/chapter04/tipografia%202.png)
+![Tipografia Color](/assets/chapter05/tipografia1.png)
 
 El estilo para la tipografía son fundamentales para crear diseños legibles, coherentes y efectivos que mejoren la experiencia del usuario y fortalezcan la identidad de la marca.
 Por eso usaremos la tipografía Open Sans con un tamaño de 95px y estilo light ofrece una estética moderna y elegante, ideal para títulos y encabezados que requieran un aspecto sofisticado y fácil de leer. El peso ligero de la fuente proporciona una apariencia delicada y atractiva, mientras que el tamaño grande garantiza una excelente legibilidad, especialmente en dispositivos con pantallas de alta resolución. Esta combinación de tamaño y estilo es ideal para crear un impacto visual fuerte mientras se mantiene una sensación de sutileza y claridad en el diseño.
 
-![Tipografia Estilo](/assets/chapter04/open%20sans%20light.jpg)
+![Tipografia Estilo](/assets/chapter05/tipografia2.png)
  
  ## 5.2 Information Architecture
  ### 5.2.1 Organization Systems
@@ -161,21 +161,25 @@ Estas acciones y técnicas contribuyen a una experiencia de usuario fluida y sat
  ### 5.3.1 Landing Page Wireframes
 
 La landing page consta de 6 secciones, sin incluir el navbar y el footer. La sección principal es un hero con el objetivo de captar la atención del usuario y motivarlo a seguir navegando. A continuación, se encuentran "about us" y "about team", donde se describen los beneficios de la web y se presentan los miembros del equipo. En la sección de "services", se pueden ver las características y funcionalidades principales de la web. Finalmente, en las secciones de "pricing" y "contact us" se describe el plan de pago y se muestra un formulario para que el usuario se ponga en contacto con nosotros.
-![Landing page Wireframe HomePage](/assets/chapter04/wireframe-Homepage.jpg)
 
-![Landing page Wireframe error 404](/assets/chapter04/wireframe-404-Page%20.jpg)
+![Landing page Wireframe HomePage](/assets/chapter05/wireframe-Homepage.jpg)
+
+![Landing page Wireframe error 404](/assets/chapter05/wireframe-404-Page%20.jpg)
 
  ### 5.3.2 Landing Page Mock-up
 
 El mockup siguió el orden establecido previamente tanto para el Desktop Web Browser como para el Mobile Web Browser. Se priorizó el uso de una paleta de grises que se ajustara al sector del transporte con el que trabajamos, resaltando el color amarillo para fluir entre las transiciones. Además, se utilizó la tipografía Open Sans para mantener una apariencia limpia y elegante. Estos detalles se pueden encontrar en las referencias.
-![Landing page mock up HomePage](/assets/chapter04/mockup-homepage.jpg)
 
-![Landing page mock up error 404](/assets/chapter04/mockup-404-Page.jpg)
+![Landing page mock up HomePage](/assets/chapter05/mockup-homepage.jpg)
+
+![Landing page mock up error 404](/assets/chapter05/mockup-404-Page.jpg)
 
  ## 5.4 Applications UX/UI Design
  ### 5.4.1 Applications Wireframes  
 
+**Web Application Mock-ups**
 
+**Mobile Application Mock-ups**
  
  
  ### 5.4.2 Applications Wireflow Diagrams
@@ -186,67 +190,67 @@ El mockup siguió el orden establecido previamente tanto para el Desktop Web Bro
  
  **User goal**: Como usuario, deseo crear una cuenta para registrarme dentro de la aplicación.
  
- ![Wirefow usergoal 1](/assets/chapter05/WireflowWeb1.png)
+ ![Wireflow usergoal 1](/assets/chapter05/Wireflows/WireflowWeb1.png)
  
  El usuario accede a la pantalla inicial de la aplicación y selecciona su rol. Luego, completa un formulario con datos como nombre, correo electrónico y contraseña; también acepta nuestros términos y condiciones. Al confirmar, se valida la  información y se muestra una pantalla de éxito o se indican los errores (por ejemplo, si el correo ya está registrado). El usuario puede entonces continuar al inicio de sesión.
 
  **User goal**: Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación.
  
- ![Wirefow usergoal 2](/assets/chapter05/WireflowWeb2.png)
+ ![Wireflow usergoal 2](/assets/chapter05/Wireflows/WireflowWeb2.png)
 
  El usuario abre la aplicación y accede a la pantalla de inicio de sesión. Ingresa sus credenciales (correo y contraseña) y presiona "Ingresar". Si los datos son correctos, el sistema redirige al panel principal correspondiente. En caso de error, se muestra un mensaje indicando credenciales inválidas.
 
  **User goal**: Como gerente, deseo registrar un envío en la plataforma para dejar constancia de cada nueva orden de transporte.
  
- ![Wirefow usergoal 3](/assets/chapter05/WireflowWeb3.png)
+ ![Wireflow usergoal 3](/assets/chapter05/Wireflows/WireflowWeb3.png)
 
  El gerente accede al módulo de envíos desde el menú principal. Selecciona "Nuevo envío" y se presenta un formulario donde introduce datos como conductor asignado, descripción, tiempo y fecha estimada. Al guardar, el sistema confirma el registro y actualiza la lista de envíos.
 
  **User goal**: Como gerente, deseo asignar envíos a mis transportistas para distribuir eficientemente las cargas.
  
- ![Wirefow usergoal 4](/assets/chapter05/WireflowWeb4.png)
+ ![Wireflow usergoal 4](/assets/chapter05/Wireflows/WireflowWeb4.png)
 
  Desde el formulario de registro de envío, el gerente selecciona tiene la opción de "Asignar transportista". Ingresa el nombre del transportista disponible. Al seleccionarlo, el sistema actualiza el estado del envío y lo vincula al transportista elegido.
 
  **User goal**: Como gerente, deseo asignar flotas a mis transportistas para que cada unidad quede correctamente emparejada con su operador.
  
- ![Wirefow usergoal 5](/assets/chapter05/WireflowWeb5.png)
+ ![Wireflow usergoal 5](/assets/chapter05/Wireflows/WireflowWeb5.png)
 
  El gerente entra al módulo de vehículos y al crear un vehículo tiene la opción de "Asignar flota". Aparece una lista de transportistas disponibles y se selecciona a uno. Luego, se confirma la asignación, reflejándose en el sistema la asociación entre vehículo y conductor.
 
  **User goal**: Como gerente, deseo añadir nuevas flotas (vehículos) a mi inventario para mantener un control activo de cada unidad.
  
- ![Wirefow usergoal 6](/assets/chapter05/WireflowWeb6.png)
+ ![Wireflow usergoal 6](/assets/chapter05/Wireflows/WireflowWeb6.png)
 
  Desde el módulo de flotas, el gerente accede a la opción "Agregar vehículo". Se muestra un formulario donde se ingresan datos del vehículo (placa, modelo, conductor). Una vez completado, el vehículo se registra y aparece en el inventario.
 
  **User goal**: Como gerente, deseo registrar nuevos conductores en el sistema para que puedan empezar a operar en la plataforma.
  
- ![Wirefow usergoal 7](/assets/chapter05/WireflowWeb7.png)
+ ![Wireflow usergoal 7](/assets/chapter05/Wireflows/WireflowWeb7.png)
 
  En la sección de conductores, el gerente selecciona "Agregar nuevo conductor". Se despliega un formulario donde ingresa nombre, documento, licencia y otros datos relevantes. Tras validar, el nuevo conductor queda registrado y visible en el sistema.
 
  **User goal**: Como gerente, deseo visualizar el historial completo de envíos (fecha, origen, destino, estado) para medir el desempeño global.
  
- ![Wirefow usergoal 8](/assets/chapter05/WireflowWeb8.png)
+ ![Wireflow usergoal 8](/assets/chapter05/Wireflows/WireflowWeb8.png)
 
  El gerente accede al módulo de historial desde el panel principal. Se presenta una tabla con todos los envíos registrados, con filtros por fecha, estado, origen y destino. Cada fila permite ver detalles del envío, como transportista asignado, descripción y destino.
 
  **User goal**: Como gerente, deseo monitorear en tiempo real la ubicación, temperatura y humedad de cada vehículo para asegurar condiciones óptimas de transporte.
  
- ![Wirefow usergoal 9](/assets/chapter05/WireflowWeb9.png)
+ ![Wireflow usergoal 9](/assets/chapter05/Wireflows/WireflowWeb9.png)
 
  Desde el panel de vehículos, el gerente selecciona el vehículo del cual quiere la información. Lo redirige a otra pestaña donde se podrá ver los datos del vehículo junto a la temperatura y humedad dentro del vehículo. Al hacer click en GPS, accede a un mapa interactivo donde se visualiza la ubicación en tiempo real de dicha unidad. 
 
  **User goal**: Como gerente, deseo ver los reportes realizados por los transportistas para tomar decisiones estratégicas.
  
- ![Wirefow usergoal 10](/assets/chapter05/WireflowWeb10.png)
+ ![Wireflow usergoal 10](/assets/chapter05/Wireflows/WireflowWeb10.png)
 
  En la sección de reportes, el gerente ve una lista cronológica de reportes enviados por transportistas. Al hacer clic en uno, se despliega la información del incidente (tipo, descripción, ubicación, fecha).
 
  **User goal**: Como gerente, deseo ver estadísticas globales de todos los transportistas para evaluar el rendimiento general de mi flota.
  
- ![Wirefow usergoal 11](/assets/chapter05/WireflowWeb11.png)
+ ![Wireflow usergoal 11](/assets/chapter05/Wireflows/WireflowWeb11.png)
 
  El gerente accede al módulo de estadísticas, donde se muestran opciones para poder visualizar las estadísticas de reportes, envíos y vehículos. AL hacer click en uno de ellos, se muestran estadísticas básicas de cada asección, como recuento de reportes, recuento de envíos y promedio de temperatura dentro del vehículo.
 
@@ -254,51 +258,56 @@ El mockup siguió el orden establecido previamente tanto para el Desktop Web Bro
 
  Link para poder visualizar los Wireflows de la Web Application para el manager: https://lucid.app/lucidchart/76446f03-d3c3-4793-828f-dad5c98f0f2b/edit?viewport_loc=-3642%2C-4338%2C16474%2C7896%2C0_0&invitationId=inv_5bf335c8-6553-4938-813b-5a175c51eb83 
 
- **Mobile Wireflows**
+ **Mobile Application Wireflows Diagrams**
 
  **User goal**: Como usuario, deseo crear una cuenta para registrarme dentro de la aplicación.
 
-  ![Wireflow usergoal 1](/assets/chapter05/WireflowMovil1.png)
+  ![Wireflow usergoal 1](/assets/chapter05/Wireflows/WireflowMovil1.png)
 
   El usuario entra a la aplicación, al ser nuevo, da click en registrarse, lo que lo manda a otra pantalla donde llena un formulario con sus datos, confirma que se quiere registrar y lo dirijira a una pantalla con la confirmación de que se registro, pudiendo dar click en el botón de regresar a la pantalla principal para iniciar sesión.
 
   **User goal**: Como usuario, deseo iniciar sesión con mi cuenta previamente creada para ingresar a la aplicación.
 
-  ![Wireflow usergoal 2](/assets/chapter05/WireflowMovil2.png)
+  ![Wireflow usergoal 2](/assets/chapter05/Wireflows/WireflowMovil2.png)
 
   El usuario abre la aplicación y ya registrado, inserta sus datos en los campos y le da click al botón de registrar, al darle click lo mandara a la pantalla principal de la aplicación
 
   **User goal**: Como transportista, deseo ver los envíos que me han sido asignados, con sus detalles de destino, para organizar mi día de trabajo.
 
-  ![Wireflow usergoal 3](/assets/chapter05/WireflowMovil3.png)
+  ![Wireflow usergoal 3](/assets/chapter05/Wireflows/WireflowMovil3.png)
 
   El transportista selecciona la sección de envios y se muestra una lista de todos los envios asignados al tranportista.
 
   **User goal**: Como transportista, deseo reportar infracciones vehiculares ocurri­das en ruta para que mi gerente pueda gestionar las acciones correctivas.
 
-  ![Wireflow usergoal 4](/assets/chapter05/WireflowMovil4.png)
+  ![Wireflow usergoal 4](/assets/chapter05/Wireflows/WireflowMovil4.png)
 
   El transportista selecciona la sección de reportes, en donde le aparecerá la lista de reportes realizados, presionará el botón para crear un nuevo reporte donde podrá seleccionar el tipo de reporte y por ultimo llenar los campos para crear el reporte.
 
   **User goal**: Como transportista, deseo visualizar el historial de mis reportes para consultar mis incidencias previas.
 
-  ![Wireflow usergoal 5](/assets/chapter05/WireflowMovil5.png)
+  ![Wireflow usergoal 5](/assets/chapter05/Wireflows/WireflowMovil5.png)
 
   El transportista selecciona la sección de reportes y al entrar a la sección le aparecerán la lista de reportes que ha creado.
 
   **User goal**: Como transportista, deseo ver la temperatura y humedad de mi vehículo para asegurar que las condiciones internas son adecuadas.
 
-  ![Wireflow usergoal 6](/assets/chapter05/WireflowMovil6.png)
+  ![Wireflow usergoal 6](/assets/chapter05/Wireflows/WireflowMovil6.png)
 
   El tranportista selecciona la sección de vehiculo, en donde se le mostrará la información del vehiculo y las condiciones internas de la carga.
 
   **User goal**: Como transportista, deseo acceder a mi dashboard personal con métricas como cantidad de paquetes entregados y número de reportes realizados para conocer mi desempeño.
 
-  ![Wireflow usergoal 7](/assets/chapter05/WireflowMovil6.png)
+  ![Wireflow usergoal 7](/assets/chapter05/Wireflows/WireflowMovil6.png)
 
   El tranportista selecciona la sección del perfil, en donde se le mostrará algunas estadisticas como la cantidad de envios y reportes realizados.
  
  ### 5.4.3 Applications Mock-ups
+
+**Web Application Mock-ups**
+
+**Mobile Application Mock-ups**
+
  ### 5.4.4 Applications User Flow Diagrams
 
 **Web Application User Flows Diagrams**
