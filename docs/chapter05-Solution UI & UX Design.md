@@ -332,8 +332,23 @@ Estas acciones y técnicas contribuyen a una experiencia de usuario fluida y sat
 
 **Web Application Mock-ups**
 
+ ![Web Application Mockup](/assets/chapter05/Mockups/MockupWebApp1.png)
+
+ ![Web Application Mockup](/assets/chapter05/Mockups/MockupWebApp2.png)
+
+ ![Web Application Mockup](/assets/chapter05/Mockups/MockupWebApp3.png)
+
+ ![Web Application Mockup](/assets/chapter05/Mockups/MockupWebApp4.png)
+
 **Mobile Application Mock-ups**
 
+ ![Mobile App Mockup](/assets/chapter05/Mockups/MockupMobileApp1.png)
+
+ ![Mobile App Mockup](/assets/chapter05/Mockups/MockupMobileApp2.png)
+ 
+ ![Mobile App Mockup](/assets/chapter05/Mockups/MockupMobileApp3.png)
+
+ ![Mobile App Mockup](/assets/chapter05/Mockups/MockupMobileApp4.png)
  ### 5.4.4 Applications User Flow Diagrams
 
 **Web Application User Flows Diagrams**
@@ -405,6 +420,8 @@ Estas acciones y técnicas contribuyen a una experiencia de usuario fluida y sat
  El gerente accede al módulo de estadísticas, donde se muestran opciones para poder visualizar las estadísticas de reportes, envíos y vehículos. AL hacer click en uno de ellos, se muestran estadísticas básicas de cada asección, como recuento de reportes, recuento de envíos y promedio de temperatura dentro del vehículo.
 
  Link para poder visualizar los User Flows Diagrams de la Web Application: https://overflow.io/s/TXTG3C91
+
+ **Mobile App User Flows Diagrams**
  
  ## 5.5 Applications Prototyping
 
