@@ -112,7 +112,7 @@ TP1: Implementamos todo lo investigado en la anterior entrega en una aplicacion 
 Utilizamos GitHub Pages para desplegar el "front-end" de nuestra aplicación y "beeceptor" para la "fake api".
 Po ultimo, corregimos ciertos puntos del figma de la entrega anterior
 
-![Capturas-TP1]()
+![Capturas-TP1](/assets/chapter01/colaboarate.png)
 ﻿# Chatper 6: Product Implementation, Validation & Deployment
  ## 6.1 Software Configuration Management
  Para gestionar la configuración del software de nuestra aplicación, abordaremos tres áreas clave: el control del código fuente, que consiste en administrar las versiones y mantener una estructura ordenada del código; la configuración del entorno de desarrollo, con el objetivo de que todos los integrantes del equipo utilicen herramientas homogéneas; y la configuración del despliegue, enfocada en la implementación en entornos productivos. Estas prácticas aseguran consistencia y eficiencia durante todo el ciclo de vida de la aplicación.
