@@ -1,60 +1,26 @@
 <center>
+﻿# Conclusiones 
 
-![Logo Upc](https://www.upc.edu.pe/static/img/logo_upc_red.png "Logo upc")
-Universidad Peruana de Ciencias Aplicadas
-# Informe de Trabajo Final
+- A través de técnicas como la metodología 5W2H, entrevistas cualitativas y análisis contextual, se ha definido de forma precisa la problemática de las empresas de transporte en cuanto a la gestión ineficiente de flotas, falta de trazabilidad operativa y carencia de herramientas tecnológicas integradas.
 
-</center>
+- La recolección de datos mediante entrevistas a empresarios y transportistas permitió validar directamente las hipótesis planteadas. Los participantes mostraron disposición a adoptar soluciones tecnológicas como MoviGestion, confirmando la pertinencia del producto en el mercado objetivo.
 
+- La solución propuesta aborda de forma directa los dolores detectados en el trabajo de campo. Esto permite asegurar que el diseño no es teórico, sino funcional y contextualizado.
 
-### <center>Aplicaciones Web</center> 
-<center>Ciclo: 2025-01</center>
-<center>Carrera: Ingenieria de Software</center>  
-<center>NRC: 2956</center> 
-<center>Profesor: Angel Augusto Velasquez Nuñez</center> 
-<center>"INFORME DE TRABAJO FINAL (TP1)"</center> 
+- La especificación de epics y user stories refleja un análisis cuidadoso de las funcionalidades necesarias para distintos perfiles de usuario. Esto facilitará la planificación de futuras fases de desarrollo y pruebas.
 
-### <center>Startup: Bicas team</center>
-### <center>Producto: MoviGestion</center>
-### Integrantes:
+- En la segunda entrega se ha completado una simulación de la capa de presentación de la aplicación web, utilizando una API simulada y desplegándola en GitHub Pages. Esto demuestra que el proyecto avanza de forma progresiva hacia su implementación real.
 
-<table >
-    <tr>
-        <th>Nombre</th>
-        <th>Codigo</th>
-    </tr>
-    <tr>
-        <td>Huarcaya Chavez Miguel Alejandro Daniel</td>
-        <td>u202116207</td>
-    </tr>
-    <tr>
-        <td>Tarazona Medina Piero Abel</td>
-        <td>u202217633</td>
-    </tr>
-    <tr>
-        <td>Elias Torres Espinoza</td>
-        <td>u20191A453</td>
-    </tr>
-    <tr>
-        <td>Donayre Peña, Moises Rodolfo</td>
-        <td>u202216021</td>
-    </tr>
-    <tr>
-        <td>Chacon Martinez, Mauricio Sebastián</td>
-        <td>u202212911</td>
-    </tr>
-    <tr>
-        <td>Valenzuela Huillcaya, Aldhair Johan Juan</td>
-        <td>u20201F572</td>
-    </tr>
-</table >
+- El uso de herramientas como GitHub para la redacción colaborativa del informe y el desarrollo del prototipo demuestra un buen manejo de metodologías ágiles y control de versiones, lo que favorece la coordinación del equipo y la eficiencia del proceso.
 
 <center> Mayo, 2025</center>
+- El equipo demostró un enfoque claro de mejora continua al corregir errores e imprecisiones identificados en la primera entrega (TB1). En la segunda entrega (TP1), se incorporaron ajustes relevantes al diseño de la solución, especialmente en la capa visual del sistema (Figma), así como en la estructuración del contenido técnico y narrativo del informe. Estas correcciones no solo evidencian una revisión crítica del trabajo anterior, sino también la capacidad del equipo para asumir observaciones constructivas y transformarlas en mejoras concretas, fortaleciendo así la calidad del producto entregado y la madurez del proyecto en general.
 
 
-**Registro de Versiones del Informe:**
+# Bibliografia 
+Berné, M. (2023, 8 marzo). Criterios de aceptación: ejemplos para elaborarlos. Blog. https://www.scrummanager.com/blog/2023/03/criterios-de-aceptacion-definicion-y-ejemplos/ 
 
-En esta sección se resumen todas las modificaciones relevantes que sean realizadas sobre el informe durante el ciclo de vida del proyecto.
+Conventional commits. (s. f.). Conventional Commits. https://www.conventionalcommits.org/en/v1.0.0/ 
 
 | Versión | Fecha       | Autor                                   | Descripción de modificación                                                                                   |
 |---------|-------------|------------------------------------------|---------------------------------------------------------------------------------------------------------------|
@@ -99,24 +65,29 @@ En esta sección se resumen todas las modificaciones relevantes que sean realiza
 | V1.20   | 15/05/2025  | Valenzuela Huillcaya, Aldhair Johan Juan | Application Prototyping.                                                                                      |
 | V1.21   | 15/05/2025  | Chacon Martinez, Mauricio Sebastián      | Refactor Capítulo 5.                                                                                          |
 | V1.22   | 15/05/2025  | Huarcaya Chavez, Miguel Alejandro Daniel | Integración de ramas.                                                                                         |
+Markdown - La guía definitiva en español. (2022, 14 febrero). Markdown. https://markdown.es/ 
 
+Tune, N. (2018, 1 agosto). Domain-Driven Architecture Diagrams - Strategy, Architecture, Continuous Delivery, and DDD - Medium. Medium. 
 
 # Project Report Collaboration Insights
 Link de Repositorio: https://github.com/upc-Soluciones-IOT-BicasTeam/upc-iot-BicasTeam-report.git
+admeconomica. (2020, 9 de julio). La congestión vehicular de Lima: Cuando y donde menos esperas - Económica. Económica. Recuperado de https://economica.pe/la-congestion-vehicular-de-lima-cuando-y-donde-menos-lo-esperas/
 
-TB1: En esta etapa, el equipo se reunió para definir el alcance y los objetivos, asignando tareas específicas a cada miembro. Comenzamos recopilando datos y revisando información relevante, con cada miembro contribuyendo con investigaciones individuales que luego compartimos y discutimos en reuniones periódicas. En GitHub, establecimos un flujo de trabajo para colaborar en la redacción del informe, creando un repositorio dedicado con secciones divididas en archivos Markdown para facilitar la colaboración y revisión
+Universidad de Lima. (s. f.-b). Las reformas que el transporte público necesita | Universidad de Lima. Recuperado de https://www.ulima.edu.pe/entrevista/alexandre-almeida-17-07-2020
 
-![Capturas-TB1](/assets/chapter01/Report%20collaboration/tb1%20collaborators.png)
+Wilson, J. (2016). Gestión y Control de Flotas y Servicios de Transporte por Carretera. ICB Editores. Recuperado de https://books.google.com.pe/books?id=G8Y-DwAAQBAJ&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 
-TP1: Implementamos todo lo investigado en la anterior entrega en una aplicacion web, mas especificamente la capa de presentación. Utilizamos una "fake api" para emular un "back-end" de donde recoger datos y mostrar una simulacion realista de como se veria nuestra aplicacion.
-Utilizamos GitHub Pages para desplegar el "front-end" de nuestra aplicación y "beeceptor" para la "fake api".
-Po ultimo, corregimos ciertos puntos del figma de la entrega anterior
+Frock, R. (2006). Changing How the World Does Business: FedEx’s Incredible Journey to Success – The Inside Story. Berrett-Koehler Publishers. Recuperado de https://www.goodreads.com/book/show/648357.Changing_How_the_World_Does_Business
 
-![Capturas-TP1]()
+George, R. (2013). Ninety Percent of Everything: Inside Shipping, the Invisible Industry That Puts Clothes on Your Back, Gas in Your Car, and Food on Your Plate. Metropolitan Books. Recuperado de https://archive.org/details/ninetypercentofe0000geor
 
+Mordor Intelligence. (2010). Industria de Transporte de Carga. Recuperado de https://www.odoo.com/es_ES/app/fleet?network=o&utm_source=bing&utm_medium=cpc&utm_campaign=PE-ES-Fleet&utm_term=gesti%C3%B3n%20de%20flotas%20de%20veh%C3%ADculosutm_gclid=&msclkid=2b6d8e20caf617e7aa2fe80f78d7b93a
 
+INEGI y CANACAR. (s. f). Conociendo la Industria del Autotransporte de Carga. Recuperado de https://www.jornada.com.mx/notas/2021/12/22/autos/inegi-y-canacar-publican-estudio-de-la-importancia-del-autotransporte-de-carga-durante-el-2021/
 
-# Contenido
+Autor(es). (s.f). "Tecnologías de la Información y Comunicación (TIC) en la Gestión Empresarial." Revista de Tecnología. Recuperado de http://www.scielo.org.pe/scielo.php?script=sci_arttext&pid=S2219-71682023000400388
+
+Autor(es). (s.f). "Revista Logistec." Revista Logistec. Recuperado de https://www.revistalogistec.com/
 
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
@@ -217,100 +188,74 @@ Po ultimo, corregimos ciertos puntos del figma de la entrega anterior
   - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+Autor(es). (s.f). Logística Profesional.Recuperado de https://www.logisticaprofesional.com/revistas.php
 
-# Student Outcome
+Gajewska, T. & Walczyk, D. (2023).  Development of Transport Management Software. Sustainability (Multidisciplinary Digital Publishing Institute), 15(15), 12083. https://doi.org/10.3390/su151512083
 
-**El curso contribuye al cumplimiento del Student Outcome ABET:**
-**ABET – EAC - Student Outcome** 
+Gothelf, J. & Seiden, J. (2021). Lean UX, 3rd Edition. O’Railly Media, Inc. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
 
-Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros
-juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
-establecen objetivos, planifican tareas y cumplen objetivos.
-En el siguiente cuadro se describe las acciones realizadas y enunciados de
-conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
-del ABET – EAC - Student Outcome 5.
+He, L., Liu, S. & Shen, Z. M. (2022). Smart urban transport and logistics: A business analytics perspective. Production and Operations Management, 31(10), 3771-3787. https://doi.org/10.1111/poms.13775
+
+Instituto Nacional de Estadística e Informática. (2024). A nivel nacional el movimiento de vehículos aumentó 6,1% en abril de 2024 (Nota de Prensa N°96). https://m.inei.gob.pe/media/MenuRecursivo/noticias/nota-de-prensa-n-096-2024-inei.pdf
+
+International Bank for Reconstruction and Development. (2023). Connecting to Compete, Trade Logistics in the Global Economy. The World Bank. https://lpi.worldbank.org/sites/default/files/2023-04/LPI_2023_report_with_layout.pdf 
+
+International Transport Forum. (2023). ITF Transport Outlook 2023, OECD Publishing. Paris, https://doi.org/10.1787/b6cc9ad5-en 
+
+Jiao, H. & Zhang, S. (2024). Multi-objective optimization of urban logistics land: a gradient-based method approach with Wuhan city as an example. International Journal of Digital Earth, 18(1), 1 - 17. https://doi.org/10.1080/17538947.2024.2449568
 
 | Criterio específico  | Acciones realizadas  | Conclusiones          |
 |----------------------|---------------------|-----------------------|
 | Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Mauricio Chacon Martinez**<br>**TB1:** En esta entrega, nos reunimos como equipo para poder recibir algún feedback del líder y las tareas asignadas, se contribuyó en la organización inicial del trabajo y en la definición de roles.<br>**TP1:** A través de reuniones con el equipo se establecieron algunos puntos a mejorar y cada integrante se encargó de hacer en equipos algún punto asignado.<br><br>**Miguel Huarcaya Chavez**<br>**TB1:** Desarrollé el Event Storming y lideré las reuniones para decidir las historias de usuario del proyecto.<br>**TP1:** Corregí y aumenté las historias de usuario a través de reuniones con el equipo. Asimismo, se realizó el Event Storming en conjunto.<br><br>**Elias Torres Espinoza**<br>**TB1:** Durante la TB1, lideré de forma compartida la planificación inicial del proyecto: facilité la discusión para definir responsabilidades, promoví la participación activa de cada miembro y aseguré que las decisiones se tomaran por consenso, fomentando un ambiente de colaboración y responsabilidad mutua.<br>**TP1:** En TP1, coordiné las sesiones de seguimiento de avances, guié la priorización de las historias de usuario junto al resto del equipo y propicié la comunicación continua para resolver bloqueos, ejerciendo un liderazgo distribuido que permitió adaptarnos ágilmente a los cambios y mantener el enfoque en los objetivos comunes.<br><br>**Piero Tarazona Medina**<br>**TB1:** Contribuí activamente al desarrollo de la Context Mapping y los Bounded Context Canvases, liderando la definición de los límites de cada contexto, identificando las relaciones entre ellos y asegurando que cada bounded context cuente con su propósito y responsabilidades bien definidos, promoviendo siempre el consenso entre los miembros del equipo.<br>**TP1:** En el TP1, asumí la responsabilidad del diseño visual y de interacción de la aplicación web, elaborando los wireframes y mockups de las principales vistas. Coordiné con los integrantes del equipo para asegurar que el diseño cumpla con los lineamientos definidos en las Style Guidelines y responda a los flujos de usuario definidos previamente. Se promovió el trabajo conjunto al validar iterativamente las propuestas.<br><br>**Moises Donayre Peña**<br>**TB1:** Participé activamente en las discusiones y la organización inicial del equipo, contribuyendo a la definición de los primeros pasos del proyecto y ofreciendo mi perspectiva en las decisiones grupales.<br>**TP1:** Colaboré en la identificación de áreas de mejora del proyecto y trabajé junto con mis compañeros en la implementación de soluciones a los problemas planteados, aportando mis habilidades para alcanzar los objetivos comunes.<br><br>**Aldhair Valenzuela Huillcaya**<br>**TB1:** Durante el desarrollo de la TB, participé activamente en el trabajo en equipo. Junto a mis compañeros, distribuimos responsabilidades de forma equitativa y colaborativa, asegurando que cada integrante aportara sus conocimientos al diseño de la solución.<br>**TP1:** En el TP, mantuve ese mismo enfoque colaborativo, fomentando un ambiente de trabajo participativo y organizado. Participé en reuniones grupales, colaboré en tareas claves para el avance del proyecto y colaboré estrechamente con mis compañeros en la implementación de los artefactos que se presentan para esta entrega. | El trabajo en equipo ha sido clave para superar los desafíos de ambas entregas. Todos los miembros han ejercido liderazgo en distintos momentos del proceso, demostrando adaptabilidad, iniciativa y capacidad de colaboración. Se logró una coordinación efectiva gracias a la asignación flexible de responsabilidades y al compromiso individual por cumplir los objetivos comunes. |
 | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Mauricio Chacon Martinez**<br>**TB1:** En esta entrega, desarrollé en equipo y organicé algunos puntos pendientes del proyecto, así como planifiqué algunas mejoras y cambios a futuro.<br>**TP1:** En esta entrega, cumplí con las tareas asignadas por el equipo, corregí y mejoré algunos puntos en observación, todo en constante comunicación con el equipo para resolver dudas y realizar preguntas.<br><br>**Miguel Huarcaya Chavez**<br>**TB1:** En esta entrega realicé el EventStoming y las historias de usuario. Las mismas fueron desarrolladas a través de reuniones usando el software de reuniones *Discord*.<br>**TP1:** En esta entrega corregí el EventStorming y las historias de usuarios convocando a múltiples reuniones en equipo. Asimismo dirigí las correcciones del informe para que todo se realice en Markdown.<br><br>**Elias Torres Espinoza**<br>**TB1:** En la TB1, promovió un ambiente inclusivo al invitar a todos los miembros a aportar ideas y opiniones, establecí metas claras para la fase inicial y organicé la planificación de tareas mediante un tablero compartido. Me aseguré de que cada integrante comprendiera sus responsabilidades y plazos, facilitando recursos y guía cuando fue necesario, lo que permitió cumplir con los objetivos acordados para esta entrega.<br>**TP1:** Durante el TP1, revisamos y ajustamos las metas definidas, elaboré un plan de trabajo detallado con hitos semanales y coordiné sesiones de seguimiento para monitorear el avance. Gracias a la asignación efectiva de tareas y a la comunicación constante, logramos completar los entregables dentro del cronograma, manteniendo siempre un entorno de colaboración y apoyo mutuo.<br><br>**Piero Tarazona Medina**<br>**TB1:** Coordiné sesiones colaborativas para discutir los límites de cada contexto y cómo se comunican entre sí, fomentando un ambiente inclusivo donde cada miembro pudo proponer mejoras o validar las decisiones tomadas. Esto nos permitió asegurar que los objetivos planteados en el diseño estratégico de la solución se cumplieran según lo esperado.<br>**TP1:** Para los wireframes y mockups, propuse una secuencia de vistas alineadas a la arquitectura de información, colaborando activamente en definir la navegación, etiquetas y estructuras visuales. Me aseguré de cumplir los entregables dentro del cronograma acordado y coordiné con los responsables de UX y backend para mantener consistencia en estilo y funcionalidad.<br><br>**Moises Donayre Peña**<br>**TB1:** Fomenté una comunicación abierta y respetuosa dentro del equipo, asegurándome de que todas las voces fueran escuchadas durante la planificación inicial y la distribución de tareas para lograr los objetivos de la entrega.<br>**TP1:** Contribuir al cumplimiento de las tareas asignadas por el equipo, como corrección en el reporte y adición de nuevas secciones, manteniéndome en comunicación constante para resolver dudas y asegurar la correcta implementación de los artefactos de esta entrega, trabajando en un ambiente colaborativo.<br><br>**Aldhair Valenzuela Huillcaya**<br>**TB1:** En la TB1, fomenté un entorno de trabajo colaborativo e inclusivo donde todos los integrantes del equipo pudieran expresar sus ideas y participar activamente. Desde el inicio, ayudé a establecer metas claras y alcanzables, lo que permitió organizar mejor nuestras tareas y distribuirlas según las fortalezas de cada miembro.<br>**TP1:** Durante el TP, mantuve ese enfoque de trabajo conjunto, promoviendo la integración de todos los miembros y respetando diferentes perspectivas dentro del equipo. Participé activamente en la definición de metas específicas para cada fase del proyecto, y en la planificación de tareas que facilitarán un desarrollo continuo. | El equipo ha logrado crear un entorno de trabajo equitativo y participativo, en el cual se han fijado metas realistas y se han cumplido de manera organizada. La planificación en sprints y la buena comunicación entre los miembros permitieron alcanzar los objetivos definidos para TB1 y TP1. El respeto mutuo y el compromiso colectivo han sido determinantes para el buen desarrollo del proyecto hasta esta etapa. |
+Keil, M., Hagemann, V. & Glock, C. (2025). Promoting healthy and safe driving: Physiological and psychological evaluation of truck drivers for individualized shift and route planning. Transportation Research Part F: Traffic Psychology and Behaviour, 111, 409-434. https://doi.org/10.1016/j.trf.2025.03.017
+
+Ministerio de Transporte y Comunicaciones. (2023). ANUARIO ESTADÍSTICO 2023. https://cdn.www.gob.pe/uploads/document/file/6778343/5871728-anuario-estadistico-2023.pdf 
+
+Mordor Intelligence. (2024). Análisis de participación y tamaño del mercado de transporte de carga por carretera en Perú tendencias de crecimiento y pronósticos (2024-2029). Recuperado el 11 de abril de 2025, de https://www.mordorintelligence.com/es/industry-reports/peru-road-freight-transport-market
+
+Nchimbi, S. A., Kisangari, M., Dida, M. A. & Barakabitze, A. A. (2022). Design a Services Architecture for Mobile-Based Agro-Goods Transport and Commerce System. Mobile Information Systems, 2022(1), 1-10. https://doi.org/10.1155/2022/6041197
+
+Patil, D., Mane, S., Biradar, S., Rankhamb, S. & Bhonsle, M. (2023). Fleet Management Mobile Application Using GPS Shortest Path [Documento de conferencia]. International Conference on Data Intelligence and Cognitive Informatics, Tirunelveli, India. https://link.springer.com/chapter/10.1007/978-981-99-7962-2_16 
+
+Patnaik, D. (2017). Needfinding: Design Research and Planning (4th Edition). CreateSpace Independent Publishing Platform. https://www.amazon.com/Needfinding-Design-Research-Planning-4th/dp/1974015580 
+
+Pouliou, A., Kehagia, F. & Meselidis, C. (2025). A Model for the Crash Occurrence in Unexpected Incidents. Transport and Telecommunication Journal, 26(1), 33-44. https://doi.org/10.2478/ttj-2025-0004
+
+SafeLink Group. (2024). ¿Cuáles son los principales problemas de seguridad en el transporte de carga en Perú? SafeLink Marine. Recuperado el 15 de abril de 2025, de https://www.safelinkmexico.com/cuales-son-los-principales-problemas-de-seguridad-en-el-transporte-de-carga-en-peru/ 
+
+Smith, P, R. & Zook, Z.(2022). Marketing Communications: Integrating Online and Offline, Customer Engagement and Digital Technologies. Kogan Page. https://www.perlego.com/book/1589959/marketing-communications-integrating-online-and-offline-customer-engagement-and-digital-technologies-pdf 
+
+Sun, P. F., Zhang, Y., Wu, X. J., Du, J. Y., Hou, R. R. & Liu, J. (2024). SIMULATION AND ANALYSIS OF A PREEMPTIVE TRANSPORTATION MODEL USING FLEXSIM SOFTWARE. International Journal of Simulation Modelling, 23(2), 335-346. https://doi.org/10.2507/IJSIMM23-2-CO7
+
+Superintendencia de Transporte Terrestre de Personas, Carga y Mercancías. (2023). MEMORIA ANUAL 2023. Ministerio de Transportes y Comunicaciones. https://cdn.www.gob.pe/uploads/document/file/7461251/6352814-memoria-anual-2023.pdf?v=1736265456 
+
+Superintendencia de Transporte Terrestre de Personas, Carga y Mercancías. (2024). REPORTE ESTADÍSTICO N.º 05-2023: FISCALIZACIÓN CON CINEMÓMETROS (Del 01 de enero al 31 de diciembre de 2023). Ministerio de Transportes y Comunicaciones. https://cdn.www.gob.pe/uploads/document/file/5784678/5137004-reporte-estadistico-n-005-2023-fiscalizacion-con-cinemometros.pdf?v=1706720388 
+
+Wheeler, A. & Meyerson, R. (2024). Designing Brand Identity: A Comprehensive Guide to the World of Brands and Branding. Wiley. https://www.amazon.com/-/es/Alina-Wheeler-ebook/dp/B0CVVNPZWG?ref_=ast_author_mpb 
 
 
----
----
----
+# Anexos
 
-# Capítulo I: Introducción
-## 1.1 Startup Profile
-### 1.1.1 Descripción de la Startup
-MoviGestion transforma la gestión de flotas tradicional en una operación inteligente y conectada. Combinamos una plataforma web, una aplicación móvil intuitiva, y la integración de dispositivos IoT para el monitoreo en tiempo real de la ubicación (GPS), temperatura y humedadde la carga y/o vehículo. Maximizamos la eficiencia, aseguramos la integridad de la carga y ofrecemos control total a las empresas de transporte.
+Repositorio de la organizacion: https://github.com/upc-Soluciones-IOT-BicasTeam
 
-Con esta combinación, ayudamos a las empresas de transporte a maximizar la eficiencia operativa, reducir costos, prevenir pérdidas por condiciones ambientales inadecuadas y tomar decisiones basadas en datos precisos. Nuestra plataforma permite una supervisión total del estado de los envíos, vehículos y conductores, con alertas inteligentes configuradas según los requisitos específicos de cada carga, lo que asegura una trazabilidad completa y la integridad del producto en cada etapa del proceso logístico.
+Repositorio de la Landing Page: https://github.com/upc-Soluciones-IOT-BicasTeam/upc-AppWeb-BicasTeam-LandingPage.github.io
 
-Además, ofrecemos un modelo freemium escalable, ideal para empresas que deseen comenzar a digitalizar sus operaciones con la posibilidad de crecer según sus necesidades. Nuestro enfoque dual –administradores y conductores– garantiza que cada usuario cuente con herramientas especializadas y eficientes adaptadas a su rol en la operación.
+Repositorio de la Web App Application: https://github.com/upc-Soluciones-IOT-BicasTeam/upc-OpenSource-BicasTeam-AppWeb                                                                                  
 
-**Misión**: Proporcionar a las empresas de trasnporte una solución tecnológica integral e inteligente que optimice la gestión de flotas, garantice la integridad de la carga mediante el monitoreo activo y la telemetría avanzada, y mejore la eficiencia operativa y la rentabilidad de nuestros clientes.
+Repositorio del Reporte: https://github.com/upc-Soluciones-IOT-BicasTeam/upc-iot-BicasTeam-report
 
-**Visión**: Ser la platafoma líder y el socio tecnológico preferido para la gestión inteligente de flotas, impulsando la transformación digital del sector transporte a través de la innovación continua en IoT y análisis de datos para un futuro logístico más eficiente, seguro y sostenible.
+Landing Page desplegado: https://upc-soluciones-iot-bicasteam.github.io/upc-AppWeb-BicasTeam-LandingPage.github.io/
 
-### 1.1.2 Perfiles de integrantes del equipo
+App Web: Desplegado: https://upc-soluciones-iot-bicasteam.github.io/upc-OpenSource-BicasTeam-AppWeb/login
 
-| Integrante                               | Información                                                                                                                                                                                              | Foto                                                                  |
-| :--------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------- |
-| **Piero Abel Tarazona Medina** | `Código:` U202217633  <br> `Carrera:` Ingeniería de Software <br> Estudiante de 7mo ciclo. Me caracterizo por mi pensamiento crítico y capacidad de encontrar soluciones viables para distintos problemas. Conocimientos en HTML, CSS, C++, Java, Javascript, C#. | <img src="./assets/chapter01/piero.png" alt="Piero" width="150">    |
-| **Mauricio Sebastián Chacon Martinez** | `Código:` U202212911 <br> `Carrera:` Ingeniería de Software <br> Apasionado por la programación. Conocimientos en HTML, CSS, Javascript, y Astro. Persona responsable y comprometida con su desarrollo profesional. | <img src="./assets/chapter01/mauricio.png" alt="Mauricio" width="150"> |
-| **Miguel Huarcaya Chavez** | `Código:` U202116207 <br> `Carrera:` Ingeniería de Software <br> Conocimientos en JavaScript, TypeScript, HTML, CSS, Vue y Angular. Persona responsable y colaborativa.                                  | <img src="./assets/chapter01/miguel.jpg" alt="Miguel" width="150">    |
-| **Elias Torres Espinoza** | `Código:` U20191A453 <br> `Carrera:` Ingeniería de Software <br> Conocimientos en Angular, Vue, TypeScript, JavaScript, C++, C#, Python, HTML y CSS.                                                    | <img src="./assets/chapter01/elias.jpg" alt="Elias" width="150">    |
-| **Moises Rodolfo Donayre Peña** | `Código:` U202216021 <br> `Carrera:` Ingeniería de Software <br> Apasionado por el desarrollo web y móvil. Conocimientos en Vue, Angular y Flutter. Persona empática y colaborativa.                     | <img src="./assets/chapter01/moises.png" alt="Moises" width="150">    |
-| **Aldhair Johan Juan Valenzuela Huillcaya**| `Código:` U20201F572 <br> `Carrera:` Ingeniería de Software <br> Comunicativo y analítico. Conocimientos en Angular, Vue, React, Flutter y Kotlin.                                                  | <img src="./assets/chapter01/aldahir.png" alt="Aldahir" width="150">  |
+Diagrama de clases: https://my.vertabelo.com/public-model-view/5yI4V4ChbQGarfXWiMjxVVIcacFNuarlrFWq26NToht19NwAIKDlIQ60hc4OJ0M4?x=1918&y=2759&zoom=0.6028
 
-## 1.2 Solution Profile
-### 1.2.1 Antecedentes y problemática
+Figma de las Aplicaciones: https://www.figma.com/design/gu0SdYkebsOKLB8p5YvOzL/BicasTeam-Movigestion?node-id=0-1&t=br2oDsxlnl5iWDuS-1
 
-En el sector del transporte empresarial, la gestión de flotas representa un reto creciente que va más allá de la simple asignación de vehículos y conductores. La complejidad de mantener operaciones eficientes, seguras y rentables se ve agravada por la necesidad de monitorear en tiempo real variables críticas como la ubicación, la temperatura y la humedad, especialmente en cargas sensibles. Muchos sistemas actuales de gestión de fflotas se quedan cortos: carecen de flexibilidad, no ofrecen una integración real con tecnologías IoT y presentan interfaces poco amigables que limitan su adopción por parte de usuarios clave como gerentes de flota y conductores.
-Esa falta de soluciones completas genera consecuencias importantes: pérdida de productos por condiciones ambientales no controladas, falta de visibilidad operativa, toma de decisiones reactivas en lugar de proactivas, y una gestión ineficiente de recursos humanos y logísticos. Además, los empresarios y transportistas necesitan herramientas diferenciadas y especializadas que se adapten a sus roles, y que, al mismo tiempo, trabajen en conjunto dentro de un ecosistema digital centralizado.
+Link User Flows Diagrams Mobile Applicattion: https://overflow.io/s/9YFX4UGE
 
-**Objetivo Principal**:
-Desarrollar una solución tecnológica integral, denominada MoviGestion, que transforme la gestión de flotas tradicionales en una operación inteligente, conectada y proactiva, incorporando monitoreo ambiental en tiempo real, analítica avanzada, y funcionalidades especializadas tanto para gerentes como para conductores.
-
-**Objetivos Específicos**:
-
-1. Diseñar una plataforma web robusta orientada a gerentes de flota, que centralice la planificación, seguimiento, y análisis de operaciones logísticas con foco en eficiencia y control ambiental.
-2. Desarrollar una aplicación móvil intuitiva para conductores, que facilite la gestión de sus envíos, el reporte de incidentes y el monitoreo de las condiciones de la carga.
-3. Integrar tecnología IoT avanzada, que permita el seguimiento en tiempo real de la ubicación GPS, temperatura y humedad de los vehículos y su carga.
-4. Incorporar un sistema de alertas preventivas e informes analíticos que permitan tomar decisiones informadas basadas en datos contextuales y actualizados.
-
-**Restricciones**:
-
-1. La plataforma debe ser accesible desde distintos dispositivos, priorizando la experiencia de uso tanto en escritorio como en móvil.
-2. Todos los datos transmitidos y almacenados deben cumplir con estándares de seguridad y privacidad.
-3. El sistema debe estar preparado para escalar y soportar múltiples usuarios concurrentes sin comprometer la estabilidad ni el rendimiento.
-
-Utilizaremos la técnica de las 5W y 2Hs para desglosar el problema y entenderlo en detalle. Esta técnica nos proporcionará respuestas claras sobre qué, cuándo, dónde, quién, por qué, cómo y cuánto, lo que nos ayudará a encontrar soluciones efectivas.
-
-**Técnica 5Ws y 2Hs**
-
-### Técnica 5Ws y 2Hs
-
-| Elemento      | Pregunta                                                                 | Descripción                                                                                                                                                                                |
-|---------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **What?**     | ¿Cuál es el problema?                                                    | Las empresas de transporte enfrentan una gestión ineficiente de sus flotas, especialmente en lo relacionado al monitoreo ambiental, trazabilidad de envíos y control operativo en tiempo real. |
-| **When?**     | ¿Cuándo se manifiesta el problema?                                       | Durante la operación diaria, especialmente en envíos críticos que requieren control ambiental o cuando hay múltiples vehículos y conductores involucrados simultáneamente.                  |
-| **Where?**    | ¿Dónde ocurre el problema?                                               | En todo el ciclo de gestión de flotas: asignación de envíos, seguimiento, monitoreo ambiental, control de recursos y comunicación entre gerentes y conductores.                            |
-| **Who?**      | ¿A quién afecta el problema?                                             | A los empresarios y gerentes de flota que requieren control y eficiencia, y a los conductores que necesitan herramientas claras para gestionar sus tareas y reportar novedades.            |
-| **Why?**      | ¿Por qué sucede el problema?                                             | Por la falta de soluciones integrales que combinen monitoreo ambiental, control en tiempo real, comunicación efectiva y análisis estratégico en una misma plataforma accesible.            |
-| **How?**      | ¿Cómo se diferencia del estado óptimo?                                   | En el estado actual, se presentan pérdidas por fallas en el control ambiental, decisiones tardías por falta de datos, y operaciones fragmentadas. El estado óptimo implicaría control total y proactividad. |
-| **How much?** | ¿Cuánto impacto genera el problema?                                      | Genera costos adicionales, riesgo de pérdida de carga sensible, baja productividad operativa y menor satisfacción del cliente. MoviGestion busca reducir significativamente ese impacto.   |
-
-### 1.2.2 Lean UX Process
-
-#### 1.2.2.1 Lean UX Problem Statements
-
-El estado actual del sector de gestión de flotas y logística en el Perú se basa principalmente en procesos tradicionales, manuales y sistemas fragmentados. La mayoría de las empresas de transporte pequeñas y medianas aún dependen de herramientas básicas como el GPS o registros en papel para gestionar sus envíos, lo que limita la visibilidad en tiempo real sobre el estado de los vehículos, las condiciones de la carga y la eficiencia de las rutas.
-Lo que los productos o servicios existentes no logran resolver es la integración de monitoreo ambiental en tiempo real (temperatura, humedad), coordinación con los conductores y la toma de decisiones basada en datos, todo dentro de una solución accesible, simple y adaptada a las necesidades reales del mercado local. Las soluciones actuales suelen ser costosas, complejas o poco prácticas para empresas de menor escala.
-Nuestro producto abordará esta brecha mediante una plataforma integrada que combina un panel web, una aplicación móvil y dispositivos IoT, permitiendo a las empresas de transporte monitorear en tiempo real la ubicación de sus vehículos, las condiciones de la carga y el comportamiento de los conductores. Con esta información, podrán reducir pérdidas, mejorar la seguridad y optimizar su operación logística a través de alertas inteligentes y datos accionables.
-Nuestro enfoque inicial será atender a las pequeñas y medianas empresas de transporte en Perú que desean comenzar a digitalizar sus operaciones, pero que no cuentan con los recursos técnicos o financieros para implementar sistemas de gestión de flotas a gran escala.
-Sabremos que hemos tenido éxito cuando veamos que estas empresas utilizan activamente nuestra plataforma para monitorear al menos el 80% de su flota en tiempo real, reportan un aumento del 15% en su eficiencia operativa y una reducción en incidentes relacionados a daños en la carga o retrasos por fallas logísticas durante los primeros seis meses de uso.
+Link prototype video Web Application: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/ER8kXIuJc_RBhiSkk7Pxf7wBL9BP8QaQrryzi9i0hjE7dg?e=51zo9b
 
 #### 1.2.2.2 Lean UX Assumptions
 
@@ -3843,3 +3788,4 @@ Landing Page:<br>
 
 Application Web (Gerente):<br>
  ![Application Web](/assets/chapter06/collaboration-insights1.2.png)
+Link prototype video Mobile Application: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/EW5UtiiJzzNLhzqHN2R_0YABeVG1B-B9yrb1zJYNjsFfkw?e=pTAFWr
