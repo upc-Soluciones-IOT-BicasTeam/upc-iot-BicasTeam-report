@@ -245,6 +245,12 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
  #### 6.2.1.3 Sprint Backlog 1
  El Sprint 1 está centrado en la implementación de las funcionalidades clave de la landing page del sitio web, priorizando las historias de usuario identificadas. Nuestro objetivo principal es proporcionar a los visitantes una experiencia inicial sólida al presentar de manera clara y concisa las características y beneficios del sitio, junto con una navegación intuitiva y acceso rápido a la información relevante. Al completar las tareas asociadas a las historias de usuario definidas, sentaremos las bases para futuras iteraciones, asegurando que la página de inicio cumpla con las expectativas de los usuarios y contribuya al éxito del proyecto.
 
+ ![Sprint Backlog 1](/assets/chapter06/sprintBacklog1.png)
+
+ ![Sprint Backlog 1](/assets/chapter06/sprintBacklog1.2.png)
+
+ Link del Trello: https://trello.com/invite/b/681b1bb284ae33c3cde2d3f9/ATTI913c13908094ece9f52ab689e367aab539E5B886/bicasteam-movigestion-requirementsspecification
+
 <table border="1">
     <tbody>
         <tr>
