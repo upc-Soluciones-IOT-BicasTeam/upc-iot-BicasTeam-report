@@ -240,6 +240,15 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
 | Donayre, Moises | MoisesD19 |  |  | C |  |  | L |  |
 | Valenzuela, Aldhair | AldhaValenzuelaH |  | C |  |  |  |  | C |
 
+| Team Member | Github Username | IAM | Subscription & Payments | Profile Management | Analytics | Vehicles & Tracking | Shipment | Issues |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Huarcaya, Miguel | MiguelHuarcayaChavez | L | L |  |  | C | C |
+| Torres, Elias | EliasTorresEzpinoza | C | C |  |  |  | L | L |
+| Tarazona, Piero | pierotm |  |  | C | L |  |  |  |
+| Chacon, Mauricio | mxuriciocm |  |  | L | C |  |  |  |
+| Donayre, Moises | MoisesD19 |  |  |  |  | L |  |  |
+| Valenzuela, Aldhair | AldhaValenzuelaH |  |  |  |  | C |  |  |
+
  #### 6.2.1.3 Sprint Backlog 1
  El Sprint 1 está centrado en la implementación de las funcionalidades clave de la landing page del sitio web, priorizando las historias de usuario identificadas. Nuestro objetivo principal es proporcionar a los visitantes una experiencia inicial sólida al presentar de manera clara y concisa las características y beneficios del sitio, junto con una navegación intuitiva y acceso rápido a la información relevante. Al completar las tareas asociadas a las historias de usuario definidas, sentaremos las bases para futuras iteraciones, asegurando que la página de inicio cumpla con las expectativas de los usuarios y contribuya al éxito del proyecto.
 
@@ -264,8 +273,8 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
             <td>Status(To-do / InProcess / ToReview / Done)</td>
         </tr>
         <tr>
-            <td rowspan="3">US01</td>
-            <td rowspan="3">Ver descripción general del sistema</td>
+            <td>US01</td>
+            <td>Ver descripción general del sistema</td>
             <td>T01</td>
             <td>Diseñar sección de descripción</td>
             <td>Crear el diseño visual y la estructura de la sección de la descripción general del sistema.</td>
@@ -274,24 +283,8 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
             <td>Done</td>
         </tr>
         <tr>
-            <td>T02</td>
-            <td>Implementar contenido de la descripción</td>
-            <td>Escribir e integrar el texto que describe la funcionalidad principal del sistema.</td>
-            <td>6</td>
-            <td>Elias Torres</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>T03</td>
-            <td>Probar visualización descripción</td>
-            <td>Verificar que la descripción general se muestre correctamente en diferentes dispositivos y navegadores.</td>
-            <td>2</td>
-            <td>Piero Tarazona</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td rowspan="3">US02</td>
-            <td rowspan="3">Ver funcionalidades clave</td>
+            <td>US02</td>
+            <td>Ver funcionalidades clave</td>
             <td>T04</td>
             <td>Identificar funcionalidades clave</td>
             <td>Definir y documentar las funcionalidades más importantes del sistema para mostrar.</td>
@@ -300,24 +293,8 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
             <td>Done</td>
         </tr>
         <tr>
-            <td>T05</td>
-            <td>Crear lista de funcionalidades</td>
-            <td>Desarrollar la interfaz de usuario para presentar las funcionalidades clave de forma clara.</td>
-            <td>10</td>
-            <td>Miguel Huarcaya</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>T06</td>
-            <td>Validar lista de funcionalidades</td>
-            <td>Asegurar que todas las funcionalidades clave identificadas se muestren correctamente.</td>
-            <td>3</td>
-            <td>Miguel Huarcaya</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td rowspan="2">US03</td>
-            <td rowspan="2">Ver comparativa de cuenta gratuita vs PRO</td>
+            <td>US03</td>
+            <td>Ver comparativa de cuenta gratuita vs PRO</td>
             <td>T07</td>
             <td>Definir comparativa</td>
             <td>Especificar las características y beneficios de las cuentas gratuita y PRO para la comparación.</td>
@@ -325,17 +302,28 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
             <td>Moises Donayre</td>
             <td>Done</td>
         </tr>
-        <tr>
-            <td>T08</td>
-            <td>Implementar omparativa</td>
-            <td>Desarrollar la tabla que muestre la comparación entre los dos tipos de cuenta.</td>
-            <td>7</td>
-            <td>Piero Tarazona</td>
+		    <td>US04</td>
+            <td>Ver video o animación explicativa</td>
+            <td>T11</td>
+            <td>Crear guion del video</td>
+            <td>Escribir el guion detallado que se utilizará para la creación del video explicativo.</td>
+            <td>5</td>
+            <td>Aldahir Valenzuela</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td rowspan="2">US06</td>
-            <td rowspan="2">Redirigir al registro</td>
+            <td>US05</td>
+            <td>Completar formulario de contacto</td>
+            <td>T12</td>
+            <td>Diseñar formulario de contacto</td>
+            <td>Crear la interfaz de usuario para el formulario donde los interesados puedan ingresar sus datos.</td>
+            <td>4</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US06</td>
+            <td>Redirigir al registro</td>
             <td>T09</td>
             <td>Crear botón de registro</td>
             <td>Diseñar e implementar el botón o enlace que lleva a la página de registro.</td>
@@ -344,11 +332,163 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
             <td>Done</td>
         </tr>
         <tr>
-            <td>T10</td>
-            <td>Configurar redirección</td>
-            <td>Asegurar que el botón de registro enlace correctamente a la página de registro de usuarios.</td>
+            <td>US16</td>
+            <td>Registrar cuenta de gerente</td>
+            <td>T13</td>
+            <td>Implementar formulario de registro</td>
+            <td>Desarrollar el formulario para que los gerentes puedan crear sus cuentas.</td>
+            <td>8</td>
+            <td>Piero Tarazona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US17</td>
+            <td>Iniciar sesión como gerente</td>
+            <td>T14</td>
+            <td>Crear formulario de inicio de sesión</td>
+            <td>Desarrollar la interfaz para que los gerentes puedan ingresar con sus credenciales.</td>
+            <td>3</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US20</td>
+            <td>Ver perfil personal</td>
+            <td>T15</td>
+            <td>Mostrar datos del perfil</td>
+            <td>Implementar la visualización de la información personal del usuario autenticado.</td>
+            <td>2</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US23</td>
+            <td>Crear vehículo</td>
+            <td>T16</td>
+            <td>Implementar formulario de registro de vehículo</td>
+            <td>Desarrollar el formulario para que los gerentes puedan registrar nuevos vehículos.</td>
+            <td>3</td>
+            <td>Moises Donayre</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US24</td>
+            <td>Ver listado de vehículos registrados</td>
+            <td>T17</td>
+            <td>Mostrar lista de vehículos</td>
+            <td>Desarrollar la interfaz para visualizar todos los vehículos registrados.</td>
+            <td>2</td>
+            <td>Piero Tarazona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US25</td>
+            <td>Asignar un conductor a un vehículo</td>
+            <td>T18</td>
+            <td>Crear interfaz de asignación</td>
+            <td>Desarrollar la funcionalidad para vincular un conductor a un vehículo específico.</td>
+            <td>3</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US27</td>
+            <td>Ver temperatura y humedad del vehículo</td>
+            <td>T19</td>
+            <td>Mostrar datos de sensor</td>
+            <td>Implementar la visualización de la temperatura y humedad del vehículo.</td>
             <td>2</td>
             <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US28</td>
+            <td>Ver ubicación actual del vehículo</td>
+            <td>T20</td>
+            <td>Integrar mapa con ubicación</td>
+            <td>Implementar la visualización de la ubicación del vehículo en un mapa.</td>
+            <td>3</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US34</td>
+            <td>Crear envío</td>
+            <td>T21</td>
+            <td>Implementar formulario de creación de envío</td>
+            <td>Desarrollar el formulario para que los gerentes puedan crear nuevos envíos.</td>
+            <td>5</td>
+            <td>Moises Donayre</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US35</td>
+            <td>Asignar envío a un conductor</td>
+            <td>T22</td>
+            <td>Crear interfaz de asignación de envíos</td>
+            <td>Desarrollar la funcionalidad para asignar un envío a un conductor.</td>
+            <td>3</td>
+            <td>Aldahir Valenzuela</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US37</td>
+            <td>Ver estado del envío</td>
+            <td>T23</td>
+            <td>Mostrar estado del envío</td>
+            <td>Implementar la visualización del estado actual del envío.</td>
+            <td>1</td>
+            <td>Piero Tarazona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US44</td>
+            <td>Ver reportes por conductor (como gerente)</td>
+            <td>T24</td>
+            <td>Generar reporte de conductor</td>
+            <td>Desarrollar la funcionalidad para generar reportes basados en la actividad de cada conductor.</td>
+            <td>2</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US46</td>
+            <td>Acceder a sección de suscripción</td>
+            <td>T25</td>
+            <td>Crear enlace a suscripción</td>
+            <td>Implementar un enlace o botón para acceder a la sección de gestión de suscripciones.</td>
+            <td>2</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US47</td>
+            <td>Subir comprobante de pago</td>
+            <td>T26</td>
+            <td>Implementar formulario de carga</td>
+            <td>Desarrollar la funcionalidad para que los gerentes puedan subir el comprobante de pago.</td>
+            <td>2</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US53</td>
+            <td>Ver condiciones ambientales por vehículo</td>
+            <td>T27</td>
+            <td>Mostrar condiciones por vehículo</td>
+            <td>Implementar la visualización de la temperatura y humedad de cada vehículo.</td>
+            <td>3</td>
+            <td>Moises Donayre</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>US54</td>
+            <td>Mostrar color según condición ambiental</td>
+            <td>T28</td>
+            <td>Implementar indicadores de color</td>
+            <td>Desarrollar la lógica para mostrar colores según los rangos de temperatura y humedad.</td>
+            <td>3</td>
+            <td>Aldahir Valenzuela</td>
             <td>Done</td>
         </tr>
     </tbody>
