@@ -198,24 +198,21 @@ En el próximo Sprint dedicaremos 15 min adicionales en el planning para:
 Refinar las estimaciones de cada historia.
 
 Dividir las historias grandes en subtareas de máximo 4 horas.</td>
-		</tr>
+	</tr>
 		<tr>
 			<td colspan="2">Sprint Goal & User Stories</td>
 		</tr>
 		<tr>
 			<td>Sprint 1 Goal</td>
 			<td>- Sprint 1 Goal
-Nuestro foco es en proporcionar una landing page informativa  que presente la propuesta de valor del sistema a quienes la visitan por primera vez.
-Creemos que ofrece una comprensión inmediata de las funciones principales y las opciones de suscripción a los posibles gerentes y conductores.
-Esto se confirmará cuando los visitantes puedan:
-
-Leer un resumen claro del sistema (US01).
-
-Explorar las funciones clave (US02).
-
-Comparar los planes gratuitos con los PRO (US03).
-
-Acceder al formulario de registro mediante un botón específico (US06).</td>
+			Nuestro foco es en proporcionar una landing page informativa  que presente la propuesta de valor del sistema a quienes la visitan por primera vez.Creemos que ofrece una comprensión inmediata de las funciones principales y las opciones de suscripción a los posibles gerentes y conductores.
+			Esto se confirmará cuando los visitantes puedan:
+			<ul>
+				<li>Leer un resumen claro del sistema (US01).</li>
+				<li>Explorar las funciones clave (US02).</li>
+				<li>Comparar los planes gratuitos con los PRO (US03).</li>
+				<li>Acceder al formulario de registro mediante un botón específico (US06).</li>
+			</ul>
 		</tr>
 		<tr>
 			<td>Sprint 1 Velocity</td>
@@ -224,7 +221,6 @@ Acceder al formulario de registro mediante un botón específico (US06).</td>
 		<tr>
 			<td>Sum of Story Points</td>
 			<td>
-
 | Orden | Story ID | Título | Story Points |
 | ----- | ------- | ------ | ------------ |
 | 1 | US01 | Ver descripción general del sistema | 2 |
@@ -238,36 +234,228 @@ Acceder al formulario de registro mediante un botón específico (US06).</td>
 </table>
 
  #### 6.2.1.2 Aspect Leaders and Collaborators
- | Team Member | Github Username | IAM | Subscription & Payments | Profile Management | Analytics | Vehicles & Tracking | Shipment | Issues |
+ | Team Member | Github Username | section-header | section-hero | section-about-us | section-about-team | section-services | section-pricing | section-footer |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Huarcaya, Miguel | MiguelHuarcayaChavez | L | L |  |  |  |  |
-| Torres, Elias | EliasTorresEzpinoza |  |  |  |  |  | L | L |
-| Tarazona, Piero | pierotm |  |  | C | L |  |  |  |
-| Chacon, Mauricio | mxuriciocm |  |  | L | C |  |  |  |
-| Donayre, Moises | MoisesD19 |  |  |  |  | L |  |  |
-| Valenzuela, Aldhair | AldhaValenzuelaH |  |  |  |  | C |  |  |
+| Huarcaya, Miguel | MiguelHuarcayaChavez | C |  | L |  | C |  |
+| Torres, Elias | EliasTorresEzpinoza |  | L |  | C |  |  | L |
+| Tarazona, Piero | pierotm |  |  |  | L |  | C |  |
+| Chacon, Mauricio | mxuriciocm | L |  |  | C | L |  | C |
+| Donayre, Moises | MoisesD19 |  |  | C |  |  | L |  |
+| Valenzuela, Aldhair | AldhaValenzuelaH |  | C |  |  |  |  | C |
 
  #### 6.2.1.3 Sprint Backlog 1
-El Sprint 1 está centrado en la implementación de las funcionalidades clave de la landing page del sitio web, priorizando las historias de usuario identificadas. Nuestro objetivo principal es proporcionar a los visitantes una experiencia inicial sólida al presentar de manera clara y concisa las características y beneficios del sitio, junto con una navegación intuitiva y acceso rápido a la información relevante. Al completar las tareas asociadas a las historias de usuario definidas, sentaremos las bases para futuras iteraciones, asegurando que la página de inicio cumpla con las expectativas de los usuarios y contribuya al éxito del proyecto.
+ El Sprint 1 está centrado en la implementación de las funcionalidades clave de la landing page del sitio web, priorizando las historias de usuario identificadas. Nuestro objetivo principal es proporcionar a los visitantes una experiencia inicial sólida al presentar de manera clara y concisa las características y beneficios del sitio, junto con una navegación intuitiva y acceso rápido a la información relevante. Al completar las tareas asociadas a las historias de usuario definidas, sentaremos las bases para futuras iteraciones, asegurando que la página de inicio cumpla con las expectativas de los usuarios y contribuya al éxito del proyecto.
+
+<table border="1">
+    <tbody>
+        <tr>
+            <td>Sprint #</td>
+            <td colspan="7">Sprint 1</td>
+        </tr>
+        <tr>
+            <td colspan="2">User Story</td>
+            <td colspan="6">Work-Item / Task</td>
+        </tr>
+        <tr>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Estimation (Hours)</td>
+            <td>Assigned To</td>
+            <td>Status(To-do / InProcess / ToReview / Done)</td>
+        </tr>
+        <tr>
+            <td rowspan="3">US01</td>
+            <td rowspan="3">Ver descripción general del sistema</td>
+            <td>T01</td>
+            <td>Diseñar sección de descripción</td>
+            <td>Crear el diseño visual y la estructura de la sección de la descripción general del sistema.</td>
+            <td>8</td>
+            <td>Aldahir Valenzuela</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T02</td>
+            <td>Implementar contenido de la descripción</td>
+            <td>Escribir e integrar el texto que describe la funcionalidad principal del sistema.</td>
+            <td>6</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T03</td>
+            <td>Probar visualización descripción</td>
+            <td>Verificar que la descripción general se muestre correctamente en diferentes dispositivos y navegadores.</td>
+            <td>2</td>
+            <td>Piero Tarazona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">US02</td>
+            <td rowspan="3">Ver funcionalidades clave</td>
+            <td>T04</td>
+            <td>Identificar funcionalidades clave</td>
+            <td>Definir y documentar las funcionalidades más importantes del sistema para mostrar.</td>
+            <td>4</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T05</td>
+            <td>Crear lista de funcionalidades</td>
+            <td>Desarrollar la interfaz de usuario para presentar las funcionalidades clave de forma clara.</td>
+            <td>10</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T06</td>
+            <td>Validar lista de funcionalidades</td>
+            <td>Asegurar que todas las funcionalidades clave identificadas se muestren correctamente.</td>
+            <td>3</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US03</td>
+            <td rowspan="2">Ver comparativa de cuenta gratuita vs PRO</td>
+            <td>T07</td>
+            <td>Definir comparativa</td>
+            <td>Especificar las características y beneficios de las cuentas gratuita y PRO para la comparación.</td>
+            <td>4</td>
+            <td>Moises Donayre</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T08</td>
+            <td>Implementar omparativa</td>
+            <td>Desarrollar la tabla que muestre la comparación entre los dos tipos de cuenta.</td>
+            <td>7</td>
+            <td>Piero Tarazona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US06</td>
+            <td rowspan="2">Redirigir al registro</td>
+            <td>T09</td>
+            <td>Crear botón de registro</td>
+            <td>Diseñar e implementar el botón o enlace que lleva a la página de registro.</td>
+            <td>3</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T10</td>
+            <td>Configurar redirección</td>
+            <td>Asegurar que el botón de registro enlace correctamente a la página de registro de usuarios.</td>
+            <td>2</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+    </tbody>
+</table>
+
  #### 6.2.1.4 Development Evidence for Sprint Review
  Esta sección documenta y presenta la serie de commits realizados en el repositorio del Landing Page. Estos commits, que son una parte integral del proceso de desarrollo, se han gestionado utilizando la metodología GitFlow y siguiendo estrictamente las convenciones establecidas para los commits. Esta evidencia sirve como un registro transparente y trazable de nuestro progreso y esfuerzos de desarrollo a lo largo del sprint.
- #### 6.2.1.5 Testing Suite Evidence for Sprint Review
- En esta sección, presentamos la evidencia de las pruebas realizadas durante el sprint. Hemos utilizado Gherkin para definir los escenarios de prueba y hemos registrado cada prueba en commits específicos en nuestro repositorio. A continuación, se muestra un registro de estos commits:
- #### 6.2.1.6 Execution Evidence for Sprint Review
+ | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+ | --- | --- | --- | --- | --- | --- |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | d3b094b | chore:... | initial commit | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 499f6c3 | feat:... | create structure for landing | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-header | a6fd61f | feat:... | create header section | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-us | f46c9f4 | feat:... | create about us | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 559b871 | feat:... | create about team | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 320162e | feat:... | create about team | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 74db128 | feat:... | create about team | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 6db4844 | feat:... | delete file style | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | f80d9c2 | feat:... | create about team | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 77dcfbf | feat:... | deleted style | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 57cd331 | feat:... | create about team | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 2ac60ee | feat:... | deleted style | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | a89f5a6 | feat:... | add folder for organizing files | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 9c04bc0 | feat:... | create about team | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | e645b3b | feat:... | delete public directory | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 1488c1e | feat:... | add style and images | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-hero | 09191fd | feat:... | implement hero section | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-hero | 0ba7ade | feat:... | implement footer section | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-footer | 77037f0 | feat:... | create footer section | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-pricing | 84c90ea | chore:... | created pricing and contact section | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | c3a6a0c | feat:... | merge branch 'feature/section-hero' | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 4f4b5b7 | feat:... | merge branch 'feature/section-about-us' | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | e63214c | feat:... | merge branch 'feature/section-about-team' into develop | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 7d5209d | feat:... | merge branch 'feature/section-services' into develop | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 432e18e | feat:... | merge branch 'feature/section-pricing' into develop | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 9b278c2 | feat:... | merge branch 'feature/section-footer' into develop | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | fbf4690 | fix:... | fix the ubication for the code | 10-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | c6a949e | feat:... | update index.html | 30-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 2e872c2 | feat:... | update index.html | 30-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 7ca9228 | fix:... | button get star | 30-04-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 80969dc | feat:... | implement video about the product | 05-06-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | bd8eecb | fix:... | implement video about the product | 05-06-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 49e5318 | feat:... | implement video about the team | 05-06-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 1b50053 | fix:... | implement video about the team | 05-06-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 4446436 | fix:... | implement video about the team | 05-06-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 5396416 | fix:... | link about the team | 06-06-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 3c21c8a | feat:... | update index.html | 28-09-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 4fd8208 | feat:... | update index.html | 28-09-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 34ad386 | feat:... | update index.html | 28-09-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | a689428 | feat:... | update index.html | 28-09-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | a89718e | feat:... | update index.html | 28-09-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 1bb2d40 | feat:... | update index.html | 28-09-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | bdc70ba | feat:... | apk download | 22-11-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 2bb167c | feat:... | update styles.css | 22-11-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | ab4cdd9 | feat:... | update styles.css | 22-11-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 8deffb7 | fix:... | servies implement | 10-05-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | e9cdf14 | fix:... | the styles were modified | 11-05-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | d588b20 | fix:... | update of the hero, pricing, header section | 15-05-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-footer | d352dd8 | feat:... | add new css style | 15-05-2025 |
+
+ #### 6.2.1.5 Execution Evidence for Sprint Review
  Durante el Sprint 1, se logró un progreso significativo en la implementación de las características clave de la página de inicio del sitio web. El equipo completó con éxito todas las historias de usuario asignadas para este sprint, que incluyeron el desarrollo de un resumen claro de las características y beneficios del sitio web, la integración de acceso visible a información detallada de precios, la adición de un resumen conciso al final de la página de inicio, la inclusión de un llamado a la acción prominente para dirigir a los visitantes a la aplicación web principal, la presentación de contenido informativo claro y detallado, y la integración de información de contacto visible en la página de inicio. El equipo trabajó de manera colaborativa para garantizar que las características implementadas cumplan con los requisitos y contribuyan a una experiencia de usuario positiva. Capturas de pantalla:
- #### 6.2.1.7 Services Documentation Evidence for Sprint Review
 
+ Header:<br>
+ ![Header](/assets/chapter06/header.png)
 
- #### 6.2.1.8 Software Deployment Evidence for Sprint Review
+ Hero:<br>
+ ![Hero](/assets/chapter06/hero.png)
+ 
+ About Us:<br>
+ ![About-Us](/assets/chapter06/about-us.png)
+ 
+ About The Team:<br>
+ ![About-Team](/assets/chapter06/about-team.png)
+ 
+ Services:<br>
+ ![EnvironmentService](/assets/chapter06/environment-service.png)
+
+ ![GpsService](/assets/chapter06/gps-service.png)
+
+ ![OrganizationService](/assets/chapter06/organization-service.png)
+
+ ![CommunicationService](/assets/chapter06/communication-service.png)
+
+ ![VehicleStatusService](/assets/chapter06/vehicle-status-service.png)
+ 
+ Pricing:<br>
+ ![Pricing](/assets/chapter06/pricing.png)
+ 
+ Footer:<br>
+ ![Footer](/assets/chapter06/footer.png)
+
+ #### 6.2.1.6 Services Documentation Evidence for Sprint Review
+ Durante este Sprint 1, nos enfocamos en desarrollar el landing page, sin implementación de cualquier servicio. Por lo tanto, este punto quedará sin actividad en este aspecto.
+
+ #### 6.2.1.7 Software Deployment Evidence for Sprint Review
  Durante el Sprint 1, llevamos a cabo el despliegue de nuestra landing page en GitHub Pages. A continuación, detallamos los pasos realizados:
 
-Creación del Repositorio en GitHub: Iniciamos creando un repositorio dedicado en GitHub para nuestro proyecto de landing page.
-Configuración de la Rama main: Aseguramos que la rama principal del repositorio se llamara main, ya que GitHub Pages toma esta rama como base para el despliegue automático.
-Preparación del Contenido: Desarrollamos y diseñamos nuestra landing page, asegurándonos de que todos los archivos y recursos necesarios estuvieran presentes en el repositorio.
-Generación del Enlace de GitHub Pages: Navegamos a la sección "Pages" en la configuración del repositorio en GitHub. Configuramos la fuente del GitHub Pages para que tomara el contenido de la rama main.
-Despliegue Automático: GitHub Pages automáticamente detectó los cambios en la rama main y desplegó la landing page en la URL proporcionada por GitHub Pages.
- #### 6.2.1.9 Team Collaboration Insights during Sprint
+ 1. Creación del Repositorio en GitHub: Iniciamos creando un repositorio dedicado en GitHub para nuestro proyecto de landing page
+ 2. Configuración de la Rama main: Aseguramos que la rama principal del repositorio se llamara main, ya que GitHub Pages toma esta rama como base para el despliegue automático.
+ 3. Preparación del Contenido: Desarrollamos y diseñamos nuestra landing page, asegurándonos de que todos los archivos y recursos necesarios estuvieran presentes en el repositorio.
+ 4. Generación del Enlace de GitHub Pages: Navegamos a la sección "Pages" en la configuración del repositorio en GitHub. Configuramos la fuente del GitHub Pages para que tomara el contenido de la rama main.
+ 5. Despliegue Automático: GitHub Pages automáticamente detectó los cambios en la rama main y desplegó la landing page en la URL proporcionada por GitHub Pages.
 
+ #### 6.2.1.8 Team Collaboration Insights during Sprint
  Durante este primer Sprint, hemos completado el desarrollo del landing page y hemos colaborado estrechamente en su implementación. La colaboración entre los miembros del equipo se refleja en los diversos commits realizados en el repositorio de GitHub, los cuales han sido debidamente documentados en las capturas de pantalla adjuntas.
-Para asegurar una colaboración efectiva, hemos implementado GitFlow como nuestra metodología de trabajo colaborativo en Git. Con GitFlow, hemos creado ramas para cada una de las secciones de nuestra landing page. Esto nos ha permitido trabajar de manera organizada y centrarnos en completar correctamente las historias de usuario designadas para cada sección.
-En cuanto a la elaboración del código, hemos asignado a cada miembro del equipo una sección específica del landing page. Esta estrategia nos ha permitido avanzar de manera más eficiente y completar el trabajo antes de la fecha de entrega.
+ Para asegurar una colaboración efectiva, hemos implementado GitFlow como nuestra metodología de trabajo colaborativo en Git. Con GitFlow, hemos creado ramas para cada una de las secciones de nuestra landing page. Esto nos ha permitido trabajar de manera organizada y centrarnos en completar correctamente las historias de usuario designadas para cada sección.
+ En cuanto a la elaboración del código, hemos asignado a cada miembro del equipo una sección específica del landing page. Esta estrategia nos ha permitido avanzar de manera más eficiente y completar el trabajo antes de la fecha de entrega.
