@@ -607,3 +607,9 @@ Durante este primer Sprint, hemos completado el desarrollo de la Landing Page y 
 Para asegurar una colaboración efectiva, hemos adoptado GitFlow como metodología de trabajo colaborativo en Git. Esta estrategia nos permitió organizar el trabajo en ramas específicas tanto para cada sección de la landing como para cada módulo funcional del frontend del gerente (por ejemplo: vista de conductores, formulario de creación de vehículos, pantalla de login, etc.).
 
 Además, distribuimos las tareas asignando a cada integrante una sección o funcionalidad distinta, lo que nos permitió desarrollar de forma paralela la landing y las vistas del gerente. Esta estrategia nos permitió avanzar de manera más eficiente, cumplir con las historias de usuario planificadas y completar los entregables antes de la fecha límite.
+
+Landing Page:<br>
+ ![Landing Page](/assets/chapter06/collaboration-insights1.png)
+
+Application Web (Gerente):<br>
+ ![Application Web](/assets/chapter06/collaboration-insights1.2.png)
