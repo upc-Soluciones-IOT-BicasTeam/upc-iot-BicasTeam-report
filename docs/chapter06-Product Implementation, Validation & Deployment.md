@@ -580,8 +580,30 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
  Footer:<br>
  ![Footer](/assets/chapter06/footer.png)
 
+ APP WEB:
+  ![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/analiticsIssues.png)
+
+  ![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/analiticsShipmetns.png)
+
+  ![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/analiticsTransport.png)
+
+  ![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/goPro.png)
+
+  ![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/home.png)
+
+  ![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/issues.png)
+
+  ![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/login.png)
+
+  ![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/shipments.png)
+
+  ![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/vehicles.png)
+
+
  #### 6.2.1.6 Services Documentation Evidence for Sprint Review
- Durante este Sprint 1, nos enfocamos en desarrollar el landing page, sin implementación de cualquier servicio. Por lo tanto, este punto quedará sin actividad en este aspecto.
+ Durante este Sprint 1, hemos hecho uso de un Fake API (Beeceptor) para hacer uso de Endpoints.
+
+ ![Beeceptor](/assets/chapter06/beeceptor%20documentation%20evidence.png)
 
  #### 6.2.1.8 Software Deployment Evidence for Sprint Review
  Durante el Sprint 1, llevamos a cabo el despliegue de nuestra Landing Page en GitHub Pages y el desarrollo inicial de la aplicación web enfocada en el rol de gerente. A continuación, detallamos los pasos realizados:
