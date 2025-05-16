@@ -125,6 +125,7 @@ Pasos para el despliegue
 - Construir la aplicación para producción.
 - Configurar el servidor web.
 - Verificar que la aplicación se cargue correctamente en el navegador
+
  ## 6.2 Landing Page, Service & Applications Implementation
  ### 6.2.1 Sprint 1
  En esta sección, documentaremos y explicaremos el progreso tanto en el desarrollo del producto como en la colaboración del equipo durante el Sprint 1. Seguimos un proceso definido que abarca desde la planificación hasta la revisión y documentación del trabajo realizado. A lo largo de las siguientes secciones, detallaremos cómo se llevó a cabo la planificación del sprint, qué tareas se incluyeron en el Sprint Backlog, las pruebas y evidencia de desarrollo para la revisión del sprint, así como la documentación de los servicios y las percepciones clave sobre la colaboración del equipo durante este periodo
@@ -140,7 +141,7 @@ Pasos para el despliegue
     </tr>
 		<tr>
 			<td>Date</td>
-			<td>2025-05-04</td>
+			<td>2025-05-01</td>
 		</tr>
 		<tr>
 			<td>Time</td>
@@ -166,7 +167,7 @@ Resultados alcanzados:
 
 Landing Page:
 
-Se publicaron todas las secciones informativas: resumen del sistema (US01), funcionalidades clave (US02), comparativa gratuita vs PRO (US03) y video explicativo (US04).
+Se publicaron todas las secciones informativas.
 
 Se validó su responsividad en desktop y móvil.
 
@@ -178,7 +179,7 @@ Se identificó la documentación de versiones como área de mejora para el próx
 
 Feedback del Product Owner:
 
-“La información de la landing es muy clara. Antes de avanzar, validemos la usabilidad de cada sección en diferentes resoluciones.”.”</td>
+“La información de la landing es muy clara. Antes de avanzar, validemos la usabilidad de cada sección en diferentes resoluciones.”</td>
 		</tr>
 		<tr>
 			<td>Sprint 1 Retrospective Summary</td>
@@ -188,7 +189,7 @@ Comunicación continua y efectiva a través de Discord, lo que facilitó resolve
 
 Oportunidades de mejora:
 
-Ajustar las estimaciones de esfuerzo: subestimamos la integración del video explicativo (US04), lo que provocó una demora de medio día.
+Ajustar las estimaciones de esfuerzo.
 
 Desglosar mejor las tareas de CSS responsive para reducir retrabajo.
 
@@ -213,19 +214,11 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
 		</tr>
 		<tr>
 			<td>Sprint 1 Velocity</td>
-			<td>- Para este primer Sprint estimamos una velocidad de 8 Story Points, basada en nuestra capacidad de equipo y en la complejidad de las historias seleccionadas.</td>
+			<td>- Para este primer Sprint estimamos una velocidad de 51 Story Points, basada en nuestra capacidad de equipo y en la complejidad de las historias seleccionadas.</td>
 		</tr>
 		<tr>
 			<td>Sum of Story Points</td>
-			<td>
-| Orden | Story ID | Título | Story Points |
-| ----- | ------- | ------ | ------------ |
-| 1 | US01 | Ver descripción general del sistema | 2 |
-| 2 | US02 | Ver funcionalidades clave | 2 |
-| 3 | US03 | Ver comparativa de cuenta gratuita vs PRO | 1 |
-| 6 | US06 | Redirigir al registro | 1 |
-| Total | | | 6 |
-</td>
+			<td>51</td>
 		</tr>
   </tbody>
 </table>
