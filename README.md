@@ -99,10 +99,12 @@ Landing Page desplegado: https://upc-soluciones-iot-bicasteam.github.io/upc-AppW
 
 Diagrama de clases: https://my.vertabelo.com/public-model-view/5yI4V4ChbQGarfXWiMjxVVIcacFNuarlrFWq26NToht19NwAIKDlIQ60hc4OJ0M4?x=1918&y=2759&zoom=0.6028
 
-Figma de las Aplicaciones: https://my.vertabelo.com/public-model-view/5yI4V4ChbQGarfXWiMjxVVIcacFNuarlrFWq26NToht19NwAIKDlIQ60hc4OJ0M4?x=1918&y=2759&zoom=0.6028
+Figma de las Aplicaciones: https://www.figma.com/design/gu0SdYkebsOKLB8p5YvOzL/BicasTeam-Movigestion?node-id=0-1&t=br2oDsxlnl5iWDuS-1
 
 Link User Flows Diagrams Mobile Applicattion: https://overflow.io/s/9YFX4UGE
 
 Link prototype video Web Application: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/ER8kXIuJc_RBhiSkk7Pxf7wBL9BP8QaQrryzi9i0hjE7dg?e=51zo9b
 
 Link prototype video Mobile Application: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/EW5UtiiJzzNLhzqHN2R_0YABeVG1B-B9yrb1zJYNjsFfkw?e=pTAFWr
+
+Expo TB1:
