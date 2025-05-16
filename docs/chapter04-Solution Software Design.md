@@ -885,10 +885,10 @@ En la capa de Infrastructure Layer, se encuentran los repositorios que permiten 
 #### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams Profile Management]()
+![Bounded Context Domain Layer Class Diagrams Profile Management](/assets/chapter04/ClassDiagramas/ClassDiagram_ProfileManagement.png)
 
 ##### 4.2.2.6.2 Bounded Context Database Design Diagram
-![Bounded Context Database Design Diagram Profile Management]()
+![Bounded Context Database Design Diagram Profile Management](/assets/chapter04/ERDiagrams/ERDiagram_ProfileManagement.png)
 
 ### 4.2.3 Bounded Context: Vehicles & Tracking
 Este bounded context centraliza la gestión de los vehículos de la flota, sus características, rutas asignadas, informes de infracciones y reportes de velocidad mediante geolocalización en tiempo real, asegurando el monitoreo y control de las unidades.
