@@ -443,16 +443,27 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
  #### 6.2.1.6 Services Documentation Evidence for Sprint Review
  Durante este Sprint 1, nos enfocamos en desarrollar el landing page, sin implementación de cualquier servicio. Por lo tanto, este punto quedará sin actividad en este aspecto.
 
- #### 6.2.1.7 Software Deployment Evidence for Sprint Review
- Durante el Sprint 1, llevamos a cabo el despliegue de nuestra landing page en GitHub Pages. A continuación, detallamos los pasos realizados:
+ #### 6.2.1.8 Software Deployment Evidence for Sprint Review
+ Durante el Sprint 1, llevamos a cabo el despliegue de nuestra Landing Page en GitHub Pages y el desarrollo inicial de la aplicación web enfocada en el rol de gerente. A continuación, detallamos los pasos realizados:
 
- 1. Creación del Repositorio en GitHub: Iniciamos creando un repositorio dedicado en GitHub para nuestro proyecto de landing page
- 2. Configuración de la Rama main: Aseguramos que la rama principal del repositorio se llamara main, ya que GitHub Pages toma esta rama como base para el despliegue automático.
- 3. Preparación del Contenido: Desarrollamos y diseñamos nuestra landing page, asegurándonos de que todos los archivos y recursos necesarios estuvieran presentes en el repositorio.
- 4. Generación del Enlace de GitHub Pages: Navegamos a la sección "Pages" en la configuración del repositorio en GitHub. Configuramos la fuente del GitHub Pages para que tomara el contenido de la rama main.
- 5. Despliegue Automático: GitHub Pages automáticamente detectó los cambios en la rama main y desplegó la landing page en la URL proporcionada por GitHub Pages.
+Creación del Repositorio en GitHub: Iniciamos creando repositorios dedicados para nuestra landing page y nuestra aplicación web.
 
- #### 6.2.1.8 Team Collaboration Insights during Sprint
- Durante este primer Sprint, hemos completado el desarrollo del landing page y hemos colaborado estrechamente en su implementación. La colaboración entre los miembros del equipo se refleja en los diversos commits realizados en el repositorio de GitHub, los cuales han sido debidamente documentados en las capturas de pantalla adjuntas.
- Para asegurar una colaboración efectiva, hemos implementado GitFlow como nuestra metodología de trabajo colaborativo en Git. Con GitFlow, hemos creado ramas para cada una de las secciones de nuestra landing page. Esto nos ha permitido trabajar de manera organizada y centrarnos en completar correctamente las historias de usuario designadas para cada sección.
- En cuanto a la elaboración del código, hemos asignado a cada miembro del equipo una sección específica del landing page. Esta estrategia nos ha permitido avanzar de manera más eficiente y completar el trabajo antes de la fecha de entrega.
+Configuración de la Rama main: Aseguramos que la rama principal del repositorio de la landing page se llamara main, ya que GitHub Pages toma esta rama como base para el despliegue automático.
+
+Preparación del Contenido de la Landing Page: Diseñamos y desarrollamos el contenido informativo, incluyendo secciones clave como beneficios, diferencia entre cuenta gratuita y PRO, y formulario de contacto.
+
+Desarrollo del Frontend Web (Gerente): Implementamos funcionalidades clave para el gerente, como inicio de sesión, registro, gestión de vehículos y conductores, y visualización de estadísticas.
+
+Generación del Enlace de GitHub Pages: Desde la sección "Pages" de configuración del repositorio, configuramos la fuente de despliegue para que tomara el contenido de la rama main.
+
+Despliegue Automático de la Landing Page: GitHub Pages detectó los cambios y desplegó correctamente la landing en la URL proporcionada.
+
+Despliegue local de la Aplicación Web: Para la aplicación del gerente, utilizamos entornos de desarrollo local (ej. Vite + React o Angular) y avanzamos en la integración de vistas y componentes según las historias priorizadas.
+
+ #### 6.2.1.9 Team Collaboration Insights during Sprint
+
+Durante este primer Sprint, hemos completado el desarrollo de la Landing Page y hemos avanzado significativamente en la implementación del frontend web del rol gerente. La colaboración entre los miembros del equipo se refleja en los múltiples commits realizados en los distintos repositorios de GitHub, los cuales han sido debidamente documentados con capturas de pantalla.
+
+Para asegurar una colaboración efectiva, hemos adoptado GitFlow como metodología de trabajo colaborativo en Git. Esta estrategia nos permitió organizar el trabajo en ramas específicas tanto para cada sección de la landing como para cada módulo funcional del frontend del gerente (por ejemplo: vista de conductores, formulario de creación de vehículos, pantalla de login, etc.).
+
+Además, distribuimos las tareas asignando a cada integrante una sección o funcionalidad distinta, lo que nos permitió desarrollar de forma paralela la landing y las vistas del gerente. Esta estrategia nos permitió avanzar de manera más eficiente, cumplir con las historias de usuario planificadas y completar los entregables antes de la fecha límite.
