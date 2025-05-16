@@ -108,30 +108,36 @@ Además de estas referencias, se promoverá el uso de buenas prácticas y metodo
 Con estas guías de estilo y convenciones de codificación, buscamos asegurar la coherencia, la calidad y la mantenibilidad del código a lo largo de todo el proyecto.
 
  ### 6.1.4 Software Deployment Configuration
+ En esta sección, describiremos la configuración necesaria para desplegar satisfactoriamente cada uno de los productos digitales de nuestra solución, incluyendo Landing Page, y las Frontend Web Applications.
+
+Pasos para el despliegue
+
+1. Landing Page:
+- Clonar o descargar el repositorio desde GitHub.
+- Configurar el servidore web para alojar la Landing Page.
+- Copiar los archivos HTMLS, CSS y JavaScript en el directorio correspondiente del servidor.
+- Configurar cualquier dependencia adicional, como bibliotecas de JavaScript o imágenes.
+- Verificar quue la Landing Page se cargue correctamente en el navegador.
+
+2. Frontend Web Applications:
+- Clonar o descargar el repositorio desde GitHub.
+- Instalar las dependencias.
+- Construir la aplicación para producción.
+- Configurar el servidor web.
+- Verificar que la aplicación se cargue correctamente en el navegador
  ## 6.2 Landing Page, Service & Applications Implementation
  ### 6.2.1 Sprint 1
+ En esta sección, documentaremos y explicaremos el progreso tanto en el desarrollo del producto como en la colaboración del equipo durante el Sprint 1. Seguimos un proceso definido que abarca desde la planificación hasta la revisión y documentación del trabajo realizado. A lo largo de las siguientes secciones, detallaremos cómo se llevó a cabo la planificación del sprint, qué tareas se incluyeron en el Sprint Backlog, las pruebas y evidencia de desarrollo para la revisión del sprint, así como la documentación de los servicios y las percepciones clave sobre la colaboración del equipo durante este periodo
  #### 6.2.1.1 Sprint Planning 1
- #### 6.2.1.2 Aspect Leaders and Collaborators
- #### 6.2.1.3 Sprint Backlog 1
- #### 6.2.1.4 Development Evidence for Sprint Review
- #### 6.2.1.5 Testing Suite Evidence for Sprint Review
- #### 6.2.1.6 Execution Evidence for Sprint Review
- #### 6.2.1.7 Services Documentation Evidence for Sprint Review
- #### 6.2.1.8 Software Deployment Evidence for Sprint Review
- #### 6.2.1.9 Team Collaboration Insights during Sprint
-### 6.2.2 Sprint 2
-  En esta sección, comentaremos y explicaremos el progreso tanto en el desarrollo del producto como en la colaboración del equipo durante el Sprint 2. Seguimos un proceso definido que abarca desde la planificación hasta la revisión y documentación del trabajo realizado. A lo largo de las siguientes secciones, detallaremos cómo se llevó a cabo la planificación del sprint, qué tareas se incluyeron en el Sprint Backlog, las pruebas y evidencia de desarrollo para la revisión del sprint, así como la documentación de los servicios y las percepciones clave sobre la colaboración del equipo durante este periodo.
-  
- #### 6.2.2.1 Sprint Planning 2
- <table>
-	<tbody>
-		<tr>
-			<td>Sprint #</td>
-			<td>Sprint 2</td>
-		</tr>
-		<tr>
-			<td colspan="2">Sprint Planning Background</td>
-		</tr>
+ En esta sección, se detallan los aspectos principales del Sprint Planning Meeting para el Sprint n. Este encuentro es crucial para establecer los objetivos del sprint, determinar las user stories que se abordarán y asignar tareas al equipo. A continuación, se presenta un resumen del Sprint Planning Meeting para este período.
+<table>
+  <tbody>
+    <tr>
+      <td>Sprint #</td><td>Sprint 1</td>
+    </tr>
+    <tr>
+      <td colspan="2">Sprint Planning Background</td>
+    </tr>
 		<tr>
 			<td>Date</td>
 			<td>2025-05-04</td>
@@ -154,32 +160,85 @@ Con estas guías de estilo y convenciones de codificación, buscamos asegurar la
 		</tr>
 		<tr>
 			<td>Sprint 1 Review Summary</td>
-			<td>-</td>
+			<td>- Desplegar la landing page informativa, permitiendo a los visitantes conocer el sistema y navegar entre sus secciones básicas.
+
+Resultados alcanzados:
+
+Landing Page:
+
+Se publicaron todas las secciones informativas: resumen del sistema (US01), funcionalidades clave (US02), comparativa gratuita vs PRO (US03) y video explicativo (US04).
+
+Se validó su responsividad en desktop y móvil.
+
+Opiniones del equipo:
+
+Se valoró positivamente la colaboración conjunta y la resolución de problemas en equipo.
+
+Se identificó la documentación de versiones como área de mejora para el próximo sprint.
+
+Feedback del Product Owner:
+
+“La información de la landing es muy clara. Antes de avanzar, validemos la usabilidad de cada sección en diferentes resoluciones.”.”</td>
 		</tr>
 		<tr>
 			<td>Sprint 1 Retrospective Summary</td>
-			<td>-</td>
+			<td>- Aspectos positivos:
+
+Comunicación continua y efectiva a través de Discord, lo que facilitó resolver bloqueos en tiempo real.
+
+Oportunidades de mejora:
+
+Ajustar las estimaciones de esfuerzo: subestimamos la integración del video explicativo (US04), lo que provocó una demora de medio día.
+
+Desglosar mejor las tareas de CSS responsive para reducir retrabajo.
+
+Plan de acción:
+En el próximo Sprint dedicaremos 15 min adicionales en el planning para:
+
+Refinar las estimaciones de cada historia.
+
+Dividir las historias grandes en subtareas de máximo 4 horas.</td>
 		</tr>
 		<tr>
 			<td colspan="2">Sprint Goal & User Stories</td>
 		</tr>
 		<tr>
-			<td>Sprint 2 Goal</td>
-			<td></td>
+			<td>Sprint 1 Goal</td>
+			<td>- Sprint 1 Goal
+Nuestro foco es en proporcionar una landing page informativa  que presente la propuesta de valor del sistema a quienes la visitan por primera vez.
+Creemos que ofrece una comprensión inmediata de las funciones principales y las opciones de suscripción a los posibles gerentes y conductores.
+Esto se confirmará cuando los visitantes puedan:
+
+Leer un resumen claro del sistema (US01).
+
+Explorar las funciones clave (US02).
+
+Comparar los planes gratuitos con los PRO (US03).
+
+Acceder al formulario de registro mediante un botón específico (US06).</td>
 		</tr>
 		<tr>
-			<td>Sprint 2 Velocity</td>
-			<td></td>
+			<td>Sprint 1 Velocity</td>
+			<td>- Para este primer Sprint estimamos una velocidad de 8 Story Points, basada en nuestra capacidad de equipo y en la complejidad de las historias seleccionadas.</td>
 		</tr>
 		<tr>
 			<td>Sum of Story Points</td>
-			<td></td>
+			<td>
+
+| Orden | Story ID | Título | Story Points |
+| ----- | ------- | ------ | ------------ |
+| 1 | US01 | Ver descripción general del sistema | 2 |
+| 2 | US02 | Ver funcionalidades clave | 2 |
+| 3 | US03 | Ver comparativa de cuenta gratuita vs PRO | 1 |
+| 6 | US06 | Redirigir al registro | 1 |
+| Total | | | 6 |
+</td>
 		</tr>
-	</tbody>
+  </tbody>
 </table>
 
- #### 6.2.2.2 Aspect Leaders and Collaborators
-| Team Member | Github Username | IAM | Subscription & Payments | Profile Management | Analytics | Vehicles & Tracking | Shipment | Issues |
+ #### 6.2.1.2 Aspect Leaders and Collaborators
+ | Team Member | Github Username | IAM | Subscription & Payments | Profile Management | Analytics | Vehicles & Tracking | Shipment | Issues |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Huarcaya, Miguel | MiguelHuarcayaChavez | L | L |  |  |  |  |
 | Torres, Elias | EliasTorresEzpinoza |  |  |  |  |  | L | L |
@@ -188,15 +247,27 @@ Con estas guías de estilo y convenciones de codificación, buscamos asegurar la
 | Donayre, Moises | MoisesD19 |  |  |  |  | L |  |  |
 | Valenzuela, Aldhair | AldhaValenzuelaH |  |  |  |  | C |  |  |
 
- #### 6.2.2.3 Sprint Backlog 2
- #### 6.2.2.4 Development Evidence for Sprint Review
- #### 6.2.2.5 Testing Suite Evidence for Sprint Review
- #### 6.2.2.6 Execution Evidence for Sprint Review
- #### 6.2.2.7 Services Documentation Evidence for Sprint Review
- #### 6.2.2.8 Software Deployment Evidence for Sprint Review
- #### 6.2.2.9 Team Collaboration Insights during Sprint
- ## 6.3 Validation Interviews
- ### 6.3.1 Diseño de Entrevistas
- ### 6.3.2 Registro de Entrevistas
- ### 6.3.3 Evaluaciones según Heurísticas
- ## 6.4 Video About-the-Product
+ #### 6.2.1.3 Sprint Backlog 1
+El Sprint 1 está centrado en la implementación de las funcionalidades clave de la landing page del sitio web, priorizando las historias de usuario identificadas. Nuestro objetivo principal es proporcionar a los visitantes una experiencia inicial sólida al presentar de manera clara y concisa las características y beneficios del sitio, junto con una navegación intuitiva y acceso rápido a la información relevante. Al completar las tareas asociadas a las historias de usuario definidas, sentaremos las bases para futuras iteraciones, asegurando que la página de inicio cumpla con las expectativas de los usuarios y contribuya al éxito del proyecto.
+ #### 6.2.1.4 Development Evidence for Sprint Review
+ Esta sección documenta y presenta la serie de commits realizados en el repositorio del Landing Page. Estos commits, que son una parte integral del proceso de desarrollo, se han gestionado utilizando la metodología GitFlow y siguiendo estrictamente las convenciones establecidas para los commits. Esta evidencia sirve como un registro transparente y trazable de nuestro progreso y esfuerzos de desarrollo a lo largo del sprint.
+ #### 6.2.1.5 Testing Suite Evidence for Sprint Review
+ En esta sección, presentamos la evidencia de las pruebas realizadas durante el sprint. Hemos utilizado Gherkin para definir los escenarios de prueba y hemos registrado cada prueba en commits específicos en nuestro repositorio. A continuación, se muestra un registro de estos commits:
+ #### 6.2.1.6 Execution Evidence for Sprint Review
+ Durante el Sprint 1, se logró un progreso significativo en la implementación de las características clave de la página de inicio del sitio web. El equipo completó con éxito todas las historias de usuario asignadas para este sprint, que incluyeron el desarrollo de un resumen claro de las características y beneficios del sitio web, la integración de acceso visible a información detallada de precios, la adición de un resumen conciso al final de la página de inicio, la inclusión de un llamado a la acción prominente para dirigir a los visitantes a la aplicación web principal, la presentación de contenido informativo claro y detallado, y la integración de información de contacto visible en la página de inicio. El equipo trabajó de manera colaborativa para garantizar que las características implementadas cumplan con los requisitos y contribuyan a una experiencia de usuario positiva. Capturas de pantalla:
+ #### 6.2.1.7 Services Documentation Evidence for Sprint Review
+
+
+ #### 6.2.1.8 Software Deployment Evidence for Sprint Review
+ Durante el Sprint 1, llevamos a cabo el despliegue de nuestra landing page en GitHub Pages. A continuación, detallamos los pasos realizados:
+
+Creación del Repositorio en GitHub: Iniciamos creando un repositorio dedicado en GitHub para nuestro proyecto de landing page.
+Configuración de la Rama main: Aseguramos que la rama principal del repositorio se llamara main, ya que GitHub Pages toma esta rama como base para el despliegue automático.
+Preparación del Contenido: Desarrollamos y diseñamos nuestra landing page, asegurándonos de que todos los archivos y recursos necesarios estuvieran presentes en el repositorio.
+Generación del Enlace de GitHub Pages: Navegamos a la sección "Pages" en la configuración del repositorio en GitHub. Configuramos la fuente del GitHub Pages para que tomara el contenido de la rama main.
+Despliegue Automático: GitHub Pages automáticamente detectó los cambios en la rama main y desplegó la landing page en la URL proporcionada por GitHub Pages.
+ #### 6.2.1.9 Team Collaboration Insights during Sprint
+
+ Durante este primer Sprint, hemos completado el desarrollo del landing page y hemos colaborado estrechamente en su implementación. La colaboración entre los miembros del equipo se refleja en los diversos commits realizados en el repositorio de GitHub, los cuales han sido debidamente documentados en las capturas de pantalla adjuntas.
+Para asegurar una colaboración efectiva, hemos implementado GitFlow como nuestra metodología de trabajo colaborativo en Git. Con GitFlow, hemos creado ramas para cada una de las secciones de nuestra landing page. Esto nos ha permitido trabajar de manera organizada y centrarnos en completar correctamente las historias de usuario designadas para cada sección.
+En cuanto a la elaboración del código, hemos asignado a cada miembro del equipo una sección específica del landing page. Esta estrategia nos ha permitido avanzar de manera más eficiente y completar el trabajo antes de la fecha de entrega.
