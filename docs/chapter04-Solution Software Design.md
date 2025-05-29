@@ -880,9 +880,14 @@ En la capa de Infrastructure Layer, se encuentran los repositorios que permiten 
 - Verifica la existencia de perfiles de personal por ID o userId.
 
 #### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams Profile Management]()
+![Component Level Diagrams Profile Management](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-Profile.png)
+![Component Level Diagrams Profile Management](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents%20-%20profile.png)
 
+![Component Level Diagrams Profile Management](/assets/chapter04/)
 #### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams
+![Bounded Context Software Architecture Code Level Diagrams](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents%20-%20profile.png)
+![Bounded Context Software Architecture Code Level Diagrams](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-Profile.png)
+![Bounded Context Software Architecture Code Level Diagrams](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20Profile.png)
 
 ##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
 ![Bounded Context Domain Layer Class Diagrams Profile Management](/assets/chapter04/ClassDiagramas/ClassDiagram_ProfileManagement.png)
@@ -1206,7 +1211,10 @@ Ruta
 - Actualiza la ubicación del vehículo en tiempo real en el sistema de seguimiento.
 
 #### 4.2.3.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams V&T]()
+![Component Level Diagrams V&T](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents-vehicles.png)
+![Component Level Diagrams V&T](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-%20vehicles.png)
+![Component Level Diagrams V&T](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20vehicle.png)
+![Component Level Diagrams V&T](/assets/chapter04/diagramas%20para%20iot/structurizr-VehicleEdgeUnitComponents-iot-vehicles.png)
 
 #### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams
 
@@ -1514,7 +1522,10 @@ El bounded context de envíos gestiona el seguimiento de paquetes, asignaciones 
 - Lista todos los carriers.
 
 #### 4.2.4.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams Shipment]()
+
+![Component Level Diagrams Shipment](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents-shipment.png)
+![Component Level Diagrams Shipment](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-Shipment.png)
+![Component Level Diagrams Shipment](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20Shipment.png)
 
 #### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams
 
@@ -1666,7 +1677,11 @@ Implementaciones técnicas que permiten el acceso a datos, conectividad y persis
 - Filtra estadísticas por tipo de evento, fechas, zona geográfica, vehículo o conductor.
 
 #### 4.2.5.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams Analytics]()
+
+
+![Component Level Diagrams Analytics](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents%20-%20analytics.png)
+![Component Level Diagrams Analytics](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-analytic.png)
+![Component Level Diagrams Analytics](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20Analytics.png)
 
 #### 4.2.5.6 Bounded Context Software Architecture Code Level Diagrams
 
@@ -1879,7 +1894,10 @@ Proporciona implementaciones concretas de persistencia y almacenamiento externo 
 - Verifica si una imagen ya fue almacenada.
 
 #### 4.2.6.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams Subscription and Payments]()
+
+![Component Level Diagrams Subscription and Payments](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents-payment.png)
+![Component Level Diagrams Subscription and Payments](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-Payments.png)
+![Component Level Diagrams Subscription and Payments](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20Payments.png)
 
 #### 4.2.6.6 Bounded Context Software Architecture Code Level Diagrams
 
@@ -1984,7 +2002,9 @@ Incluye las implementaciones de acceso a la persistencia y servicios auxiliares 
 - Actualiza descripciones o tipos de reportes existentes (si aplica políticas de edición).
 
 #### 4.2.7.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams Issues]()
+![Component Level Diagrams Issues](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents-issue.png)
+![Component Level Diagrams Issues](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-issue.png)
+![Component Level Diagrams Issues](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-issue.png)
 
 #### 4.2.7.6 Bounded Context Software Architecture Code Level Diagrams
 
