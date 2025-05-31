@@ -149,13 +149,19 @@ Gracias a este enfoque, el equipo pudo construir los bounded contexts de forma s
 
 - Bounded Context Canvases IAM:
 
+Representa la base de la seguridad y el control de acceso del sistema. Ilustra cómo se manejan las identidades digitales de los usuarios, desde su registro y autenticación hasta la asignación de permisos. Detalla qué otros módulos del sistema (como vehículos o envíos) necesitan interactuar con IAM para verificar la autorización de un usuario o realizar consultas de permisos. También muestra cómo IAM notifica a otras áreas, como Analytics, sobre cambios en el estado de los usuarios, asegurando que la información de acceso y roles sea coherente en todo el sistema.
+
 ![Bounded Context Canvases IAM](/assets/chapter04/canvases_IAM.png)
 
 - Bounded Context Canvases Vehicles & Tracking:
 
+Se centra en todo lo relacionado con la flota de vehículos y su monitoreo. Explica cómo se gestionan los vehículos registrados, su ubicación en tiempo real y el historial de sus movimientos. Muestra que este contexto recibe actualizaciones de ubicación desde los conductores y de IAM para validar permisos. A su vez, envía información de movimiento y estado a otros contextos como Analytics para análisis, y a la aplicación web para visualización, y a Shipment para la coordinación de entregas. Define los términos clave usados en este dominio, como "Vehículo" y "Ruta histórica", y las decisiones de negocio sobre su seguimiento.
+
 ![Bounded Context Canvases Vehicles & Tracking](/assets/chapter04/canvases_vehicles_tracking.png)
 
 - Bounded Context Canvases Shipment:
+
+Describe el núcleo del proceso de entrega y logística. Presenta cómo se registran y monitorean los envíos desde su origen hasta su destino final. Detalla cómo se coordinan los despachos con los vehículos y conductores, y cómo se gestionan los cambios de estado de las entregas. Muestra las interacciones para registrar nuevos envíos desde las interfaces de usuario y cómo se consulta información de ubicación o de responsables de envío de otros contextos. Además, especifica cómo notifica a Analytics sobre los envíos registrados y entregados, y a Vehicles & Tracking sobre la necesidad de información del estado del vehículo.
 
 ![Bounded Context Canvases Shipment](/assets/chapter04/canvases_shipment.png)
 
@@ -201,6 +207,8 @@ Se concluyó que IAM ya está correctamente enfocado en su Core Capability (Iden
 - Se mantienen 4 bounded contexts.
 - Se refuerza que IAM actúa como Supplier para Vehicles & Tracking y Shipment.
 - Analytics actúa como Subscriber de eventos generados por los otros contextos.
+
+El diagrama creado nos permite visualizar las relaciones y dependencias entre los contextos delimitados del sistema. Los bloques representan los Bounded Contexts y las flechas indican la dirección y el tipo de relación.
 
 ![Context Mapping](/assets/chapter04/context_mapping.png)
 
