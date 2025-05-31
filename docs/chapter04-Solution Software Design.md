@@ -57,29 +57,43 @@ Hemos identificado 7 Bounded Context.
 
 - Subscription & Payments:
 
+Maneja las suscripciones de los usuarios y el procesamiento de pagos. Incluye la solicitud de cuentas PRO, la carga de comprobantes de pago, la validación de pagos y la activación o denegación de cuentas PRO.
+
 ![Subscription & Payments](/assets/chapter04/EventStorming/Subscription%20&%20Payments.png)
 
 - IAM:
+
+Gestiona la autenticación y autorización de usuarios. Cubre los procesos de registro de usuarios, inicio de sesión para diferentes roles (gerente, transportista, personal de plataforma) y el manejo de credenciales incorrectas.
 
 ![IAM](/assets/chapter04/EventStorming/IAM.png)
 
 - Profile Management:
 
+Se ocupa de la actualización y gestión de los perfiles de usuario. Incluye la actualización de datos personales para transportistas y gerentes, el cambio de contraseñas y la gestión de los niveles de usuario por parte de los administradores.
+
 ![Profile Management](/assets/chapter04/EventStorming/Profile%20Management.png)
 
 - Vehicles & Tracking:
+
+Responsable de la gestión de vehículos y su información de rastreo. Implica la creación y asignación de vehículos, la gestión de límites para vehículos y transportistas, la integración con equipos IoT para telemetría (temperatura, humedad) y la recepción de datos de ubicación de vehículos por Google Maps.
 
 ![Vehicles & Tracking](/assets/chapter04/EventStorming/Vehicles%20&%20Tracking.png)
 
 - Shipment:
 
+Gestiona el ciclo de vida de los envíos. Incluye la creación de envíos (que se establecen automáticamente como "pendientes"), la asignación de envíos a transportistas, el cambio del estado del envío a "en proceso" y el marcado de los envíos como "terminados". También incluye reglas sobre quién puede cambiar el estado del envío y la prevención de reasignaciones una vez que un envío ha finalizado.
+
 ![Shipment](/assets/chapter04/EventStorming/Shipment.png)
 
 - Analytics:
 
+Se centra en la gestión y el análisis de estadísticas relacionadas con los envíos, vehículos y condiciones ambientales. Implica consultar informes, analizar vehículos y asignar colores según las condiciones ambientales.
+
 ![Analytics](/assets/chapter04/EventStorming/Analytics.png)
 
 - Issues:
+
+Se enfoca en la gestión de reportes o "incidencias". Implica la consulta de reportes de otros transportistas y la creación de nuevos reportes. También incluye reglas sobre la completitud del tipo y la descripción para la creación de reportes y el registro automático de la fecha de creación.
 
 ![Issues](/assets/chapter04/EventStorming/Issues.png)
 
