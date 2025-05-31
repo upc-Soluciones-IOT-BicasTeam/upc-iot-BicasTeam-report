@@ -105,21 +105,31 @@ En esta sección, se describe el proceso utilizado para visualizar la interacci�
 
 - Subscription & Payments ->  IAM/Profile/Vehicle&Tracking
 
+Cuando una cuenta PRO de gerente se activa, este contexto informa a IAM, Profile Management y Vehicles & Tracking para actualizar los datos y permisos correspondientes. El Personal de Plataforma gestiona esto a través del sitio web.
+
 ![Subscription&Payments->IAM/Profile/Vehicle&Tracking](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Subscription%20&%20Payments%20-%20IAM_Profile_Vehicle&Tracking.jpg)
 
 - Vehicles & Tracking -> Analytics
+
+Recibe datos de temperatura, humedad y ubicación de los vehículos. Envía estos datos a Analytics para análisis de condiciones, asignación de colores ambientales e identificación de límites estrictos. El Gerente puede ver esta información en el sitio web.
 
 ![Vehicles&Tracking->Analytics](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Vehicles%20&%20Tracking%20-%20Analytics.jpg)
 
 - Shipment -> Analytics
 
+Al crearse o asignarse un envío, se envía información a Analytics para el historial de envíos activos del conductor y la actualización de límites ambientales. El Gerente accede a esto vía web.
+
 ![Shipment->Analytics](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Shipment%20-%20Analytics.jpg)
 
 - Issues -> Analytics
 
+Este contexto envía datos de reportes a Analytics para generar estadísticas de incidencias registradas. El Gerente visualiza estas estadísticas en el sitio web.
+
 ![Issues->Analytics](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Issues%20-%20Analytics.jpg)
 
 - Iam -> Profile Management
+
+Cuando un gerente o conductor se registra en IAM, sus datos personales son enviados a Profile Management para su almacenamiento. El Gerente inicia este proceso en el sitio web.
 
 ![Iam->Profile Management](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Iam%20-%20Profile%20Management.jpg)
 
