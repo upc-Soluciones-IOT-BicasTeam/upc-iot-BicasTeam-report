@@ -235,12 +235,12 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
 
 | Team Member | Github Username | IAM | Subscription & Payments | Profile Management | Analytics | Vehicles & Tracking | Shipment | Issues |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Huarcaya, Miguel | MiguelHuarcayaChavez | L | L |  |  | C | C |
+| Huarcaya, Miguel | MiguelHuarcayaChavez | L | L |  |  |  | C | C |
 | Torres, Elias | EliasTorresEzpinoza | C | C |  |  |  | L | L |
-| Tarazona, Piero | pierotm |  |  | C | L |  |  |  |
-| Chacon, Mauricio | mxuriciocm |  |  | L | C |  |  |  |
-| Donayre, Moises | MoisesD19 |  |  |  |  | L |  |  |
-| Valenzuela, Aldhair | AldhaValenzuelaH |  |  |  |  | C |  |  |
+| Tarazona, Piero | pierotm |  |  | L | C |  |  |  |
+| Chacon, Mauricio | mxuriciocm |  |  | C | L |  |  |  |
+| Donayre, Moises | MoisesD19 |  |  |  |  | C |  |  |
+| Valenzuela, Aldhair | AldhaValenzuelaH |  |  |  |  | L |  |  |
 
  #### 6.2.1.3 Sprint Backlog 1
  El Sprint 1 está centrado en la implementación de las funcionalidades clave de la landing page del sitio web, priorizando las historias de usuario identificadas. Nuestro objetivo principal es proporcionar a los visitantes una experiencia inicial sólida al presentar de manera clara y concisa las características y beneficios del sitio, junto con una navegación intuitiva y acceso rápido a la información relevante. Al completar las tareas asociadas a las historias de usuario definidas, sentaremos las bases para futuras iteraciones, asegurando que la página de inicio cumpla con las expectativas de los usuarios y contribuya al éxito del proyecto.
