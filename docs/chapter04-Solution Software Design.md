@@ -577,7 +577,7 @@ En la capa de Infrastructure Layer, se encuentran los repositorios que permiten 
 ![Component Level Diagrams IAM](/assets/chapter04/structurizr-MobileAppPresentationFocusView.png)
 
 ##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams IAM](/assets/chapter04/ClassDiagramas/ClassDiagram_IAM.png)
+![Bounded Context Domain Layer Class Diagrams IAM](/assets/chapter04/ClassDiagramas/ClassDiagram_IAM2.png)
 
 ##### 4.2.1.6.2 Bounded Context Database Design Diagram
 ![Bounded Context Database Design Diagram IAM](/assets/chapter04/ERDiagrams/ERDiagram_IAM.png)
@@ -922,7 +922,7 @@ En la capa de Infrastructure Layer, se encuentran los repositorios que permiten 
 ![Bounded Context Software Architecture Code Level Diagrams](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20Profile.png)
 
 ##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams Profile Management](/assets/chapter04/ClassDiagramas/ClassDiagram_ProfileManagement.png)
+![Bounded Context Domain Layer Class Diagrams Profile Management](/assets/chapter04/ClassDiagramas/ClassDiagram_ProfileManagement2.png)
 
 ##### 4.2.2.6.2 Bounded Context Database Design Diagram
 ![Bounded Context Database Design Diagram Profile Management](/assets/chapter04/ERDiagrams/ERDiagram_ProfileManagement.png)
@@ -1251,7 +1251,7 @@ Ruta
 #### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams V&T](/assets/chapter04/ClassDiagramas/ClassDiagram_Vehicle&Tracking.png)
+![Bounded Context Domain Layer Class Diagrams V&T](/assets/chapter04/ClassDiagramas/ClassDiagram_Vehicles&Tracking2.png)
 
 ##### 4.2.3.6.2 Bounded Context Database Design Diagram
 ![Bounded Context Database Design Diagram V&T](/assets/chapter04/ERDiagrams/ERDiagram_Vehicle&Tracking.png)
@@ -1562,7 +1562,7 @@ El bounded context de envíos gestiona el seguimiento de paquetes, asignaciones 
 #### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams Shipment](/assets/chapter04/ClassDiagramas/ClassDiagram_Shipment.png)
+![Bounded Context Domain Layer Class Diagrams Shipment](/assets/chapter04/ClassDiagramas/ClassDiagram_Shipments2.png)
 
 ##### 4.2.4.6.2 Bounded Context Database Design Diagram
 ![Bounded Context Database Design Diagram Shipment](/assets/chapter04/ERDiagrams/ERDiagram_Shipment.png)
@@ -1718,7 +1718,7 @@ Implementaciones técnicas que permiten el acceso a datos, conectividad y persis
 #### 4.2.5.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams Analytics](/assets/chapter04/ClassDiagramas/ClassDiagram_Analytics.png)
+![Bounded Context Domain Layer Class Diagrams Analytics](/assets/chapter04/ClassDiagramas/ClassDiagram_Analytics2.png)
 
 ##### 4.2.5.6.2 Bounded Context Database Design Diagram
 ![Bounded Context Database Design Diagram Analytics](/assets/chapter04/ERDiagrams/ERDiagram_Analytics.png)
@@ -1934,7 +1934,7 @@ Proporciona implementaciones concretas de persistencia y almacenamiento externo 
 #### 4.2.6.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.6.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams Subscription and Payments](/assets/chapter04/ClassDiagramas/ClassDiagram_Subscription&Payment.png)
+![Bounded Context Domain Layer Class Diagrams Subscription and Payments](/assets/chapter04/ClassDiagramas/ClassDiagram_Subscription&Payments2.png)
 
 ##### 4.2.6.6.2 Bounded Context Database Design Diagram
 ![Bounded Context Database Design Diagram Subscription and Payments](/assets/chapter04/ERDiagrams/ERDiagram_Subscription&Payment.png)
@@ -2041,7 +2041,7 @@ Incluye las implementaciones de acceso a la persistencia y servicios auxiliares 
 #### 4.2.7.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.6.7.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams Issues](/assets/chapter04/ClassDiagramas/ClassDiagram_Issues.png)
+![Bounded Context Domain Layer Class Diagrams Issues](/assets/chapter04/ClassDiagramas/ClassDiagram_Issues2.png)
 
 ##### 4.2.6.7.2 Bounded Context Database Design Diagram
 ![Bounded Context Database Design Diagram Issues](/assets/chapter04/ERDiagrams/ERDiagram_Issues.png)
