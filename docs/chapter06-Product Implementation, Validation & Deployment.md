@@ -206,11 +206,11 @@ Dividir las historias grandes en subtareas de máximo 4 horas.</td>
 		<tr>
 			<td>Sprint 1 Goal</td>
 			<td>- Sprint 1 Goal
-Nuestro enfoque está en entregar la experiencia pública inicial mediante la Landing Page e implementar las funcionalidades principales del rol gerente en la aplicación web.
+Nuestro enfoque está en habilitar la visibilidad pública de la solución a través de una landing page informativa, y permitir que los gerentes gestionen vehículos, conductores y visualicen estadísticas desde la aplicación web.
 
-Creemos que esto aportará visibilidad del producto y capacidades de incorporación a potenciales clientes a través de la Landing Page, así como valor de negocio para los gerentes registrados al permitirles gestionar vehículos y conductores, y acceder a estadísticas operativas relevantes.
+Creemos que esto aportará una primera impresión clara del producto a potenciales clientes, así como control y autonomía a los gerentes para organizar sus operaciones logísticas desde el entorno web, reduciendo la dependencia de procesos manuales.
 
-Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente por la Landing Page sin errores visuales o de diseño, y los gerentes registrados puedan iniciar sesión, registrar vehículos y conductores, y visualizar estadísticas de su operación dentro de la plataforma web.</td>
+Esto se confirmará cuando los visitantes puedan acceder correctamente a la landing page y los gerentes registrados puedan iniciar sesión, registrar vehículos y conductores, asignarlos, y visualizar estadísticas operativas desde la interfaz web.</td>
 		</tr>
 		<tr>
 			<td>Sprint 1 Velocity</td>
