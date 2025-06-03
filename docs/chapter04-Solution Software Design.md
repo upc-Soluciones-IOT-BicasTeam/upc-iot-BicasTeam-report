@@ -329,6 +329,7 @@ Contiene la lógica de negocio pura y las entidades principales relacionadas a l
 
 **Enum: PermissionCode**<br>
 | Código | Valor |
+| --- | --- |
 | USER_CREATE | "user:create" |
 | USER_DELETE | "user:delete" |
 | VEHICLE_CREATE | "vehicle:create" |
@@ -337,16 +338,19 @@ Contiene la lógica de negocio pura y las entidades principales relacionadas a l
 
 **Aggregate 5: JwtToken**<br>
 | Nombre | Categoría | Descripción |
+| --- | --- | --- |
 | JwtToken | Entity | Representa un token JWT emitido como parte de una sesión. |
 
 **Attributes**<br>
 | Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
 | token | String | Private | Cadena JWT. |
 | issuedAt | LocalDateTime | Private | Fecha de emisión del token. |
 | expiresAt | LocalDateTime | Private | Fecha de expiración del token. |
 
 **Methods**<br>
 | Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
 | isExpired() | Boolean | Public | Verifica si el token ha expirado. |
 
 
@@ -400,6 +404,7 @@ Nombre | Categoría | Descripción |
 
 **Attributes**<br>
 | Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
 | roleService | RoleService | Private | Servicio de la capa de Aplicación para lógica de gestión de roles. |
 | roleMapper | RoleMapper | Private | Mapper para convertir entre DTOs y objetos de Rol. |
 
@@ -570,16 +575,23 @@ En la capa de Infrastructure Layer, se encuentran los repositorios que permiten 
 - Métodos para extraer información (ej. userId, sessionId, roles) de un token válido.
 
 #### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
+Este diagrama muestra la arquitectura de componentes del sistema, organizado en controladores (AuthController, UserController, RoleController), servicios (AutoService, UserService, RoleService) y repositorios JPA (JpaUserRepositoryImp, JpaRoleRepositoryImp, etc.), que interactúan con una base de datos central. Los controladores gestionan las solicitudes HTTP, los servicios implementan la lógica de negocio y los repositorios manejan el acceso a datos, siguiendo un diseño modular y escalable.
 ![Component Level Diagrams IAM](/assets/chapter04/structurizr-Component-001.png)
 
+El diagrama muestra la arquitectura de un sistema IAM (Identity and Access Management) para una aplicación web, donde el ApiService consume la API IAM y gestiona tokens JWT, mientras que el TokenService se encarga de almacenar y proveer estos tokens. Los módulos funcionales (Auth Module, User Module y Role Module) manejan procesos de autenticación, gestión de usuarios y administración de roles/permisos respectivamente, comunicándose a través de endpoints REST como /login, /users y /roles. La estructura modular asegura escalabilidad y un claro manejo de identidades y accesos.
 ![Component Level Diagrams IAM](/assets/chapter04/structurizr-Component-002.png)
 
+El diagrama presenta la arquitectura de una aplicación móvil Flutter para gestión de perfiles y autenticación, organizada en tres capas principales: la interfaz de usuario (pantallas de perfil, login y registro), la lógica de negocio (casos de uso como Login y GetProfile, con interfaces abstractas) y la gestión de datos (repositorios, fuentes de datos y cliente HTTP para operaciones remotas). Los componentes interactúan de forma modular, permitiendo actualizaciones de perfil, autenticación segura y almacenamiento local/remoto, todo integrado en un contenedor Flutter.
 ![Component Level Diagrams IAM](/assets/chapter04/structurizr-MobileAppPresentationFocusView.png)
 
 ##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
+El diagrama muestra el diseño del módulo IAM, con las entidades User (autenticación y roles), Session (tokens JWT), Role y Permission (permisos como USER.CREATE). Incluye operaciones clave como login() y refreshToken(), formando un sistema seguro de gestión de accesos.
+
 ![Bounded Context Domain Layer Class Diagrams IAM](/assets/chapter04/ClassDiagramas/ClassDiagram_IAM2.png)
 
 ##### 4.2.1.6.2 Bounded Context Database Design Diagram
+El diagrama presenta el diseño de base de datos para el Bounded Context IAM, con tablas principales. La estructura refleja un sistema robusto para autenticación, control de accesos (RBAC) y gestión de sesiones mediante JWT, con integridad referencial garantizada por claves foráneas.
+
 ![Bounded Context Database Design Diagram IAM](/assets/chapter04/ERDiagrams/ERDiagram_IAM.png)
 
 ### 4.2.2 Bounded Context: Profile Management
@@ -912,19 +924,40 @@ En la capa de Infrastructure Layer, se encuentran los repositorios que permiten 
 - Verifica la existencia de perfiles de personal por ID o userId.
 
 #### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams
+
+Muestra componentes UI (gestión de perfiles y conductores) y servicios API para operaciones CRUD, incluyendo formularios para cambio de contraseña y edición de datos. (Frontend de administración de usuarios).
+
 ![Component Level Diagrams Profile Management](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-Profile.png)
+
+Muestra los componentes clave para gestión de perfiles: UserProfile Repository (datos), Management Service (lógica) y Automated Service (procesos automáticos). (Arquitectura backend simplificada).
+
 ![Component Level Diagrams Profile Management](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents%20-%20profile.png)
 
-![Component Level Diagrams Profile Management](/assets/chapter04/)
+//![Component Level Diagrams Profile Management](/assets/chapter04/)
 #### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams
+
+El diagrama muestra los componentes backend para gestión de perfiles: UserProfile Repository (almacenamiento), UserProfile Service (operaciones CRUD) y servicios especializados para fotos y atributos específicos de perfiles.
+
 ![Bounded Context Software Architecture Code Level Diagrams](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents%20-%20profile.png)
+
+El diagrama muestra los componentes UI y servicios para gestión de perfiles en la versión web de la aplicación.
+
 ![Bounded Context Software Architecture Code Level Diagrams](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-Profile.png)
+
+El diagrama muestra los componentes UI y servicios para gestión de perfiles en la versión móvil de la aplicación.
+
 ![Bounded Context Software Architecture Code Level Diagrams](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20Profile.png)
 
 ##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
+
+Este diagrama UML muestra la jerarquía de perfiles de usuario en un sistema, comenzando con una clase UserProfile genérica y especializándose en DriverProfile, ManagerProfile y StaffProfile. Cada perfil incluye atributos y métodos específicos para su rol, detallando la información relevante para la gestión de usuarios en el sistema.
+
 ![Bounded Context Domain Layer Class Diagrams Profile Management](/assets/chapter04/ClassDiagramas/ClassDiagram_ProfileManagement2.png)
 
 ##### 4.2.2.6.2 Bounded Context Database Design Diagram
+
+Este diagrama de base de datos detalla las tablas y relaciones para la gestión de perfiles, con user_profiles como tabla principal, extendiéndose a driver_profile, manager_profiles y staff_profile, además de gestionar habilidades (skills y staff_skills).
+
 ![Bounded Context Database Design Diagram Profile Management](/assets/chapter04/ERDiagrams/ERDiagram_ProfileManagement.png)
 
 ### 4.2.3 Bounded Context: Vehicles & Tracking
@@ -1243,17 +1276,37 @@ Ruta
 - Actualiza la ubicación del vehículo en tiempo real en el sistema de seguimiento.
 
 #### 4.2.3.5 Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama de componentes ilustra un marco conceptual para un sistema de seguimiento de vehículos. Muestra servicios clave como TelemetryIngestion, RealTimeLocation, HistoricalTelemetry y Geofencing, interactuando con un VehicleRegistry Service y un Vehicle & Telemetry Repository para gestionar y analizar datos de telemetría y ubicación.
+
 ![Component Level Diagrams V&T](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents-vehicles.png)
+
+Este diagrama de componentes detalla un módulo de seguimiento de vehículos, mostrando la interacción entre servicios (VehicleApiService, RealTimeTrackingService) y varios componentes de UI para visualización y gestión de datos de vehículos en tiempo real.
+
 ![Component Level Diagrams V&T](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-%20vehicles.png)
+
+Este diagrama de componentes ilustra un módulo de seguimiento de vehículos, mostrando cómo los servicios (RealTimeLocationService, VehicleApiService) y la lógica de negocio (VehicleBloc) interactúan con las pantallas de usuario (FleetMapScreen, VehicleDashboardScreen, VehicleDetailsScreenMobile).
+
 ![Component Level Diagrams V&T](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20vehicle.png)
+
+
+Este diagrama de componentes muestra un sistema de adquisición de datos de sensores. DataPollingScheduler coordina las lecturas programadas de TemperatureSensorDriver, HumiditySensorDriver y GPSSensorDriver, y configura sus frecuencias, para enviar datos brutos de sensores.
+
 ![Component Level Diagrams V&T](/assets/chapter04/diagramas%20para%20iot/structurizr-VehicleEdgeUnitComponents-iot-vehicles.png)
 
 #### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
+
+Este diagrama de clases UML modela un sistema de "Vehículo y Seguimiento", mostrando cómo clases como Vehicle, TelemetryClient, VehicleRoute y varios sensores (GPS, Temperatura, Humedad) interactúan para gestionar datos telemétricos y la información de ruta.
+
 ![Bounded Context Domain Layer Class Diagrams V&T](/assets/chapter04/ClassDiagramas/ClassDiagram_Vehicles&Tracking2.png)
 
 ##### 4.2.3.6.2 Bounded Context Database Design Diagram
+
+
+Este diagrama de base de datos detalla las tablas para un sistema de seguimiento de vehículos. Muestra la tabla central vehicles relacionada con humidity_sensors, temperature_sensors, gps_sensors, vehicle_routes y route_tracking, estableciendo la estructura para gestionar datos de vehículos, rutas y sensores.
+
 ![Bounded Context Database Design Diagram V&T](/assets/chapter04/ERDiagrams/ERDiagram_Vehicle&Tracking.png)
 
 ### 4.2.4 Bounded Context: Shipment
@@ -1555,16 +1608,31 @@ El bounded context de envíos gestiona el seguimiento de paquetes, asignaciones 
 
 #### 4.2.4.5 Bounded Context Software Architecture Component Level Diagrams
 
+Este diagrama de componentes ilustra un sistema de gestión de envíos, con servicios que cubren la asignación, órdenes, pruebas de entrega, seguimiento y planificación de rutas, todos utilizando un repositorio central de envíos.
+
 ![Component Level Diagrams Shipment](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents-shipment.png)
+
+
+Este diagrama de componentes detalla un módulo de gestión de envíos. Muestra cómo ShipmentApiService interactúa con varios componentes de UI como ShipmentListComponent, ShipmentDashboardPage, ShipmentDetailsPageComponent, CreateShipmentFormComponent, AssignShipmentDialogComponent y RouteDisplayComponent para listar, crear, asignar y visualizar envíos.
+
 ![Component Level Diagrams Shipment](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-Shipment.png)
+
+Este diagrama de componentes ilustra un módulo de operaciones de envío para la aplicación móvil de nuestra solución, donde ShipmentBloc coordina los datos del ShipmentApiService con pantallas de usuario (ShipmentDetailsScreen, ShipmentListScreen, UpdateShipmentStatusDialog, ProofOfDeliveryScreen) y un ProofOfDeliveryService para gestionar las pruebas de entrega.
+
 ![Component Level Diagrams Shipment](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20Shipment.png)
 
 #### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams
+
+Este diagrama UML muestra un contexto delimitado de "Envío" con dos clases: Delivery, que incluye detalles de envío y métodos para actualizar estado y verificar cumplimiento; y Package, que contiene información dimensional, indicando una relación de composición entre ellas.
+
 ![Bounded Context Domain Layer Class Diagrams Shipment](/assets/chapter04/ClassDiagramas/ClassDiagram_Shipments2.png)
 
 ##### 4.2.4.6.2 Bounded Context Database Design Diagram
+
+Este diagrama de base de datos muestra las tablas deliveries y packages, con packages relacionada a deliveries a través de una clave foránea, detallando los atributos para la gestión de entregas y sus paquetes asociados.
+
 ![Bounded Context Database Design Diagram Shipment](/assets/chapter04/ERDiagrams/ERDiagram_Shipment.png)
 
 ### 4.2.5 Bounded Context: Analytics
@@ -1710,17 +1778,30 @@ Implementaciones técnicas que permiten el acceso a datos, conectividad y persis
 
 #### 4.2.5.5 Bounded Context Software Architecture Component Level Diagrams
 
+Este diagrama de componentes ilustra un sistema de analíticas, donde varios servicios de análisis (VehicleEfficiency, ShipmentInsights, DriverPerformance) usan servicios de consulta, agregación y generación de informes, respaldados por un repositorio de datos analíticos.
 
 ![Component Level Diagrams Analytics](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents%20-%20analytics.png)
+
+Este diagrama de componentes ilustra un módulo de analíticas y reportes donde AnalyticsApiService provee datos a varios componentes de interfaz de usuario para la visualización y filtrado de informes.
+
 ![Component Level Diagrams Analytics](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-analytic.png)
+
+Este diagrama de componentes ilustra un módulo de analíticas y reportes donde AnalyticsBloc gestiona la lógica para AnalyticsOverviewScreen y SimpleReportViewScreen, obteniendo datos vía AnalyticsApiService.
+
 ![Component Level Diagrams Analytics](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20Analytics.png)
 
 #### 4.2.5.6 Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
+
+La imagen muestra un diagrama de clases del dominio "Analytics" con cuatro clases principales: `VehicleAnalytics`, `ShipmentAnalytics`, `DriverAnalytics` y `AnalyticsDoc`, que gestionan métricas relacionadas con vehículos, envíos, conductores y generación de informes.
+
 ![Bounded Context Domain Layer Class Diagrams Analytics](/assets/chapter04/ClassDiagramas/ClassDiagram_Analytics2.png)
 
 ##### 4.2.5.6.2 Bounded Context Database Design Diagram
+
+La imagen muestra el diseño de base de datos para el contexto "Analytics", con tablas como analytic_docs, vehicle_analytics, shipment_analytics, driver_analytics y relaciones para almacenar métricas e informes.
+
 ![Bounded Context Database Design Diagram Analytics](/assets/chapter04/ERDiagrams/ERDiagram_Analytics.png)
 
 ### 4.2.6 Bounded Context: Subscription and Payments
