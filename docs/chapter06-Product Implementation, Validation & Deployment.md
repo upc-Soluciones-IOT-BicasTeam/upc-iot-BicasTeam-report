@@ -494,7 +494,10 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
 </table>
 
  #### 6.2.1.4 Development Evidence for Sprint Review
- Esta sección documenta y presenta la serie de commits realizados en el repositorio del Landing Page. Estos commits, que son una parte integral del proceso de desarrollo, se han gestionado utilizando la metodología GitFlow y siguiendo estrictamente las convenciones establecidas para los commits. Esta evidencia sirve como un registro transparente y trazable de nuestro progreso y esfuerzos de desarrollo a lo largo del sprint.
+ Esta sección documenta y presenta la serie de commits realizados en el repositorio del Landing Page y AppWeb. Estos commits, que son una parte integral del proceso de desarrollo, se han gestionado utilizando la metodología GitFlow y siguiendo estrictamente las convenciones establecidas para los commits. Esta evidencia sirve como un registro transparente y trazable de nuestro progreso y esfuerzos de desarrollo a lo largo del sprint.
+
+ - Landing Page:
+
  | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
  | --- | --- | --- | --- | --- | --- |
  | upc-AppWeb-BicasTeam-LandingPage.github.io | main | d3b094b | chore:... | initial commit | 10-04-2024 |
@@ -546,6 +549,58 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
  | upc-AppWeb-BicasTeam-LandingPage.github.io | main | e9cdf14 | fix:... | the styles were modified | 11-05-2025 |
  | upc-AppWeb-BicasTeam-LandingPage.github.io | main | d588b20 | fix:... | update of the hero, pricing, header section | 15-05-2025 |
  | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-footer | d352dd8 | feat:... | add new css style | 15-05-2025 |
+
+ - AppWeb:
+ 
+ | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+ | --- | --- | --- | --- | --- | --- |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/profile-management | 5f50c87 | feat:... | update serverBasePath in environment development | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/issues | 7bc3607 | feat:... | Implement issues-management page | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/profile-management | 0b6327c | feat:... | added api-service for profile | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/shipment | 93cc151 | feat:... | Implement Shipments-management page | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/profile-management | 0722f4f | fix:... | api service for iam | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/shipment | brb6ecb | feat:... | Merge branch 'feature/shipment' into develop | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/issues | 6eb281c | fix:... | update of the issue management page | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/issues | ffda52c | feat:... | Merge branch 'feature/issues' into develop | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | 016e782 | fix:... | login | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 266dd89 | feat:... | add iot information and map | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | 61c1ffs | fix:... | iam - login and register | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | 5c26f35 | fix:... | sidebar reparated | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | d99416f | feat:... | Merge branch 'feature/iam' into develop | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/profile-management | 2a7aff8 | feat:... | added authentication form | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/profile-management | 5f97727 | feat:... | added profile editing form | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | 3ff2cf5 | fix:... | Fix problem with sidebar | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | d27fb1c | feat:... | Merge branch 'feature/iam' into develop | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | 0e4f2ec | fix:... | services | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | 5aadbe0 | fix:... | services api | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | 4315f1b | feat:... | structure and css for the component suscription | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | 5b54617 | feat:... | Service of imageApi but not working | 16-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/analytics | fd29871 | feat:... | add analytics page and update sidebar navigation | 16-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | e46fc2b | feat:... | ChangeCredentials | 16-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | develop | dfc2a05 | feat:... | Merge branch 'feature/subscription&payments' into develop | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | a8dc84a | feat:... | Merge branch 'develop' into feature/analytics | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 7a32c48 | fix:... | modulets | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/vehicles-&-tracking | 46ba2c6 | feat:... | added map display | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 3b1706c | fix:... | createUser | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/iam | 5b0366e | fix:... | services | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | d1f5f0e | fix:... | createUser | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/iam | 5b0366e | fix:... | services | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 360c3f8 | feat:... | Merge branch 'feature/profile-management' into develop | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/iam | 2e4f7a5 | fix:... | service | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/iam | d3491d0 | fix:... | services and login | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | 6f95a11 | feat:... | Merge branch 'develop' into feature/analytics | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | 5230798 | feat:... | add pg-analytics | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | 7b41314 | feat:... | add Analytics navigation to sidebar | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | dfffb8f | feat:... | implement analytics dashboard with routing and styling | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | 032e695 | feat:... | enhance analytics component with driver reports and loading/error states | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | 3901e9a | feat:... | add shipment and vehicle analytics with loading/error handling | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 17cddde | feat:... | Merge branch 'develop' of https://github.com/upc-Soluciones-IOT-BicasTeam/upc-OpenSource-BicasTeam-AppWeb into develop | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | aad01c5 | fix:... | links beeceptor | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 2c870d9 | feat:... | Merge branch 'develop' of https://github.com/upc-Soluciones-IOT-BicasTeam/upc-OpenSource-BicasTeam-AppWeb into develop | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | ac207d4 | fix:... | services | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 08471df | feat:... | Merge branch 'feature/-vechicles-&-tracking' into develop | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | fc1d529 | fix:... | service login | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | ded47ce | feat:... | implementation on language change i18n | 17-05-2025 |
 
  #### 6.2.1.5 Execution Evidence for Sprint Review
  Durante el Sprint 1, se logró un progreso significativo en la implementación de las características clave de la página de inicio del sitio web. El equipo completó con éxito todas las historias de usuario asignadas para este sprint, que incluyeron el desarrollo de un resumen claro de las características y beneficios del sitio web, la integración de acceso visible a información detallada de precios, la adición de un resumen conciso al final de la página de inicio, la inclusión de un llamado a la acción prominente para dirigir a los visitantes a la aplicación web principal, la presentación de contenido informativo claro y detallado, y la integración de información de contacto visible en la página de inicio. El equipo trabajó de manera colaborativa para garantizar que las características implementadas cumplan con los requisitos y contribuyan a una experiencia de usuario positiva. Capturas de pantalla:
