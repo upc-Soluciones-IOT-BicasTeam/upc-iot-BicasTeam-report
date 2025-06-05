@@ -272,222 +272,449 @@ Esto se confirmará cuando los visitantes puedan acceder correctamente a la land
             <td>Status(To-do / InProcess / ToReview / Done)</td>
         </tr>
         <tr>
-            <td>US01</td>
-            <td>Ver descripción general del sistema</td>
+            <td rowspan="2">US01</td>
+            <td rowspan="2">Ver descripción general del sistema</td>
             <td>T01</td>
-            <td>Diseñar sección de descripción</td>
+            <td>Mostrar resumen al acceder a la página</td>
             <td>Crear el diseño visual y la estructura de la sección de la descripción general del sistema.</td>
-            <td>8</td>
+            <td>2</td>
             <td>Aldahir Valenzuela</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US02</td>
-            <td>Ver funcionalidades clave</td>
+            <td>T02</td>
+            <td>Ver información sin estar autenticado</td>
+            <td>Crear la información que se muestra al acceder a la página sin estar autenticado.</td>
+            <td>1</td>
+            <td>Aldahir Valenzuela</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US02</td>
+            <td rowspan="2">Ver funcionalidades clave</td>
+            <td>T03</td>
+            <td>Mostrar listado de funcionalidades según rol</td>
+            <td>Crear la lista de funcionalidades principales del sistema.</td>
+            <td>2</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
             <td>T04</td>
-            <td>Identificar funcionalidades clave</td>
-            <td>Definir y documentar las funcionalidades más importantes del sistema para mostrar.</td>
-            <td>4</td>
+            <td>Acceso a funcionalidades sin autenticación</td>
+            <td>Permitir a los usuarios acceder a las funcionalidades sin autenticación.</td>
+            <td>1</td>
             <td>Mauricio Chacon</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US03</td>
-            <td>Ver comparativa de cuenta gratuita vs PRO</td>
-            <td>T07</td>
-            <td>Definir comparativa</td>
+            <td rowspan="2">US03</td>
+            <td rowspan="2">Ver comparativa de cuenta gratuita vs PRO</td>
+            <td>T05</td>
+            <td>Mostrar diferencias entre cuenta gratuita y PRO</td>
             <td>Especificar las características y beneficios de las cuentas gratuita y PRO para la comparación.</td>
-            <td>4</td>
+            <td>1</td>
             <td>Moises Donayre</td>
             <td>Done</td>
         </tr>
-		    <td>US04</td>
-            <td>Ver video o animación explicativa</td>
-            <td>T11</td>
-            <td>Crear guion del video</td>
-            <td>Escribir el guion detallado que se utilizará para la creación del video explicativo.</td>
-            <td>5</td>
+        <tr>
+            <td>T06</td>
+            <td>Mostrar restricciones del plan gratuito</td>
+            <td>Definir las restricciones del plan gratuito.</td>
+            <td>1</td>
+            <td>Moises Donayre</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US05</td>
+            <td rowspan="2">Completar formulario de contacto</td>
+            <td>T07</td>
+            <td>Envío esitoso del formulario de contacto</td>
+            <td>Mostrar mensaje de envío correcto.</td>
+            <td>2</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T08</td>
+            <td>Validación de campos obligatorios</td>
+            <td>Crear la interfaz de usuario para el formulario donde los interesados puedan ingresar sus datos.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+		    <td rowspan="2">US04</td>
+            <td rowspan="2">Ver video o animación explicativa</td>
+            <td>T09</td>
+            <td>Acceder a material audiovisual explicativo</td>
+            <td>Permitir a los usuarios acceder a material audiovisual explicativo.</td>
+            <td>1</td>
             <td>Aldahir Valenzuela</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US05</td>
-            <td>Completar formulario de contacto</td>
-            <td>T12</td>
-            <td>Diseñar formulario de contacto</td>
-            <td>Crear la interfaz de usuario para el formulario donde los interesados puedan ingresar sus datos.</td>
-            <td>4</td>
-            <td>Elias Torres</td>
+            <td>T10</td>
+            <td>Disponibilidad del contenido en todos los dispositivos</td>
+            <td>Visualizar el contenido en todos los dispositivos.</td>
+            <td>2</td>
+            <td>Aldahir Valenzuela</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US06</td>
-            <td>Redirigir al registro</td>
-            <td>T09</td>
-            <td>Crear botón de registro</td>
+            <td rowspan="2">US06</td>
+            <td rowspan="2">Redirigir al registro</td>
+            <td>T11</td>
+            <td>Acceso directo al registro desde la landing</td>
             <td>Diseñar e implementar el botón o enlace que lleva a la página de registro.</td>
-            <td>3</td>
+            <td>1</td>
             <td>Elias Torres</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US16</td>
-            <td>Registrar cuenta de gerente</td>
+            <td>T12</td>
+            <td>Accesibilidad sin autenticación</td>
+            <td>Permitir a los usuarios acceder al registro sin restricciones.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+		    <td rowspan="2">US07</td>
+            <td rowspan="2">Acceder desde el móvil sin errores de diseño</td>
             <td>T13</td>
-            <td>Implementar formulario de registro</td>
-            <td>Desarrollar el formulario para que los gerentes puedan crear sus cuentas.</td>
-            <td>8</td>
+            <td>Visualización correcta desde un dispositivo móvil</td>
+            <td>Diseño responsive</td>
+            <td>1</td>
             <td>Piero Tarazona</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US17</td>
-            <td>Iniciar sesión como gerente</td>
             <td>T14</td>
-            <td>Crear formulario de inicio de sesión</td>
-            <td>Desarrollar la interfaz para que los gerentes puedan ingresar con sus credenciales.</td>
-            <td>3</td>
-            <td>Mauricio Chacon</td>
+            <td>Disponibilidad de toda la información en móviles</td>
+            <td>Implementar la visualización de la información en dispositivos móviles.</td>
+            <td>1</td>
+            <td>Piero Tarazona</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US20</td>
-            <td>Ver perfil personal</td>
+            <td rowspan="3">US23</td>
+            <td rowspan="3">Crear vehículo</td>
             <td>T15</td>
-            <td>Mostrar datos del perfil</td>
-            <td>Implementar la visualización de la información personal del usuario autenticado.</td>
-            <td>2</td>
-            <td>Miguel Huarcaya</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>US23</td>
-            <td>Crear vehículo</td>
-            <td>T16</td>
-            <td>Implementar formulario de registro de vehículo</td>
+            <td>Registro exitoso de un nuevo vehículo</td>
             <td>Desarrollar el formulario para que los gerentes puedan registrar nuevos vehículos.</td>
-            <td>3</td>
+            <td>2</td>
             <td>Moises Donayre</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US24</td>
-            <td>Ver listado de vehículos registrados</td>
+            <td>T16</td>
+            <td>Límite alcanzado para cuenta gratuita</td>
+            <td>Notificar al usuario cuando se alcanza el límite de cuenta gratuita.</td>
+            <td>1</td>
+            <td>Moises Donayre</td>
+            <td>Done</td>
+        </tr>
+        <tr>
             <td>T17</td>
-            <td>Mostrar lista de vehículos</td>
+            <td>Impedir creación con datos incompletos</td>
+            <td>Mostrar un mensaje de error cuando se intente crear un vehículo con datos incompletos.</td>
+            <td>1</td>
+            <td>Moises Donayre</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">US25</td>
+            <td rowspan="3">Asignar un conductor a un vehículo</td>
+            <td>T18</td>
+            <td>Asignar conductor correctamente</td>
+            <td>Desarrollar la funcionalidad para vincular un conductor a un vehículo específico.</td>
+            <td>2</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T19</td>
+            <td>Impedir múltiples asignaciones</td>
+            <td>Mostrar un mensaje de error cuando se intente asignar un conductor a un vehículo que ya está asignado.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T20</td>
+            <td>Impedir asignación si el vehículo ya está vinculado a otro conductor</td>
+            <td>Mostrar un mensaje de error cuando se intente asignar un conductor a un vehículo que ya está vinculado a otro conductor.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US24</td>
+            <td rowspan="2">Ver listado de vehículos registrados</td>
+            <td>T21</td>
+            <td>Mostrar todos los vehículos registrados</td>
             <td>Desarrollar la interfaz para visualizar todos los vehículos registrados.</td>
+            <td>1</td>
+            <td>Piero Tarazona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T22</td>
+            <td>Ver datos básicos de cada vehículo</td>
+            <td>Permitir al usuario visualizar los datos básicos de cada vehículo.</td>
             <td>2</td>
             <td>Piero Tarazona</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US25</td>
-            <td>Asignar un conductor a un vehículo</td>
-            <td>T18</td>
-            <td>Crear interfaz de asignación</td>
-            <td>Desarrollar la funcionalidad para vincular un conductor a un vehículo específico.</td>
-            <td>3</td>
-            <td>Elias Torres</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>US27</td>
-            <td>Ver temperatura y humedad del vehículo</td>
-            <td>T19</td>
-            <td>Mostrar datos de sensor</td>
+            <td rowspan="2">US27</td>
+            <td rowspan="2">Ver temperatura y humedad del vehículo</td>
+            <td>T23</td>
+            <td>Mostrar condiciones ambientales actuales</td>
             <td>Implementar la visualización de la temperatura y humedad del vehículo.</td>
             <td>2</td>
             <td>Mauricio Chacon</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US28</td>
-            <td>Ver ubicación actual del vehículo</td>
-            <td>T20</td>
-            <td>Integrar mapa con ubicación</td>
-            <td>Implementar la visualización de la ubicación del vehículo en un mapa.</td>
-            <td>3</td>
-            <td>Miguel Huarcaya</td>
+            <td>T24</td>
+            <td>Mostrar última lectura disponible</td>
+            <td>Señalar la última lectura disponible del sensor al usuario.</td>
+            <td>1</td>
+            <td>Mauricio Chacon</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US34</td>
-            <td>Crear envío</td>
-            <td>T21</td>
-            <td>Implementar formulario de creación de envío</td>
-            <td>Desarrollar el formulario para que los gerentes puedan crear nuevos envíos.</td>
-            <td>5</td>
+            <td rowspan="2">US28</td>
+            <td rowspan="2">Ver ubicación actual del vehículo</td>
+            <td>T25</td>
+            <td>Mostrar ubicación si hay señal GPS disponible</td>
+            <td>Implementar la visualización de la ubicación del vehículo en un mapa.</td>
+            <td>3</td>
             <td>Moises Donayre</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US35</td>
-            <td>Asignar envío a un conductor</td>
-            <td>T22</td>
-            <td>Crear interfaz de asignación de envíos</td>
-            <td>Desarrollar la funcionalidad para asignar un envío a un conductor.</td>
+            <td>T26</td>
+            <td>Indicar pérdida de señal</td>
+            <td>Mostrar un mensaje de error cuando no hay señal GPS disponible.</td>
+            <td>1</td>
+            <td>Moises Donayre</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US53</td>
+            <td rowspan="2">Ver condiciones ambientales por vehículo</td>
+            <td>T27</td>
+            <td>Mostrar temperatura y humedad actuales</td>
+            <td>Implementar la visualización de la temperatura y humedad de cada vehículo.</td>
             <td>3</td>
             <td>Aldahir Valenzuela</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US37</td>
-            <td>Ver estado del envío</td>
-            <td>T23</td>
-            <td>Mostrar estado del envío</td>
+            <td>T28</td>
+            <td>Mostrar valores aunque no haya conductor asignado</td>
+            <td>Mostrar los valores de temperatura y humedad cuando no hay conductor asignado.</td>
+            <td>1</td>
+            <td>Aldahir Valenzuela</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">US34</td>
+            <td rowspan="3">Crear envío</td>
+            <td>T29</td>
+            <td>Crear envío con todos los datos válidos</td>
+            <td>Desarrollar el formulario para que los gerentes puedan crear nuevos envíos.</td>
+            <td>3</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T30</td>
+            <td>Impedir creación con datos incompletos</td>
+            <td>Validar datos ingresados y mostrar un mensaje de error cuando se intente crear un envío con datos incompletos.</td>
+            <td>2</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T31</td>
+            <td>Validar límites de temperatura y humedad</td>
+            <td>Impedir creación de envío con temperatura y humedad fuera de los límites permitidos.</td>
+            <td>1</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US35</td>
+            <td rowspan="2">Asignar envío a un conductor</td>
+            <td>T32</td>
+            <td>Asignación correcta de envío</td>
+            <td>Desarrollar la funcionalidad para asignar un envío a un conductor.</td>
+            <td>3</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T33</td>
+            <td>Impedir asignación a conductor inexistente</td>
+            <td>Mostrar un mensaje de error cuando se intente asignar un envío a un conductor inexistente.</td>
+            <td>1</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US37</td>
+            <td rowspan="2">Ver estado del envío</td>
+            <td>T34</td>
+            <td>Mostrar estado actual del envío</td>
             <td>Implementar la visualización del estado actual del envío.</td>
             <td>1</td>
             <td>Piero Tarazona</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US44</td>
-            <td>Ver reportes por conductor (como gerente)</td>
-            <td>T24</td>
-            <td>Generar reporte de conductor</td>
-            <td>Desarrollar la funcionalidad para generar reportes basados en la actividad de cada conductor.</td>
+            <td>T35</td>
+            <td>Mostrar el estado inicial como pendiente</td>
+            <td>Poner por defecto el estado del envío como pendiente.</td>
+            <td>1</td>
+            <td>Piero Tarazona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">US54</td>
+            <td rowspan="3">Mostrar color según condición ambiental</td>
+            <td>T36</td>
+            <td>Mostrar color rojo si se supera el limite</td>
+            <td>Visualizar el color rojo cuando la temperatura supere el límite permitido.</td>
+            <td>2</td>
+            <td>Aldahir Valenzuela</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T37</td>
+            <td>Mostrar color azul si está dentro del rango</td>
+            <td>Visualiza el color azul cuando la temperatura está dentro del rango permitido.</td>
+            <td>2</td>
+            <td>Aldahir Valenzuela</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T38</td>
+            <td>Mostrar color negro si no hay conductor asignado</td>
+            <td>Visualizar el color negro cuando no hay conductor asignado.</td>
+            <td>1</td>
+            <td>Aldahir Valenzuela</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US44</td>
+            <td rowspan="2">Ver reportes por conductor (como gerente)</td>
+            <td>T39</td>
+            <td>Mostrar reportes por conductor específico</td>
+            <td>Desarrollar la funcionalidad para visualizar los reportes basados en la actividad de cada conductor.</td>
             <td>2</td>
             <td>Elias Torres</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US46</td>
-            <td>Acceder a sección de suscripción</td>
-            <td>T25</td>
-            <td>Crear enlace a suscripción</td>
-            <td>Implementar un enlace o botón para acceder a la sección de gestión de suscripciones.</td>
-            <td>2</td>
-            <td>Mauricio Chacon</td>
+            <td>T40</td>
+            <td>Ver detalles de cada reporte</td>
+            <td>Mostrar los detalles de cada reporte.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US47</td>
-            <td>Subir comprobante de pago</td>
-            <td>T26</td>
-            <td>Implementar formulario de carga</td>
+            <td rowspan="2">US46</td>
+            <td rowspan="2">Acceder a sección de suscripción</td>
+            <td>T41</td>
+            <td>Acceso exitoso a la sección de suscripción</td>
+            <td>Implementar un enlace o botón para acceder a la sección de gestión de suscripciones.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T42</td>
+            <td>Mostrar beneficios del modo PRO</td>
+            <td>Visualizar los beneficios del modo PRO.</td>
+            <td>2</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US47</td>
+            <td rowspan="2">Subir comprobante de pago</td>
+            <td>T43</td>
+            <td>Subida corresta del comprobante</td>
             <td>Desarrollar la funcionalidad para que los gerentes puedan subir el comprobante de pago.</td>
             <td>2</td>
             <td>Miguel Huarcaya</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US53</td>
-            <td>Ver condiciones ambientales por vehículo</td>
-            <td>T27</td>
-            <td>Mostrar condiciones por vehículo</td>
-            <td>Implementar la visualización de la temperatura y humedad de cada vehículo.</td>
-            <td>3</td>
-            <td>Moises Donayre</td>
+            <td>T44</td>
+            <td>Impedir subida si falta el archivo</td>
+            <td>Forzar al usuario a subir un archivo.</td>
+            <td>1</td>
+            <td>Miguel Huarcaya</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US54</td>
-            <td>Mostrar color según condición ambiental</td>
-            <td>T28</td>
-            <td>Implementar indicadores de color</td>
-            <td>Desarrollar la lógica para mostrar colores según los rangos de temperatura y humedad.</td>
-            <td>3</td>
-            <td>Aldahir Valenzuela</td>
+            <td rowspan="2">US16</td>
+            <td rowspan="2">Registrar cuenta de gerente</td>
+            <td>T45</td>
+            <td>Registro exitoso de un nuevo gerente</td>
+            <td>Desarrollar el formulario para que los gerentes puedan crear sus cuentas.</td>
+            <td>2</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T46</td>
+            <td>Impedir registro con datos incompletos o inválidos</td>
+            <td>Validar los campos obligatorios del formulario de registro.</td>
+            <td>2</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US17</td>
+            <td rowspan="2">Iniciar sesión como gerente</td>
+            <td>T47</td>
+            <td>Acceso correcto con credenciales válidas</td>
+            <td>Desarrollar la interfaz para que los gerentes puedan ingresar con sus credenciales.</td>
+            <td>2</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T48</td>
+            <td>Denegar acceso con credenciales incorrectas</td>
+            <td>Validar las credenciales del gerente.</td>
+            <td>1</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US20</td>
+            <td rowspan="2">Ver perfil personal</td>
+            <td>T49</td>
+            <td>Mostrar información del perfil</td>
+            <td>Implementar la visualización de la información personal del usuario autenticado.</td>
+            <td>1</td>
+            <td>Piero Tarazona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T50</td>
+            <td>Mostrar perfil según rol</td>
+            <td>Intercambiar la información del perfil según el rol del usuario.</td>
+            <td>1</td>
+            <td>Piero Tarazona</td>
             <td>Done</td>
         </tr>
     </tbody>
