@@ -3937,7 +3937,9 @@ Repositorio del Reporte: https://github.com/upc-Soluciones-IOT-BicasTeam/upc-iot
 
 Landing Page desplegado: https://upc-soluciones-iot-bicasteam.github.io/upc-AppWeb-BicasTeam-LandingPage.github.io/
 
-App Web: Desplegado: https://upc-soluciones-iot-bicasteam.github.io/upc-OpenSource-BicasTeam-AppWeb/login
+App Web Desplegado: https://upc-soluciones-iot-bicasteam.github.io/upc-OpenSource-BicasTeam-AppWeb/login
+
+Back End: https://app-250622151805.azurewebsites.net/swagger-ui/index.html#
 
 Diagrama de clases: https://my.vertabelo.com/public-model-view/5yI4V4ChbQGarfXWiMjxVVIcacFNuarlrFWq26NToht19NwAIKDlIQ60hc4OJ0M4?x=1918&y=2759&zoom=0.6028
 
