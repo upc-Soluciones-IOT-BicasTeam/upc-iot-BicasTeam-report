@@ -1587,6 +1587,59 @@ En esta sección, se detallan los aspectos principales del Sprint Planning Meeti
 </table>
 
 #### 6.2.2.4. Development Evidence for Sprint Review.
+
+- AppWeb:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+|upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | e0dcd26 | feat:... | add new page for vehicle details | 02-06-2025 |
+|upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 53e42fc | feat:... | deleted technical status | 02-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | ba13c28 | feat:... | Merge branch 'feature/shipment' into develop | 03-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/shipment | b3a39a0 | fix:... | update of the shipment section | 03-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 56e7598 | fix:... | fixed warnings | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 392e655 | feat:... | added new page to create a vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | b9b827c | fix:... | fixed page to create a vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 48547fe | feat:... | added new page to update vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 3bfb321 | fix:... | update of the reports module | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 3dcb1fb | fix:... | implement new url shipments | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | a2d7e3d | feat:... | Merge branch 'feature/issues' into develop | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 1e4832d | fix:... | update design and translation | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/issues | ebfb321 | fix:... | update of the reports module | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/iam | 212aa12 | fix:... | login and register models | 15-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | c3e944f | fix:... | sibcripments | 15-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | 82a7822 | fix:... | subscription | 16-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 943b38d | feat:... | fixed update vehicle | 22-06-2025 |
+
+
+- Backend:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+| upc-OpenSource-BicasTeam-api | feature/shipments | 27c7d26 | feat:... | Merge branch 'develop' into feature/shipments | 08-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | 9440d5a | feat:... | Create IAM and modificated Profile | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/subscription&payments | 28e3db6 | feat:... | subscription implement | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | develop | bfd6c1b | feat:... | Merge branch 'feature/subscription&payments' into develop | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/vehicles&tracking | 372a018 | feat:... | update vehicle model and services | 10-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/shipments | 782bfb6 | feat:... | merge develop on shipment | 13-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/profile-management | 806c37c | feat:... | Update local database connection | 14-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | f8198af | fix:... | profile | 15-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | 7c169e6 | fix:... | subscription and profiles and iam | 15-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/vehicles&tracking | d9b4a8d | feat:... | Implement date formatting and enhance vehicle location info | 17-06-2025 |
+
+- AppMobile:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+| upc-iot-BicasTeam-App-mobile | develop | 526cdfd | ... | initial commit | 30-05-2024 |
+| upc-iot-BicasTeam-App-mobile | develop | c5c3ff4 | feat:... | Transferred essential files and structure from the original mobile project. | 30-05-2024 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | b15d32b | feat:... | implemented analytics feature with driver statistics and reports | 13-06-2024 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7d1fc62 | feat:... | add analytics feature with driver reports and shipment statistics | 13-06-2024 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 888a5cf | feat:... | add analytics screens and service for driver reports and shipments | 13-06-2024 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 583fcdf | feat:... | add analytics screen and related functionalities for driver reports and shipments | 13-06-2024 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7123e8b | feat:... | add analytics option to navigation in carrier profiles, profile, and reports screens | 13-06-2024 |
+| upc-iot-BicasTeam-App-mobile | feature/Iam | aa9f47a | feat:... | Implementation of the reports and shipments | 13-06-2024 |
+| upc-iot-BicasTeam-App-mobile | feature/Vehicles&Tracking | 63cc9f9 | feat:... | added businessman vehicles page | 21-06-2024 |
+
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review. 
 #### 6.2.2.6. Execution Evidence for Sprint Review. 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review. 
