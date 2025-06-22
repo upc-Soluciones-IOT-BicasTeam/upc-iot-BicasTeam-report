@@ -921,8 +921,63 @@ Application Web (Gerente):<br>
 -------------
 
 ### 6.2.1 Sprint 2
+En esta sección, documentaremos y explicaremos el progreso tanto en el desarrollo del producto como en la colaboración del equipo durante el Sprint 2. Seguimos un proceso definido que abarca desde la planificación hasta la revisión y documentación del trabajo realizado. A lo largo de las siguientes secciones, detallaremos cómo se llevó a cabo la planificación del sprint, qué tareas se incluyeron en el Sprint Backlog, las pruebas y evidencia de desarrollo para la revisión del sprint, así como la documentación de los servicios y las percepciones clave sobre la colaboración del equipo durante este periodo
 
 #### 6.2.2.1 Sprint Planning 2
+En esta sección, se detallan los aspectos principales del Sprint Planning Meeting para el Sprint n. Este encuentro es crucial para establecer los objetivos del sprint, determinar las user stories que se abordarán y asignar tareas al equipo. A continuación, se presenta un resumen del Sprint Planning Meeting para este período.
+<table>
+  <tbody>
+    <tr>
+      <td>Sprint #</td><td>Sprint 2</td>
+    </tr>
+    <tr>
+      <td colspan="2">Sprint Planning Background</td>
+    </tr>
+		<tr>
+			<td>Date</td>
+			<td>2025-05-28</td>
+		</tr>
+		<tr>
+			<td>Time</td>
+			<td>05:14 PM</td>
+		</tr>
+		<tr>
+			<td>Location</td>
+			<td>Google Meet</td>
+		</tr>
+		<tr>
+			<td>Prepared by</td>
+			<td>Huarcaya Chavez, Miguel Alejandro Daniel</td>
+		</tr>
+		<tr>
+			<td>Attendees (to planning meeting)</td>
+			<td>Huarcaya Chavez, Miguel Alejandro Daniel / Torres Espinoza, Elias / Tarazona Medina, Piero Abel / Chacon Martinez, Mauricio Sebastián / Donayre Peña, Moises Rodolfo / Valenzuela Huillcaya, Aldhair Johan Juan</td>
+		</tr>
+		<tr>
+			<td>Sprint 2 Review Summary</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Sprint 2 Retrospective Summary</td>
+			<td></td>
+	</tr>
+		<tr>
+			<td colspan="2">Sprint Goal & User Stories</td>
+		</tr>
+		<tr>
+			<td>Sprint 2 Goal</td>
+			<td>- Sprint 2 Goal</td>
+		</tr>
+		<tr>
+			<td>Sprint 2 Velocity</td>
+			<td>- Para este primer Sprint estimamos una velocidad de 51 Story Points, basada en nuestra capacidad de equipo y en la complejidad de las historias seleccionadas.</td>
+		</tr>
+		<tr>
+			<td>Sum of Story Points</td>
+			<td>51</td>
+		</tr>
+  </tbody>
+</table>
 #### 6.2.2.2.Aspect Leaders and Collaborators. 
 #### 6.2.2.3. Sprint Backlog 2. 
 
@@ -952,25 +1007,25 @@ Application Web (Gerente):<br>
 			<td>T51</td>
 			<td>Crear conductor con datos válidos</td>
 			<td>Visualizar el formulario de creación de un conductor.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>2</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T52</td>
 			<td>Impedir creación con email inválido repetido</td>
 			<td>Mostrar un mensaje de error cuando se intente crear un conductor con un email repetido.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td>T53</td>
 			<td>Impedir creación si se supera el límite</td>
 			<td>Mostrar el limite de 10 conductores si el gerente intenta crear más de 10 conductores.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td rowspan="3">US40</td>
@@ -978,25 +1033,25 @@ Application Web (Gerente):<br>
 			<td>T54</td>
 			<td>Crear reporte con tipo y descripción válidos</td>
 			<td>Desarrollar el formulario para que los conductores puedan crear nuevos reportes.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>2</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T55</td>
 			<td>Impedir creación sin tipo de reporte</td>
 			<td>Realizar la validación de que el tipo de reporte sea seleccionado.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td>T56</td>
 			<td>Impedir creación con descripción vacía</td>
 			<td>Validar que la descripción del reporte no sea vacía.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US26</td>
@@ -1004,17 +1059,17 @@ Application Web (Gerente):<br>
 			<td>T57</td>
 			<td>Mostrar información de vehículo al conductor</td>
 			<td>Visualizar la información del vehículo asignado.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T57</td>
 			<td>Impedir visualización si no tiene vehículo asignado</td>
 			<td>Mostrar un mensaje cuando el conductor no tiene un vehículo asignado.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US36</td>
@@ -1022,17 +1077,17 @@ Application Web (Gerente):<br>
 			<td>T58</td>
 			<td>Mostrar detalles del envío asignado</td>
 			<td>Visualizar los detalles del envío asignado.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>2</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T59</td>
 			<td>Indicar ausencia de envío</td>
 			<td>Mostrar el mensaje de error "No se ha encontrado el envío"</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US39</td>
@@ -1040,17 +1095,17 @@ Application Web (Gerente):<br>
 			<td>T60</td>
 			<td>Mostrar historial de envíos por conductor</td>
 			<td>Crear la lista de envíos por conductor.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T61</td>
 			<td>Mostrar información clave de cada envío</td>
 			<td>Visualizar destino, estado y fecha de envío.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="3">US38</td>
@@ -1058,25 +1113,25 @@ Application Web (Gerente):<br>
 			<td>T62</td>
 			<td>Conductor cambia estado a "en proceso"</td>
 			<td>Crear la funcionalidad para que el conductor pueda cambiar el estado del envío a "en proceso".</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T63</td>
 			<td>Conductor cambia estado a "terminado"</td>
 			<td>Crear la funcionalidad para que el conductor pueda cambiar el estado del envío a "terminado".</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td>T64</td>
 			<td>Impedir cambio de estado por otros roles</td>
 			<td>Denegar el cambio de estado por parte de otros roles.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US41</td>
@@ -1084,17 +1139,17 @@ Application Web (Gerente):<br>
 			<td>T65</td>
 			<td>Guardar fecha al momento de la creación</td>
 			<td>Crear la funcionalidad para que el conductor pueda guardar la fecha del reporte automáticamente.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T66</td>
 			<td>Visualizar la fecha al consultar reportes</td>
 			<td>Implementar la funcionalidad para que el conductor pueda visualizar la fecha del reporte.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US45</td>
@@ -1102,17 +1157,17 @@ Application Web (Gerente):<br>
 			<td>T67</td>
 			<td>Mostrar total de reportes por tipo</td>
 			<td>Permitir al gerente visualizar la cantidad de reportes por tipo.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>2</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T68</td>
 			<td>Incluir totales por conductor</td>
 			<td>Visualizar el total de reportes por tipo por conductor.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US42</td>
@@ -1120,17 +1175,17 @@ Application Web (Gerente):<br>
 			<td>T69</td>
 			<td>Mostrar todos los reportes del conductor autenticado</td>
 			<td>Permitir al conductor visualizar sus propios reportes.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T70</td>
 			<td>Mostrar detalles de cada reporte</td>
 			<td>Visualizar los detalles de cada reporte.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US43</td>
@@ -1138,17 +1193,17 @@ Application Web (Gerente):<br>
 			<td>T71</td>
 			<td>Mostrar reportes de compañeros vinculados al mismo gerente</td>
 			<td>Añadir la funcionalidad para que el conductor pueda ver los reportes de compañeros vinculados al mismo gerente.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>2</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T72</td>
 			<td>Ocultar reportes de otros gerentes</td>
 			<td>Denegar el acceso a los reportes de otros gerentes.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US58</td>
@@ -1156,35 +1211,17 @@ Application Web (Gerente):<br>
 			<td>T73</td>
 			<td>Transmitir datos cada intervalo definido</td>
 			<td>Enviar datos desde el dispositivo IoT al backend cada intervalo definido.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>2</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T74</td>
 			<td>Confirmar entrega al backend</td>
 			<td>Notificar el recibo de los datos del backend.</td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-        <tr>
-			<td rowspan="2">US60</td>
-			<td rowspan="2">Enviar datos de sensor al backend</td>
-			<td>T75</td>
-			<td>Transmitir datos cada intervalo definido</td>
-			<td>Mandar datos del dispositivo IoT cuando se cumpla el intervalo definido.</td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>T76</td>
-			<td>Confirmar entrega al backend</td>
-			<td>Permitir que el backend confirme la recepción de los datos.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US60</td>
@@ -1192,17 +1229,17 @@ Application Web (Gerente):<br>
 			<td>T77</td>
 			<td>Capturar y transmitir posición GPS</td>
 			<td>Obtener la posición GPS del vehículo y transmitirla al backend.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>2</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T78</td>
 			<td>Manejar errores de lectura GPS</td>
 			<td>Notificar al usuario cuando se produce un error de lectura de la posición GPS.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US57</td>
@@ -1210,17 +1247,17 @@ Application Web (Gerente):<br>
 			<td>T79</td>
 			<td>Registrar humedad dentro del rango</td>
 			<td>Recibir datosdel sensor que transmite un porcentaje entre 0 y 100.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>2</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T80</td>
 			<td>Ignorar valores fuera del rango</td>
 			<td>Prohibir el acceso de datos que sean menores de 0 o mayores a 100.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US56</td>
@@ -1228,17 +1265,17 @@ Application Web (Gerente):<br>
 			<td>T81</td>
 			<td>Recibir lectura válida de temperatura</td>
 			<td>Recibir y almacenar datos con precisión decimal del sensor.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>2</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T82</td>
 			<td>Rechazar lectura fuera del rango físico aceptable</td>
 			<td>Prohibir el acceso de datos que sean menores a -50 o mayores a 100.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Mauricio Muñoz</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US61</td>
@@ -1246,17 +1283,17 @@ Application Web (Gerente):<br>
 			<td>T83</td>
 			<td>Rechazar valores fuera del rango físico</td>
 			<td>Descartar la lectura del edge service cuando esté fuera de rango.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Mauricio Muñoz</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T84</td>
 			<td>Permitir solo valores dentro de los límites físicos</td>
 			<td>Validar los datos con el edge para que sean enviados.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US63</td>
@@ -1264,17 +1301,17 @@ Application Web (Gerente):<br>
 			<td>T85</td>
 			<td>Promediar lecturas antes del envío</td>
 			<td>Calcular el promedio de las últimas lecturas del edge.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T86</td>
 			<td>Enviar solo promedios cada intervalo</td>
 			<td>Enviar valores al backend cada intervalo definido.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US59</td>
@@ -1282,17 +1319,17 @@ Application Web (Gerente):<br>
 			<td>T87</td>
 			<td>Asociar lectura al vehículo correcto</td>
 			<td>Vincular datos de los sensores al vehículo con identificador único.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>2</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T88</td>
 			<td>Impedir asociación si no se reconoce el ID del sensor</td>
-			<td>Ignorar la lectura del sensor si no se reconoce el ID o no está registrado..</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Ignorar la lectura del sensor si no se reconoce el ID o no está registrado.</td>
+			<td>1</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US52</td>
@@ -1300,17 +1337,17 @@ Application Web (Gerente):<br>
 			<td>T89</td>
 			<td>Mostrar total de envíos por conductor</td>
 			<td>Sección de estadísticas de envíos por conductor.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T90</td>
 			<td>Mostrar valores actualizados</td>
 			<td>Actualizar la información cuando un envío sea creado o terminado..</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US51</td>
@@ -1318,17 +1355,17 @@ Application Web (Gerente):<br>
 			<td>T91</td>
 			<td>Mostrar cantidad total de reportes por conductor</td>
 			<td>Visuzalizar la sección de estadísticas de reportes por conductor.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T92</td>
 			<td>Mostrar desglose por tipo de reporte</td>
 			<td>Visualizar la sección de estadísticas de reportes por tipo hecho por cada conductor.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US55</td>
@@ -1336,17 +1373,17 @@ Application Web (Gerente):<br>
 			<td>T93</td>
 			<td>Usar el valor más estricto al analizar condiciones</td>
 			<td>Validar que el vehículo del conductor tenga un límite bajo de temperatura y humedad.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>2</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T94</td>
 			<td>Actualizar límites al cambiar asignaciones</td>
 			<td>Actualizar el sistema cuando se modifiquen los nuevos límites.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US49</td>
@@ -1354,17 +1391,17 @@ Application Web (Gerente):<br>
 			<td>T95</td>
 			<td>Advertencia al alcanzar el limite de conductores</td>
 			<td>Mostrar un mensaje de advertencia cuando el gerente ponga más de 10 conductores.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T96</td>
 			<td>Advertencia al alcanzar el límite de vehículos</td>
 			<td>Mostrar un mensaje de advertencia cuando el gerente ponga más de 10 vehículos.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">U12</td>
@@ -1372,17 +1409,17 @@ Application Web (Gerente):<br>
 			<td>T97</td>
 			<td>Mostrar usuarios registrados</td>
 			<td>Permitir que solo los administradores vean los usuarios registrados.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T98</td>
 			<td>Visualizar información básica del usuario</td>
 			<td>Mostrar información básica del usuario registrado.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US31</td>
@@ -1390,17 +1427,17 @@ Application Web (Gerente):<br>
 			<td>T99</td>
 			<td>Mostrar advertencia al alcanzar el límite</td>
 			<td>Visualizar un mensaje de advertencia cuando el usuario alcanza el límite de cuenta gratuita.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T100</td>
 			<td>Mostrar sugerencia para activar PRO</td>
 			<td>Visualizar un mensaje de sugerencia para que el usuario active el plan PRO cuando llegue al límite.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US32</td>
@@ -1408,17 +1445,17 @@ Application Web (Gerente):<br>
 			<td>T101</td>
 			<td>Visualizar asociación entre conductor y gerente</td>
 			<td>Mostrar el email del gerente asociado al conductor.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T102</td>
 			<td>Asegurar integridad de la relación</td>
 			<td>Asociar la información del conductor con su gerente.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US33</td>
@@ -1426,17 +1463,17 @@ Application Web (Gerente):<br>
 			<td>T103</td>
 			<td>Mostrar datos de un conductor existente</td>
 			<td>Visualizar los datos de los conductores existentes.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T104</td>
 			<td>Ver estado de asignación del conductor</td>
 			<td>Visualizar si un conductor tiene un vehículo asignado.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US30</td>
@@ -1444,17 +1481,17 @@ Application Web (Gerente):<br>
 			<td>T105</td>
 			<td>Visualizar lista completa de conductores del gerente</td>
 			<td>Mostrar una tabla con todos los conductores del gerente.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>2</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T106</td>
 			<td>Mostrar información básica por conductor</td>
 			<td>Visualizar email y behiculo asignado del conductor.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
 		</tr>
         <tr>
 			<td rowspan="2">US22</td>
@@ -1462,17 +1499,17 @@ Application Web (Gerente):<br>
 			<td>T107</td>
 			<td>Cambio exitoso de contraseña</td>
 			<td>Validar contraseña actuar para crear una nueva.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T108</td>
 			<td>Impedir contraseña inválida</td>
 			<td>Validar las reglas de creación de contraseña.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td rowspan="2">US08</td>
@@ -1480,17 +1517,17 @@ Application Web (Gerente):<br>
 			<td>T109</td>
 			<td>Acceso correcto con credenciales válidas</td>
 			<td>Validar las credenciales del administrador.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T110</td>
 			<td>Acceso denegado con credenciales inválidas</td>
 			<td>Mostrar un mensaje de error cuando las credenciales del administrador no son válidas.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td rowspan="2">US18</td>
@@ -1498,17 +1535,17 @@ Application Web (Gerente):<br>
 			<td>T111</td>
 			<td>Autenticación válida como conductor</td>
 			<td>Validar las credenciales del conductor.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T112</td>
 			<td>Impedir acceso con credenciales incorrectas</td>
 			<td>Mostrar un mensaje de error cuando las credenciales del conductor no son válidas.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td rowspan="2">US19</td>
@@ -1516,17 +1553,17 @@ Application Web (Gerente):<br>
 			<td>T113</td>
 			<td>Autenticación correcta del administrador</td>
 			<td>Validar las credenciales del administrador.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T114</td>
 			<td>Impedir acceso con credenciales inválidas</td>
 			<td>Rechazar el acceso al administrador si sus credenciales son incorrectas.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td rowspan="2">US21</td>
@@ -1534,22 +1571,22 @@ Application Web (Gerente):<br>
 			<td>T115</td>
 			<td>Actualización exitosa de datos personales</td>
 			<td>Desarrollar formulario para actualizar los datos personales del usuario.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
 		</tr>
 		<tr>
 			<td>T116</td>
 			<td>Impedir datos vacíos o inválidos</td>
 			<td>Validar los campos obligatorios del formulario de edición de datos personales.</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
 		</tr>
 	</tbody>
 </table>
 
-#### 6.2.2.4. Development Evidence for Sprint Review. 
+#### 6.2.2.4. Development Evidence for Sprint Review.
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review. 
 #### 6.2.2.6. Execution Evidence for Sprint Review. 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review. 
