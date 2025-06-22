@@ -980,6 +980,15 @@ En esta sección, se detallan los aspectos principales del Sprint Planning Meeti
 </table>
 
 #### 6.2.2.2.Aspect Leaders and Collaborators. 
+| Team Member | Github Username | IAM | Subscription & Payments | Profile Management | Analytics | Vehicles & Tracking | Shipment | Issues |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Huarcaya, Miguel | MiguelHuarcayaChavez | L | C |  |  |  | C | C |
+| Torres, Elias | EliasTorresEzpinoza | C | C |  |  |  | L | L |
+| Tarazona, Piero | pierotm |  |  | L | C |  |  |  |
+| Chacon, Mauricio | mxuriciocm |  |  | C | L |  |  |  |
+| Donayre, Moises | MoisesD19 |  |  |  |  | L | C |  |
+| Valenzuela, Aldhair | AldhaValenzuelaH |  | L |  |  | C |  |  |
+
 #### 6.2.2.3. Sprint Backlog 2. 
 
 <table border="1">
