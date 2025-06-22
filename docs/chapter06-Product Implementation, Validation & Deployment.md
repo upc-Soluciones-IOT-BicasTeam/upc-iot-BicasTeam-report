@@ -978,6 +978,7 @@ En esta sección, se detallan los aspectos principales del Sprint Planning Meeti
 		</tr>
   </tbody>
 </table>
+
 #### 6.2.2.2.Aspect Leaders and Collaborators. 
 #### 6.2.2.3. Sprint Backlog 2. 
 
