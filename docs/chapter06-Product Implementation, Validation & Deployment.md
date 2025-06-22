@@ -206,11 +206,11 @@ Dividir las historias grandes en subtareas de máximo 4 horas.</td>
 		<tr>
 			<td>Sprint 1 Goal</td>
 			<td>- Sprint 1 Goal
-Nuestro enfoque está en entregar la experiencia pública inicial mediante la Landing Page e implementar las funcionalidades principales del rol gerente en la aplicación web.
+Nuestro enfoque está en habilitar la visibilidad pública de la solución a través de una landing page informativa, y permitir que los gerentes gestionen vehículos, conductores y visualicen estadísticas desde la aplicación web.
 
-Creemos que esto aportará visibilidad del producto y capacidades de incorporación a potenciales clientes a través de la Landing Page, así como valor de negocio para los gerentes registrados al permitirles gestionar vehículos y conductores, y acceder a estadísticas operativas relevantes.
+Creemos que esto aportará una primera impresión clara del producto a potenciales clientes, así como control y autonomía a los gerentes para organizar sus operaciones logísticas desde el entorno web, reduciendo la dependencia de procesos manuales.
 
-Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente por la Landing Page sin errores visuales o de diseño, y los gerentes registrados puedan iniciar sesión, registrar vehículos y conductores, y visualizar estadísticas de su operación dentro de la plataforma web.</td>
+Esto se confirmará cuando los visitantes puedan acceder correctamente a la landing page y los gerentes registrados puedan iniciar sesión, registrar vehículos y conductores, asignarlos, y visualizar estadísticas operativas desde la interfaz web.</td>
 		</tr>
 		<tr>
 			<td>Sprint 1 Velocity</td>
@@ -235,12 +235,12 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
 
 | Team Member | Github Username | IAM | Subscription & Payments | Profile Management | Analytics | Vehicles & Tracking | Shipment | Issues |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Huarcaya, Miguel | MiguelHuarcayaChavez | L | L |  |  | C | C |
+| Huarcaya, Miguel | MiguelHuarcayaChavez | L | L |  |  |  | C | C |
 | Torres, Elias | EliasTorresEzpinoza | C | C |  |  |  | L | L |
-| Tarazona, Piero | pierotm |  |  | C | L |  |  |  |
-| Chacon, Mauricio | mxuriciocm |  |  | L | C |  |  |  |
-| Donayre, Moises | MoisesD19 |  |  |  |  | L |  |  |
-| Valenzuela, Aldhair | AldhaValenzuelaH |  |  |  |  | C |  |  |
+| Tarazona, Piero | pierotm |  |  | L | C |  |  |  |
+| Chacon, Mauricio | mxuriciocm |  |  | C | L |  |  |  |
+| Donayre, Moises | MoisesD19 |  |  |  |  | C |  |  |
+| Valenzuela, Aldhair | AldhaValenzuelaH |  |  |  |  | L |  |  |
 
  #### 6.2.1.3 Sprint Backlog 1
  El Sprint 1 está centrado en la implementación de las funcionalidades clave de la landing page del sitio web, priorizando las historias de usuario identificadas. Nuestro objetivo principal es proporcionar a los visitantes una experiencia inicial sólida al presentar de manera clara y concisa las características y beneficios del sitio, junto con una navegación intuitiva y acceso rápido a la información relevante. Al completar las tareas asociadas a las historias de usuario definidas, sentaremos las bases para futuras iteraciones, asegurando que la página de inicio cumpla con las expectativas de los usuarios y contribuya al éxito del proyecto.
@@ -272,229 +272,459 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
             <td>Status(To-do / InProcess / ToReview / Done)</td>
         </tr>
         <tr>
-            <td>US01</td>
-            <td>Ver descripción general del sistema</td>
+            <td rowspan="2">US01</td>
+            <td rowspan="2">Ver descripción general del sistema</td>
             <td>T01</td>
-            <td>Diseñar sección de descripción</td>
+            <td>Mostrar resumen al acceder a la página</td>
             <td>Crear el diseño visual y la estructura de la sección de la descripción general del sistema.</td>
-            <td>8</td>
+            <td>2</td>
             <td>Aldahir Valenzuela</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US02</td>
-            <td>Ver funcionalidades clave</td>
+            <td>T02</td>
+            <td>Ver información sin estar autenticado</td>
+            <td>Crear la información que se muestra al acceder a la página sin estar autenticado.</td>
+            <td>1</td>
+            <td>Aldahir Valenzuela</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US02</td>
+            <td rowspan="2">Ver funcionalidades clave</td>
+            <td>T03</td>
+            <td>Mostrar listado de funcionalidades según rol</td>
+            <td>Crear la lista de funcionalidades principales del sistema.</td>
+            <td>2</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
             <td>T04</td>
-            <td>Identificar funcionalidades clave</td>
-            <td>Definir y documentar las funcionalidades más importantes del sistema para mostrar.</td>
-            <td>4</td>
+            <td>Acceso a funcionalidades sin autenticación</td>
+            <td>Permitir a los usuarios acceder a las funcionalidades sin autenticación.</td>
+            <td>1</td>
             <td>Mauricio Chacon</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US03</td>
-            <td>Ver comparativa de cuenta gratuita vs PRO</td>
-            <td>T07</td>
-            <td>Definir comparativa</td>
+            <td rowspan="2">US03</td>
+            <td rowspan="2">Ver comparativa de cuenta gratuita vs PRO</td>
+            <td>T05</td>
+            <td>Mostrar diferencias entre cuenta gratuita y PRO</td>
             <td>Especificar las características y beneficios de las cuentas gratuita y PRO para la comparación.</td>
-            <td>4</td>
+            <td>1</td>
             <td>Moises Donayre</td>
             <td>Done</td>
         </tr>
-		    <td>US04</td>
-            <td>Ver video o animación explicativa</td>
-            <td>T11</td>
-            <td>Crear guion del video</td>
-            <td>Escribir el guion detallado que se utilizará para la creación del video explicativo.</td>
-            <td>5</td>
+        <tr>
+            <td>T06</td>
+            <td>Mostrar restricciones del plan gratuito</td>
+            <td>Definir las restricciones del plan gratuito.</td>
+            <td>1</td>
+            <td>Moises Donayre</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US05</td>
+            <td rowspan="2">Completar formulario de contacto</td>
+            <td>T07</td>
+            <td>Envío esitoso del formulario de contacto</td>
+            <td>Mostrar mensaje de envío correcto.</td>
+            <td>2</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T08</td>
+            <td>Validación de campos obligatorios</td>
+            <td>Crear la interfaz de usuario para el formulario donde los interesados puedan ingresar sus datos.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+		    <td rowspan="2">US04</td>
+            <td rowspan="2">Ver video o animación explicativa</td>
+            <td>T09</td>
+            <td>Acceder a material audiovisual explicativo</td>
+            <td>Permitir a los usuarios acceder a material audiovisual explicativo.</td>
+            <td>1</td>
             <td>Aldahir Valenzuela</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US05</td>
-            <td>Completar formulario de contacto</td>
-            <td>T12</td>
-            <td>Diseñar formulario de contacto</td>
-            <td>Crear la interfaz de usuario para el formulario donde los interesados puedan ingresar sus datos.</td>
-            <td>4</td>
-            <td>Elias Torres</td>
+            <td>T10</td>
+            <td>Disponibilidad del contenido en todos los dispositivos</td>
+            <td>Visualizar el contenido en todos los dispositivos.</td>
+            <td>2</td>
+            <td>Aldahir Valenzuela</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US06</td>
-            <td>Redirigir al registro</td>
-            <td>T09</td>
-            <td>Crear botón de registro</td>
+            <td rowspan="2">US06</td>
+            <td rowspan="2">Redirigir al registro</td>
+            <td>T11</td>
+            <td>Acceso directo al registro desde la landing</td>
             <td>Diseñar e implementar el botón o enlace que lleva a la página de registro.</td>
-            <td>3</td>
+            <td>1</td>
             <td>Elias Torres</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US16</td>
-            <td>Registrar cuenta de gerente</td>
+            <td>T12</td>
+            <td>Accesibilidad sin autenticación</td>
+            <td>Permitir a los usuarios acceder al registro sin restricciones.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+		    <td rowspan="2">US07</td>
+            <td rowspan="2">Acceder desde el móvil sin errores de diseño</td>
             <td>T13</td>
-            <td>Implementar formulario de registro</td>
-            <td>Desarrollar el formulario para que los gerentes puedan crear sus cuentas.</td>
-            <td>8</td>
+            <td>Visualización correcta desde un dispositivo móvil</td>
+            <td>Diseño responsive</td>
+            <td>1</td>
             <td>Piero Tarazona</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US17</td>
-            <td>Iniciar sesión como gerente</td>
             <td>T14</td>
-            <td>Crear formulario de inicio de sesión</td>
-            <td>Desarrollar la interfaz para que los gerentes puedan ingresar con sus credenciales.</td>
-            <td>3</td>
-            <td>Mauricio Chacon</td>
+            <td>Disponibilidad de toda la información en móviles</td>
+            <td>Implementar la visualización de la información en dispositivos móviles.</td>
+            <td>1</td>
+            <td>Piero Tarazona</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US20</td>
-            <td>Ver perfil personal</td>
+            <td rowspan="3">US23</td>
+            <td rowspan="3">Crear vehículo</td>
             <td>T15</td>
-            <td>Mostrar datos del perfil</td>
-            <td>Implementar la visualización de la información personal del usuario autenticado.</td>
-            <td>2</td>
-            <td>Miguel Huarcaya</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>US23</td>
-            <td>Crear vehículo</td>
-            <td>T16</td>
-            <td>Implementar formulario de registro de vehículo</td>
+            <td>Registro exitoso de un nuevo vehículo</td>
             <td>Desarrollar el formulario para que los gerentes puedan registrar nuevos vehículos.</td>
-            <td>3</td>
+            <td>2</td>
             <td>Moises Donayre</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US24</td>
-            <td>Ver listado de vehículos registrados</td>
+            <td>T16</td>
+            <td>Límite alcanzado para cuenta gratuita</td>
+            <td>Notificar al usuario cuando se alcanza el límite de cuenta gratuita.</td>
+            <td>1</td>
+            <td>Moises Donayre</td>
+            <td>Done</td>
+        </tr>
+        <tr>
             <td>T17</td>
-            <td>Mostrar lista de vehículos</td>
+            <td>Impedir creación con datos incompletos</td>
+            <td>Mostrar un mensaje de error cuando se intente crear un vehículo con datos incompletos.</td>
+            <td>1</td>
+            <td>Moises Donayre</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">US25</td>
+            <td rowspan="3">Asignar un conductor a un vehículo</td>
+            <td>T18</td>
+            <td>Asignar conductor correctamente</td>
+            <td>Desarrollar la funcionalidad para vincular un conductor a un vehículo específico.</td>
+            <td>2</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T19</td>
+            <td>Impedir múltiples asignaciones</td>
+            <td>Mostrar un mensaje de error cuando se intente asignar un conductor a un vehículo que ya está asignado.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T20</td>
+            <td>Impedir asignación si el vehículo ya está vinculado a otro conductor</td>
+            <td>Mostrar un mensaje de error cuando se intente asignar un conductor a un vehículo que ya está vinculado a otro conductor.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US24</td>
+            <td rowspan="2">Ver listado de vehículos registrados</td>
+            <td>T21</td>
+            <td>Mostrar todos los vehículos registrados</td>
             <td>Desarrollar la interfaz para visualizar todos los vehículos registrados.</td>
+            <td>1</td>
+            <td>Piero Tarazona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T22</td>
+            <td>Ver datos básicos de cada vehículo</td>
+            <td>Permitir al usuario visualizar los datos básicos de cada vehículo.</td>
             <td>2</td>
             <td>Piero Tarazona</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US25</td>
-            <td>Asignar un conductor a un vehículo</td>
-            <td>T18</td>
-            <td>Crear interfaz de asignación</td>
-            <td>Desarrollar la funcionalidad para vincular un conductor a un vehículo específico.</td>
-            <td>3</td>
-            <td>Elias Torres</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>US27</td>
-            <td>Ver temperatura y humedad del vehículo</td>
-            <td>T19</td>
-            <td>Mostrar datos de sensor</td>
+            <td rowspan="2">US27</td>
+            <td rowspan="2">Ver temperatura y humedad del vehículo</td>
+            <td>T23</td>
+            <td>Mostrar condiciones ambientales actuales</td>
             <td>Implementar la visualización de la temperatura y humedad del vehículo.</td>
             <td>2</td>
             <td>Mauricio Chacon</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US28</td>
-            <td>Ver ubicación actual del vehículo</td>
-            <td>T20</td>
-            <td>Integrar mapa con ubicación</td>
-            <td>Implementar la visualización de la ubicación del vehículo en un mapa.</td>
-            <td>3</td>
-            <td>Miguel Huarcaya</td>
+            <td>T24</td>
+            <td>Mostrar última lectura disponible</td>
+            <td>Señalar la última lectura disponible del sensor al usuario.</td>
+            <td>1</td>
+            <td>Mauricio Chacon</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US34</td>
-            <td>Crear envío</td>
-            <td>T21</td>
-            <td>Implementar formulario de creación de envío</td>
-            <td>Desarrollar el formulario para que los gerentes puedan crear nuevos envíos.</td>
-            <td>5</td>
+            <td rowspan="2">US28</td>
+            <td rowspan="2">Ver ubicación actual del vehículo</td>
+            <td>T25</td>
+            <td>Mostrar ubicación si hay señal GPS disponible</td>
+            <td>Implementar la visualización de la ubicación del vehículo en un mapa.</td>
+            <td>3</td>
             <td>Moises Donayre</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US35</td>
-            <td>Asignar envío a un conductor</td>
-            <td>T22</td>
-            <td>Crear interfaz de asignación de envíos</td>
-            <td>Desarrollar la funcionalidad para asignar un envío a un conductor.</td>
+            <td>T26</td>
+            <td>Indicar pérdida de señal</td>
+            <td>Mostrar un mensaje de error cuando no hay señal GPS disponible.</td>
+            <td>1</td>
+            <td>Moises Donayre</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US53</td>
+            <td rowspan="2">Ver condiciones ambientales por vehículo</td>
+            <td>T27</td>
+            <td>Mostrar temperatura y humedad actuales</td>
+            <td>Implementar la visualización de la temperatura y humedad de cada vehículo.</td>
             <td>3</td>
             <td>Aldahir Valenzuela</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US37</td>
-            <td>Ver estado del envío</td>
-            <td>T23</td>
-            <td>Mostrar estado del envío</td>
+            <td>T28</td>
+            <td>Mostrar valores aunque no haya conductor asignado</td>
+            <td>Mostrar los valores de temperatura y humedad cuando no hay conductor asignado.</td>
+            <td>1</td>
+            <td>Aldahir Valenzuela</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">US34</td>
+            <td rowspan="3">Crear envío</td>
+            <td>T29</td>
+            <td>Crear envío con todos los datos válidos</td>
+            <td>Desarrollar el formulario para que los gerentes puedan crear nuevos envíos.</td>
+            <td>3</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T30</td>
+            <td>Impedir creación con datos incompletos</td>
+            <td>Validar datos ingresados y mostrar un mensaje de error cuando se intente crear un envío con datos incompletos.</td>
+            <td>2</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T31</td>
+            <td>Validar límites de temperatura y humedad</td>
+            <td>Impedir creación de envío con temperatura y humedad fuera de los límites permitidos.</td>
+            <td>1</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US35</td>
+            <td rowspan="2">Asignar envío a un conductor</td>
+            <td>T32</td>
+            <td>Asignación correcta de envío</td>
+            <td>Desarrollar la funcionalidad para asignar un envío a un conductor.</td>
+            <td>3</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T33</td>
+            <td>Impedir asignación a conductor inexistente</td>
+            <td>Mostrar un mensaje de error cuando se intente asignar un envío a un conductor inexistente.</td>
+            <td>1</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US37</td>
+            <td rowspan="2">Ver estado del envío</td>
+            <td>T34</td>
+            <td>Mostrar estado actual del envío</td>
             <td>Implementar la visualización del estado actual del envío.</td>
             <td>1</td>
             <td>Piero Tarazona</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US44</td>
-            <td>Ver reportes por conductor (como gerente)</td>
-            <td>T24</td>
-            <td>Generar reporte de conductor</td>
-            <td>Desarrollar la funcionalidad para generar reportes basados en la actividad de cada conductor.</td>
+            <td>T35</td>
+            <td>Mostrar el estado inicial como pendiente</td>
+            <td>Poner por defecto el estado del envío como pendiente.</td>
+            <td>1</td>
+            <td>Piero Tarazona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">US54</td>
+            <td rowspan="3">Mostrar color según condición ambiental</td>
+            <td>T36</td>
+            <td>Mostrar color rojo si se supera el limite</td>
+            <td>Visualizar el color rojo cuando la temperatura supere el límite permitido.</td>
+            <td>2</td>
+            <td>Aldahir Valenzuela</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T37</td>
+            <td>Mostrar color azul si está dentro del rango</td>
+            <td>Visualiza el color azul cuando la temperatura está dentro del rango permitido.</td>
+            <td>2</td>
+            <td>Aldahir Valenzuela</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T38</td>
+            <td>Mostrar color negro si no hay conductor asignado</td>
+            <td>Visualizar el color negro cuando no hay conductor asignado.</td>
+            <td>1</td>
+            <td>Aldahir Valenzuela</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US44</td>
+            <td rowspan="2">Ver reportes por conductor (como gerente)</td>
+            <td>T39</td>
+            <td>Mostrar reportes por conductor específico</td>
+            <td>Desarrollar la funcionalidad para visualizar los reportes basados en la actividad de cada conductor.</td>
             <td>2</td>
             <td>Elias Torres</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US46</td>
-            <td>Acceder a sección de suscripción</td>
-            <td>T25</td>
-            <td>Crear enlace a suscripción</td>
-            <td>Implementar un enlace o botón para acceder a la sección de gestión de suscripciones.</td>
-            <td>2</td>
-            <td>Mauricio Chacon</td>
+            <td>T40</td>
+            <td>Ver detalles de cada reporte</td>
+            <td>Mostrar los detalles de cada reporte.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US47</td>
-            <td>Subir comprobante de pago</td>
-            <td>T26</td>
-            <td>Implementar formulario de carga</td>
+            <td rowspan="2">US46</td>
+            <td rowspan="2">Acceder a sección de suscripción</td>
+            <td>T41</td>
+            <td>Acceso exitoso a la sección de suscripción</td>
+            <td>Implementar un enlace o botón para acceder a la sección de gestión de suscripciones.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T42</td>
+            <td>Mostrar beneficios del modo PRO</td>
+            <td>Visualizar los beneficios del modo PRO.</td>
+            <td>2</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US47</td>
+            <td rowspan="2">Subir comprobante de pago</td>
+            <td>T43</td>
+            <td>Subida corresta del comprobante</td>
             <td>Desarrollar la funcionalidad para que los gerentes puedan subir el comprobante de pago.</td>
             <td>2</td>
             <td>Miguel Huarcaya</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US53</td>
-            <td>Ver condiciones ambientales por vehículo</td>
-            <td>T27</td>
-            <td>Mostrar condiciones por vehículo</td>
-            <td>Implementar la visualización de la temperatura y humedad de cada vehículo.</td>
-            <td>3</td>
-            <td>Moises Donayre</td>
+            <td>T44</td>
+            <td>Impedir subida si falta el archivo</td>
+            <td>Forzar al usuario a subir un archivo.</td>
+            <td>1</td>
+            <td>Miguel Huarcaya</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US54</td>
-            <td>Mostrar color según condición ambiental</td>
-            <td>T28</td>
-            <td>Implementar indicadores de color</td>
-            <td>Desarrollar la lógica para mostrar colores según los rangos de temperatura y humedad.</td>
-            <td>3</td>
-            <td>Aldahir Valenzuela</td>
+            <td rowspan="2">US16</td>
+            <td rowspan="2">Registrar cuenta de gerente</td>
+            <td>T45</td>
+            <td>Registro exitoso de un nuevo gerente</td>
+            <td>Desarrollar el formulario para que los gerentes puedan crear sus cuentas.</td>
+            <td>2</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T46</td>
+            <td>Impedir registro con datos incompletos o inválidos</td>
+            <td>Validar los campos obligatorios del formulario de registro.</td>
+            <td>2</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US17</td>
+            <td rowspan="2">Iniciar sesión como gerente</td>
+            <td>T47</td>
+            <td>Acceso correcto con credenciales válidas</td>
+            <td>Desarrollar la interfaz para que los gerentes puedan ingresar con sus credenciales.</td>
+            <td>2</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T48</td>
+            <td>Denegar acceso con credenciales incorrectas</td>
+            <td>Validar las credenciales del gerente.</td>
+            <td>1</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US20</td>
+            <td rowspan="2">Ver perfil personal</td>
+            <td>T49</td>
+            <td>Mostrar información del perfil</td>
+            <td>Implementar la visualización de la información personal del usuario autenticado.</td>
+            <td>1</td>
+            <td>Piero Tarazona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T50</td>
+            <td>Mostrar perfil según rol</td>
+            <td>Intercambiar la información del perfil según el rol del usuario.</td>
+            <td>1</td>
+            <td>Piero Tarazona</td>
             <td>Done</td>
         </tr>
     </tbody>
 </table>
 
  #### 6.2.1.4 Development Evidence for Sprint Review
- Esta sección documenta y presenta la serie de commits realizados en el repositorio del Landing Page. Estos commits, que son una parte integral del proceso de desarrollo, se han gestionado utilizando la metodología GitFlow y siguiendo estrictamente las convenciones establecidas para los commits. Esta evidencia sirve como un registro transparente y trazable de nuestro progreso y esfuerzos de desarrollo a lo largo del sprint.
+ Esta sección documenta y presenta la serie de commits realizados en el repositorio del Landing Page y AppWeb. Estos commits, que son una parte integral del proceso de desarrollo, se han gestionado utilizando la metodología GitFlow y siguiendo estrictamente las convenciones establecidas para los commits. Esta evidencia sirve como un registro transparente y trazable de nuestro progreso y esfuerzos de desarrollo a lo largo del sprint.
+
+ - Landing Page:
+
  | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
  | --- | --- | --- | --- | --- | --- |
  | upc-AppWeb-BicasTeam-LandingPage.github.io | main | d3b094b | chore:... | initial commit | 10-04-2024 |
@@ -546,6 +776,58 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
  | upc-AppWeb-BicasTeam-LandingPage.github.io | main | e9cdf14 | fix:... | the styles were modified | 11-05-2025 |
  | upc-AppWeb-BicasTeam-LandingPage.github.io | main | d588b20 | fix:... | update of the hero, pricing, header section | 15-05-2025 |
  | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-footer | d352dd8 | feat:... | add new css style | 15-05-2025 |
+
+ - AppWeb:
+ 
+ | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+ | --- | --- | --- | --- | --- | --- |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/profile-management | 5f50c87 | feat:... | update serverBasePath in environment development | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/issues | 7bc3607 | feat:... | Implement issues-management page | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/profile-management | 0b6327c | feat:... | added api-service for profile | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/shipment | 93cc151 | feat:... | Implement Shipments-management page | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/profile-management | 0722f4f | fix:... | api service for iam | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/shipment | brb6ecb | feat:... | Merge branch 'feature/shipment' into develop | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/issues | 6eb281c | fix:... | update of the issue management page | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/issues | ffda52c | feat:... | Merge branch 'feature/issues' into develop | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | 016e782 | fix:... | login | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 266dd89 | feat:... | add iot information and map | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | 61c1ffs | fix:... | iam - login and register | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | 5c26f35 | fix:... | sidebar reparated | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | d99416f | feat:... | Merge branch 'feature/iam' into develop | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/profile-management | 2a7aff8 | feat:... | added authentication form | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/profile-management | 5f97727 | feat:... | added profile editing form | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | 3ff2cf5 | fix:... | Fix problem with sidebar | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | d27fb1c | feat:... | Merge branch 'feature/iam' into develop | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | 0e4f2ec | fix:... | services | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | 5aadbe0 | fix:... | services api | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | 4315f1b | feat:... | structure and css for the component suscription | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | 5b54617 | feat:... | Service of imageApi but not working | 16-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/analytics | fd29871 | feat:... | add analytics page and update sidebar navigation | 16-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | e46fc2b | feat:... | ChangeCredentials | 16-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | develop | dfc2a05 | feat:... | Merge branch 'feature/subscription&payments' into develop | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | a8dc84a | feat:... | Merge branch 'develop' into feature/analytics | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 7a32c48 | fix:... | modulets | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/vehicles-&-tracking | 46ba2c6 | feat:... | added map display | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 3b1706c | fix:... | createUser | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/iam | 5b0366e | fix:... | services | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | d1f5f0e | fix:... | createUser | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/iam | 5b0366e | fix:... | services | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 360c3f8 | feat:... | Merge branch 'feature/profile-management' into develop | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/iam | 2e4f7a5 | fix:... | service | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/iam | d3491d0 | fix:... | services and login | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | 6f95a11 | feat:... | Merge branch 'develop' into feature/analytics | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | 5230798 | feat:... | add pg-analytics | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | 7b41314 | feat:... | add Analytics navigation to sidebar | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | dfffb8f | feat:... | implement analytics dashboard with routing and styling | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | 032e695 | feat:... | enhance analytics component with driver reports and loading/error states | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | 3901e9a | feat:... | add shipment and vehicle analytics with loading/error handling | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 17cddde | feat:... | Merge branch 'develop' of https://github.com/upc-Soluciones-IOT-BicasTeam/upc-OpenSource-BicasTeam-AppWeb into develop | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | aad01c5 | fix:... | links beeceptor | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 2c870d9 | feat:... | Merge branch 'develop' of https://github.com/upc-Soluciones-IOT-BicasTeam/upc-OpenSource-BicasTeam-AppWeb into develop | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | ac207d4 | fix:... | services | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 08471df | feat:... | Merge branch 'feature/-vechicles-&-tracking' into develop | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | fc1d529 | fix:... | service login | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | ded47ce | feat:... | implementation on language change i18n | 17-05-2025 |
 
  #### 6.2.1.5 Execution Evidence for Sprint Review
  Durante el Sprint 1, se logró un progreso significativo en la implementación de las características clave de la página de inicio del sitio web. El equipo completó con éxito todas las historias de usuario asignadas para este sprint, que incluyeron el desarrollo de un resumen claro de las características y beneficios del sitio web, la integración de acceso visible a información detallada de precios, la adición de un resumen conciso al final de la página de inicio, la inclusión de un llamado a la acción prominente para dirigir a los visitantes a la aplicación web principal, la presentación de contenido informativo claro y detallado, y la integración de información de contacto visible en la página de inicio. El equipo trabajó de manera colaborativa para garantizar que las características implementadas cumplan con los requisitos y contribuyan a una experiencia de usuario positiva. Capturas de pantalla:
@@ -634,3 +916,754 @@ Landing Page:<br>
 
 Application Web (Gerente):<br>
  ![Application Web](/assets/chapter06/collaboration-insights1.2.png)
+
+-------------
+-------------
+
+### 6.2.1 Sprint 2
+En esta sección, documentaremos y explicaremos el progreso tanto en el desarrollo del producto como en la colaboración del equipo durante el Sprint 2. Seguimos un proceso definido que abarca desde la planificación hasta la revisión y documentación del trabajo realizado. A lo largo de las siguientes secciones, detallaremos cómo se llevó a cabo la planificación del sprint, qué tareas se incluyeron en el Sprint Backlog, las pruebas y evidencia de desarrollo para la revisión del sprint, así como la documentación de los servicios y las percepciones clave sobre la colaboración del equipo durante este periodo
+
+#### 6.2.2.1 Sprint Planning 2
+En esta sección, se detallan los aspectos principales del Sprint Planning Meeting para el Sprint n. Este encuentro es crucial para establecer los objetivos del sprint, determinar las user stories que se abordarán y asignar tareas al equipo. A continuación, se presenta un resumen del Sprint Planning Meeting para este período.
+<table>
+  <tbody>
+    <tr>
+      <td>Sprint #</td><td>Sprint 2</td>
+    </tr>
+    <tr>
+      <td colspan="2">Sprint Planning Background</td>
+    </tr>
+		<tr>
+			<td>Date</td>
+			<td>2025-05-28</td>
+		</tr>
+		<tr>
+			<td>Time</td>
+			<td>05:14 PM</td>
+		</tr>
+		<tr>
+			<td>Location</td>
+			<td>Google Meet</td>
+		</tr>
+		<tr>
+			<td>Prepared by</td>
+			<td>Huarcaya Chavez, Miguel Alejandro Daniel</td>
+		</tr>
+		<tr>
+			<td>Attendees (to planning meeting)</td>
+			<td>Huarcaya Chavez, Miguel Alejandro Daniel / Torres Espinoza, Elias / Tarazona Medina, Piero Abel / Chacon Martinez, Mauricio Sebastián / Donayre Peña, Moises Rodolfo / Valenzuela Huillcaya, Aldhair Johan Juan</td>
+		</tr>
+		<tr>
+			<td>Sprint 2 Review Summary</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Sprint 2 Retrospective Summary</td>
+			<td></td>
+	</tr>
+		<tr>
+			<td colspan="2">Sprint Goal & User Stories</td>
+		</tr>
+		<tr>
+			<td>Sprint 2 Goal</td>
+			<td>- Sprint 2 Goal</td>
+		</tr>
+		<tr>
+			<td>Sprint 2 Velocity</td>
+			<td>- Para este primer Sprint estimamos una velocidad de 51 Story Points, basada en nuestra capacidad de equipo y en la complejidad de las historias seleccionadas.</td>
+		</tr>
+		<tr>
+			<td>Sum of Story Points</td>
+			<td>51</td>
+		</tr>
+  </tbody>
+</table>
+
+#### 6.2.2.2.Aspect Leaders and Collaborators. 
+| Team Member | Github Username | IAM | Subscription & Payments | Profile Management | Analytics | Vehicles & Tracking | Shipment | Issues |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Huarcaya, Miguel | MiguelHuarcayaChavez | L | C |  |  |  | C | C |
+| Torres, Elias | EliasTorresEzpinoza | C | C |  |  |  | L | L |
+| Tarazona, Piero | pierotm |  |  | L | C |  |  |  |
+| Chacon, Mauricio | mxuriciocm |  |  | C | L |  |  |  |
+| Donayre, Moises | MoisesD19 |  |  |  |  | L | C |  |
+| Valenzuela, Aldhair | AldhaValenzuelaH |  | L |  |  | C |  |  |
+
+#### 6.2.2.3. Sprint Backlog 2. 
+
+<table border="1">
+	<tbody>
+		<tr>
+			<td>Sprint #</td>
+			<td colspan="7">Sprint 2</td>
+		</tr>
+		<tr>
+			<td colspan="2">User Story</td>
+			<td colspan="6">Work-Item / Task</td>
+		</tr>
+		<tr>
+			<td>Id</td>
+			<td>Title</td>
+			<td>Id</td>
+			<td>Title</td>
+			<td>Description</td>
+			<td>Estimation (Hours)</td>
+			<td>Assigned To</td>
+			<td>Status(To-do / InProcess / ToReview / Done)</td>
+		</tr>
+        <tr>
+			<td rowspan="3">US29</td>
+			<td rowspan="3">Crear un conductor</td>
+			<td>T51</td>
+			<td>Crear conductor con datos válidos</td>
+			<td>Visualizar el formulario de creación de un conductor.</td>
+			<td>2</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T52</td>
+			<td>Impedir creación con email inválido repetido</td>
+			<td>Mostrar un mensaje de error cuando se intente crear un conductor con un email repetido.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td>T53</td>
+			<td>Impedir creación si se supera el límite</td>
+			<td>Mostrar el limite de 10 conductores si el gerente intenta crear más de 10 conductores.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td rowspan="3">US40</td>
+			<td rowspan="3">Crear un nuevo reporte</td>
+			<td>T54</td>
+			<td>Crear reporte con tipo y descripción válidos</td>
+			<td>Desarrollar el formulario para que los conductores puedan crear nuevos reportes.</td>
+			<td>2</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T55</td>
+			<td>Impedir creación sin tipo de reporte</td>
+			<td>Realizar la validación de que el tipo de reporte sea seleccionado.</td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td>T56</td>
+			<td>Impedir creación con descripción vacía</td>
+			<td>Validar que la descripción del reporte no sea vacía.</td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US26</td>
+			<td rowspan="2">Ver datos de vehículo asignado</td>
+			<td>T57</td>
+			<td>Mostrar información de vehículo al conductor</td>
+			<td>Visualizar la información del vehículo asignado.</td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T57</td>
+			<td>Impedir visualización si no tiene vehículo asignado</td>
+			<td>Mostrar un mensaje cuando el conductor no tiene un vehículo asignado.</td>
+			<td>1</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US36</td>
+			<td rowspan="2">Consultar envío asignado</td>
+			<td>T58</td>
+			<td>Mostrar detalles del envío asignado</td>
+			<td>Visualizar los detalles del envío asignado.</td>
+			<td>2</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T59</td>
+			<td>Indicar ausencia de envío</td>
+			<td>Mostrar el mensaje de error "No se ha encontrado el envío"</td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US39</td>
+			<td rowspan="2">Visualizar lista de envíos por conductor</td>
+			<td>T60</td>
+			<td>Mostrar historial de envíos por conductor</td>
+			<td>Crear la lista de envíos por conductor.</td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T61</td>
+			<td>Mostrar información clave de cada envío</td>
+			<td>Visualizar destino, estado y fecha de envío.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="3">US38</td>
+			<td rowspan="3">Cambiar estado del envío</td>
+			<td>T62</td>
+			<td>Conductor cambia estado a "en proceso"</td>
+			<td>Crear la funcionalidad para que el conductor pueda cambiar el estado del envío a "en proceso".</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T63</td>
+			<td>Conductor cambia estado a "terminado"</td>
+			<td>Crear la funcionalidad para que el conductor pueda cambiar el estado del envío a "terminado".</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td>T64</td>
+			<td>Impedir cambio de estado por otros roles</td>
+			<td>Denegar el cambio de estado por parte de otros roles.</td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US41</td>
+			<td rowspan="2">Guardar la fecha del reporte automáticamente</td>
+			<td>T65</td>
+			<td>Guardar fecha al momento de la creación</td>
+			<td>Crear la funcionalidad para que el conductor pueda guardar la fecha del reporte automáticamente.</td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T66</td>
+			<td>Visualizar la fecha al consultar reportes</td>
+			<td>Implementar la funcionalidad para que el conductor pueda visualizar la fecha del reporte.</td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US45</td>
+			<td rowspan="2">Ver cantidad de reportes por tipo</td>
+			<td>T67</td>
+			<td>Mostrar total de reportes por tipo</td>
+			<td>Permitir al gerente visualizar la cantidad de reportes por tipo.</td>
+			<td>2</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T68</td>
+			<td>Incluir totales por conductor</td>
+			<td>Visualizar el total de reportes por tipo por conductor.</td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US42</td>
+			<td rowspan="2">Ver mis propios reportes</td>
+			<td>T69</td>
+			<td>Mostrar todos los reportes del conductor autenticado</td>
+			<td>Permitir al conductor visualizar sus propios reportes.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T70</td>
+			<td>Mostrar detalles de cada reporte</td>
+			<td>Visualizar los detalles de cada reporte.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US43</td>
+			<td rowspan="2">Ver reportes de otros conductores de mi empresa</td>
+			<td>T71</td>
+			<td>Mostrar reportes de compañeros vinculados al mismo gerente</td>
+			<td>Añadir la funcionalidad para que el conductor pueda ver los reportes de compañeros vinculados al mismo gerente.</td>
+			<td>2</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T72</td>
+			<td>Ocultar reportes de otros gerentes</td>
+			<td>Denegar el acceso a los reportes de otros gerentes.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US58</td>
+			<td rowspan="2">Enviar datos de sensor al backend</td>
+			<td>T73</td>
+			<td>Transmitir datos cada intervalo definido</td>
+			<td>Enviar datos desde el dispositivo IoT al backend cada intervalo definido.</td>
+			<td>2</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T74</td>
+			<td>Confirmar entrega al backend</td>
+			<td>Notificar el recibo de los datos del backend.</td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US60</td>
+			<td rowspan="2">Enviar ubicación GPS del vehículo</td>
+			<td>T77</td>
+			<td>Capturar y transmitir posición GPS</td>
+			<td>Obtener la posición GPS del vehículo y transmitirla al backend.</td>
+			<td>2</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T78</td>
+			<td>Manejar errores de lectura GPS</td>
+			<td>Notificar al usuario cuando se produce un error de lectura de la posición GPS.</td>
+			<td>1</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US57</td>
+			<td rowspan="2">Capturar humeda desde sensor IoT</td>
+			<td>T79</td>
+			<td>Registrar humedad dentro del rango</td>
+			<td>Recibir datosdel sensor que transmite un porcentaje entre 0 y 100.</td>
+			<td>2</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T80</td>
+			<td>Ignorar valores fuera del rango</td>
+			<td>Prohibir el acceso de datos que sean menores de 0 o mayores a 100.</td>
+			<td>1</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US56</td>
+			<td rowspan="2">Capturar temperatura desde sensor IoT</td>
+			<td>T81</td>
+			<td>Recibir lectura válida de temperatura</td>
+			<td>Recibir y almacenar datos con precisión decimal del sensor.</td>
+			<td>2</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T82</td>
+			<td>Rechazar lectura fuera del rango físico aceptable</td>
+			<td>Prohibir el acceso de datos que sean menores a -50 o mayores a 100.</td>
+			<td>1</td>
+			<td>Mauricio Muñoz</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US61</td>
+			<td rowspan="2">Filtrar lecturas erráticas de sensor</td>
+			<td>T83</td>
+			<td>Rechazar valores fuera del rango físico</td>
+			<td>Descartar la lectura del edge service cuando esté fuera de rango.</td>
+			<td>1</td>
+			<td>Mauricio Muñoz</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T84</td>
+			<td>Permitir solo valores dentro de los límites físicos</td>
+			<td>Validar los datos con el edge para que sean enviados.</td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US63</td>
+			<td rowspan="2">Calcular promedios locales antes de enviar</td>
+			<td>T85</td>
+			<td>Promediar lecturas antes del envío</td>
+			<td>Calcular el promedio de las últimas lecturas del edge.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T86</td>
+			<td>Enviar solo promedios cada intervalo</td>
+			<td>Enviar valores al backend cada intervalo definido.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US59</td>
+			<td rowspan="2">Asociar datos de sensor al vehículo correspondiente</td>
+			<td>T87</td>
+			<td>Asociar lectura al vehículo correcto</td>
+			<td>Vincular datos de los sensores al vehículo con identificador único.</td>
+			<td>2</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T88</td>
+			<td>Impedir asociación si no se reconoce el ID del sensor</td>
+			<td>Ignorar la lectura del sensor si no se reconoce el ID o no está registrado.</td>
+			<td>1</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US52</td>
+			<td rowspan="2">Ver cantidad de envíos por conductor</td>
+			<td>T89</td>
+			<td>Mostrar total de envíos por conductor</td>
+			<td>Sección de estadísticas de envíos por conductor.</td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T90</td>
+			<td>Mostrar valores actualizados</td>
+			<td>Actualizar la información cuando un envío sea creado o terminado..</td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US51</td>
+			<td rowspan="2">Ver estadísticas de reportes por conductor</td>
+			<td>T91</td>
+			<td>Mostrar cantidad total de reportes por conductor</td>
+			<td>Visuzalizar la sección de estadísticas de reportes por conductor.</td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T92</td>
+			<td>Mostrar desglose por tipo de reporte</td>
+			<td>Visualizar la sección de estadísticas de reportes por tipo hecho por cada conductor.</td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US55</td>
+			<td rowspan="2">Usar el limite más bajo entre los envíos del conductor</td>
+			<td>T93</td>
+			<td>Usar el valor más estricto al analizar condiciones</td>
+			<td>Validar que el vehículo del conductor tenga un límite bajo de temperatura y humedad.</td>
+			<td>2</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T94</td>
+			<td>Actualizar límites al cambiar asignaciones</td>
+			<td>Actualizar el sistema cuando se modifiquen los nuevos límites.</td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US49</td>
+			<td rowspan="2">Mostrar limites si no soy PRO</td>
+			<td>T95</td>
+			<td>Advertencia al alcanzar el limite de conductores</td>
+			<td>Mostrar un mensaje de advertencia cuando el gerente ponga más de 10 conductores.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T96</td>
+			<td>Advertencia al alcanzar el límite de vehículos</td>
+			<td>Mostrar un mensaje de advertencia cuando el gerente ponga más de 10 vehículos.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">U12</td>
+			<td rowspan="2">Ver todos los usuarios registrados</td>
+			<td>T97</td>
+			<td>Mostrar usuarios registrados</td>
+			<td>Permitir que solo los administradores vean los usuarios registrados.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T98</td>
+			<td>Visualizar información básica del usuario</td>
+			<td>Mostrar información básica del usuario registrado.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US31</td>
+			<td rowspan="2">Ver limite alcanzado (cuenta gratuita)</td>
+			<td>T99</td>
+			<td>Mostrar advertencia al alcanzar el límite</td>
+			<td>Visualizar un mensaje de advertencia cuando el usuario alcanza el límite de cuenta gratuita.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T100</td>
+			<td>Mostrar sugerencia para activar PRO</td>
+			<td>Visualizar un mensaje de sugerencia para que el usuario active el plan PRO cuando llegue al límite.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US32</td>
+			<td rowspan="2">Ver email del gerente (como administrador)</td>
+			<td>T101</td>
+			<td>Visualizar asociación entre conductor y gerente</td>
+			<td>Mostrar el email del gerente asociado al conductor.</td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T102</td>
+			<td>Asegurar integridad de la relación</td>
+			<td>Asociar la información del conductor con su gerente.</td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US33</td>
+			<td rowspan="2">Ver detalles del conductor (como gerente)</td>
+			<td>T103</td>
+			<td>Mostrar datos de un conductor existente</td>
+			<td>Visualizar los datos de los conductores existentes.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T104</td>
+			<td>Ver estado de asignación del conductor</td>
+			<td>Visualizar si un conductor tiene un vehículo asignado.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US30</td>
+			<td rowspan="2">Ver lista de conductores registrados</td>
+			<td>T105</td>
+			<td>Visualizar lista completa de conductores del gerente</td>
+			<td>Mostrar una tabla con todos los conductores del gerente.</td>
+			<td>2</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T106</td>
+			<td>Mostrar información básica por conductor</td>
+			<td>Visualizar email y behiculo asignado del conductor.</td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US22</td>
+			<td rowspan="2">Cambiar contraseña</td>
+			<td>T107</td>
+			<td>Cambio exitoso de contraseña</td>
+			<td>Validar contraseña actuar para crear una nueva.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T108</td>
+			<td>Impedir contraseña inválida</td>
+			<td>Validar las reglas de creación de contraseña.</td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td rowspan="2">US08</td>
+			<td rowspan="2">Login como administrador</td>
+			<td>T109</td>
+			<td>Acceso correcto con credenciales válidas</td>
+			<td>Validar las credenciales del administrador.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T110</td>
+			<td>Acceso denegado con credenciales inválidas</td>
+			<td>Mostrar un mensaje de error cuando las credenciales del administrador no son válidas.</td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td rowspan="2">US18</td>
+			<td rowspan="2">Iniciar sesión como conductor</td>
+			<td>T111</td>
+			<td>Autenticación válida como conductor</td>
+			<td>Validar las credenciales del conductor.</td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T112</td>
+			<td>Impedir acceso con credenciales incorrectas</td>
+			<td>Mostrar un mensaje de error cuando las credenciales del conductor no son válidas.</td>
+			<td>1</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td rowspan="2">US19</td>
+			<td rowspan="2">Iniciar sesión como administrador</td>
+			<td>T113</td>
+			<td>Autenticación correcta del administrador</td>
+			<td>Validar las credenciales del administrador.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T114</td>
+			<td>Impedir acceso con credenciales inválidas</td>
+			<td>Rechazar el acceso al administrador si sus credenciales son incorrectas.</td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td rowspan="2">US21</td>
+			<td rowspan="2">Editar datos personales</td>
+			<td>T115</td>
+			<td>Actualización exitosa de datos personales</td>
+			<td>Desarrollar formulario para actualizar los datos personales del usuario.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T116</td>
+			<td>Impedir datos vacíos o inválidos</td>
+			<td>Validar los campos obligatorios del formulario de edición de datos personales.</td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+	</tbody>
+</table>
+
+#### 6.2.2.4. Development Evidence for Sprint Review.
+
+- AppWeb:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+|upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | e0dcd26 | feat:... | add new page for vehicle details | 02-06-2025 |
+|upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 53e42fc | feat:... | deleted technical status | 02-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | ba13c28 | feat:... | Merge branch 'feature/shipment' into develop | 03-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/shipment | b3a39a0 | fix:... | update of the shipment section | 03-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 56e7598 | fix:... | fixed warnings | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 392e655 | feat:... | added new page to create a vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | b9b827c | fix:... | fixed page to create a vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 48547fe | feat:... | added new page to update vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 3bfb321 | fix:... | update of the reports module | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 3dcb1fb | fix:... | implement new url shipments | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | a2d7e3d | feat:... | Merge branch 'feature/issues' into develop | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 1e4832d | fix:... | update design and translation | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/issues | ebfb321 | fix:... | update of the reports module | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/iam | 212aa12 | fix:... | login and register models | 15-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | c3e944f | fix:... | sibcripments | 15-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | 82a7822 | fix:... | subscription | 16-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 943b38d | feat:... | fixed update vehicle | 22-06-2025 |
+
+
+- Backend:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+| upc-OpenSource-BicasTeam-api | feature/shipments | 27c7d26 | feat:... | Merge branch 'develop' into feature/shipments | 08-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | 9440d5a | feat:... | Create IAM and modificated Profile | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/subscription&payments | 28e3db6 | feat:... | subscription implement | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | develop | bfd6c1b | feat:... | Merge branch 'feature/subscription&payments' into develop | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/vehicles&tracking | 372a018 | feat:... | update vehicle model and services | 10-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/shipments | 782bfb6 | feat:... | merge develop on shipment | 13-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/profile-management | 806c37c | feat:... | Update local database connection | 14-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | f8198af | fix:... | profile | 15-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | 7c169e6 | fix:... | subscription and profiles and iam | 15-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/vehicles&tracking | d9b4a8d | feat:... | Implement date formatting and enhance vehicle location info | 17-06-2025 |
+
+- AppMobile:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+| upc-iot-BicasTeam-App-mobile | develop | 526cdfd | ... | initial commit | 30-05-2024 |
+| upc-iot-BicasTeam-App-mobile | develop | c5c3ff4 | feat:... | Transferred essential files and structure from the original mobile project. | 30-05-2024 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | b15d32b | feat:... | implemented analytics feature with driver statistics and reports | 13-06-2024 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7d1fc62 | feat:... | add analytics feature with driver reports and shipment statistics | 13-06-2024 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 888a5cf | feat:... | add analytics screens and service for driver reports and shipments | 13-06-2024 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 583fcdf | feat:... | add analytics screen and related functionalities for driver reports and shipments | 13-06-2024 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7123e8b | feat:... | add analytics option to navigation in carrier profiles, profile, and reports screens | 13-06-2024 |
+| upc-iot-BicasTeam-App-mobile | feature/Iam | aa9f47a | feat:... | Implementation of the reports and shipments | 13-06-2024 |
+| upc-iot-BicasTeam-App-mobile | feature/Vehicles&Tracking | 63cc9f9 | feat:... | added businessman vehicles page | 21-06-2024 |
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review. 
+#### 6.2.2.6. Execution Evidence for Sprint Review. 
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review. 
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review. 
+#### 6.2.2.9. Team Collaboration Insights during Sprint. 
+
+-------------
+-------------
+## 6.3. Validation Interviews. 
+
+### 6.3.1. Diseño de Entrevistas. 
+### 6.3.2. Registro de Entrevistas. 
+### 6.3.3. Evaluaciones según heurísticas. 
+
+-------------
+-------------
+## 6.4. Video About-the-Product.
