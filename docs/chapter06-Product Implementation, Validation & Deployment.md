@@ -966,7 +966,15 @@ En esta sección, se detallan los aspectos principales del Sprint Planning Meeti
 		</tr>
 		<tr>
 			<td>Sprint 2 Goal</td>
-			<td>- Sprint 2 Goal</td>
+			<td>Nuestro enfoque está en enriquecer la funcionalidad de nuestra solución mediante la mejora del landing page con la inclusión de videos sobre el producto, así como habilitar nuevas capacidades operativas para los usuarios a través de la implementación de pagos en la plataforma, el desarrollo de la aplicación móvil y la integración con dispositivos físicos IoT. En esta entrega, los gerentes podrán gestionar sus operaciones directamente desde la aplicación web y móvil, lo que incluye la creación de conductores, el registro y asignación de vehículos, la creación de envíos, la visualización de problemas reportados por los conductores y el monitoreo en tiempo real de temperatura, humedad y ubicación de cada vehículo. Por su parte, los conductores podrán utilizar la aplicación móvil para registrar reportes relacionados a su envío o vehículo, así como consultar información relevante como el estado ambiental del cargamento y los detalles del envío asignado. Además, se integrarán los dispositivos físicos embebidos instalados en los vehículos, los cuales enviarán automáticamente los datos recolectados hacia el sistema para ser visualizados por los usuarios correspondientes.
+
+
+
+Creemos que esto aportará mayor confianza e interés en el producto por parte de potenciales usuarios gracias a la mejora del business page, y permitirá tanto a gerentes como conductores operar con mayor autonomía, comodidad y eficiencia al contar con acceso móvil y monitoreo en tiempo real. Esta mejora en la experiencia del usuario contribuirá a optimizar el control operativo, facilitar la toma de decisiones y reducir la dependencia de herramientas manuales o de escritorio.
+
+
+
+Esto se confirmará cuando observemos un aumento sostenido en el número de usuarios registrados, particularmente un incremento de al menos un 15% trimestral como resultado del mayor interés generado por el contenido audiovisual del business page, un crecimiento de al menos un 30% en conductores registrados respecto al primer mes, reflejando que los gerentes perciben una mejora al poder gestionar a más miembros de su flota, y un incremento de al menos un 15% en cuentas PRO activadas, lo que indicará que los gerentes requieren ampliar su capacidad operativa mediante el registro de más vehículos y conductores.</td>
 		</tr>
 		<tr>
 			<td>Sprint 2 Velocity</td>
