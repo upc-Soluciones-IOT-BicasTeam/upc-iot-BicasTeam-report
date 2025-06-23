@@ -1663,8 +1663,18 @@ Esto se confirmará cuando observemos un aumento sostenido en el número de usua
 Durante el Sprint 2, el equipo logró avances sustanciales en la expansión de la funcionalidad del sitio web, centrándose en el desarrollo de la aplicación móvil, el backend y la integración de componentes embebidos. Se completaron con éxito todas las historias de usuario asignadas, que abarcaron la implementación de características clave para la aplicación móvil, como la navegación intuitiva y la presentación de información esencial. En paralelo, se consolidó la arquitectura del backend, asegurando la robustez y escalabilidad necesarias para soportar tanto la aplicación web como la nueva aplicación móvil. Además, se trabajó en la integración de componentes embebidos que mejoran la interacción del usuario y amplían las capacidades del sistema. La colaboración del equipo fue fundamental para garantizar que estas implementaciones se alinearan con los requisitos del proyecto y contribuyeran a una experiencia de usuario fluida e integral en todas las plataformas.
 
 App Móvil:
+![Testing Suite Evidence](/assets/chapter06/movil1.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil2.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil3.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil4.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil5.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil6.jpg)
 
 Backend:
+![Testing Suite Evidence](/assets/chapter06/back1.jpg)
+![Testing Suite Evidence](/assets/chapter06/back2.jpg)
+![Testing Suite Evidence](/assets/chapter06/back3.jpg)
+![Testing Suite Evidence](/assets/chapter06/back4.jpg)
 
 #### 6.2.2.6. Execution Evidence for Sprint Review. 
 
@@ -1699,6 +1709,15 @@ Durante el Sprint 2, nuestra colaboración se centró en el desarrollo de la apl
 Para mantener una colaboración efectiva y organizada, seguimos aplicando la metodología GitFlow. Esta estrategia fue crucial para gestionar el desarrollo paralelo de la aplicación móvil y el backend. Creamos ramas específicas para cada característica o módulo tanto en el frontend de la aplicación móvil (por ejemplo, pantalla de inicio de sesión, listado de vehículos, perfiles de conductor) como en los servicios del backend (como APIs de autenticación, gestión de bases de datos, lógica de negocio para los distintos módulos).
 
 La distribución de tareas fue clave para nuestra eficiencia: cada miembro del equipo se hizo cargo de una sección o funcionalidad distinta. Esto nos permitió avanzar simultáneamente en el desarrollo de la aplicación móvil y en la infraestructura del backend. Esta aproximación no solo optimizó el tiempo de desarrollo, sino que también nos permitió cumplir con todas las historias de usuario planificadas y entregar los resultados de este sprint de manera exitosa, incluso antes de la fecha límite establecida.
+
+App móvil:
+![Team Collaboration Insights](/assets/chapter06/colab1.jpg)
+
+App web (transportista):
+![Team Collaboration Insights](/assets/chapter06/colab2.jpg)
+
+Backend:
+![Team Collaboration Insights](/assets/chapter06/colab3.jpg)
 
 
 -------------
