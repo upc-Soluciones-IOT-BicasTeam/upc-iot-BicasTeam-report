@@ -1684,7 +1684,18 @@ Se desarrolló el despliegeue e integracion del backend:
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review. 
 
+Durante el Sprint 2, un objetivo primordial fue el desarrollo y la documentación rigurosa de los servicios de backend (APIs) que sustentan la lógica de negocio y la interoperabilidad con la aplicación móvil y la aplicación web. Hemos logrado documentar de forma integral todos los endpoints definidos en el alcance de este Sprint, garantizando su claridad y facilidad de uso para los equipos de desarrollo de frontend y para futuras integraciones.
 
+| Endpoint | Acciones Soportadas (Verbo HTTP) | Sintaxis de Llamada | Parámetros | Ejemplo y Explicación del Response
+|---|---|---|---|---|
+| /user/register | POST | POST /user/register Cuerpo de la Solicitud (JSON): - email - password - roles | Ejemplo:json<br>{ "message": "User registered successfully" }<br>	|
+| /user/login | POST | POST /user/login | Cuerpo de la Solicitud (JSON): - email - password | Ejemplo: json<br>{ "token": "eyJhbGciOiJIUzUxMiJ9...", "type": "Bearer" }<br> |
+| /api/roles | GET | GET /api/roles | Ninguno | Ejemplo: json<br>[ { "id": 1, "name": "ADMIN" }, { "id": 2, "name": "USER" } ]<br> |
+| /api/roles | POST | POST /api/roles | Cuerpo de la Solicitud (JSON): - name. | Ejemplo: json<br>{ "message": "Role created successfully" }<br> |
+| /api/userroles | GET | GET /api/userroles | Ninguno | Ejemplo: json<br>[ { "userId": 1, "roleId": 2 }, { "userId": 1, "roleId": 1 } ]<br> |
+| /api/userroles | POST | POST /api/userroles | Cuerpo de la Solicitud (JSON): - userId - roleId | Ejemplo: json<br>{ "message": "User role assigned successfully" }<br> |
+| /api/userroles | PUT | PUT /api/userroles | Cuerpo de la Solicitud (JSON): - userId- roleId | Ejemplo: json<br>{ "message": "User role updated successfully" }<br> |
+| /api/userroles | DELETE | DELETE /api/userroles | Parámetros de Query: - userId- roleId | Ejemplo: json<br>{ "message": "User role deleted successfully" }<br> |
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review. 
 
