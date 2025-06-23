@@ -1660,7 +1660,11 @@ Esto se confirmará cuando observemos un aumento sostenido en el número de usua
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review. 
 
+Durante el Sprint 2, el equipo logró avances sustanciales en la expansión de la funcionalidad del sitio web, centrándose en el desarrollo de la aplicación móvil, el backend y la integración de componentes embebidos. Se completaron con éxito todas las historias de usuario asignadas, que abarcaron la implementación de características clave para la aplicación móvil, como la navegación intuitiva y la presentación de información esencial. En paralelo, se consolidó la arquitectura del backend, asegurando la robustez y escalabilidad necesarias para soportar tanto la aplicación web como la nueva aplicación móvil. Además, se trabajó en la integración de componentes embebidos que mejoran la interacción del usuario y amplían las capacidades del sistema. La colaboración del equipo fue fundamental para garantizar que estas implementaciones se alinearan con los requisitos del proyecto y contribuyeran a una experiencia de usuario fluida e integral en todas las plataformas.
 
+App Móvil:
+
+Backend:
 
 #### 6.2.2.6. Execution Evidence for Sprint Review. 
 
@@ -1668,14 +1672,34 @@ Se desarrolló el despliegeue e integracion del backend:
 
 ![Execution evidence for sprint review](/assets/chapter06/Execution%20Evidence%20for%20Sprint%20Review.png)
 
-
-Se desarrolló la integracion del sistema embedded con el sistema edge:
-
-![Execution evidence for sprint review - EDGE+EMBEDDED](/assets/chapter06/execution%20evidence%20for%20sprint%20review%20EDGE+EMBEDED.png)
-
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review. 
+
+
+
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review. 
+
+Despliegue del Backend
+El despliegue del backend se llevó a cabo para establecer la infraestructura que soportará tanto la aplicación web existente como la nueva aplicación móvil. Los pasos incluyeron:
+
+- Selección y Configuración del Entorno de Despliegue: Elegimos el proveedor de servicios en la nube Azure adecuado para las necesidades de nuestro backend. Se configuraron los servidores y servicios necesarios, como bases de datos, balanceadores de carga y servicios de autenticación.
+- Monitoreo y Registro: Se configuraron herramientas de monitoreo y registro para supervisar el rendimiento del backend, identificar posibles problemas y garantizar la disponibilidad del servicio.
+- Despliegue de Endpoints API: Se desplegaron los endpoints de la API que permitirán la comunicación entre la aplicación móvil, la aplicación web y la base de datos, incluyendo funcionalidades como registro de usuarios, autenticación, gestión de datos y lógica de negocio.
+
+Desarrollo y Preparación para el Despliegue de la Aplicación Móvil
+El desarrollo inicial de la aplicación móvil se centró en la creación de las funcionalidades clave para las plataformas objetivo. Los pasos fueron:
+
+- Creación del Proyecto Móvil: Se inició el proyecto de la aplicación móvil utilizando el framework de desarrollo Flutter.
+- Implementación de la Interfaz de Usuario (UI): Se desarrollaron los componentes visuales y la navegación de la aplicación móvil, asegurando una experiencia de usuario intuitiva y atractiva.
+- Integración con el Backend: Se realizaron las llamadas a la API del backend para consumir y enviar datos, lo que permite a la aplicación móvil interactuar con la lógica de negocio y la base de datos centralizada.
+- Pruebas Iniciales en Dispositivos: Se realizaron pruebas en simuladores y dispositivos reales para verificar la funcionalidad básica y la compatibilidad en diferentes sistemas operativos y tamaños de pantalla.
+
 #### 6.2.2.9. Team Collaboration Insights during Sprint. 
+Durante el Sprint 2, nuestra colaboración se centró en el desarrollo de la aplicación móvil y la construcción del backend. El equipo trabajó en estrecha coordinación, lo que se evidencia en los numerosos commits registrados en los repositorios de GitHub, cada uno debidamente respaldado por capturas de pantalla para documentar el progreso.
+
+Para mantener una colaboración efectiva y organizada, seguimos aplicando la metodología GitFlow. Esta estrategia fue crucial para gestionar el desarrollo paralelo de la aplicación móvil y el backend. Creamos ramas específicas para cada característica o módulo tanto en el frontend de la aplicación móvil (por ejemplo, pantalla de inicio de sesión, listado de vehículos, perfiles de conductor) como en los servicios del backend (como APIs de autenticación, gestión de bases de datos, lógica de negocio para los distintos módulos).
+
+La distribución de tareas fue clave para nuestra eficiencia: cada miembro del equipo se hizo cargo de una sección o funcionalidad distinta. Esto nos permitió avanzar simultáneamente en el desarrollo de la aplicación móvil y en la infraestructura del backend. Esta aproximación no solo optimizó el tiempo de desarrollo, sino que también nos permitió cumplir con todas las historias de usuario planificadas y entregar los resultados de este sprint de manera exitosa, incluso antes de la fecha límite establecida.
+
 
 -------------
 -------------
