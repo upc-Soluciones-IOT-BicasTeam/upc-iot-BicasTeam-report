@@ -1668,6 +1668,11 @@ Se desarrolló el despliegeue e integracion del backend:
 
 ![Execution evidence for sprint review](/assets/chapter06/Execution%20Evidence%20for%20Sprint%20Review.png)
 
+
+Se desarrolló la integracion del sistema embedded con el sistema edge:
+
+![Execution evidence for sprint review - EDGE+EMBEDDED](/assets/chapter06/execution%20evidence%20for%20sprint%20review%20EDGE+EMBEDED.png)
+
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review. 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review. 
 #### 6.2.2.9. Team Collaboration Insights during Sprint. 
