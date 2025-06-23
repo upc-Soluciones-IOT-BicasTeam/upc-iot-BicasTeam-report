@@ -966,7 +966,15 @@ En esta sección, se detallan los aspectos principales del Sprint Planning Meeti
 		</tr>
 		<tr>
 			<td>Sprint 2 Goal</td>
-			<td>- Sprint 2 Goal</td>
+			<td>Nuestro enfoque está en enriquecer la funcionalidad de nuestra solución mediante la mejora del landing page con la inclusión de videos sobre el producto, así como habilitar nuevas capacidades operativas para los usuarios a través de la implementación de pagos en la plataforma, el desarrollo de la aplicación móvil y la integración con dispositivos físicos IoT. En esta entrega, los gerentes podrán gestionar sus operaciones directamente desde la aplicación web y móvil, lo que incluye la creación de conductores, el registro y asignación de vehículos, la creación de envíos, la visualización de problemas reportados por los conductores y el monitoreo en tiempo real de temperatura, humedad y ubicación de cada vehículo. Por su parte, los conductores podrán utilizar la aplicación móvil para registrar reportes relacionados a su envío o vehículo, así como consultar información relevante como el estado ambiental del cargamento y los detalles del envío asignado. Además, se integrarán los dispositivos físicos embebidos instalados en los vehículos, los cuales enviarán automáticamente los datos recolectados hacia el sistema para ser visualizados por los usuarios correspondientes.
+
+
+
+Creemos que esto aportará mayor confianza e interés en el producto por parte de potenciales usuarios gracias a la mejora del business page, y permitirá tanto a gerentes como conductores operar con mayor autonomía, comodidad y eficiencia al contar con acceso móvil y monitoreo en tiempo real. Esta mejora en la experiencia del usuario contribuirá a optimizar el control operativo, facilitar la toma de decisiones y reducir la dependencia de herramientas manuales o de escritorio.
+
+
+
+Esto se confirmará cuando observemos un aumento sostenido en el número de usuarios registrados, particularmente un incremento de al menos un 15% trimestral como resultado del mayor interés generado por el contenido audiovisual del business page, un crecimiento de al menos un 30% en conductores registrados respecto al primer mes, reflejando que los gerentes perciben una mejora al poder gestionar a más miembros de su flota, y un incremento de al menos un 15% en cuentas PRO activadas, lo que indicará que los gerentes requieren ampliar su capacidad operativa mediante el registro de más vehículos y conductores.</td>
 		</tr>
 		<tr>
 			<td>Sprint 2 Velocity</td>
@@ -1652,7 +1660,21 @@ En esta sección, se detallan los aspectos principales del Sprint Planning Meeti
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review. 
 
+Durante el Sprint 2, el equipo logró avances sustanciales en la expansión de la funcionalidad del sitio web, centrándose en el desarrollo de la aplicación móvil, el backend y la integración de componentes embebidos. Se completaron con éxito todas las historias de usuario asignadas, que abarcaron la implementación de características clave para la aplicación móvil, como la navegación intuitiva y la presentación de información esencial. En paralelo, se consolidó la arquitectura del backend, asegurando la robustez y escalabilidad necesarias para soportar tanto la aplicación web como la nueva aplicación móvil. Además, se trabajó en la integración de componentes embebidos que mejoran la interacción del usuario y amplían las capacidades del sistema. La colaboración del equipo fue fundamental para garantizar que estas implementaciones se alinearan con los requisitos del proyecto y contribuyeran a una experiencia de usuario fluida e integral en todas las plataformas.
 
+App Móvil:
+![Testing Suite Evidence](/assets/chapter06/movil1.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil2.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil3.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil4.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil5.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil6.jpg)
+
+Backend:
+![Testing Suite Evidence](/assets/chapter06/back1.jpg)
+![Testing Suite Evidence](/assets/chapter06/back2.jpg)
+![Testing Suite Evidence](/assets/chapter06/back3.jpg)
+![Testing Suite Evidence](/assets/chapter06/back4.jpg)
 
 #### 6.2.2.6. Execution Evidence for Sprint Review. 
 
@@ -1661,8 +1683,53 @@ Se desarrolló el despliegeue e integracion del backend:
 ![Execution evidence for sprint review](/assets/chapter06/Execution%20Evidence%20for%20Sprint%20Review.png)
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review. 
+
+Durante el Sprint 2, un objetivo primordial fue el desarrollo y la documentación rigurosa de los servicios de backend (APIs) que sustentan la lógica de negocio y la interoperabilidad con la aplicación móvil y la aplicación web. Hemos logrado documentar de forma integral todos los endpoints definidos en el alcance de este Sprint, garantizando su claridad y facilidad de uso para los equipos de desarrollo de frontend y para futuras integraciones.
+
+| Endpoint | Acciones Soportadas (Verbo HTTP) | Sintaxis de Llamada | Parámetros | Ejemplo y Explicación del Response
+|---|---|---|---|---|
+| /user/register | POST | POST /user/register Cuerpo de la Solicitud (JSON): - email - password - roles | Ejemplo:json<br>{ "message": "User registered successfully" }<br>	|
+| /user/login | POST | POST /user/login | Cuerpo de la Solicitud (JSON): - email - password | Ejemplo: json<br>{ "token": "eyJhbGciOiJIUzUxMiJ9...", "type": "Bearer" }<br> |
+| /api/roles | GET | GET /api/roles | Ninguno | Ejemplo: json<br>[ { "id": 1, "name": "ADMIN" }, { "id": 2, "name": "USER" } ]<br> |
+| /api/roles | POST | POST /api/roles | Cuerpo de la Solicitud (JSON): - name. | Ejemplo: json<br>{ "message": "Role created successfully" }<br> |
+| /api/userroles | GET | GET /api/userroles | Ninguno | Ejemplo: json<br>[ { "userId": 1, "roleId": 2 }, { "userId": 1, "roleId": 1 } ]<br> |
+| /api/userroles | POST | POST /api/userroles | Cuerpo de la Solicitud (JSON): - userId - roleId | Ejemplo: json<br>{ "message": "User role assigned successfully" }<br> |
+| /api/userroles | PUT | PUT /api/userroles | Cuerpo de la Solicitud (JSON): - userId- roleId | Ejemplo: json<br>{ "message": "User role updated successfully" }<br> |
+| /api/userroles | DELETE | DELETE /api/userroles | Parámetros de Query: - userId- roleId | Ejemplo: json<br>{ "message": "User role deleted successfully" }<br> |
+
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review. 
+
+Despliegue del Backend
+El despliegue del backend se llevó a cabo para establecer la infraestructura que soportará tanto la aplicación web existente como la nueva aplicación móvil. Los pasos incluyeron:
+
+- Selección y Configuración del Entorno de Despliegue: Elegimos el proveedor de servicios en la nube Azure adecuado para las necesidades de nuestro backend. Se configuraron los servidores y servicios necesarios, como bases de datos, balanceadores de carga y servicios de autenticación.
+- Monitoreo y Registro: Se configuraron herramientas de monitoreo y registro para supervisar el rendimiento del backend, identificar posibles problemas y garantizar la disponibilidad del servicio.
+- Despliegue de Endpoints API: Se desplegaron los endpoints de la API que permitirán la comunicación entre la aplicación móvil, la aplicación web y la base de datos, incluyendo funcionalidades como registro de usuarios, autenticación, gestión de datos y lógica de negocio.
+
+Desarrollo y Preparación para el Despliegue de la Aplicación Móvil
+El desarrollo inicial de la aplicación móvil se centró en la creación de las funcionalidades clave para las plataformas objetivo. Los pasos fueron:
+
+- Creación del Proyecto Móvil: Se inició el proyecto de la aplicación móvil utilizando el framework de desarrollo Flutter.
+- Implementación de la Interfaz de Usuario (UI): Se desarrollaron los componentes visuales y la navegación de la aplicación móvil, asegurando una experiencia de usuario intuitiva y atractiva.
+- Integración con el Backend: Se realizaron las llamadas a la API del backend para consumir y enviar datos, lo que permite a la aplicación móvil interactuar con la lógica de negocio y la base de datos centralizada.
+- Pruebas Iniciales en Dispositivos: Se realizaron pruebas en simuladores y dispositivos reales para verificar la funcionalidad básica y la compatibilidad en diferentes sistemas operativos y tamaños de pantalla.
+
 #### 6.2.2.9. Team Collaboration Insights during Sprint. 
+Durante el Sprint 2, nuestra colaboración se centró en el desarrollo de la aplicación móvil y la construcción del backend. El equipo trabajó en estrecha coordinación, lo que se evidencia en los numerosos commits registrados en los repositorios de GitHub, cada uno debidamente respaldado por capturas de pantalla para documentar el progreso.
+
+Para mantener una colaboración efectiva y organizada, seguimos aplicando la metodología GitFlow. Esta estrategia fue crucial para gestionar el desarrollo paralelo de la aplicación móvil y el backend. Creamos ramas específicas para cada característica o módulo tanto en el frontend de la aplicación móvil (por ejemplo, pantalla de inicio de sesión, listado de vehículos, perfiles de conductor) como en los servicios del backend (como APIs de autenticación, gestión de bases de datos, lógica de negocio para los distintos módulos).
+
+La distribución de tareas fue clave para nuestra eficiencia: cada miembro del equipo se hizo cargo de una sección o funcionalidad distinta. Esto nos permitió avanzar simultáneamente en el desarrollo de la aplicación móvil y en la infraestructura del backend. Esta aproximación no solo optimizó el tiempo de desarrollo, sino que también nos permitió cumplir con todas las historias de usuario planificadas y entregar los resultados de este sprint de manera exitosa, incluso antes de la fecha límite establecida.
+
+App móvil:
+![Team Collaboration Insights](/assets/chapter06/colab1.jpg)
+
+App web (transportista):
+![Team Collaboration Insights](/assets/chapter06/colab2.jpg)
+
+Backend:
+![Team Collaboration Insights](/assets/chapter06/colab3.jpg)
+
 
 -------------
 -------------
