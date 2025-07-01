@@ -7,8 +7,8 @@ Universidad Peruana de Ciencias Aplicadas
 </center>
 
 
-### <center>Aplicaciones Web</center> 
-<center>Ciclo: 2025-01</center>
+### <center>Desarrollo de Soluciones IOT</center> 
+<center>Ciclo: 2025-10</center>
 <center>Carrera: Ingenieria de Software</center>  
 <center>NRC: 2956</center> 
 <center>Profesor: Angel Augusto Velasquez Nuñez</center> 
