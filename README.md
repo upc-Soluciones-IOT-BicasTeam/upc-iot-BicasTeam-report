@@ -5559,6 +5559,136 @@ Para los Transportistas:
 * Resumen: El transportista Víctor Cuba Bautista tras probar la plataforma, reconoció que el uso de las funciones eran más sencillos de lo que esperaba. Encontró especialmente útil el registro de incidencias en tiempo real. Aunque le gustaría ver mejoras en algunas funcionalidades adicionales, valora la capacidad de monitorear los sitios de entrega y la seguridad de los datos proporcionada por la plataforma. Al final, Víctor concluyó que MoviGestion es una herramienta efectiva que puede mejorar su eficiencia y reducir el tiempo de inactividad, y estaría dispuesto a recomendarla a otros transportistas
 
 ### 6.3.3. Evaluaciones según heurísticas. 
+Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información e inclusive design de la experiencia propuesta. Para esto la sección usamos la estructura del formato para evaluaciones de heurísticas indicado.
+
+
+**UX Heuristics & Principles Evaluation**
+
+**Usability – Inclusive Design – Information Architecture**
+\***
+
+
+**CARRERA                	: Ingeniería de Software**
+
+**CURSO                    	: Desarrollo de Soluciones IOT**
+
+**SECCIÓN                   	: 2956**
+
+**PROFESORES         	: Angel Augusto Velasquez Nuñez**
+
+**AUDITOR                 	: Bicas Team**
+
+**CLIENTE                  	: MoviGestion**
+1. ## <a name="_heading=h.3ibjgvegxoc5"></a>** 
+   **SITE o APP A EVALUAR:**
+
+   **MoviGestion**
+
+   **TAREAS A EVALUAR:**
+
+   *El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:*
+
+*1.* 	*Gestión y edición de perfil de usuario.*
+
+*2.     Visualización de asignación de envíos que pertenecen a cada transportista*
+
+*3. 	Agregar un nuevo vehículo a la flota de vehículos.*
+
+*4. 	Eliminar un vehículo de la flota de vehículos.*
+
+*5. 	Visualización de alertas de cada transportista.*
+
+**ESCALA DE SEVERIDAD:**
+
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
+
+|***Nivel***|***Descripción***|
+| :- | :- |
+|*1*|*Problema superficial: puede ser fácilmente superado o hasta ignorado por el usuario ó ocurre con muy poca frecuencia. El error no necesita ser arreglado de forma inmediata en la mayoría de las casos, a no ser que exista disponibilidad de tiempo.*|
+|*2*|*Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara antes de la siguiente entrega o actualización.*|
+|*3*|*Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.*|
+|*4*|*Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.*|
+
+
+**TABLA RESUMEN:**
+
+|*#*|*Problema*|*Escala de severidad*|*Heurística/Principio violada(o)*|
+| :-: | :-: | :-: | :-: |
+|*1*|*Incluye un botón “See More” pero no tiene funcionalidad*|*3*|*Information Architecture: Is it usable?*|
+|*2*|*No parece haber consistencia en la forma en que se presentan las opciones para actualizar la información*|*2*|*Usability: Consistencia y estándares*|
+|*3*|*Información de pagos no está claramente presentada*|*3*|*Usability: Visibilidad del estado del sistema*|
+|*4*|*No funciona cancelar el agregado de un vehículo.*|*2*|*Usability: Libertad y control del usuario*|
+
+
+
+
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+*PROBLEMA #1:* 
+
+*Severidad: 3*
+
+*Heurística violada: Information Architecture: Is it usable?*
+
+*Problema:*
+
+*La aplicación incluye un botón “See More” pero no tiene funcionalidad, lo que confunde a los usuarios y les impide acceder a contenido adicional esperado.*
+
+![Problem 1](/assets/chapter06/h1.png)
+
+*Recomendación:*
+
+*Eliminar el botón “See More” si no hay contenido adicional disponible, o implementar la funcionalidad esperada para que los usuarios puedan acceder a más información.*
+
+*PROBLEMA #2:* 
+
+*Severidad: 2*
+
+*Heurística violada: Usability - Consistencia y estándares*
+
+*Problema:*
+
+*La interfaz de Settings incluye campos para Nickname, Bio, Email y Avatar, pero no parece haber consistencia en la forma en que se presentan las opciones para actualizar la información. Por ejemplo, el botón ‘Choose’ para actualizar el avatar está separado del campo ‘Avatar’, lo que podría confundir a los usuarios.*
+
+![Problem 2](/assets/chapter06/h2.png)
+
+*Recomendación:*
+
+*Asegurar que todos los campos de entrada y botones relacionados estén agrupados de manera coherente y clara para mejorar la comprensión y la facilidad de uso.*
+
+*PROBLEMA #3:* 
+
+*Severidad: 3*
+
+*Heurística violada: Usability: Visibilidad del estado del sistema*
+
+*Problema:*
+
+*La información relacionada con Organization no está claramente presentada, lo que puede causar confusión a la hora de querer tener información y dificulta la asignación de envíos.*
+
+![Problem 3](/assets/chapter06/h3.png)
+
+*Recomendación:*
+
+*Mejorar la presentación y accesibilidad de la información relacionada con "Organization" puede mejorar significativamente la experiencia del usuario y facilitar la asignación de envíos en la aplicación.* 
+
+*PROBLEMA #4:* 
+
+*Severidad: 2*
+
+*Heurística violada: Usability: Libertad y control del usuario*
+
+*Problema:*
+
+*Al momento de ingresar los datos del nuevo vehículo, no se puede cerrar hasta darle darle al botón “Close” y luego se tiene que eliminar en el botón “Delete Vehicle”, esto obliga a agregar nuevos carros no deseados, también incrementando así la cantidad de esfuerzo del usuario.*
+
+![Problem 4](/assets/chapter06/h4.png)
+
+*Recomendación:*
+
+*Hacer que el botón "Close" tenga la funcionalidad para cerrar la ventana emergente sin guardar los datos del vehículo ingresados.*
+
 
 -------------
 -------------
@@ -5621,6 +5751,9 @@ Pauta de Secuencias de Contenido
 | 00:04:18 | Miguel Huarcaya | Analiza cómo se organizaron los Sprints y lo que se aprendió tanto en el desarrollo del proyecto, aplicando buenas prácticas y principios sólidos de diseño de software como el DDD. |
 | 00:06:05 | Moises Donayre | Reflexiona sobre la organización del código y su impacto en el trabajo en equipo y el control de versiones. |
 | 00:06:33 | Elías Torres | Destaca el valor del DDD y la planificación previa al desarrollo técnico, además del uso colaborativo de GitHub. |
+
+
+![About the team](/assets/chapter06/videos%20about%20the%20team.png)
 
 Youtube URL: https://youtu.be/OUfIct2_y6Q?si=SvuyvHlXgYakTBHg
 
