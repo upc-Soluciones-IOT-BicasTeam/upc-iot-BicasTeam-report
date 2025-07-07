@@ -5587,16 +5587,32 @@ Para los Transportistas:
 -------------
 ## 6.4. Video About-the-Product.
 
+El video muestra paso a paso el funcionamiento de la aplicación web MoviGestión. Primero se observa el registro de un nuevo usuario: se introduce la información necesaria y se crea una cuenta. Luego, con esa cuenta, se accede mediante el login. Una vez dentro de la aplicación, se navega por sus principales funcionalidades —como panel de control, gestión de usuarios, seguimiento de tareas o reportes— con explicaciones claras y detalladas sobre cómo utilizar cada módulo.
+
+
+| Sección                   | Descripción                                                            | Tiempo de Inicio |
+|---------------------------|------------------------------------------------------------------------|------------------|
+| 1. Introducción del Equipo | Breve presentación del propósito del proyecto        | 00:00:00         |
+| 2. Registro de usuario      | Introducción y creación de una nueva cuenta en MoviGestión       | 00:00:40         |
+| 3. Navegación por módulos     | Pantalla de inicio ya dentro de la aplicacion                     | 00:01:02         |
+| 4. Funcionalidades detalladas        | Demostración de herramientas como gestión de tareas, reportes y control de usuarios    | 00:01:23         |
+| 5. Cierre y resumen| Recapitulación de lo mostrado y cierre del video                               | 00:02:00         |
+
+
 ![About the product](/assets/chapter06/aobut%20the%20product%20image.png)
 
 
 Youtube URL: https://www.youtube.com/watch?v=KTIzP3XTNLM&t=24s
+
+Microsoft Stream URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116207_upc_edu_pe/EVzNfjl7ZRtAvgrVtGxeeSEB24lFo7SCNzRMpCjNjY7bRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sBmRa5
 
 
 ----
 ----
 ----
 # Conclusiones 
+
+## Conclusiones y recomendaciones
 
 - A través de técnicas como la metodología 5W2H, entrevistas cualitativas y análisis contextual, se ha definido de forma precisa la problemática de las empresas de transporte en cuanto a la gestión ineficiente de flotas, falta de trazabilidad operativa y carencia de herramientas tecnológicas integradas.
 
@@ -5611,6 +5627,28 @@ Youtube URL: https://www.youtube.com/watch?v=KTIzP3XTNLM&t=24s
 - El uso de herramientas como GitHub para la redacción colaborativa del informe y el desarrollo del prototipo demuestra un buen manejo de metodologías ágiles y control de versiones, lo que favorece la coordinación del equipo y la eficiencia del proceso.
 
 - El equipo demostró un enfoque claro de mejora continua al corregir errores e imprecisiones identificados en la primera entrega (TB1). En la segunda entrega (TP1), se incorporaron ajustes relevantes al diseño de la solución, especialmente en la capa visual del sistema (Figma), así como en la estructuración del contenido técnico y narrativo del informe. Estas correcciones no solo evidencian una revisión crítica del trabajo anterior, sino también la capacidad del equipo para asumir observaciones constructivas y transformarlas en mejoras concretas, fortaleciendo así la calidad del producto entregado y la madurez del proyecto en general.
+
+
+## Video About-the-Team
+
+Resumen del Video  
+El video presenta las conclusiones y reflexiones de los integrantes del equipo **MoviGestión** sobre el proceso de desarrollo del proyecto. Cada miembro aparece en cámara compartiendo su experiencia, aprendizajes técnicos y habilidades desarrolladas. Entre los temas abordados se encuentran: la estructura de trabajo en Sprints, el uso de buenas prácticas y Domain-Driven Design, la implementación de funcionalidades en frontend y backend, la importancia de los *bounded contexts*, y el trabajo colaborativo mediante herramientas como GitHub. Además, se resalta cómo estas prácticas reflejan escenarios reales en la industria del software.
+
+
+Pauta de Secuencias de Contenido
+
+| Tiempo (hh:mm:ss) | Participante / Contenido | Descripción |
+|------------------|--------------------------|-------------|
+| 00:00:05 | Mauricio Chacón | Reflexiona sobre la estructura de Sprints, aprendizaje en frontend y backend con buenas prácticas y DDD. |
+| 00:02:51 | Piero Tarazona | Enfatiza la importancia del Domain-Driven Design y la identificación de *bounded contexts*. |
+| 00:04:18 | Miguel Huarcaya | Analiza cómo se organizaron los Sprints y lo que se aprendió tanto en el desarrollo del proyecto, aplicando buenas prácticas y principios sólidos de diseño de software como el DDD. |
+| 00:06:05 | Moises Donayre | Reflexiona sobre la organización del código y su impacto en el trabajo en equipo y el control de versiones. |
+| 00:06:33 | Elías Torres | Destaca el valor del DDD y la planificación previa al desarrollo técnico, además del uso colaborativo de GitHub. |
+
+Youtube URL: https://youtu.be/OUfIct2_y6Q?si=SvuyvHlXgYakTBHg
+
+Microsoft Stream URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217633_upc_edu_pe/EVvescXOK7VNqkSU-Iw36aoBGxuw1D0vMpsSYjjdE8-xvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=pzrOni
+
 
 
 # Bibliografia 
