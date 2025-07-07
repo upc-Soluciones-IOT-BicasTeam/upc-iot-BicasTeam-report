@@ -1858,7 +1858,23 @@ Para los Transportistas:
 -------------
 ## 6.4. Video About-the-Product.
 
+
+El video muestra paso a paso el funcionamiento de la aplicación web MoviGestión. Primero se observa el registro de un nuevo usuario: se introduce la información necesaria y se crea una cuenta. Luego, con esa cuenta, se accede mediante el login. Una vez dentro de la aplicación, se navega por sus principales funcionalidades —como panel de control, gestión de usuarios, seguimiento de tareas o reportes— con explicaciones claras y detalladas sobre cómo utilizar cada módulo.
+
+
+
+| Sección                   | Descripción                                                            | Tiempo de Inicio |
+|---------------------------|------------------------------------------------------------------------|------------------|
+| 1. Introducción del Equipo | Breve presentación del propósito del proyecto        | 00:00:00         |
+| 2. Registro de usuario      | Introducción y creación de una nueva cuenta en MoviGestión       | 00:00:40         |
+| 3. Navegación por módulos     | Pantalla de inicio ya dentro de la aplicacion                     | 00:01:02         |
+| 4. Funcionalidades detalladas        | Demostración de herramientas como gestión de tareas, reportes y control de usuarios    | 00:01:23         |
+| 5. Cierre y resumen| Recapitulación de lo mostrado y cierre del video                               | 00:02:00         |
+
+
 ![About the product](/assets/chapter06/aobut%20the%20product%20image.png)
 
 
 Youtube URL: https://www.youtube.com/watch?v=KTIzP3XTNLM&t=24s
+
+Microsoft Stream URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116207_upc_edu_pe/EVzNfjl7ZRtAvgrVtGxeeSEB24lFo7SCNzRMpCjNjY7bRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sBmRa5
