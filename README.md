@@ -114,41 +114,18 @@ Po ultimo, corregimos ciertos puntos del figma de la entrega anterior
 
 ![Capturas-TP1](/assets/chapter01/colaboarate.png)
 
-TB2: Hicimos las correciones de la anterior entrega y desarrollo del sprint 2
+TB2: En la entrega TB2, el equipo se centró en implementar el segundo Sprint, abarcando tanto el desarrollo de funcionalidades adicionales como la corrección de observaciones planteadas en la entrega TP1.
+Se integraron nuevas secciones en el informe y se actualizaron los diagramas de arquitectura, clases y componentes según el progreso alcanzado. También se fortaleció el modelado DDD, incorporando mejoras a los Bounded Contexts y sus respectivas capas.
+Cada miembro del equipo contribuyó tanto en la documentación como en el código, realizando pull requests y commits sobre sus respectivas responsabilidades. La colaboración se mantuvo constante y coordinada a través del control de versiones en GitHub.
 
 ![Capturas-TB2](/assets/chapter01/Report%20collaboration/tb2%20collaborators.png)
 
- ## 6.1 Software Configuration Management
- Para gestionar la configuración del software de nuestra aplicación, abordaremos tres áreas clave: el control del código fuente, que consiste en administrar las versiones y mantener una estructura ordenada del código; la configuración del entorno de desarrollo, con el objetivo de que todos los integrantes del equipo utilicen herramientas homogéneas; y la configuración del despliegue, enfocada en la implementación en entornos productivos. Estas prácticas aseguran consistencia y eficiencia durante todo el ciclo de vida de la aplicación.
+TF1: Para la entrega final, el equipo consolidó todos los avances previos y finalizó la implementación del sistema IoT. Se completó la arquitectura completa incluyendo APIs RESTful, integración con servicios externos, diseño responsivo en las vistas web y el desarrollo del prototipo embebido.
+Se actualizó la totalidad del informe en Markdown, se mejoró la redacción y coherencia entre secciones, y se prepararon los videos de exposición, los entregables y la presentación final.
+Durante esta fase, todos los miembros participaron activamente tanto en la redacción como en los ajustes técnicos del producto, evidenciando su compromiso en la actividad colaborativa mediante sus contribuciones al repositorio. La gráfica de colaboración muestra una participación equitativa y continua.
 
- ### 6.1.1 Software Development Environment Configuration
- 1. Project Management:
-Para la administración del proyecto se utilizaron herramientas de comunicación y control de versiones. Se creó una organización en GitHub para gestionar el código y las versiones del proyecto. Asimismo, se utilizaron plataformas como Google Meet y Discord para coordinar reuniones de equipo y mantener la comunicación interna.
+![Capturas-TB2](/assets/chapter01/Report%20collaboration/tb2%20collaborators.png)
 
-- GitHub: https://github.com/
-
-- Google Meet: https://meet.google.com/
-
-- Discord: https://discord.com/download
-
-2. Requirement Management:
-La recopilación, organización y priorización de requisitos se realizó utilizando herramientas específicas. Se utilizó Trello como una solución visual para la organización de tareas mediante tableros personalizados, mientras que Pivotal Tracker se empleó para gestionar y dar seguimiento al Product Backlog del proyecto.
-
-- Trello: https://trello.com/es
-
-- Pivotal Tracker: https://www.pivotaltracker.com/
-
-3. Product UX/UI Design:
-Para el diseño de la experiencia de usuario (UX) y la interfaz de usuario (UI), se utilizó Figma, permitiendo la creación de wireframes, mockups y prototipos interactivos que ayudaron a validar el diseño antes de su desarrollo. Además, UXPressia se empleó para desarrollar User Personas, Empathy Maps, Journey Maps e Impact Maps, mientras que Miro fue utilizado para diseñar los escenarios As-Is y To-Be.
-
-- Figma: https://www.figma.com/downloads/
-
-- UXPressia: https://uxpressia.com/
-
-- Miro: https://miro.com/es/
-
-4. Software Development:
-Para construir la Landing Page de la startup se utilizaron HTML5, CSS3 y JavaScript. En cuanto a la Web Application, se optó por Angular en el Frontend y Java Spring Boot en el Backend. Por último para el desarrollo movil se utilizó Flutter.
 
 # Contenido
 
