@@ -1962,10 +1962,55 @@ App Móvil:
 
  ### 6.2.3.7. Services Documentation Evidence for Sprint Review. 
 
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service1.png)
+Endpoint relacionado a la funcionalidad de vehiculos (CRUD). Dentro de ello se almacenará los datos de los vehiculos, pertenecia y datos de sensores
+
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service2.png)
+Endpoint relacionado al manejo de datos de ingreso de datos de usuario (contraseña y email)
+
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service3.png)
+Endpoint relacionado a datos de subsripciones. Almacena datos de registro y obtencion de las subcripciones de los usuarios
+
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service4.png)
+Endpoint relacionado a los envios de la solucion. Manejo de datos de los envios y a quien estan asignados
+
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service5.png)
+endpoint relacionado al manejo de datos personales de los usuarios
+
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service6.png)
+Endpoints relacionado a los reportes de los transportistas.
+
+
+
  ### 6.2.3.8. Software Deployment Evidence for Sprint Review. 
+
+Para este sprint se buscó que los datos recibidos por los sensores. Fueran mostrados en la apliacion web y movil.
+
+![Software Deployment](/assets/chapter06/Sprint3/deployment%20edge.png)
+Aqui se muestra que los datos se muestran en nuestro edge
+
+![Software Deployment](/assets/chapter06/Sprint3/deployment%20wokwi.png)
+En esta sección se muestra la configuracion de WOKWI utilizada
+
+![Software Deployment](/assets/chapter06/Sprint3/deplyment%20daots%20recibidos.png)
+En esta imagen se nos muestra los datos recibidos por los sensores fisicos (no se encuentra datos de ubicacion pues el dispositivo GPs está dañado)
+
+![Software Deployment](/assets/chapter06/Sprint3/deployment%20data.png)
+En esta imagen se muestra los datos del sensor en la aplicacion movil (se esta ejecutnado el codigo sobre chrome utilizando flutter)
+
+![Software Deployment](/assets/chapter06/Sprint3/deployment%20map.png)
+En esta imagen se muestra el mapa utilizando datos de prueba enviado por nuestro proyecto wokwi
 
  ### 6.2.3.9. Team Collaboration Insights during Sprint
 
+App móvil:
+![Team Collaboration Insights](/assets/chapter06/collaboration-insights1.png)
+
+App web (transportista):
+![Team Collaboration Insights](/assets/chapter06/collaboration-insights1.2.png)
+
+Backend:
+![Team Collaboration Insights](/assets/chapter06/colab%20backend.png)
 
 -------------
 -------------
