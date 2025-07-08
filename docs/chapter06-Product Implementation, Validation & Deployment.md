@@ -727,51 +727,51 @@ Esto se confirmará cuando los visitantes puedan acceder correctamente a la land
 
  | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
  | --- | --- | --- | --- | --- | --- |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | d3b094b | chore:... | initial commit | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 499f6c3 | feat:... | create structure for landing | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-header | a6fd61f | feat:... | create header section | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-us | f46c9f4 | feat:... | create about us | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 559b871 | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 320162e | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 74db128 | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 6db4844 | feat:... | delete file style | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | f80d9c2 | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 77dcfbf | feat:... | deleted style | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 57cd331 | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 2ac60ee | feat:... | deleted style | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | a89f5a6 | feat:... | add folder for organizing files | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 9c04bc0 | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | e645b3b | feat:... | delete public directory | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 1488c1e | feat:... | add style and images | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-hero | 09191fd | feat:... | implement hero section | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-hero | 0ba7ade | feat:... | implement footer section | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-footer | 77037f0 | feat:... | create footer section | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-pricing | 84c90ea | chore:... | created pricing and contact section | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | c3a6a0c | feat:... | merge branch 'feature/section-hero' | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 4f4b5b7 | feat:... | merge branch 'feature/section-about-us' | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | e63214c | feat:... | merge branch 'feature/section-about-team' into develop | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 7d5209d | feat:... | merge branch 'feature/section-services' into develop | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 432e18e | feat:... | merge branch 'feature/section-pricing' into develop | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 9b278c2 | feat:... | merge branch 'feature/section-footer' into develop | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | fbf4690 | fix:... | fix the ubication for the code | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | c6a949e | feat:... | update index.html | 30-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 2e872c2 | feat:... | update index.html | 30-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 7ca9228 | fix:... | button get star | 30-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 80969dc | feat:... | implement video about the product | 05-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | bd8eecb | fix:... | implement video about the product | 05-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 49e5318 | feat:... | implement video about the team | 05-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 1b50053 | fix:... | implement video about the team | 05-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 4446436 | fix:... | implement video about the team | 05-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 5396416 | fix:... | link about the team | 06-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 3c21c8a | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 4fd8208 | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 34ad386 | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | a689428 | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | a89718e | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 1bb2d40 | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | bdc70ba | feat:... | apk download | 22-11-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 2bb167c | feat:... | update styles.css | 22-11-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | ab4cdd9 | feat:... | update styles.css | 22-11-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | d3b094b | chore:... | initial commit | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 499f6c3 | feat:... | create structure for landing | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-header | a6fd61f | feat:... | create header section | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-us | f46c9f4 | feat:... | create about us | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 559b871 | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 320162e | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 74db128 | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 6db4844 | feat:... | delete file style | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | f80d9c2 | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 77dcfbf | feat:... | deleted style | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 57cd331 | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 2ac60ee | feat:... | deleted style | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | a89f5a6 | feat:... | add folder for organizing files | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 9c04bc0 | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | e645b3b | feat:... | delete public directory | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 1488c1e | feat:... | add style and images | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-hero | 09191fd | feat:... | implement hero section | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-hero | 0ba7ade | feat:... | implement footer section | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-footer | 77037f0 | feat:... | create footer section | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-pricing | 84c90ea | chore:... | created pricing and contact section | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | c3a6a0c | feat:... | merge branch 'feature/section-hero' | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 4f4b5b7 | feat:... | merge branch 'feature/section-about-us' | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | e63214c | feat:... | merge branch 'feature/section-about-team' into develop | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 7d5209d | feat:... | merge branch 'feature/section-services' into develop | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 432e18e | feat:... | merge branch 'feature/section-pricing' into develop | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 9b278c2 | feat:... | merge branch 'feature/section-footer' into develop | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | fbf4690 | fix:... | fix the ubication for the code | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | c6a949e | feat:... | update index.html | 30-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 2e872c2 | feat:... | update index.html | 30-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 7ca9228 | fix:... | button get star | 30-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 80969dc | feat:... | implement video about the product | 05-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | bd8eecb | fix:... | implement video about the product | 05-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 49e5318 | feat:... | implement video about the team | 05-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 1b50053 | fix:... | implement video about the team | 05-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 4446436 | fix:... | implement video about the team | 05-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 5396416 | fix:... | link about the team | 06-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 3c21c8a | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 4fd8208 | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 34ad386 | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | a689428 | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | a89718e | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 1bb2d40 | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | bdc70ba | feat:... | apk download | 22-11-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 2bb167c | feat:... | update styles.css | 22-11-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | ab4cdd9 | feat:... | update styles.css | 22-11-2025 |
  | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 8deffb7 | fix:... | servies implement | 10-05-2025 |
  | upc-AppWeb-BicasTeam-LandingPage.github.io | main | e9cdf14 | fix:... | the styles were modified | 11-05-2025 |
  | upc-AppWeb-BicasTeam-LandingPage.github.io | main | d588b20 | fix:... | update of the hero, pricing, header section | 15-05-2025 |
@@ -1648,15 +1648,15 @@ Esto se confirmará cuando observemos un aumento sostenido en el número de usua
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
 | --- | --- | --- | --- | --- | --- |
-| upc-iot-BicasTeam-App-mobile | develop | 526cdfd | ... | initial commit | 30-05-2024 |
-| upc-iot-BicasTeam-App-mobile | develop | c5c3ff4 | feat:... | Transferred essential files and structure from the original mobile project. | 30-05-2024 |
-| upc-iot-BicasTeam-App-mobile | feature/Analytics | b15d32b | feat:... | implemented analytics feature with driver statistics and reports | 13-06-2024 |
-| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7d1fc62 | feat:... | add analytics feature with driver reports and shipment statistics | 13-06-2024 |
-| upc-iot-BicasTeam-App-mobile | feature/Analytics | 888a5cf | feat:... | add analytics screens and service for driver reports and shipments | 13-06-2024 |
-| upc-iot-BicasTeam-App-mobile | feature/Analytics | 583fcdf | feat:... | add analytics screen and related functionalities for driver reports and shipments | 13-06-2024 |
-| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7123e8b | feat:... | add analytics option to navigation in carrier profiles, profile, and reports screens | 13-06-2024 |
-| upc-iot-BicasTeam-App-mobile | feature/Iam | aa9f47a | feat:... | Implementation of the reports and shipments | 13-06-2024 |
-| upc-iot-BicasTeam-App-mobile | feature/Vehicles&Tracking | 63cc9f9 | feat:... | added businessman vehicles page | 21-06-2024 |
+| upc-iot-BicasTeam-App-mobile | develop | 526cdfd | ... | initial commit | 30-05-2025 |
+| upc-iot-BicasTeam-App-mobile | develop | c5c3ff4 | feat:... | Transferred essential files and structure from the original mobile project. | 30-05-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | b15d32b | feat:... | implemented analytics feature with driver statistics and reports | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7d1fc62 | feat:... | add analytics feature with driver reports and shipment statistics | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 888a5cf | feat:... | add analytics screens and service for driver reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 583fcdf | feat:... | add analytics screen and related functionalities for driver reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7123e8b | feat:... | add analytics option to navigation in carrier profiles, profile, and reports screens | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Iam | aa9f47a | feat:... | Implementation of the reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Vehicles&Tracking | 63cc9f9 | feat:... | added businessman vehicles page | 21-06-2025 |
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review. 
 
@@ -1722,14 +1722,300 @@ Para mantener una colaboración efectiva y organizada, seguimos aplicando la met
 La distribución de tareas fue clave para nuestra eficiencia: cada miembro del equipo se hizo cargo de una sección o funcionalidad distinta. Esto nos permitió avanzar simultáneamente en el desarrollo de la aplicación móvil y en la infraestructura del backend. Esta aproximación no solo optimizó el tiempo de desarrollo, sino que también nos permitió cumplir con todas las historias de usuario planificadas y entregar los resultados de este sprint de manera exitosa, incluso antes de la fecha límite establecida.
 
 App móvil:
-![Team Collaboration Insights](/assets/chapter06/colab1.jpg)
+![Team Collaboration Insights](/assets/chapter06/collaboration-insights1.png)
 
 App web (transportista):
-![Team Collaboration Insights](/assets/chapter06/colab2.jpg)
+![Team Collaboration Insights](/assets/chapter06/collaboration-insights1.2.png)
 
 Backend:
-![Team Collaboration Insights](/assets/chapter06/colab3.jpg)
+![Team Collaboration Insights](/assets/chapter06/colab%20backend.png)
 
+Recuento de Commits de los ultimos 3 meses del backend
+
+----
+----
+
+ ### 6.2.3 Sprint 3
+En esta sección, documentaremos y explicaremos el progreso tanto en el desarrollo del producto como en la colaboración del equipo durante el Sprint 3. Seguimos un proceso definido que abarca desde la planificación hasta la revisión y documentación del trabajo realizado. A lo largo de las siguientes secciones, detallaremos cómo se llevó a cabo la planificación del sprint, qué tareas se incluyeron en el Sprint Backlog, las pruebas y evidencia de desarrollo para la revisión del sprint, así como la documentación de los servicios y las percepciones clave sobre la colaboración del equipo durante este periodo
+ ### 6.2.3.1. Sprint Planning 3. 
+En esta sección, se detallan los aspectos principales del Sprint Planning Meeting para el Sprint 3. Este encuentro es crucial para establecer los objetivos del sprint, determinar las user stories que se abordarán y asignar tareas al equipo. A continuación, se presenta un resumen del Sprint Planning Meeting para este período
+
+<table>
+  <tbody>
+    <tr>
+      <td>Sprint #</td><td>Sprint 3</td>
+    </tr>
+    <tr>
+      <td colspan="2">Sprint Planning Background</td>
+    </tr>
+		<tr>
+			<td>Date</td>
+			<td>2025-06-28</td>
+		</tr>
+		<tr>
+			<td>Time</td>
+			<td>05:14 PM</td>
+		</tr>
+		<tr>
+			<td>Location</td>
+			<td>Google Meet</td>
+		</tr>
+		<tr>
+			<td>Prepared by</td>
+			<td>Huarcaya Chavez, Miguel Alejandro Daniel</td>
+		</tr>
+		<tr>
+			<td>Attendees (to planning meeting)</td>
+			<td>Huarcaya Chavez, Miguel Alejandro Daniel / Torres Espinoza, Elias / Tarazona Medina, Piero Abel / Chacon Martinez, Mauricio Sebastián / Donayre Peña, Moises Rodolfo / Valenzuela Huillcaya, Aldhair Johan Juan</td>
+		</tr>
+		<tr>
+			<td>Sprint 3 Review Summary</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Sprint 3 Retrospective Summary</td>
+			<td></td>
+	</tr>
+		<tr>
+			<td colspan="2">Sprint Goal & User Stories</td>
+		</tr>
+		<tr>
+			<td>Sprint 3 Goal</td>
+			<td>Nuestro enfoque está en consolidar la experiencia del usuario en las plataformas web y móvil mediante la visualización en tiempo real de los datos de temperatura, humedad y ubicación GPS de los vehículos, así como garantizar una experiencia de registro y suscripción fluida, corrigiendo errores previamente identificados en la gestión de conductores en la aplicación móvil y en el flujo de suscripciones dentro de la aplicación web.
+Creemos que esto aportará una mayor transparencia operativa y confianza a los usuarios del sistema al poder monitorear las condiciones ambientales de los vehículos desde cualquier dispositivo, permitiendo respuestas más oportunas ante irregularidades en el transporte. Además, al corregir los errores que impedían el registro de nuevos conductores y afectaban el proceso de validación de pagos, se reducirá la fricción en tareas críticas del gerente, lo que contribuirá a una experiencia más estable, profesional y eficiente, mejorando así la percepción de calidad del sistema y facilitando la expansión de su adopción dentro de las empresas de transporte.
+Esto se confirmará cuando los gerentes puedan visualizar correctamente los datos ambientales de los vehículos tanto en la aplicación web como móvil, registrar conductores sin inconvenientes desde el entorno móvil, y completar el proceso de suscripción sin errores, logrando un aumento en la tasa de conversiones PRO y una reducción de incidencias reportadas por los usuarios en estas funcionalidades clave.
+</td>
+		</tr>
+		<tr>
+			<td>Sprint 2 Velocity</td>
+			<td>- Para este Tercer Sprint estimamos una velocidad de 51 Story Points, basada en nuestra capacidad de equipo y en la complejidad de las historias seleccionadas.</td>
+		</tr>
+		<tr>
+			<td>Sum of Story Points</td>
+			<td>51</td>
+		</tr>
+  </tbody>
+</table>
+
+ ### 6.2.3.2.Aspect Leaders and Collaborators. 
+
+ | Team Member | Github Username | section-header | section-hero | section-about-us | section-about-team | section-services | section-pricing | section-footer |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Huarcaya, Miguel | MiguelHuarcayaChavez | C |  | L |  | C |  |
+| Torres, Elias | EliasTorresEzpinoza |  | L |  | C |  |  | L |
+| Tarazona, Piero | pierotm |  |  |  | L |  | C |  |
+| Chacon, Mauricio | mxuriciocm | L |  |  | C | L |  | C |
+| Donayre, Moises | MoisesD19 |  |  | C |  |  | L |  |
+| Valenzuela, Aldhair | AldhaValenzuelaH |  | C |  |  |  |  | C |
+
+| Team Member | Github Username | IAM | Subscription & Payments | Profile Management | Analytics | Vehicles & Tracking | Shipment | Issues |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Huarcaya, Miguel | MiguelHuarcayaChavez | L | L |  |  |  | C | C |
+| Torres, Elias | EliasTorresEzpinoza | C | C |  |  |  | L | L |
+| Tarazona, Piero | pierotm |  |  | L | C |  |  |  |
+| Chacon, Mauricio | mxuriciocm |  |  | C | L |  |  |  |
+| Donayre, Moises | MoisesD19 |  |  |  |  | C |  |  |
+| Valenzuela, Aldhair | AldhaValenzuelaH |  |  |  |  | L |  |  |
+
+ ### 6.2.3.3. Sprint Backlog 3. 
+
+El Sprint 3 está centrado en la consolidación y refinamiento de la experiencia del usuario en las plataformas web y móvil. Este sprint prioriza la visualización de datos ambientales clave —temperatura, humedad y ubicación GPS— desde ambos entornos, asegurando así un monitoreo en tiempo real que fortalece el control operativo de los usuarios. Asimismo, se abordan correcciones críticas en funcionalidades existentes, tales como el registro de conductores en la aplicación móvil y el proceso de suscripción PRO en la plataforma web. Al completar las tareas asociadas a estas historias de usuario, mejoraremos significativamente la estabilidad y confiabilidad del sistema, sentando una base más robusta para futuras mejoras centradas en la escalabilidad y el uso intensivo del sistema en campo.
+
+![Trello Sprint 3](/assets/chapter06/Sprint3/trello%20s3.png)
+
+<table><tr><th colspan="1">Sprint #</th><th colspan="7">Sprint 3</th></tr>
+<tr><td colspan="2">User Story</td><td colspan="6">Work-Item / Task</td></tr>
+<tr><td colspan="1">Id</td><td colspan="1">Title</td><td colspan="1">Id</td><td colspan="1">Title</td><td colspan="1">Description</td><td colspan="1">Estimation (Hours)</td><td colspan="1">Assigned To</td><td colspan="1">Status(To-do / InProcess / ToReview / Done)</td></tr>
+<tr><td colspan="1" rowspan="3">US29</td><td colspan="1" rowspan="3">Crear un conductor</td><td colspan="1">T01</td><td colspan="1">conductor con datos válidos</td><td colspan="1">Crear conductor con datos válidos Given un gerente está autenticado When proporciona un email y contraseña válidos Then el sistema registra correctamente al nuevo conductor</td><td colspan="1">2</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T02</td><td colspan="1">Impedir creación con email inválido</td><td colspan="1">Scenario: Impedir creación con email inválido o repetido Given el gerente proporciona un email malformado o ya existente When intenta registrar al conductor Then el sistema impide la creación y muestra una validación</td><td colspan="1">1</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T03</td><td colspan="1">Impedir creación si se supera el límite</td><td colspan="1">Impedir creación si se supera el límite Given el gerente no es PRO y ya tiene 10 conductores When intenta crear un nuevo conductor Then el sistema impide la acción y lo informa</td><td colspan="1">3</td><td colspan="1">Miguel Huarcaya </td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US02</td><td colspan="1" rowspan="2">Ver funcionalidades clave</td><td colspan="1">T03</td><td colspan="1">Mostrar listado de funcionalidades según rol</td><td colspan="1">Crear la lista de funcionalidades principales del sistema.</td><td colspan="1">2</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T04</td><td colspan="1">Acceso a funcionalidades sin autenticación</td><td colspan="1">Permitir a los usuarios acceder a las funcionalidades sin autenticación.</td><td colspan="1">1</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US40</td><td colspan="1" rowspan="2">Crear un nuevo reporte</td><td colspan="1">T05</td><td colspan="1">Crear reporte con tipo y descripción válidos Given un conductor autenticado proporciona el tipo de reporte y una descripción When confirma la creación Then el sistema guarda el reporte correctamente</td><td colspan="1">Especificar las características y beneficios de las cuentas gratuita y PRO para la comparación.</td><td colspan="1">1</td><td colspan="1">Moises Donayre</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T06</td><td colspan="1">Impedir creación sin tipo de reporte Given el conductor omite el campo de tipo When intenta crear el reporte Then el sistema rechaza la acción</td><td colspan="1">Definir las restricciones del plan gratuito.</td><td colspan="1">1</td><td colspan="1">Moises Donayre</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US26</td><td colspan="1" rowspan="2">Ver datos del vehículo asignado</td><td colspan="1">T07</td><td colspan="1">Mostrar información del vehículo al conductor</td><td colspan="1">Mostrar información del vehículo al conductor Given un conductor tiene un vehículo asignado When accede a su información Then el sistema muestra los datos del vehículo correctamente</td><td colspan="1">2</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T08</td><td colspan="1">Impedir visualización si no tiene vehículo asignado</td><td colspan="1">Impedir visualización si no tiene vehículo asignado Given un conductor no tiene vehículo vinculado When intenta acceder a los datos Then el sistema muestra un mensaje indicando que no hay vehículo asignado</td><td colspan="1">1</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US36</td><td colspan="1" rowspan="2">onsultar envío asignado</td><td colspan="1">T09</td><td colspan="1">Mostrar detalles del envío asignado</td><td colspan="1">Given un conductor tiene un envío pendiente When accede a su información Then el sistema muestra los datos del envío asignado</td><td colspan="1">1</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T10</td><td colspan="1">Indicar ausencia de envío</td><td colspan="1">Given el conductor no tiene ningún envío asignado When consulta su sección de envíos Then el sistema informa que no hay asignaciones actuales</td><td colspan="1">2</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US39</td><td colspan="1" rowspan="2">Visualizar lista de envíos por conductor</td><td colspan="1">T11</td><td colspan="1">Mostrar historial de envíos por conductor</td><td colspan="1">Given un gerente tiene varios conductores registrados When selecciona uno de ellos Then el sistema muestra todos los envíos que ha realizado</td><td colspan="1">1</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T12</td><td colspan="1">Mostrar información clave de cada envío</td><td colspan="1">Given se muestra la lista de envíos por conductor When el gerente consulta los registros Then el sistema presenta destino, estado y fecha de creación</td><td colspan="1">1</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US38</td><td colspan="1" rowspan="2">Cambiar estado del envío</td><td colspan="1">T13</td><td colspan="1">Conductor cambia estado a "en proceso"</td><td colspan="1">Given un envío está en estado "pendiente" When el conductor lo inicia Then el estado cambia a "en proceso"</td><td colspan="1">1</td><td colspan="1">Piero Tarazona</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T14</td><td colspan="1">Conductor cambia estado a "terminado"</td><td colspan="1">Given un envío está en proceso When el conductor lo finaliza Then el estado cambia a "terminado"</td><td colspan="1">1</td><td colspan="1">Piero Tarazona</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US41</td><td colspan="1" rowspan="2">Guardar la fecha del reporte automáticamente</td><td colspan="1">T15</td><td colspan="1">Guardar fecha al momento de la creación</td><td colspan="1">Given un conductor crea un nuevo reporte When confirma la acción Then el sistema asigna automáticamente la fecha actual al reporte</td><td colspan="1">2</td><td colspan="1">Moises Donayre</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T16</td><td colspan="1">Visualizar la fecha al consultar reportes</td><td colspan="1">Given el reporte ya fue creado When se consulta desde la base de datos o API Then incluye la fecha de creación correctamente registrada</td><td colspan="1">1</td><td colspan="1">Moises Donayre</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US45</td><td colspan="1" rowspan="2">Ver cantidad de reportes por tipo</td><td colspan="1">T18</td><td colspan="1">Mostrar total de reportes por tipo</td><td colspan="1">Given el gerente consulta los datos estadísticos When accede al resumen por tipo de reporte Then el sistema muestra la cantidad total de reportes clasificados por tipo</td><td colspan="1">2</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T19</td><td colspan="1">Incluir totales por conductor</td><td colspan="1">Given el gerente selecciona un conductor When visualiza el resumen Then el sistema muestra la cantidad total de reportes por tipo generados por ese conductor</td><td colspan="1">1</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US42</td><td colspan="1" rowspan="2">Ver mis propios reportes</td><td colspan="1">T21</td><td colspan="1">Mostrar todos los reportes del conductor autenticado</td><td colspan="1">Given un conductor tiene reportes registrados When accede a su historial Then el sistema muestra la lista de sus reportes</td><td colspan="1">1</td><td colspan="1">Piero Tarazona</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T22</td><td colspan="1">Mostrar detalles de cada reporte</td><td colspan="1">Given el conductor revisa uno de sus reportes When lo selecciona desde la lista Then el sistema presenta tipo, descripción y fecha</td><td colspan="1">2</td><td colspan="1">Piero Tarazona</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US43</td><td colspan="1" rowspan="2">Ver reportes de otros conductores de mi empresa</td><td colspan="1">T23</td><td colspan="1">Mostrar reportes de compañeros vinculados al mismo gerente</td><td colspan="1">Given un conductor está autenticado y forma parte de una empresa When accede a la sección de reportes compartidos Then puede ver los reportes de otros conductores del mismo gerente</td><td colspan="1">2</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T24</td><td colspan="1">Ocultar reportes de otros gerentes</td><td colspan="1">Given un conductor no pertenece a una empresa When intenta ver reportes de otros gerentes Then el sistema impide el acceso a esa información</td><td colspan="1">1</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US58</td><td colspan="1" rowspan="2">Enviar datos de sensor al backend</td><td colspan="1">T25</td><td colspan="1">Transmitir datos cada intervalo definido</td><td colspan="1">Given el dispositivo IoT está operativo When se cumple el intervalo de envío (ej. cada 30 segundos) Then el sistema transmite temperatura y humedad al backend</td><td colspan="1">3</td><td colspan="1">Moises Donayre</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T26</td><td colspan="1">Confirmar entrega al backend</td><td colspan="1">Given se envían datos al backend When el backend los recibe exitosamente Then responde con un código de estado confirmando la recepción</td><td colspan="1">1</td><td colspan="1">Moises Donayre</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US60</td><td colspan="1" rowspan="2">Enviar ubicación GPS del vehículo</td><td colspan="1">T27</td><td colspan="1">Capturar y transmitir posición GPS</td><td colspan="1">Given el dispositivo IoT obtiene coordenadas geográficas válidas When se cumple el ciclo de envío Then el sistema transmite la ubicación actual al backend</td><td colspan="1">3</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T28</td><td colspan="1">Manejar errores de lectura GPS</td><td colspan="1">Given el módulo GPS no puede determinar una ubicación When se intenta enviar la ubicación Then el sistema omite el envío e informa error localmente (log)</td><td colspan="1">1</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US57</td><td colspan="1" rowspan="2">Capturar humedad desde sensor IoT</td><td colspan="1">T29</td><td colspan="1">Registrar humedad dentro del rango</td><td colspan="1">Given el sensor transmite un porcentaje entre 0 y 100 When el sistema recibe el dato Then lo almacena correctamente con su timestamp</td><td colspan="1">3</td><td colspan="1">Miguel Huarcaya</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T30</td><td colspan="1">Ignorar valores fuera del rango</td><td colspan="1">Given el sensor envía una humedad menor a 0 o mayor a 100 When el dato llega al sistema Then este descarta la lectura por inconsistencia</td><td colspan="1">2</td><td colspan="1">Miguel Huarcaya</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US56</td><td colspan="1" rowspan="2">Capturar temperatura desde sensor IoT</td><td colspan="1">T32</td><td colspan="1">Recibir lectura válida de temperatura</td><td colspan="1">Given el sensor IoT está conectado y activo When se genera una lectura válida de temperatura Then el sistema recibe y almacena el dato con precisión decima</td><td colspan="1">3</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T33</td><td colspan="1">Rechazar lectura fuera del rango físico aceptable</td><td colspan="1">Given el sensor envía una lectura menor a -50 o mayor a 100 When el sistema recibe el dato Then el sistema descarta la lectura por invalidez</td><td colspan="1">1</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US61</td><td colspan="1" rowspan="2">Filtrar lecturas erráticas de sensor</td><td colspan="1">T34</td><td colspan="1">Rechazar valores fuera del rango físico</td><td colspan="1">Given el sensor genera un dato de temperatura fuera del rango aceptable When el edge device procesa la lectura Then descarta la lectura y no la reenvía al backend</td><td colspan="1">1</td><td colspan="1">Piero Tarazona</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T35</td><td colspan="1">Permitir solo valores dentro de los límites físicos</td><td colspan="1">Given el valor está entre -50°C y 100°C When el edge lo valida Then lo marca como válido para ser enviado</td><td colspan="1">1</td><td colspan="1">Piero Tarazona</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="3">US54</td><td colspan="1" rowspan="3">Mostrar color según condición ambiental</td><td colspan="1">T36</td><td colspan="1">Mostrar color rojo si se supera el limite</td><td colspan="1">Visualizar el color rojo cuando la temperatura supere el límite permitido.</td><td colspan="1">2</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T37</td><td colspan="1">Mostrar color azul si está dentro del rango</td><td colspan="1">Visualiza el color azul cuando la temperatura está dentro del rango permitido.</td><td colspan="1">2</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T38</td><td colspan="1">Mostrar color negro si no hay conductor asignado</td><td colspan="1">Visualizar el color negro cuando no hay conductor asignado.</td><td colspan="1">1</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US63</td><td colspan="1" rowspan="2">Calcular promedios locales antes de enviar</td><td colspan="1">T39</td><td colspan="1">Promediar lecturas antes del envío</td><td colspan="1">Given el sensor emite múltiples datos por minuto When el edge compila las últimas N lecturas Then calcula el promedio y lo marca como representativo</td><td colspan="1">2</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T40</td><td colspan="1">Enviar solo promedios cada intervalo</td><td colspan="1">Given el sistema calcula el promedio cada minuto When se cumple el ciclo de transmisión Then envía solo ese valor al backend</td><td colspan="1">1</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US59</td><td colspan="1" rowspan="2">Asociar datos de sensor al vehículo correspondiente</td><td colspan="1">T41</td><td colspan="1">Asociar lectura al vehículo correcto</td><td colspan="1">Given el sensor está instalado en un vehículo con identificador único When se recibe la lectura Then el sistema vincula los datos al vehículo correspondiente</td><td colspan="1">1</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T42</td><td colspan="1">Impedir asociación si no se reconoce el ID del sensor</td><td colspan="1">Given el sensor no está registrado o el ID no existe When llega la lectura al backend Then el sistema ignora o marca el dato como no vinculado</td><td colspan="1">2</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US52</td><td colspan="1" rowspan="2">Ver cantidad de envíos por conductor</td><td colspan="1">T43</td><td colspan="1">Mostrar total de envíos por conductor</td><td colspan="1">Given un gerente tiene varios conductores con envíos asignados When accede a la sección de estadísticas de envíos Then el sistema muestra la cantidad de envíos por cada conductor</td><td colspan="1">2</td><td colspan="1">Miguel Huarcaya</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T44</td><td colspan="1">Mostrar valores actualizados</td><td colspan="1">Given un envío ha sido recientemente creado o terminado When el gerente actualiza la vista Then el sistema refleja el cambio en el total de envíos</td><td colspan="1">1</td><td colspan="1">Miguel Huarcaya</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US51</td><td colspan="1" rowspan="2">Ver estadísticas de reportes por conductor</td><td colspan="1">T45</td><td colspan="1">Mostrar cantidad total de reportes por conductor</td><td colspan="1">Given un gerente tiene varios conductores con reportes registrados When consulta la sección de estadísticas de reportes When el sistema muestra la cantidad total de reportes por cada conductor</td><td colspan="1">2</td><td colspan="1">Miguel Huarcaya</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T46</td><td colspan="1">Mostrar desglose por tipo de reporte</td><td colspan="1">Given los reportes tienen tipos definidos When el gerente consulta las estadísticas Then el sistema muestra la cantidad de reportes por tipo (vehículo, ruta, envío, otro)</td><td colspan="1">2</td><td colspan="1">Miguel Huarcaya</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US55</td><td colspan="1" rowspan="2">Usar el límite más bajo entre los envíos del conductor</td><td colspan="1">T47</td><td colspan="1">Usar el valor más estricto al analizar condiciones</td><td colspan="1">Given un conductor tiene múltiples envíos asignados con distintos límites When el sistema evalúa las condiciones de su vehículo Then usa el límite más bajo de temperatura y humedad entre todos los envíos</td><td colspan="1">2</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T48</td><td colspan="1">Actualizar límites al cambiar asignaciones</td><td colspan="1">Given se asigna un nuevo envío al conductor con límites más bajos When se actualiza el estado ambiental Then el sistema usa los nuevos límites automáticamente</td><td colspan="1">1</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US12</td><td colspan="1" rowspan="2">Ver todos los usuarios registrados</td><td colspan="1">T49</td><td colspan="1">Advertencia al alcanzar el límite de conductores</td><td colspan="1">Given el gerente no es PRO y tiene 10 conductores registrados When intenta registrar uno más Then el sistema muestra una advertencia y no permite la acción</td><td colspan="1">1</td><td colspan="1">Piero Tarazona</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T50</td><td colspan="1">Mostrar usuarios registrados</td><td colspan="1">Given el administrador accede al panel de usuarios When se carga la vista Then el sistema muestra todos los gerentes y conductores existentes</td><td colspan="1">1</td><td colspan="1">Piero Tarazon</td><td colspan="1"></td></tr>
+<tr><td colspan="1" rowspan="2">US31</td><td colspan="1" rowspan="2">Ver límite alcanzado (cuenta gratuita)</td><td colspan="1">T47</td><td colspan="1">Mostrar advertencia al alcanzar límite</td><td colspan="1">Given el gerente tiene 10 conductores registrados y no es PRO When intenta registrar otro conductor Then el sistema muestra una advertencia sobre la limitación de su cuenta</td><td colspan="1">2</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T48</td><td colspan="1">Mostrar sugerencia para activar PRO</td><td colspan="1">Given el gerente alcanza el límite de conductores When visualiza el mensaje del sistema Then se sugiere activar la cuenta PRO para continuar registrando usuarios</td><td colspan="1">1</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US32</td><td colspan="1" rowspan="2">Ver email del gerente (como administrador)</td><td colspan="1">T49</td><td colspan="1">Visualizar asociación entre conductor y gerente</td><td colspan="1">Given el administrador ha iniciado sesión When consulta un conductor específico Then el sistema muestra el email del gerente al que pertenece</td><td colspan="1">3</td><td colspan="1">Miguel Huarcya Chavez</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T50</td><td colspan="1">Asegurar integridad de la relación</td><td colspan="1">Given existe una relación válida entre un conductor y un gerente When el administrador revisa la información Then la asociación se presenta correctamente</td><td colspan="1">2</td><td colspan="1">Maurico Chacon</td><td colspan="1"></td></tr>
+</table>
+
+
+ ### 6.2.3.4. Development Evidence for Sprint Review. 
+
+ Esta sección documenta y presenta la serie de commits realizados en el repositorio del  AppWeb, Movil y Backend . Estos commits, que son una parte integral del proceso de desarrollo, se han gestionado utilizando la metodología GitFlow y siguiendo estrictamente las convenciones establecidas para los commits. Esta evidencia sirve como un registro transparente y trazable de nuestro progreso y esfuerzos de desarrollo a lo largo del sprint
+
+ - AppWeb:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+|upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | e0dcd26 | feat:... | add new page for vehicle details | 02-06-2025 |
+|upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 53e42fc | feat:... | deleted technical status | 02-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | ba13c28 | feat:... | Merge branch 'feature/shipment' into develop | 03-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/shipment | b3a39a0 | fix:... | update of the shipment section | 03-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 56e7598 | fix:... | fixed warnings | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 392e655 | feat:... | added new page to create a vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | b9b827c | fix:... | fixed page to create a vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 48547fe | feat:... | added new page to update vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 3bfb321 | fix:... | update of the reports module | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 3dcb1fb | fix:... | implement new url shipments | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | a2d7e3d | feat:... | Merge branch 'feature/issues' into develop | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 1e4832d | fix:... | update design and translation | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/issues | ebfb321 | fix:... | update of the reports module | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/iam | 212aa12 | fix:... | login and register models | 15-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | c3e944f | fix:... | sibcripments | 15-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | 82a7822 | fix:... | subscription | 16-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 943b38d | feat:... | fixed update vehicle | 22-06-2025 |
+
+
+- Backend:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+| upc-OpenSource-BicasTeam-api | feature/shipments | 27c7d26 | feat:... | Merge branch 'develop' into feature/shipments | 08-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | 9440d5a | feat:... | Create IAM and modificated Profile | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/subscription&payments | 28e3db6 | feat:... | subscription implement | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | develop | bfd6c1b | feat:... | Merge branch 'feature/subscription&payments' into develop | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/vehicles&tracking | 372a018 | feat:... | update vehicle model and services | 10-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/shipments | 782bfb6 | feat:... | merge develop on shipment | 13-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/profile-management | 806c37c | feat:... | Update local database connection | 14-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | f8198af | fix:... | profile | 15-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | 7c169e6 | fix:... | subscription and profiles and iam | 15-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/vehicles&tracking | d9b4a8d | feat:... | Implement date formatting and enhance vehicle location info | 17-06-2025 |
+
+- AppMobile:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+| upc-iot-BicasTeam-App-mobile | develop | 526cdfd | ... | initial commit | 30-05-2025 |
+| upc-iot-BicasTeam-App-mobile | develop | c5c3ff4 | feat:... | Transferred essential files and structure from the original mobile project. | 30-05-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | b15d32b | feat:... | implemented analytics feature with driver statistics and reports | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7d1fc62 | feat:... | add analytics feature with driver reports and shipment statistics | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 888a5cf | feat:... | add analytics screens and service for driver reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 583fcdf | feat:... | add analytics screen and related functionalities for driver reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7123e8b | feat:... | add analytics option to navigation in carrier profiles, profile, and reports screens | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Iam | aa9f47a | feat:... | Implementation of the reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Vehicles&Tracking | 63cc9f9 | feat:... | added businessman vehicles page | 21-06-2025 |
+
+ ### 6.2.3.6. Execution Evidence for Sprint Review. 
+
+Durante el Sprint 3, el equipo consolidó funcionalidades críticas en las plataformas web y móvil, enfocándose en mejorar la experiencia del usuario y garantizar la operatividad del sistema en tiempo real. Se logró con éxito la visualización de los datos de temperatura, humedad y ubicación GPS de los vehículos desde ambas aplicaciones, permitiendo un monitoreo más efectivo. Además, se corrigieron errores clave en el registro de conductores en la aplicación móvil y en el flujo de suscripciones PRO en la plataforma web, asegurando procesos más estables y confiables. Las evidencias generadas incluyen capturas de pantalla, videos funcionales y registros de prueba que demuestran la correcta ejecución de cada funcionalidad. Estos avances reflejan el compromiso del equipo con la calidad del producto y sientan las bases para una operación más fluida, escalable y centrada en el usuario final.
+
+APP WEB:
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/analiticsIssues.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/analiticsShipmetns.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/analiticsTransport.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/goPro.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/home.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/issues.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/login.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/shipments.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/vehicles.png)
+
+App Móvil:
+![Testing Suite Evidence](/assets/chapter06/movil1.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil2.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil3.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil4.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil5.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil6.jpg)
+
+ ### 6.2.3.7. Services Documentation Evidence for Sprint Review. 
+
+Link de backend desplegado: https://app-250622151805.azurewebsites.net/swagger-ui/index.html#/
+
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service1.png)
+Endpoint relacionado a la funcionalidad de vehiculos (CRUD). Dentro de ello se almacenará los datos de los vehiculos, pertenecia y datos de sensores
+
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service2.png)
+Endpoint relacionado al manejo de datos de ingreso de datos de usuario (contraseña y email)
+
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service3.png)
+Endpoint relacionado a datos de subsripciones. Almacena datos de registro y obtencion de las subcripciones de los usuarios
+
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service4.png)
+Endpoint relacionado a los envios de la solucion. Manejo de datos de los envios y a quien estan asignados
+
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service5.png)
+endpoint relacionado al manejo de datos personales de los usuarios
+
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service6.png)
+Endpoints relacionado a los reportes de los transportistas.
+
+
+
+ ### 6.2.3.8. Software Deployment Evidence for Sprint Review. 
+
+Para este sprint se buscó que los datos recibidos por los sensores. Fueran mostrados en la apliacion web y movil.
+
+![Software Deployment](/assets/chapter06/Sprint3/deployment%20edge.png)
+Aqui se muestra que los datos se muestran en nuestro edge
+
+![Software Deployment](/assets/chapter06/Sprint3/deployment%20wokwi.png)
+En esta sección se muestra la configuracion de WOKWI utilizada
+
+![Software Deployment](/assets/chapter06/Sprint3/deplyment%20daots%20recibidos.png)
+En esta imagen se nos muestra los datos recibidos por los sensores fisicos (no se encuentra datos de ubicacion pues el dispositivo GPs está dañado)
+
+![Software Deployment](/assets/chapter06/Sprint3/deployment%20data.png)
+En esta imagen se muestra los datos del sensor en la aplicacion movil (se esta ejecutnado el codigo sobre chrome utilizando flutter)
+
+![Software Deployment](/assets/chapter06/Sprint3/deployment%20map.png)
+En esta imagen se muestra el mapa utilizando datos de prueba enviado por nuestro proyecto wokwi
+
+ ### 6.2.3.9. Team Collaboration Insights during Sprint
+
+App móvil:
+![Team Collaboration Insights](/assets/chapter06/collaboration-insights1.png)
+Cuadro de colaboracion del repositorio de App movil
+
+App web (transportista):
+![Team Collaboration Insights](/assets/chapter06/collaboration-insights1.2.png)
+Cuadro de colaboracion del aplicacion web
+
+Backend:
+![Team Collaboration Insights](/assets/chapter06/colab%20backend.png)
+Cuadro de colaboracion del backend
 
 -------------
 -------------
@@ -1779,7 +2065,7 @@ Para los Transportistas:
 * Nombre completo del entrevistado: Abraham Quenta 
 * Edad: 28 años
 * Distrito: Tacna
-* Link: https://upcedupe-my.sharepoint.com/personal/u20191a453_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20191a453%5Fupc%5Fedu%5Fpe%2FDocuments%2FVideo%5F20240620213959027%5Fby%5FVideoShow%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E000139f3%2Dffc6%2D4de3%2D85e5%2D6f6db9c9f5e5
+* Link: https://upcedupe-my.sharepoint.com/personal/u20191a453_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20191a453%5Fupc%5Fedu%5Fpe%2FDocuments%2FVideo%5F20250620213959027%5Fby%5FVideoShow%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E000139f3%2Dffc6%2D4de3%2D85e5%2D6f6db9c9f5e5
 * Inicio de la entrevista: 0:00
 * Duracion: 10:45
 * Resumen: Abraham se presenta como un profesional del transporte con 5 años de experiencia en el sector transporte provincial, cuya ruta principal es de Tacna a Puno. Comenta sobre la página de destino de su servicio, que incluye información sobre los servicios ofrecidos y permite la personalización del idioma. Abraham explora las características y funcionalidades del sitio web, como la gestión de la flota, los informes de los conductores y la gestión de vehículos, y aprecia el aspecto organizativo de la plataforma, señalando que es fácil encontrar las funciones deseadas. Abraham menciona algunos problemas menores con la visibilidad del texto y la navegación, pero en general considera que la interfaz de usuario es clara y sencilla. información del vehículo, así como las estrategias de marketing y el diseño de la página de destino, pero en general. considera que la aplicación es valiosa, especialmente para monitorear las actividades de los conductores
@@ -1853,14 +2139,142 @@ Para los Transportistas:
 * Resumen: El transportista Víctor Cuba Bautista tras probar la plataforma, reconoció que el uso de las funciones eran más sencillos de lo que esperaba. Encontró especialmente útil el registro de incidencias en tiempo real. Aunque le gustaría ver mejoras en algunas funcionalidades adicionales, valora la capacidad de monitorear los sitios de entrega y la seguridad de los datos proporcionada por la plataforma. Al final, Víctor concluyó que MoviGestion es una herramienta efectiva que puede mejorar su eficiencia y reducir el tiempo de inactividad, y estaría dispuesto a recomendarla a otros transportistas
 
 ### 6.3.3. Evaluaciones según heurísticas. 
+Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información e inclusive design de la experiencia propuesta. Para esto la sección usamos la estructura del formato para evaluaciones de heurísticas indicado.
+
+
+**UX Heuristics & Principles Evaluation**
+
+**Usability – Inclusive Design – Information Architecture**
+\***
+
+
+**CARRERA                	: Ingeniería de Software**
+
+**CURSO                    	: Desarrollo de Soluciones IOT**
+
+**SECCIÓN                   	: 2956**
+
+**PROFESORES         	: Angel Augusto Velasquez Nuñez**
+
+**AUDITOR                 	: Bicas Team**
+
+**CLIENTE                  	: MoviGestion**
+1. ## <a name="_heading=h.3ibjgvegxoc5"></a>** 
+   **SITE o APP A EVALUAR:**
+
+   **MoviGestion**
+
+   **TAREAS A EVALUAR:**
+
+   *El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:*
+
+*1.* 	*Gestión y edición de perfil de usuario.*
+
+*2.     Visualización de asignación de envíos que pertenecen a cada transportista*
+
+*3. 	Agregar un nuevo vehículo a la flota de vehículos.*
+
+*4. 	Eliminar un vehículo de la flota de vehículos.*
+
+*5. 	Visualización de alertas de cada transportista.*
+
+**ESCALA DE SEVERIDAD:**
+
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
+
+|***Nivel***|***Descripción***|
+| :- | :- |
+|*1*|*Problema superficial: puede ser fácilmente superado o hasta ignorado por el usuario ó ocurre con muy poca frecuencia. El error no necesita ser arreglado de forma inmediata en la mayoría de las casos, a no ser que exista disponibilidad de tiempo.*|
+|*2*|*Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara antes de la siguiente entrega o actualización.*|
+|*3*|*Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.*|
+|*4*|*Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.*|
+
+
+**TABLA RESUMEN:**
+
+|*#*|*Problema*|*Escala de severidad*|*Heurística/Principio violada(o)*|
+| :-: | :-: | :-: | :-: |
+|*1*|*Incluye un botón “See More” pero no tiene funcionalidad*|*3*|*Information Architecture: Is it usable?*|
+|*2*|*No parece haber consistencia en la forma en que se presentan las opciones para actualizar la información*|*2*|*Usability: Consistencia y estándares*|
+|*3*|*Información de pagos no está claramente presentada*|*3*|*Usability: Visibilidad del estado del sistema*|
+|*4*|*No funciona cancelar el agregado de un vehículo.*|*2*|*Usability: Libertad y control del usuario*|
+
+
+
+
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+*PROBLEMA #1:* 
+
+*Severidad: 3*
+
+*Heurística violada: Information Architecture: Is it usable?*
+
+*Problema:*
+
+*La aplicación incluye un botón “See More” pero no tiene funcionalidad, lo que confunde a los usuarios y les impide acceder a contenido adicional esperado.*
+
+![Problem 1](/assets/chapter06/h1.png)
+
+*Recomendación:*
+
+*Eliminar el botón “See More” si no hay contenido adicional disponible, o implementar la funcionalidad esperada para que los usuarios puedan acceder a más información.*
+
+*PROBLEMA #2:* 
+
+*Severidad: 2*
+
+*Heurística violada: Usability - Consistencia y estándares*
+
+*Problema:*
+
+*La interfaz de Settings incluye campos para Nickname, Bio, Email y Avatar, pero no parece haber consistencia en la forma en que se presentan las opciones para actualizar la información. Por ejemplo, el botón ‘Choose’ para actualizar el avatar está separado del campo ‘Avatar’, lo que podría confundir a los usuarios.*
+
+![Problem 2](/assets/chapter06/h2.png)
+
+*Recomendación:*
+
+*Asegurar que todos los campos de entrada y botones relacionados estén agrupados de manera coherente y clara para mejorar la comprensión y la facilidad de uso.*
+
+*PROBLEMA #3:* 
+
+*Severidad: 3*
+
+*Heurística violada: Usability: Visibilidad del estado del sistema*
+
+*Problema:*
+
+*La información relacionada con Organization no está claramente presentada, lo que puede causar confusión a la hora de querer tener información y dificulta la asignación de envíos.*
+
+![Problem 3](/assets/chapter06/h3.png)
+
+*Recomendación:*
+
+*Mejorar la presentación y accesibilidad de la información relacionada con "Organization" puede mejorar significativamente la experiencia del usuario y facilitar la asignación de envíos en la aplicación.* 
+
+*PROBLEMA #4:* 
+
+*Severidad: 2*
+
+*Heurística violada: Usability: Libertad y control del usuario*
+
+*Problema:*
+
+*Al momento de ingresar los datos del nuevo vehículo, no se puede cerrar hasta darle darle al botón “Close” y luego se tiene que eliminar en el botón “Delete Vehicle”, esto obliga a agregar nuevos carros no deseados, también incrementando así la cantidad de esfuerzo del usuario.*
+
+![Problem 4](/assets/chapter06/h4.png)
+
+*Recomendación:*
+
+*Hacer que el botón "Close" tenga la funcionalidad para cerrar la ventana emergente sin guardar los datos del vehículo ingresados.*
+
 
 -------------
 -------------
 ## 6.4. Video About-the-Product.
 
-
 El video muestra paso a paso el funcionamiento de la aplicación web MoviGestión. Primero se observa el registro de un nuevo usuario: se introduce la información necesaria y se crea una cuenta. Luego, con esa cuenta, se accede mediante el login. Una vez dentro de la aplicación, se navega por sus principales funcionalidades —como panel de control, gestión de usuarios, seguimiento de tareas o reportes— con explicaciones claras y detalladas sobre cómo utilizar cada módulo.
-
 
 
 | Sección                   | Descripción                                                            | Tiempo de Inicio |
@@ -1878,3 +2292,4 @@ El video muestra paso a paso el funcionamiento de la aplicación web MoviGestió
 Youtube URL: https://www.youtube.com/watch?v=KTIzP3XTNLM&t=24s
 
 Microsoft Stream URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116207_upc_edu_pe/EVzNfjl7ZRtAvgrVtGxeeSEB24lFo7SCNzRMpCjNjY7bRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sBmRa5
+
