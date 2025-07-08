@@ -1962,6 +1962,8 @@ App Móvil:
 
  ### 6.2.3.7. Services Documentation Evidence for Sprint Review. 
 
+Link de backend desplegado: https://app-250622151805.azurewebsites.net/swagger-ui/index.html#/
+
 ![Service Documetnation](/assets/chapter06/Sprint3/back%20service1.png)
 Endpoint relacionado a la funcionalidad de vehiculos (CRUD). Dentro de ello se almacenará los datos de los vehiculos, pertenecia y datos de sensores
 
