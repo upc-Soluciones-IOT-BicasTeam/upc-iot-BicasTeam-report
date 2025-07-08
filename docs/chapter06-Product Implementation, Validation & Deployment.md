@@ -727,51 +727,51 @@ Esto se confirmará cuando los visitantes puedan acceder correctamente a la land
 
  | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
  | --- | --- | --- | --- | --- | --- |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | d3b094b | chore:... | initial commit | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 499f6c3 | feat:... | create structure for landing | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-header | a6fd61f | feat:... | create header section | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-us | f46c9f4 | feat:... | create about us | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 559b871 | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 320162e | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 74db128 | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 6db4844 | feat:... | delete file style | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | f80d9c2 | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 77dcfbf | feat:... | deleted style | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 57cd331 | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 2ac60ee | feat:... | deleted style | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | a89f5a6 | feat:... | add folder for organizing files | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 9c04bc0 | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | e645b3b | feat:... | delete public directory | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 1488c1e | feat:... | add style and images | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-hero | 09191fd | feat:... | implement hero section | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-hero | 0ba7ade | feat:... | implement footer section | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-footer | 77037f0 | feat:... | create footer section | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-pricing | 84c90ea | chore:... | created pricing and contact section | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | c3a6a0c | feat:... | merge branch 'feature/section-hero' | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 4f4b5b7 | feat:... | merge branch 'feature/section-about-us' | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | e63214c | feat:... | merge branch 'feature/section-about-team' into develop | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 7d5209d | feat:... | merge branch 'feature/section-services' into develop | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 432e18e | feat:... | merge branch 'feature/section-pricing' into develop | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 9b278c2 | feat:... | merge branch 'feature/section-footer' into develop | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | fbf4690 | fix:... | fix the ubication for the code | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | c6a949e | feat:... | update index.html | 30-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 2e872c2 | feat:... | update index.html | 30-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 7ca9228 | fix:... | button get star | 30-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 80969dc | feat:... | implement video about the product | 05-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | bd8eecb | fix:... | implement video about the product | 05-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 49e5318 | feat:... | implement video about the team | 05-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 1b50053 | fix:... | implement video about the team | 05-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 4446436 | fix:... | implement video about the team | 05-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 5396416 | fix:... | link about the team | 06-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 3c21c8a | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 4fd8208 | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 34ad386 | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | a689428 | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | a89718e | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 1bb2d40 | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | bdc70ba | feat:... | apk download | 22-11-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 2bb167c | feat:... | update styles.css | 22-11-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | ab4cdd9 | feat:... | update styles.css | 22-11-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | d3b094b | chore:... | initial commit | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 499f6c3 | feat:... | create structure for landing | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-header | a6fd61f | feat:... | create header section | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-us | f46c9f4 | feat:... | create about us | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 559b871 | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 320162e | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 74db128 | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 6db4844 | feat:... | delete file style | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | f80d9c2 | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 77dcfbf | feat:... | deleted style | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 57cd331 | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 2ac60ee | feat:... | deleted style | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | a89f5a6 | feat:... | add folder for organizing files | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 9c04bc0 | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | e645b3b | feat:... | delete public directory | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 1488c1e | feat:... | add style and images | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-hero | 09191fd | feat:... | implement hero section | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-hero | 0ba7ade | feat:... | implement footer section | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-footer | 77037f0 | feat:... | create footer section | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-pricing | 84c90ea | chore:... | created pricing and contact section | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | c3a6a0c | feat:... | merge branch 'feature/section-hero' | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 4f4b5b7 | feat:... | merge branch 'feature/section-about-us' | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | e63214c | feat:... | merge branch 'feature/section-about-team' into develop | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 7d5209d | feat:... | merge branch 'feature/section-services' into develop | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 432e18e | feat:... | merge branch 'feature/section-pricing' into develop | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 9b278c2 | feat:... | merge branch 'feature/section-footer' into develop | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | fbf4690 | fix:... | fix the ubication for the code | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | c6a949e | feat:... | update index.html | 30-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 2e872c2 | feat:... | update index.html | 30-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 7ca9228 | fix:... | button get star | 30-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 80969dc | feat:... | implement video about the product | 05-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | bd8eecb | fix:... | implement video about the product | 05-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 49e5318 | feat:... | implement video about the team | 05-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 1b50053 | fix:... | implement video about the team | 05-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 4446436 | fix:... | implement video about the team | 05-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 5396416 | fix:... | link about the team | 06-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 3c21c8a | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 4fd8208 | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 34ad386 | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | a689428 | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | a89718e | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 1bb2d40 | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | bdc70ba | feat:... | apk download | 22-11-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 2bb167c | feat:... | update styles.css | 22-11-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | ab4cdd9 | feat:... | update styles.css | 22-11-2025 |
  | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 8deffb7 | fix:... | servies implement | 10-05-2025 |
  | upc-AppWeb-BicasTeam-LandingPage.github.io | main | e9cdf14 | fix:... | the styles were modified | 11-05-2025 |
  | upc-AppWeb-BicasTeam-LandingPage.github.io | main | d588b20 | fix:... | update of the hero, pricing, header section | 15-05-2025 |
@@ -1648,15 +1648,15 @@ Esto se confirmará cuando observemos un aumento sostenido en el número de usua
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
 | --- | --- | --- | --- | --- | --- |
-| upc-iot-BicasTeam-App-mobile | develop | 526cdfd | ... | initial commit | 30-05-2024 |
-| upc-iot-BicasTeam-App-mobile | develop | c5c3ff4 | feat:... | Transferred essential files and structure from the original mobile project. | 30-05-2024 |
-| upc-iot-BicasTeam-App-mobile | feature/Analytics | b15d32b | feat:... | implemented analytics feature with driver statistics and reports | 13-06-2024 |
-| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7d1fc62 | feat:... | add analytics feature with driver reports and shipment statistics | 13-06-2024 |
-| upc-iot-BicasTeam-App-mobile | feature/Analytics | 888a5cf | feat:... | add analytics screens and service for driver reports and shipments | 13-06-2024 |
-| upc-iot-BicasTeam-App-mobile | feature/Analytics | 583fcdf | feat:... | add analytics screen and related functionalities for driver reports and shipments | 13-06-2024 |
-| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7123e8b | feat:... | add analytics option to navigation in carrier profiles, profile, and reports screens | 13-06-2024 |
-| upc-iot-BicasTeam-App-mobile | feature/Iam | aa9f47a | feat:... | Implementation of the reports and shipments | 13-06-2024 |
-| upc-iot-BicasTeam-App-mobile | feature/Vehicles&Tracking | 63cc9f9 | feat:... | added businessman vehicles page | 21-06-2024 |
+| upc-iot-BicasTeam-App-mobile | develop | 526cdfd | ... | initial commit | 30-05-2025 |
+| upc-iot-BicasTeam-App-mobile | develop | c5c3ff4 | feat:... | Transferred essential files and structure from the original mobile project. | 30-05-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | b15d32b | feat:... | implemented analytics feature with driver statistics and reports | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7d1fc62 | feat:... | add analytics feature with driver reports and shipment statistics | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 888a5cf | feat:... | add analytics screens and service for driver reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 583fcdf | feat:... | add analytics screen and related functionalities for driver reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7123e8b | feat:... | add analytics option to navigation in carrier profiles, profile, and reports screens | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Iam | aa9f47a | feat:... | Implementation of the reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Vehicles&Tracking | 63cc9f9 | feat:... | added businessman vehicles page | 21-06-2025 |
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review. 
 
@@ -1883,11 +1883,82 @@ El Sprint 3 está centrado en la consolidación y refinamiento de la experiencia
 
  ### 6.2.3.4. Development Evidence for Sprint Review. 
 
- 
+ Esta sección documenta y presenta la serie de commits realizados en el repositorio del  AppWeb, Movil y Backend . Estos commits, que son una parte integral del proceso de desarrollo, se han gestionado utilizando la metodología GitFlow y siguiendo estrictamente las convenciones establecidas para los commits. Esta evidencia sirve como un registro transparente y trazable de nuestro progreso y esfuerzos de desarrollo a lo largo del sprint
 
- ### 6.2.3.5. Testing Suite Evidence for Sprint Review. 
+ - AppWeb:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+|upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | e0dcd26 | feat:... | add new page for vehicle details | 02-06-2025 |
+|upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 53e42fc | feat:... | deleted technical status | 02-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | ba13c28 | feat:... | Merge branch 'feature/shipment' into develop | 03-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/shipment | b3a39a0 | fix:... | update of the shipment section | 03-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 56e7598 | fix:... | fixed warnings | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 392e655 | feat:... | added new page to create a vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | b9b827c | fix:... | fixed page to create a vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 48547fe | feat:... | added new page to update vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 3bfb321 | fix:... | update of the reports module | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 3dcb1fb | fix:... | implement new url shipments | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | a2d7e3d | feat:... | Merge branch 'feature/issues' into develop | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 1e4832d | fix:... | update design and translation | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/issues | ebfb321 | fix:... | update of the reports module | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/iam | 212aa12 | fix:... | login and register models | 15-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | c3e944f | fix:... | sibcripments | 15-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | 82a7822 | fix:... | subscription | 16-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 943b38d | feat:... | fixed update vehicle | 22-06-2025 |
+
+
+- Backend:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+| upc-OpenSource-BicasTeam-api | feature/shipments | 27c7d26 | feat:... | Merge branch 'develop' into feature/shipments | 08-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | 9440d5a | feat:... | Create IAM and modificated Profile | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/subscription&payments | 28e3db6 | feat:... | subscription implement | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | develop | bfd6c1b | feat:... | Merge branch 'feature/subscription&payments' into develop | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/vehicles&tracking | 372a018 | feat:... | update vehicle model and services | 10-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/shipments | 782bfb6 | feat:... | merge develop on shipment | 13-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/profile-management | 806c37c | feat:... | Update local database connection | 14-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | f8198af | fix:... | profile | 15-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | 7c169e6 | fix:... | subscription and profiles and iam | 15-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/vehicles&tracking | d9b4a8d | feat:... | Implement date formatting and enhance vehicle location info | 17-06-2025 |
+
+- AppMobile:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+| upc-iot-BicasTeam-App-mobile | develop | 526cdfd | ... | initial commit | 30-05-2025 |
+| upc-iot-BicasTeam-App-mobile | develop | c5c3ff4 | feat:... | Transferred essential files and structure from the original mobile project. | 30-05-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | b15d32b | feat:... | implemented analytics feature with driver statistics and reports | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7d1fc62 | feat:... | add analytics feature with driver reports and shipment statistics | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 888a5cf | feat:... | add analytics screens and service for driver reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 583fcdf | feat:... | add analytics screen and related functionalities for driver reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7123e8b | feat:... | add analytics option to navigation in carrier profiles, profile, and reports screens | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Iam | aa9f47a | feat:... | Implementation of the reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Vehicles&Tracking | 63cc9f9 | feat:... | added businessman vehicles page | 21-06-2025 |
 
  ### 6.2.3.6. Execution Evidence for Sprint Review. 
+
+Durante el Sprint 3, el equipo consolidó funcionalidades críticas en las plataformas web y móvil, enfocándose en mejorar la experiencia del usuario y garantizar la operatividad del sistema en tiempo real. Se logró con éxito la visualización de los datos de temperatura, humedad y ubicación GPS de los vehículos desde ambas aplicaciones, permitiendo un monitoreo más efectivo. Además, se corrigieron errores clave en el registro de conductores en la aplicación móvil y en el flujo de suscripciones PRO en la plataforma web, asegurando procesos más estables y confiables. Las evidencias generadas incluyen capturas de pantalla, videos funcionales y registros de prueba que demuestran la correcta ejecución de cada funcionalidad. Estos avances reflejan el compromiso del equipo con la calidad del producto y sientan las bases para una operación más fluida, escalable y centrada en el usuario final.
+
+APP WEB:
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/analiticsIssues.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/analiticsShipmetns.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/analiticsTransport.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/goPro.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/home.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/issues.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/login.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/shipments.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/vehicles.png)
+
+App Móvil:
+![Testing Suite Evidence](/assets/chapter06/movil1.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil2.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil3.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil4.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil5.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil6.jpg)
 
  ### 6.2.3.7. Services Documentation Evidence for Sprint Review. 
 
@@ -1944,7 +2015,7 @@ Para los Transportistas:
 * Nombre completo del entrevistado: Abraham Quenta 
 * Edad: 28 años
 * Distrito: Tacna
-* Link: https://upcedupe-my.sharepoint.com/personal/u20191a453_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20191a453%5Fupc%5Fedu%5Fpe%2FDocuments%2FVideo%5F20240620213959027%5Fby%5FVideoShow%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E000139f3%2Dffc6%2D4de3%2D85e5%2D6f6db9c9f5e5
+* Link: https://upcedupe-my.sharepoint.com/personal/u20191a453_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20191a453%5Fupc%5Fedu%5Fpe%2FDocuments%2FVideo%5F20250620213959027%5Fby%5FVideoShow%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E000139f3%2Dffc6%2D4de3%2D85e5%2D6f6db9c9f5e5
 * Inicio de la entrevista: 0:00
 * Duracion: 10:45
 * Resumen: Abraham se presenta como un profesional del transporte con 5 años de experiencia en el sector transporte provincial, cuya ruta principal es de Tacna a Puno. Comenta sobre la página de destino de su servicio, que incluye información sobre los servicios ofrecidos y permite la personalización del idioma. Abraham explora las características y funcionalidades del sitio web, como la gestión de la flota, los informes de los conductores y la gestión de vehículos, y aprecia el aspecto organizativo de la plataforma, señalando que es fácil encontrar las funciones deseadas. Abraham menciona algunos problemas menores con la visibilidad del texto y la navegación, pero en general considera que la interfaz de usuario es clara y sencilla. información del vehículo, así como las estrategias de marketing y el diseño de la página de destino, pero en general. considera que la aplicación es valiosa, especialmente para monitorear las actividades de los conductores
