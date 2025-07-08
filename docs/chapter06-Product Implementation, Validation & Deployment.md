@@ -1722,13 +1722,116 @@ Para mantener una colaboración efectiva y organizada, seguimos aplicando la met
 La distribución de tareas fue clave para nuestra eficiencia: cada miembro del equipo se hizo cargo de una sección o funcionalidad distinta. Esto nos permitió avanzar simultáneamente en el desarrollo de la aplicación móvil y en la infraestructura del backend. Esta aproximación no solo optimizó el tiempo de desarrollo, sino que también nos permitió cumplir con todas las historias de usuario planificadas y entregar los resultados de este sprint de manera exitosa, incluso antes de la fecha límite establecida.
 
 App móvil:
-![Team Collaboration Insights](/assets/chapter06/colab1.jpg)
+![Team Collaboration Insights](/assets/chapter06/collaboration-insights1.png)
 
 App web (transportista):
-![Team Collaboration Insights](/assets/chapter06/colab2.jpg)
+![Team Collaboration Insights](/assets/chapter06/collaboration-insights1.2.png)
 
 Backend:
-![Team Collaboration Insights](/assets/chapter06/colab3.jpg)
+![Team Collaboration Insights](/assets/chapter06/colab%20backend.png)
+
+Recuento de Commits de los ultimos 3 meses del backend
+
+----
+----
+
+ ### 6.2.3 Sprint 3
+En esta sección, documentaremos y explicaremos el progreso tanto en el desarrollo del producto como en la colaboración del equipo durante el Sprint 3. Seguimos un proceso definido que abarca desde la planificación hasta la revisión y documentación del trabajo realizado. A lo largo de las siguientes secciones, detallaremos cómo se llevó a cabo la planificación del sprint, qué tareas se incluyeron en el Sprint Backlog, las pruebas y evidencia de desarrollo para la revisión del sprint, así como la documentación de los servicios y las percepciones clave sobre la colaboración del equipo durante este periodo
+ ### 6.2.3.1. Sprint Planning 3. 
+En esta sección, se detallan los aspectos principales del Sprint Planning Meeting para el Sprint 3. Este encuentro es crucial para establecer los objetivos del sprint, determinar las user stories que se abordarán y asignar tareas al equipo. A continuación, se presenta un resumen del Sprint Planning Meeting para este período
+
+<table>
+  <tbody>
+    <tr>
+      <td>Sprint #</td><td>Sprint 3</td>
+    </tr>
+    <tr>
+      <td colspan="2">Sprint Planning Background</td>
+    </tr>
+		<tr>
+			<td>Date</td>
+			<td>2025-06-28</td>
+		</tr>
+		<tr>
+			<td>Time</td>
+			<td>05:14 PM</td>
+		</tr>
+		<tr>
+			<td>Location</td>
+			<td>Google Meet</td>
+		</tr>
+		<tr>
+			<td>Prepared by</td>
+			<td>Huarcaya Chavez, Miguel Alejandro Daniel</td>
+		</tr>
+		<tr>
+			<td>Attendees (to planning meeting)</td>
+			<td>Huarcaya Chavez, Miguel Alejandro Daniel / Torres Espinoza, Elias / Tarazona Medina, Piero Abel / Chacon Martinez, Mauricio Sebastián / Donayre Peña, Moises Rodolfo / Valenzuela Huillcaya, Aldhair Johan Juan</td>
+		</tr>
+		<tr>
+			<td>Sprint 3 Review Summary</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Sprint 3 Retrospective Summary</td>
+			<td></td>
+	</tr>
+		<tr>
+			<td colspan="2">Sprint Goal & User Stories</td>
+		</tr>
+		<tr>
+			<td>Sprint 3 Goal</td>
+			<td>Nuestro enfoque está en consolidar la experiencia del usuario en las plataformas web y móvil mediante la visualización en tiempo real de los datos de temperatura, humedad y ubicación GPS de los vehículos, así como garantizar una experiencia de registro y suscripción fluida, corrigiendo errores previamente identificados en la gestión de conductores en la aplicación móvil y en el flujo de suscripciones dentro de la aplicación web.
+Creemos que esto aportará una mayor transparencia operativa y confianza a los usuarios del sistema al poder monitorear las condiciones ambientales de los vehículos desde cualquier dispositivo, permitiendo respuestas más oportunas ante irregularidades en el transporte. Además, al corregir los errores que impedían el registro de nuevos conductores y afectaban el proceso de validación de pagos, se reducirá la fricción en tareas críticas del gerente, lo que contribuirá a una experiencia más estable, profesional y eficiente, mejorando así la percepción de calidad del sistema y facilitando la expansión de su adopción dentro de las empresas de transporte.
+Esto se confirmará cuando los gerentes puedan visualizar correctamente los datos ambientales de los vehículos tanto en la aplicación web como móvil, registrar conductores sin inconvenientes desde el entorno móvil, y completar el proceso de suscripción sin errores, logrando un aumento en la tasa de conversiones PRO y una reducción de incidencias reportadas por los usuarios en estas funcionalidades clave.
+</td>
+		</tr>
+		<tr>
+			<td>Sprint 2 Velocity</td>
+			<td>- Para este Tercer Sprint estimamos una velocidad de 51 Story Points, basada en nuestra capacidad de equipo y en la complejidad de las historias seleccionadas.</td>
+		</tr>
+		<tr>
+			<td>Sum of Story Points</td>
+			<td>51</td>
+		</tr>
+  </tbody>
+</table>
+
+ ### 6.2.3.2.Aspect Leaders and Collaborators. 
+
+ | Team Member | Github Username | section-header | section-hero | section-about-us | section-about-team | section-services | section-pricing | section-footer |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Huarcaya, Miguel | MiguelHuarcayaChavez | C |  | L |  | C |  |
+| Torres, Elias | EliasTorresEzpinoza |  | L |  | C |  |  | L |
+| Tarazona, Piero | pierotm |  |  |  | L |  | C |  |
+| Chacon, Mauricio | mxuriciocm | L |  |  | C | L |  | C |
+| Donayre, Moises | MoisesD19 |  |  | C |  |  | L |  |
+| Valenzuela, Aldhair | AldhaValenzuelaH |  | C |  |  |  |  | C |
+
+| Team Member | Github Username | IAM | Subscription & Payments | Profile Management | Analytics | Vehicles & Tracking | Shipment | Issues |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Huarcaya, Miguel | MiguelHuarcayaChavez | L | L |  |  |  | C | C |
+| Torres, Elias | EliasTorresEzpinoza | C | C |  |  |  | L | L |
+| Tarazona, Piero | pierotm |  |  | L | C |  |  |  |
+| Chacon, Mauricio | mxuriciocm |  |  | C | L |  |  |  |
+| Donayre, Moises | MoisesD19 |  |  |  |  | C |  |  |
+| Valenzuela, Aldhair | AldhaValenzuelaH |  |  |  |  | L |  |  |
+
+ ### 6.2.3.3. Sprint Backlog 3. 
+
+
+
+ ### 6.2.3.4. Development Evidence for Sprint Review. 
+
+ ### 6.2.3.5. Testing Suite Evidence for Sprint Review. 
+
+ ### 6.2.3.6. Execution Evidence for Sprint Review. 
+
+ ### 6.2.3.7. Services Documentation Evidence for Sprint Review. 
+
+ ### 6.2.3.8. Software Deployment Evidence for Sprint Review. 
+
+ ### 6.2.3.9. Team Collaboration Insights during Sprint
 
 
 -------------
