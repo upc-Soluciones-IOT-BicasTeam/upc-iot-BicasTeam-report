@@ -491,10 +491,14 @@ Estas acciones y técnicas contribuyen a una experiencia de usuario fluida y sat
 
 En esta sección presentaremos el prototipo de nuestro producto, en la cual se base en los Mockups previamente realizados y los user flows para la guía de los usuarios al realizar una funcionalidad de la aplicación.
 
-WEB APPLICATION:
+**WEB APPLICATION**:
 
-Link prototype video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/ER8kXIuJc_RBhiSkk7Pxf7wBL9BP8QaQrryzi9i0hjE7dg?e=51zo9b 
+ ![Web Application Prototyping](/assets/chapter05/WebPrototyping.png)
 
-MOBILE APPLICATION:
+Link web application prototype video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/ER8kXIuJc_RBhiSkk7Pxf7wBL9BP8QaQrryzi9i0hjE7dg?e=51zo9b 
 
-Link prototype video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/EW5UtiiJzzNLhzqHN2R_0YABeVG1B-B9yrb1zJYNjsFfkw?e=pTAFWr 
+**MOBILE APPLICATION**:
+
+![Mobile Application Prototyping](/assets/chapter05/MobilePrototyping.png)
+
+Link mobile application prototype video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/EW5UtiiJzzNLhzqHN2R_0YABeVG1B-B9yrb1zJYNjsFfkw?e=pTAFWr 

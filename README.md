@@ -12,7 +12,7 @@ Universidad Peruana de Ciencias Aplicadas
 <center>Carrera: Ingenieria de Software</center>  
 <center>NRC: 2956</center> 
 <center>Profesor: Angel Augusto Velasquez Nuñez</center> 
-<center>"INFORME DE TRABAJO FINAL (TP1)"</center> 
+<center>"INFORME DE TRABAJO FINAL (TF)"</center> 
 
 ### <center>Startup: Bicas team</center>
 ### <center>Producto: MoviGestion</center>
@@ -49,7 +49,7 @@ Universidad Peruana de Ciencias Aplicadas
     </tr>
 </table >
 
-<center> Mayo, 2025</center>
+<center> Julio, 2025</center>
 
 
 **Registro de Versiones del Informe:**
@@ -99,7 +99,7 @@ En esta sección se resumen todas las modificaciones relevantes que sean realiza
 | V1.20   | 15/05/2025  | Valenzuela Huillcaya, Aldhair Johan Juan | Application Prototyping.                                                                                      |
 | V1.21   | 15/05/2025  | Chacon Martinez, Mauricio Sebastián      | Refactor Capítulo 5.                                                                                          |
 | V1.22   | 15/05/2025  | Huarcaya Chavez, Miguel Alejandro Daniel | Integración de ramas.                                                                                         |
-
+| V2.0   | 2/06/2025  | Huarcaya Chavez, Miguel Alejandro Daniel | Integración de ramas.   
 
 # Project Report Collaboration Insights
 Link de Repositorio: https://github.com/upc-Soluciones-IOT-BicasTeam/upc-iot-BicasTeam-report.git
@@ -113,38 +113,19 @@ Utilizamos GitHub Pages para desplegar el "front-end" de nuestra aplicación y "
 Po ultimo, corregimos ciertos puntos del figma de la entrega anterior
 
 ![Capturas-TP1](/assets/chapter01/colaboarate.png)
-﻿# Chatper 6: Product Implementation, Validation & Deployment
- ## 6.1 Software Configuration Management
- Para gestionar la configuración del software de nuestra aplicación, abordaremos tres áreas clave: el control del código fuente, que consiste en administrar las versiones y mantener una estructura ordenada del código; la configuración del entorno de desarrollo, con el objetivo de que todos los integrantes del equipo utilicen herramientas homogéneas; y la configuración del despliegue, enfocada en la implementación en entornos productivos. Estas prácticas aseguran consistencia y eficiencia durante todo el ciclo de vida de la aplicación.
 
- ### 6.1.1 Software Development Environment Configuration
- 1. Project Management:
-Para la administración del proyecto se utilizaron herramientas de comunicación y control de versiones. Se creó una organización en GitHub para gestionar el código y las versiones del proyecto. Asimismo, se utilizaron plataformas como Google Meet y Discord para coordinar reuniones de equipo y mantener la comunicación interna.
+TB2: En la entrega TB2, el equipo se centró en implementar el segundo Sprint, abarcando tanto el desarrollo de funcionalidades adicionales como la corrección de observaciones planteadas en la entrega TP1.
+Se integraron nuevas secciones en el informe y se actualizaron los diagramas de arquitectura, clases y componentes según el progreso alcanzado. También se fortaleció el modelado DDD, incorporando mejoras a los Bounded Contexts y sus respectivas capas.
+Cada miembro del equipo contribuyó tanto en la documentación como en el código, realizando pull requests y commits sobre sus respectivas responsabilidades. La colaboración se mantuvo constante y coordinada a través del control de versiones en GitHub.
 
-- GitHub: https://github.com/
+![Capturas-TB2](/assets/chapter01/Report%20collaboration/tb2%20collaborators.png)
 
-- Google Meet: https://meet.google.com/
+TF1: Para la entrega final, el equipo consolidó todos los avances previos y finalizó la implementación del sistema IoT. Se completó la arquitectura completa incluyendo APIs RESTful, integración con servicios externos, diseño responsivo en las vistas web y el desarrollo del prototipo embebido.
+Se actualizó la totalidad del informe en Markdown, se mejoró la redacción y coherencia entre secciones, y se prepararon los videos de exposición, los entregables y la presentación final.
+Durante esta fase, todos los miembros participaron activamente tanto en la redacción como en los ajustes técnicos del producto, evidenciando su compromiso en la actividad colaborativa mediante sus contribuciones al repositorio. La gráfica de colaboración muestra una participación equitativa y continua.
 
-- Discord: https://discord.com/download
+![Capturas-TB2](/assets/chapter01/Report%20collaboration/tb2%20collaborators.png)
 
-2. Requirement Management:
-La recopilación, organización y priorización de requisitos se realizó utilizando herramientas específicas. Se utilizó Trello como una solución visual para la organización de tareas mediante tableros personalizados, mientras que Pivotal Tracker se empleó para gestionar y dar seguimiento al Product Backlog del proyecto.
-
-- Trello: https://trello.com/es
-
-- Pivotal Tracker: https://www.pivotaltracker.com/
-
-3. Product UX/UI Design:
-Para el diseño de la experiencia de usuario (UX) y la interfaz de usuario (UI), se utilizó Figma, permitiendo la creación de wireframes, mockups y prototipos interactivos que ayudaron a validar el diseño antes de su desarrollo. Además, UXPressia se empleó para desarrollar User Personas, Empathy Maps, Journey Maps e Impact Maps, mientras que Miro fue utilizado para diseñar los escenarios As-Is y To-Be.
-
-- Figma: https://www.figma.com/downloads/
-
-- UXPressia: https://uxpressia.com/
-
-- Miro: https://miro.com/es/
-
-4. Software Development:
-Para construir la Landing Page de la startup se utilizaron HTML5, CSS3 y JavaScript. En cuanto a la Web Application, se optó por Angular en el Frontend y Java Spring Boot en el Backend. Por último para el desarrollo movil se utilizó Flutter.
 
 # Contenido
 
@@ -262,8 +243,8 @@ del ABET – EAC - Student Outcome 5.
 
 | Criterio específico  | Acciones realizadas  | Conclusiones          |
 |----------------------|---------------------|-----------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Mauricio Chacon Martinez**<br>**TB1:** En esta entrega, nos reunimos como equipo para poder recibir algún feedback del líder y las tareas asignadas, se contribuyó en la organización inicial del trabajo y en la definición de roles.<br>**TP1:** A través de reuniones con el equipo se establecieron algunos puntos a mejorar y cada integrante se encargó de hacer en equipos algún punto asignado.<br><br>**Miguel Huarcaya Chavez**<br>**TB1:** Desarrollé el Event Storming y lideré las reuniones para decidir las historias de usuario del proyecto.<br>**TP1:** Corregí y aumenté las historias de usuario a través de reuniones con el equipo. Asimismo, se realizó el Event Storming en conjunto.<br><br>**Elias Torres Espinoza**<br>**TB1:** Durante la TB1, lideré de forma compartida la planificación inicial del proyecto: facilité la discusión para definir responsabilidades, promoví la participación activa de cada miembro y aseguré que las decisiones se tomaran por consenso, fomentando un ambiente de colaboración y responsabilidad mutua.<br>**TP1:** En TP1, coordiné las sesiones de seguimiento de avances, guié la priorización de las historias de usuario junto al resto del equipo y propicié la comunicación continua para resolver bloqueos, ejerciendo un liderazgo distribuido que permitió adaptarnos ágilmente a los cambios y mantener el enfoque en los objetivos comunes.<br><br>**Piero Tarazona Medina**<br>**TB1:** Contribuí activamente al desarrollo de la Context Mapping y los Bounded Context Canvases, liderando la definición de los límites de cada contexto, identificando las relaciones entre ellos y asegurando que cada bounded context cuente con su propósito y responsabilidades bien definidos, promoviendo siempre el consenso entre los miembros del equipo.<br>**TP1:** En el TP1, asumí la responsabilidad del diseño visual y de interacción de la aplicación web, elaborando los wireframes y mockups de las principales vistas. Coordiné con los integrantes del equipo para asegurar que el diseño cumpla con los lineamientos definidos en las Style Guidelines y responda a los flujos de usuario definidos previamente. Se promovió el trabajo conjunto al validar iterativamente las propuestas.<br><br>**Moises Donayre Peña**<br>**TB1:** Participé activamente en las discusiones y la organización inicial del equipo, contribuyendo a la definición de los primeros pasos del proyecto y ofreciendo mi perspectiva en las decisiones grupales.<br>**TP1:** Colaboré en la identificación de áreas de mejora del proyecto y trabajé junto con mis compañeros en la implementación de soluciones a los problemas planteados, aportando mis habilidades para alcanzar los objetivos comunes.<br><br>**Aldhair Valenzuela Huillcaya**<br>**TB1:** Durante el desarrollo de la TB, participé activamente en el trabajo en equipo. Junto a mis compañeros, distribuimos responsabilidades de forma equitativa y colaborativa, asegurando que cada integrante aportara sus conocimientos al diseño de la solución.<br>**TP1:** En el TP, mantuve ese mismo enfoque colaborativo, fomentando un ambiente de trabajo participativo y organizado. Participé en reuniones grupales, colaboré en tareas claves para el avance del proyecto y colaboré estrechamente con mis compañeros en la implementación de los artefactos que se presentan para esta entrega. | El trabajo en equipo ha sido clave para superar los desafíos de ambas entregas. Todos los miembros han ejercido liderazgo en distintos momentos del proceso, demostrando adaptabilidad, iniciativa y capacidad de colaboración. Se logró una coordinación efectiva gracias a la asignación flexible de responsabilidades y al compromiso individual por cumplir los objetivos comunes. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Mauricio Chacon Martinez**<br>**TB1:** En esta entrega, desarrollé en equipo y organicé algunos puntos pendientes del proyecto, así como planifiqué algunas mejoras y cambios a futuro.<br>**TP1:** En esta entrega, cumplí con las tareas asignadas por el equipo, corregí y mejoré algunos puntos en observación, todo en constante comunicación con el equipo para resolver dudas y realizar preguntas.<br><br>**Miguel Huarcaya Chavez**<br>**TB1:** En esta entrega realicé el EventStoming y las historias de usuario. Las mismas fueron desarrolladas a través de reuniones usando el software de reuniones *Discord*.<br>**TP1:** En esta entrega corregí el EventStorming y las historias de usuarios convocando a múltiples reuniones en equipo. Asimismo dirigí las correcciones del informe para que todo se realice en Markdown.<br><br>**Elias Torres Espinoza**<br>**TB1:** En la TB1, promovió un ambiente inclusivo al invitar a todos los miembros a aportar ideas y opiniones, establecí metas claras para la fase inicial y organicé la planificación de tareas mediante un tablero compartido. Me aseguré de que cada integrante comprendiera sus responsabilidades y plazos, facilitando recursos y guía cuando fue necesario, lo que permitió cumplir con los objetivos acordados para esta entrega.<br>**TP1:** Durante el TP1, revisamos y ajustamos las metas definidas, elaboré un plan de trabajo detallado con hitos semanales y coordiné sesiones de seguimiento para monitorear el avance. Gracias a la asignación efectiva de tareas y a la comunicación constante, logramos completar los entregables dentro del cronograma, manteniendo siempre un entorno de colaboración y apoyo mutuo.<br><br>**Piero Tarazona Medina**<br>**TB1:** Coordiné sesiones colaborativas para discutir los límites de cada contexto y cómo se comunican entre sí, fomentando un ambiente inclusivo donde cada miembro pudo proponer mejoras o validar las decisiones tomadas. Esto nos permitió asegurar que los objetivos planteados en el diseño estratégico de la solución se cumplieran según lo esperado.<br>**TP1:** Para los wireframes y mockups, propuse una secuencia de vistas alineadas a la arquitectura de información, colaborando activamente en definir la navegación, etiquetas y estructuras visuales. Me aseguré de cumplir los entregables dentro del cronograma acordado y coordiné con los responsables de UX y backend para mantener consistencia en estilo y funcionalidad.<br><br>**Moises Donayre Peña**<br>**TB1:** Fomenté una comunicación abierta y respetuosa dentro del equipo, asegurándome de que todas las voces fueran escuchadas durante la planificación inicial y la distribución de tareas para lograr los objetivos de la entrega.<br>**TP1:** Contribuir al cumplimiento de las tareas asignadas por el equipo, como corrección en el reporte y adición de nuevas secciones, manteniéndome en comunicación constante para resolver dudas y asegurar la correcta implementación de los artefactos de esta entrega, trabajando en un ambiente colaborativo.<br><br>**Aldhair Valenzuela Huillcaya**<br>**TB1:** En la TB1, fomenté un entorno de trabajo colaborativo e inclusivo donde todos los integrantes del equipo pudieran expresar sus ideas y participar activamente. Desde el inicio, ayudé a establecer metas claras y alcanzables, lo que permitió organizar mejor nuestras tareas y distribuirlas según las fortalezas de cada miembro.<br>**TP1:** Durante el TP, mantuve ese enfoque de trabajo conjunto, promoviendo la integración de todos los miembros y respetando diferentes perspectivas dentro del equipo. Participé activamente en la definición de metas específicas para cada fase del proyecto, y en la planificación de tareas que facilitarán un desarrollo continuo. | El equipo ha logrado crear un entorno de trabajo equitativo y participativo, en el cual se han fijado metas realistas y se han cumplido de manera organizada. La planificación en sprints y la buena comunicación entre los miembros permitieron alcanzar los objetivos definidos para TB1 y TP1. El respeto mutuo y el compromiso colectivo han sido determinantes para el buen desarrollo del proyecto hasta esta etapa. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Mauricio Chacon Martinez**<br>**TB1:** En esta entrega, nos reunimos como equipo para poder recibir algún feedback del líder y las tareas asignadas, se contribuyó en la organización inicial del trabajo y en la definición de roles.<br>**TP1:** A través de reuniones con el equipo se establecieron algunos puntos a mejorar y cada integrante se encargó de hacer en equipos algún punto asignado.<br>**TB2**:A traves de reuniones continuas luego de clases hemos estado constantemente distribuyendo la carga del proyecto<br>**TF**:Coordinó integración web con backend y participó activamente en las votaciones semanales para distribuir responsabilidades.<br><br>**Miguel Huarcaya Chavez**<br>**TB1:** Desarrollé el Event Storming y lideré las reuniones para decidir las historias de usuario del proyecto.<br>**TP1:** Corregí y aumenté las historias de usuario a través de reuniones con el equipo. Asimismo, se realizó el Event Storming en conjunto.<br>**TB2**:A través de reuniones hemos estado constantemente distribuyendo la carga del proyecto. Además a traves de canales digitales hemos estado constantemente en comunicación<br>**TF**:	Encargado de la corrección de la aplicación web, apoyó con el sistema edge, y lideró reuniones semanales por Discord.<br><br>**Elias Torres Espinoza**<br>**TB1:** Durante la TB1, lideré de forma compartida la planificación inicial del proyecto: facilité la discusión para definir responsabilidades, promoví la participación activa de cada miembro y aseguré que las decisiones se tomaran por consenso, fomentando un ambiente de colaboración y responsabilidad mutua.<br>**TP1:** En TP1, coordiné las sesiones de seguimiento de avances, guié la priorización de las historias de usuario junto al resto del equipo y propicié la comunicación continua para resolver bloqueos, ejerciendo un liderazgo distribuido que permitió adaptarnos ágilmente a los cambios y mantener el enfoque en los objetivos comunes.<br>**TB2**: Para el desarrollo de los sistema de edge y embedded hemos estado trabajando en conjunto en clases.<br>**TF**:	Desarrolló el sistema Edge y Embedded, coordinando con el equipo en clase para su integración futura con el sistema completo.<br><br>**Piero Tarazona Medina**<br>**TB1:** Contribuí activamente al desarrollo de la Context Mapping y los Bounded Context Canvases, liderando la definición de los límites de cada contexto, identificando las relaciones entre ellos y asegurando que cada bounded context cuente con su propósito y responsabilidades bien definidos, promoviendo siempre el consenso entre los miembros del equipo.<br>**TP1:** En el TP1, asumí la responsabilidad del diseño visual y de interacción de la aplicación web, elaborando los wireframes y mockups de las principales vistas. Coordiné con los integrantes del equipo para asegurar que el diseño cumpla con los lineamientos definidos en las Style Guidelines y responda a los flujos de usuario definidos previamente. Se promovió el trabajo conjunto al validar iterativamente las propuestas.<br>**TB2**:Para la maniupulacion de los dispositivos IOT ofreci mi residencia para poder resguardarlos. Asi como punto de reunion para elaborar cooridnaciones breves sobre la distribucion de roles de trabajo <br>**TF**:	Encargado de integrar el artefacto web con el backend de su bounded context, coordinando reuniones en clase para su ejecución.<br><br>**Moises Donayre Peña**<br>**TB1:** Participé activamente en las discusiones y la organización inicial del equipo, contribuyendo a la definición de los primeros pasos del proyecto y ofreciendo mi perspectiva en las decisiones grupales.<br>**TP1:** Colaboré en la identificación de áreas de mejora del proyecto y trabajé junto con mis compañeros en la implementación de soluciones a los problemas planteados, aportando mis habilidades para alcanzar los objetivos comunes.<br>**TB2**:Estuve en constante trabajo conjunto con mis compañeros para el despliegue de los artefactos de esta entrega.<br>**TF**:	Integró frontend con backend y apoyó en la corrección de la app móvil; trabajó presencialmente en reuniones en casa de compañeros y en clase.<br><br>**Aldhair Valenzuela Huillcaya**<br>**TB1:** Durante el desarrollo de la TB, participé activamente en el trabajo en equipo. Junto a mis compañeros, distribuimos responsabilidades de forma equitativa y colaborativa, asegurando que cada integrante aportara sus conocimientos al diseño de la solución.<br>**TP1:** En el TP, mantuve ese mismo enfoque colaborativo, fomentando un ambiente de trabajo participativo y organizado. Participé en reuniones grupales, colaboré en tareas claves para el avance del proyecto y colaboré estrechamente con mis compañeros en la implementación de los artefactos que se presentan para esta entrega.<br>**TB2**:contribuí con el desarrollo de la aplicacion movil y la integracion de los artefactos fisicos del sistema embedded.<br>**TF**:Participó en la implementación de la app móvil y en la integración física del sistema embedded con el backend. | A lo largo del proyecto, el equipo ha demostrado una sólida capacidad para ejercer liderazgo compartido en distintas etapas. Durante la TF, cada integrante asumió responsabilidades críticas en la integración de los sistemas web, móvil y físicos (IoT), coordinándose en sesiones presenciales y virtuales. El liderazgo fue rotativo y colaborativo, adaptándose a las habilidades y disponibilidad de cada miembro. Esta dinámica permitió afrontar de forma eficiente la complejidad técnica de la integración final, manteniendo un ambiente de respeto, compromiso y responsabilidad mutua. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Mauricio Chacon Martinez**<br>**TB1:** En esta entrega, desarrollé en equipo y organicé algunos puntos pendientes del proyecto, así como planifiqué algunas mejoras y cambios a futuro.<br>**TP1:** En esta entrega, cumplí con las tareas asignadas por el equipo, corregí y mejoré algunos puntos en observación, todo en constante comunicación con el equipo para resolver dudas y realizar preguntas.<br>**TB2**: Para este entregable desarrollé la integracion del artefacto web em conjunto con el backend. Para ello, estuvimos en constantes votaciones para elegir nuestros avances semaanales<br>**TF**:Integró el artefacto web con backend, coordinó con el equipo mediante votaciones semanales para organizar los avances.<br><br>**Miguel Huarcaya Chavez**<br>**TB1:** En esta entrega realicé el EventStoming y las historias de usuario. Las mismas fueron desarrolladas a través de reuniones usando el software de reuniones *Discord*.<br>**TP1:** En esta entrega corregí el EventStorming y las historias de usuarios convocando a múltiples reuniones en equipo. Asimismo dirigí las correcciones del informe para que todo se realice en Markdown.<br>**TB2**: Para esta entrega estuve encargado de la correciones de la apliacion web y apoyo con el sistema edge. Cada semana a , a traves de discord, estuvimos realizando votaciones continuas para gestionar los avances semanales. Con el objetivo de respetar los contratiempo de los diferentes cursos de los integrantes.<br>**TF**:Lideró tareas de corrección en la app web y apoyó en la configuración del sistema edge. Coordinó reuniones por Discord adaptadas al ritmo del equipo.<br><br>**Elias Torres Espinoza**<br>**TB1:** En la TB1, promovió un ambiente inclusivo al invitar a todos los miembros a aportar ideas y opiniones, establecí metas claras para la fase inicial y organicé la planificación de tareas mediante un tablero compartido. Me aseguré de que cada integrante comprendiera sus responsabilidades y plazos, facilitando recursos y guía cuando fue necesario, lo que permitió cumplir con los objetivos acordados para esta entrega.<br>**TP1:** Durante el TP1, revisamos y ajustamos las metas definidas, elaboré un plan de trabajo detallado con hitos semanales y coordiné sesiones de seguimiento para monitorear el avance. Gracias a la asignación efectiva de tareas y a la comunicación constante, logramos completar los entregables dentro del cronograma, manteniendo siempre un entorno de colaboración y apoyo mutuo.<br>**Tb2**: Estuve a cargo del desarrollo del artefactro edge y embeded. Estuvimos constantemente en contacto a traves de las clases para planificar como se integraria en una fuitura entrag con el proyecto entero<br>**TF**:	Coordinó la integración del sistema Edge/Embedded, planificando con el equipo en clase para cumplir los objetivos de integración.<br><br>**Piero Tarazona Medina**<br>**TB1:** Coordiné sesiones colaborativas para discutir los límites de cada contexto y cómo se comunican entre sí, fomentando un ambiente inclusivo donde cada miembro pudo proponer mejoras o validar las decisiones tomadas. Esto nos permitió asegurar que los objetivos planteados en el diseño estratégico de la solución se cumplieran según lo esperado.<br>**TP1:** Para los wireframes y mockups, propuse una secuencia de vistas alineadas a la arquitectura de información, colaborando activamente en definir la navegación, etiquetas y estructuras visuales. Me aseguré de cumplir los entregables dentro del cronograma acordado y coordiné con los responsables de UX y backend para mantener consistencia en estilo y funcionalidad.<br>**TB2**:Estuve a cargo del desarrollo de la integracion del artefcato web con el bakcend desplegado de mi bounded context correspondiente. Para ello, estuvimos relaizando constantes reuniones en clases para la gestion de avances y revision de las mismas.<br>**TF**:Responsable de la integración web-backend de su módulo, gestionando avances y revisiones en reuniones presenciales y en clase.<br><br>**Moises Donayre Peña**<br>**TB1:** Fomenté una comunicación abierta y respetuosa dentro del equipo, asegurándome de que todas las voces fueran escuchadas durante la planificación inicial y la distribución de tareas para lograr los objetivos de la entrega.<br>**TP1:** Contribuir al cumplimiento de las tareas asignadas por el equipo, como corrección en el reporte y adición de nuevas secciones, manteniéndome en comunicación constante para resolver dudas y asegurar la correcta implementación de los artefactos de esta entrega, trabajando en un ambiente colaborativo.<br>**TB2**:En esta entrega me encargue de la integracion del fornt end ocon el backend y la correcion de la aplicacion movil de mi bounded correspondiente. Estuvimos realizando constantes verificaciones y revisiones en la casa de uno de los itnegrantes y en clases para lograr le objetivo de este entregable.<br>**TF**:	Integró el frontend con el backend y corrigió la aplicación móvil correspondiente a su módulo; participó en verificaciones presenciales.<br><br>**Aldhair Valenzuela Huillcaya**<br>**TB1:** En la TB1, fomenté un entorno de trabajo colaborativo e inclusivo donde todos los integrantes del equipo pudieran expresar sus ideas y participar activamente. Desde el inicio, ayudé a establecer metas claras y alcanzables, lo que permitió organizar mejor nuestras tareas y distribuirlas según las fortalezas de cada miembro.<br>**TP1:** Durante el TP, mantuve ese enfoque de trabajo conjunto, promoviendo la integración de todos los miembros y respetando diferentes perspectivas dentro del equipo. Participé activamente en la definición de metas específicas para cada fase del proyecto, y en la planificación de tareas que facilitarán un desarrollo continuo.<br>**TB2**:Me encargue del desarrollo e integracion de mi bounded context a nivel de la aplicacion web y movil con el backend. ASimismo, ayude con el desarrollo de las pruebas con los dispositvos fisicos del artefacto embedded.<br>**TF**:Contribuyó en el desarrollo móvil y en la integración de los componentes físicos del sistema, participando activamente en clases y sesiones presenciales. | El equipo ha logrado crear un entorno de trabajo equitativo y participativo, en el cual se han fijado metas realistas y se han cumplido de manera organizada. La planificación en sprints y la buena comunicación entre los miembros permitieron alcanzar los objetivos definidos para TB1, TP1, TB2 y TF. El respeto mutuo y el compromiso colectivo han sido determinantes para el buen desarrollo del proyecto hasta esta etapa. |
 - Visual Studio Code: Usado principalmente para el desarrollo de la Landing Page y el desarrollo movil, con diversas extensiones que facilitaron la productividad.
 
 - JetBrains Toolbox: Proporcionó un entorno robusto para el desarrollo web y móvil, con funcionalidades avanzadas de edición y depuración.
@@ -272,7 +253,7 @@ del ABET – EAC - Student Outcome 5.
 ---
 ---
 
-# Capítulo I: Introducción
+# Chapter 1
 ## 1.1 Startup Profile
 ### 1.1.1 Descripción de la Startup
 MoviGestion transforma la gestión de flotas tradicional en una operación inteligente y conectada. Combinamos una plataforma web, una aplicación móvil intuitiva, y la integración de dispositivos IoT para el monitoreo en tiempo real de la ubicación (GPS), temperatura y humedadde la carga y/o vehículo. Maximizamos la eficiencia, aseguramos la integridad de la carga y ofrecemos control total a las empresas de transporte.
@@ -289,12 +270,12 @@ Además, ofrecemos un modelo freemium escalable, ideal para empresas que deseen 
 
 | Integrante                               | Información                                                                                                                                                                                              | Foto                                                                  |
 | :--------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------- |
-| **Piero Abel Tarazona Medina** | `Código:` U202217633  <br> `Carrera:` Ingeniería de Software <br> Estudiante de 7mo ciclo. Me caracterizo por mi pensamiento crítico y capacidad de encontrar soluciones viables para distintos problemas. Conocimientos en HTML, CSS, C++, Java, Javascript, C#. | <img src="./assets/chapter01/piero.png" alt="Piero" width="150">    |
-| **Mauricio Sebastián Chacon Martinez** | `Código:` U202212911 <br> `Carrera:` Ingeniería de Software <br> Apasionado por la programación. Conocimientos en HTML, CSS, Javascript, y Astro. Persona responsable y comprometida con su desarrollo profesional. | <img src="./assets/chapter01/mauricio.png" alt="Mauricio" width="150"> |
-| **Miguel Huarcaya Chavez** | `Código:` U202116207 <br> `Carrera:` Ingeniería de Software <br> Conocimientos en JavaScript, TypeScript, HTML, CSS, Vue y Angular. Persona responsable y colaborativa.                                  | <img src="./assets/chapter01/miguel.jpg" alt="Miguel" width="150">    |
-| **Elias Torres Espinoza** | `Código:` U20191A453 <br> `Carrera:` Ingeniería de Software <br> Conocimientos en Angular, Vue, TypeScript, JavaScript, C++, C#, Python, HTML y CSS.                                                    | <img src="./assets/chapter01/elias.jpg" alt="Elias" width="150">    |
-| **Moises Rodolfo Donayre Peña** | `Código:` U202216021 <br> `Carrera:` Ingeniería de Software <br> Apasionado por el desarrollo web y móvil. Conocimientos en Vue, Angular y Flutter. Persona empática y colaborativa.                     | <img src="./assets/chapter01/moises.png" alt="Moises" width="150">    |
-| **Aldhair Johan Juan Valenzuela Huillcaya**| `Código:` U20201F572 <br> `Carrera:` Ingeniería de Software <br> Comunicativo y analítico. Conocimientos en Angular, Vue, React, Flutter y Kotlin.                                                  | <img src="./assets/chapter01/aldahir.png" alt="Aldahir" width="150">  |
+| **Piero Abel Tarazona Medina** | `Código:` U202217633  <br> `Carrera:` Ingeniería de Software <br> Estudiante de 7mo ciclo. Me caracterizo por mi pensamiento crítico y capacidad de encontrar soluciones viables para distintos problemas. Conocimientos en HTML, CSS, C++, Java, Javascript, C#. | <img src="../assets/chapter01/piero.png" alt="Piero" width="150">    |
+| **Mauricio Sebastián Chacon Martinez** | `Código:` U202212911 <br> `Carrera:` Ingeniería de Software <br> Apasionado por la programación. Conocimientos en HTML, CSS, Javascript, y Astro. Persona responsable y comprometida con su desarrollo profesional. | <img src="../assets/chapter01/mauricio.png" alt="Mauricio" width="150"> |
+| **Miguel Huarcaya Chavez** | `Código:` U202116207 <br> `Carrera:` Ingeniería de Software <br> Conocimientos en JavaScript, TypeScript, HTML, CSS, Vue y Angular. Persona responsable y colaborativa.                                  | <img src="../assets/chapter01/miguel.jpg" alt="Miguel" width="150">    |
+| **Elias Torres Espinoza** | `Código:` U20191A453 <br> `Carrera:` Ingeniería de Software <br> Conocimientos en Angular, Vue, TypeScript, JavaScript, C++, C#, Python, HTML y CSS.                                                    | <img src="../assets/chapter01/elias.jpg" alt="Elias" width="150">    |
+| **Moises Rodolfo Donayre Peña** | `Código:` U202216021 <br> `Carrera:` Ingeniería de Software <br> Apasionado por el desarrollo web y móvil. Conocimientos en Vue, Angular y Flutter. Persona empática y colaborativa.                     | <img src="../assets/chapter01/moises.png" alt="Moises" width="150">    |
+| **Aldhair Johan Juan Valenzuela Huillcaya**| `Código:` U20201F572 <br> `Carrera:` Ingeniería de Software <br> Comunicativo y analítico. Conocimientos en Angular, Vue, React, Flutter y Kotlin.                                                  | <img src="../assets/chapter01/aldahir.png" alt="Aldahir" width="150">  |
 
 ## 1.2 Solution Profile
 ### 1.2.1 Antecedentes y problemática
@@ -333,6 +314,7 @@ Utilizaremos la técnica de las 5W y 2Hs para desglosar el problema y entenderlo
 | **Why?**      | ¿Por qué sucede el problema?                                             | Por la falta de soluciones integrales que combinen monitoreo ambiental, control en tiempo real, comunicación efectiva y análisis estratégico en una misma plataforma accesible.            |
 | **How?**      | ¿Cómo se diferencia del estado óptimo?                                   | En el estado actual, se presentan pérdidas por fallas en el control ambiental, decisiones tardías por falta de datos, y operaciones fragmentadas. El estado óptimo implicaría control total y proactividad. |
 | **How much?** | ¿Cuánto impacto genera el problema?                                      | Genera costos adicionales, riesgo de pérdida de carga sensible, baja productividad operativa y menor satisfacción del cliente. MoviGestion busca reducir significativamente ese impacto.   |
+
 
 ### 1.2.2 Lean UX Process
 
@@ -439,18 +421,18 @@ Los segmentos objetivos de MoviGestion son:
 
 En este contexto, según un informe de Infobae, una empresa de transporte en Perú reveló que el 70% de sus ingresos corresponde a empresas y atienden alrededor de 2 mil empresas mensualmente. Además, un estudio de flotas y movilidad reveló que más de un tercio de las empresas peruanas ya han adaptado o están considerando adaptar su política de movilidad debido al teletrabajo.
 
-<img src="./assets/chapter01/empresarios.jpg" alt="Imagen de Empresarios" width="600" height="400"> <br><br>
+<img src="../assets/chapter01/empresarios.jpg" alt="Imagen de Empresarios" width="600" height="400"> <br><br>
 
 
 **Transportistas**: En el próspero mercado de transporte de carga por carretera en Perú, estimado en 8,31 mil millones de dólares en 2024 y proyectado a crecer a 10,75 mil millones en 2029 con una tasa anual del 6,5%, se encuentra un segmento fundamental: los transportistas. Este grupo, que incluye a conductores y operadores de vehículos de flota, se enfrenta a la necesidad de gestionar eficientemente sus tareas diarias de transporte. Las características demográficas de los transportistas varían ampliamente, con edades que van desde los 20 hasta los 60 años, predominantemente hombres aunque con una creciente presencia femenina. Además, todos ellos requieren licencias de conducir válidas y experiencia en la conducción de vehículos de flota.
 
-<img src="./assets/chapter01/transportista.jpeg" alt="Imagen de Transportistas" width="600" heigth="400"><br><br>
+<img src="../assets/chapter01/transportista.jpeg" alt="Imagen de Transportistas" width="600" heigth="400"><br><br>
 
+----
+----
+----
 
------
------
------
-# Capítulo II: Requirements Elicitation & Analysis
+# Chapter 2: Requirements Elicitation & Analysis
 
 ## 2.1 Competidores
 **TRACK-POD:**
@@ -815,11 +797,11 @@ Las fichas de User Persona son herramientas fundamentales para comprender las ne
 
 **Figura 7.**<br>
 *User Persona del primer segmento objetivo: Conductor.*
-![User Persona del primer segmento objetivo: Conductor.](/assets/chapter02/user_persona_conductor.png)
+![User Persona del primer segmento objetivo: Conductor.](/assets/chapter02/user_persona_conductor_1.png)
 
 **Figura 8.**<br>
 *User Persona del segundo segmento objetivo: Empresario.*
-![User Persona del segundo segmento objetivo: Empresario.](/assets/chapter02/user_persona_empresario.png)
+![User Persona del segundo segmento objetivo: Empresario.](/assets/chapter02/user_persona_empresario_1.png)
 
 
 ### 2.3.2 User Task Matrix
@@ -885,7 +867,7 @@ Ubiquitous Language (o Lenguaje Ubicuo) es un conjunto de términos compartidos 
 ----
 ----
 
-# Capítulo III: Requirements Specification
+# Capítulo 3: Requirements Specification
 ## 3.1 To-Be Scenario Mapping
 
 CONDUCTOR:
@@ -1076,18 +1058,17 @@ Product Backlog Trello:
 
 LINK Trello:https://trello.com/invite/b/681b1bb284ae33c3cde2d3f9/ATTI7409bdfdff2c58f940a572089c2a573b1D184B4C/bicasteam-movigestion-requirementsspecification
 
----
----
----
+----
+----
+----
 
-
-# Capítulo IV: Solution Software Design
+# Chapter 04: Solution Software Design
 ## 4.1 Strategic-Level Domain-Driven Design
 ### 4.1.1 EventStorming
-
 Event Storming es una herramienta que nos permite descubrir el comportamiento de un negocio, recopilando eventos importantes del negocio, los actores principales, servicios de terceros y otros. Para la implementación de esta sección se realizaron entrevistas correspondientes a los segmentos objetivos, de esta manera pudimos identificar los eventos principales y desarrollar un entendimiento común
 
 Aquí mostramos los pasos respectivos para la elaboración correcta del Event Storming realizada en la herramienta Lucidchart:
+
 **Paso 1: Unstructured Exploration**
 En esta sección se realizó una lluvia de ideas de los eventos del dominio relacionados con el dominio empresarial que se está explorando. Nos permitió identificar los eventos clave y las interacciones entre ellos.
 
@@ -1140,29 +1121,43 @@ Hemos identificado 7 Bounded Context.
 
 - Subscription & Payments:
 
+Maneja las suscripciones de los usuarios y el procesamiento de pagos. Incluye la solicitud de cuentas PRO, la carga de comprobantes de pago, la validación de pagos y la activación o denegación de cuentas PRO.
+
 ![Subscription & Payments](/assets/chapter04/EventStorming/Subscription%20&%20Payments.png)
 
 - IAM:
+
+Gestiona la autenticación y autorización de usuarios. Cubre los procesos de registro de usuarios, inicio de sesión para diferentes roles (gerente, transportista, personal de plataforma) y el manejo de credenciales incorrectas.
 
 ![IAM](/assets/chapter04/EventStorming/IAM.png)
 
 - Profile Management:
 
+Se ocupa de la actualización y gestión de los perfiles de usuario. Incluye la actualización de datos personales para transportistas y gerentes, el cambio de contraseñas y la gestión de los niveles de usuario por parte de los administradores.
+
 ![Profile Management](/assets/chapter04/EventStorming/Profile%20Management.png)
 
 - Vehicles & Tracking:
+
+Responsable de la gestión de vehículos y su información de rastreo. Implica la creación y asignación de vehículos, la gestión de límites para vehículos y transportistas, la integración con equipos IoT para telemetría (temperatura, humedad) y la recepción de datos de ubicación de vehículos por Google Maps.
 
 ![Vehicles & Tracking](/assets/chapter04/EventStorming/Vehicles%20&%20Tracking.png)
 
 - Shipment:
 
+Gestiona el ciclo de vida de los envíos. Incluye la creación de envíos (que se establecen automáticamente como "pendientes"), la asignación de envíos a transportistas, el cambio del estado del envío a "en proceso" y el marcado de los envíos como "terminados". También incluye reglas sobre quién puede cambiar el estado del envío y la prevención de reasignaciones una vez que un envío ha finalizado.
+
 ![Shipment](/assets/chapter04/EventStorming/Shipment.png)
 
 - Analytics:
 
+Se centra en la gestión y el análisis de estadísticas relacionadas con los envíos, vehículos y condiciones ambientales. Implica consultar informes, analizar vehículos y asignar colores según las condiciones ambientales.
+
 ![Analytics](/assets/chapter04/EventStorming/Analytics.png)
 
 - Issues:
+
+Se enfoca en la gestión de reportes o "incidencias". Implica la consulta de reportes de otros transportistas y la creación de nuevos reportes. También incluye reglas sobre la completitud del tipo y la descripción para la creación de reportes y el registro automático de la fecha de creación.
 
 ![Issues](/assets/chapter04/EventStorming/Issues.png)
 
@@ -1174,21 +1169,31 @@ En esta sección, se describe el proceso utilizado para visualizar la interacci�
 
 - Subscription & Payments ->  IAM/Profile/Vehicle&Tracking
 
+Cuando una cuenta PRO de gerente se activa, este contexto informa a IAM, Profile Management y Vehicles & Tracking para actualizar los datos y permisos correspondientes. El Personal de Plataforma gestiona esto a través del sitio web.
+
 ![Subscription&Payments->IAM/Profile/Vehicle&Tracking](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Subscription%20&%20Payments%20-%20IAM_Profile_Vehicle&Tracking.jpg)
 
 - Vehicles & Tracking -> Analytics
+
+Recibe datos de temperatura, humedad y ubicación de los vehículos. Envía estos datos a Analytics para análisis de condiciones, asignación de colores ambientales e identificación de límites estrictos. El Gerente puede ver esta información en el sitio web.
 
 ![Vehicles&Tracking->Analytics](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Vehicles%20&%20Tracking%20-%20Analytics.jpg)
 
 - Shipment -> Analytics
 
+Al crearse o asignarse un envío, se envía información a Analytics para el historial de envíos activos del conductor y la actualización de límites ambientales. El Gerente accede a esto vía web.
+
 ![Shipment->Analytics](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Shipment%20-%20Analytics.jpg)
 
 - Issues -> Analytics
 
+Este contexto envía datos de reportes a Analytics para generar estadísticas de incidencias registradas. El Gerente visualiza estas estadísticas en el sitio web.
+
 ![Issues->Analytics](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Issues%20-%20Analytics.jpg)
 
 - Iam -> Profile Management
+
+Cuando un gerente o conductor se registra en IAM, sus datos personales son enviados a Profile Management para su almacenamiento. El Gerente inicia este proceso en el sitio web.
 
 ![Iam->Profile Management](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Iam%20-%20Profile%20Management.jpg)
 
@@ -1208,13 +1213,19 @@ Gracias a este enfoque, el equipo pudo construir los bounded contexts de forma s
 
 - Bounded Context Canvases IAM:
 
+Representa la base de la seguridad y el control de acceso del sistema. Ilustra cómo se manejan las identidades digitales de los usuarios, desde su registro y autenticación hasta la asignación de permisos. Detalla qué otros módulos del sistema (como vehículos o envíos) necesitan interactuar con IAM para verificar la autorización de un usuario o realizar consultas de permisos. También muestra cómo IAM notifica a otras áreas, como Analytics, sobre cambios en el estado de los usuarios, asegurando que la información de acceso y roles sea coherente en todo el sistema.
+
 ![Bounded Context Canvases IAM](/assets/chapter04/canvases_IAM.png)
 
 - Bounded Context Canvases Vehicles & Tracking:
 
+Se centra en todo lo relacionado con la flota de vehículos y su monitoreo. Explica cómo se gestionan los vehículos registrados, su ubicación en tiempo real y el historial de sus movimientos. Muestra que este contexto recibe actualizaciones de ubicación desde los conductores y de IAM para validar permisos. A su vez, envía información de movimiento y estado a otros contextos como Analytics para análisis, y a la aplicación web para visualización, y a Shipment para la coordinación de entregas. Define los términos clave usados en este dominio, como "Vehículo" y "Ruta histórica", y las decisiones de negocio sobre su seguimiento.
+
 ![Bounded Context Canvases Vehicles & Tracking](/assets/chapter04/canvases_vehicles_tracking.png)
 
 - Bounded Context Canvases Shipment:
+
+Describe el núcleo del proceso de entrega y logística. Presenta cómo se registran y monitorean los envíos desde su origen hasta su destino final. Detalla cómo se coordinan los despachos con los vehículos y conductores, y cómo se gestionan los cambios de estado de las entregas. Muestra las interacciones para registrar nuevos envíos desde las interfaces de usuario y cómo se consulta información de ubicación o de responsables de envío de otros contextos. Además, especifica cómo notifica a Analytics sobre los envíos registrados y entregados, y a Vehicles & Tracking sobre la necesidad de información del estado del vehículo.
 
 ![Bounded Context Canvases Shipment](/assets/chapter04/canvases_shipment.png)
 
@@ -1261,6 +1272,8 @@ Se concluyó que IAM ya está correctamente enfocado en su Core Capability (Iden
 - Se refuerza que IAM actúa como Supplier para Vehicles & Tracking y Shipment.
 - Analytics actúa como Subscriber de eventos generados por los otros contextos.
 
+El diagrama creado nos permite visualizar las relaciones y dependencias entre los contextos delimitados del sistema. Los bloques representan los Bounded Contexts y las flechas indican la dirección y el tipo de relación.
+
 ![Context Mapping](/assets/chapter04/context_mapping.png)
 
 #### 4.1.3.1 Software Architecture System Lanscape Diagram
@@ -1296,24 +1309,24 @@ Contiene la lógica de negocio pura y las entidades principales relacionadas a l
 | Nombre| Tipo de dato | Visibilidad | Descripcion |
 | --- | --- | --- | --- |
 | id | UUID | Private | Identificador único del usuario. |
-| name | String | Private | Nombre completo del usuario. |
 | email | Email | Private | Objeto de valor encapsulando la dirección de correo electrónico y su validación. |
 | passwordHash | String | Private | Contraseña hasheada del usuario. |
-| isEmailVerified | Boolean | Private | Estado de verificación del correo electrónico. |
-| status | Enum | Private |Estado del usuario. |
-| roleId | UUID | Private | Referencia al ID del único rol asignado al usuario. |
-| createdAt | Date | Private | Fecha de creación. |
-| updatedAt | Date | Private | Fecha de actualización.|
+| isActive | Boolean | Private | Indica si el usuario está activo. |
+| accountNonExpired | Boolean | Private | Indica si las credenciales no han expirado. |
+| credentialsNonExpired | Boolean | Private | Indica si las credenciales no han expirado. |
+| accountNonLocked | Boolean | Private | Indica si las credenciales no han sido bloqueadas. |
+| roles | Set<Role> | Private | Conjunto de roles asignados al usuario. |
+| sessions | Set<Session> | Private | Conjunto de sesiones asociadas al usuario. |
 
 **Methods**<br>
 | Nombre| Tipo de retorno | Visibilidad | Descripción |
 | --- | --- | --- | --- |
-| create(...) | User | Public | Crea una nueva instancia de User, aplicando validaciones iniciales. |
-| changePassword(newPassword, PasswordEncoder) | Void | Public | Actualiza la contraseña del usuario después de verificar las reglas de negocio. |
-| updateProfile(newName, newEmail, emailService) | Void | Public | Actualiza el nombre y email del usuario. | 
-| assignRole(UUID roleId) | Void | Public | Establece o cambia el rol asignado al usuario al roleId proporcionado. |
-| removeRole(UUID roleId) | Void | Public | Remueve un rol. |
-| isPasswordValid(rawPassword, passwordEncoder) | Boolean | Public | Verifica si una contraseña plana coincide con el hash almacenado. |
+| login(username: String, password: String) | Session | Public | Inicia sesión y genera una nueva sesión válida. |
+| logout(sessionId: Long) | Void | Public | Cierra una sesión específica del usuario. |
+| requestPasswordReset() | Void | Public | Solicita el restablecimiento de contraseña. |
+| hasPermission(code: String) | Boolean | Public | Verifica si el usuario tiene permiso para ejecutar una acción. |
+| addSession(session: Session) | Void | Public | Agrega una sesión activa al usuario. |
+| invalidateAllSessions() | Void | Public | Invalida todas las sesiones del usuario. |
 
 **Agregate 2: Role**<br>
 | Nombre| Categoría | Descripción |
@@ -1331,12 +1344,9 @@ Contiene la lógica de negocio pura y las entidades principales relacionadas a l
 **Methods**<br>
 | Nombre| Tipo de dato | Visibilidad | Descripción |
 | --- | --- | --- | --- |
-| create(name, description) | Role | Public | Crea una nueva instancia de Role. |
-| changeName(new Name) | Void | Public | Actualiza el nombre del rol. |
-| changeDescription(new Description) | Void | Public | Actualiza la descripción del rol. |
-| addPermission(Permission permission) | Void | Public | Añade un Objeto de Valor Permission al conjunto de rol. |
-| removePermission(Permission permission) | Void | Public | Remueve un Objeto de Valor Permission del conjunto del rol. |
-| hasPermission(String permissionName) | Boolean | Public | Verifica si el rol contiene un permiso específico. |
+| addPermission(permission: Permission) | Void | Public | Añade un permiso al rol.
+| removePermission(permission: Permission) | Void | Public | Elimina un permiso del rol. |
+| canAssign(assigner: User) | Boolean | Public | Verifica si un usuario puede asignar este rol. |
 
 **Aggreate 3: Session**<br>
 | Nombre | Categoría | Descripción |
@@ -1351,56 +1361,62 @@ Contiene la lógica de negocio pura y las entidades principales relacionadas a l
 | userId | String | Private | Identificador del usuario asociado. |
 | accessToken | String | Private | Token principal usado para autenticar peticiones. |
 | refreshToken | String | Private | Token usado para obtener nuevos Access Tokens sin reautenticar. |
-| creationTime | Date | Private | Marca de tiempo de creación de la sesión. |
-| expiresAt | Date | Private | Fecha de expiración de la sesión. |
+| deviceInfo | String | Private | Información del dispositivo asociado a la sesión. |
+| ipAddress | String | Private | Dirección IP desde la que se inició la sesión. |
+| createdAt | LocalDateTime | Private | Fecha y hora de creación de la sesión. |
+| expiresAt | LocalDateTime | Private | Fecha de expiración del token. |
 | isValid | Boolean | Private | Indica si la sesión ha sido explícitamente invalidada. |
 
 **Methods**<br>
 | Nombre | Tipo de dato | Visibilidad | Descripción |
 | --- | --- | --- | --- |
-| create(userId, accessToken, refreshToken, expiresAt) | Session | Public | Crea una nueva instancia de Session. |
-| invalidate() | Void | Public | Marca la sesión como inválida. |
-| refresh(newAccessToken, newRefreshToken, newExpiresAt) | Void | Public | Actualiza los tokens y el tiempo de expiración de la sesión. |
-| isValid(currentTime: Date) | Boolean | Public | Verifica si la sesión no está expirada y no ha sido invalidada. |
-| getAccessToken() | String | Public | Retorna el Access Token actual de la sesión. |
+| refreshAccessToken(newToken: String) | Void | Public | Refresca el token de acceso. |
+| invalidate() | Void | Public | Invalida la sesión. |
 
-**Value Object: Email**<br>
-| Nombre | Categoría | Descripción | 
-| --- | --- | ---|
-| Email | Value Object | Encapsula una dirección de correo electrónico en formato string. |
-
-**Attributes**<br>
-| Nombre | Tipo de dato | Visibilidad | Descripción | 
-| --- | --- | --- | --- |
-| value | String | Private | La dirección de correo electrónico en formato string. |
-
-**Methods**<br>
-| Nombre | Tipo de dato | Visibilidad | Descripción |
-| --- | --- | --- | --- |
-| of(string value) | Email | Public | Crea una instancia inmutable de Email después de validar su formato. |
-| getValue() | String | Public | Retorna la dirección como string. |
-| equals(object other) | Boolean | Public | Compara si dos emails son iguales. |
-| hashCode() | int | Public | Calcula el hashcode basado en el valor. | 
-| toString() | String | Public | Retorna la representación en cadena. |
-
-**Value Object: Permission**<br>
+**Aggregate 4: Permission**<br>
 | Nombre | Categoría | Descripción |
 | --- | --- | --- |
-| Permission | Value Object | Representa una capacidad específica dentro del sistema. Es inmutable. |
+| Permission | Entity | Representa una capacidad específica dentro del sistema. Es inmutable. |
 
 **Attributes**<br>
 | Nombre | Tipo de dato | Visibilidad | Descripción |
 | --- | --- | --- | --- |
-| value | String | Private | Representación única del permiso. |
+| id | UUID | Private | Identificador único del permiso. |
+| code | PermissionCode (enum) | Private | Código único del permiso. |
+| description | String | Private | Descripción del permiso. |
+| category | String | Private | Categoría a la que pertenece el permiso. |
 
 **Methods**<br>
 | Nombre | Tipo de dato | Visibilidad | Descripción |
 | --- | --- | --- | --- |
-| of(string value) | Email | Public | Crea una instancia inmutable de Permission después de validar su formato. |
-| getValue() | String | Public | Retorna el valor del permiso. |
-| equals(object other) | Boolean | Public | Compara si dos Permission tienen el mismo valor. |
-| hashCode() | int | Public | Calcula el hashcode basado en el valor. |
-| toString() | String | Public | Retorna la representación en cadena. |
+| isGlobal() | Boolean | Public | Indica si el permiso es global. |
+
+**Enum: PermissionCode**<br>
+| Código | Valor |
+| --- | --- |
+| USER_CREATE | "user:create" |
+| USER_DELETE | "user:delete" |
+| VEHICLE_CREATE | "vehicle:create" |
+| VEHICLE_EDIT | "vehicle:edit" |
+| ANALYTICS_VIEW | "analytics:view" |
+
+**Aggregate 5: JwtToken**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| JwtToken | Entity | Representa un token JWT emitido como parte de una sesión. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| token | String | Private | Cadena JWT. |
+| issuedAt | LocalDateTime | Private | Fecha de emisión del token. |
+| expiresAt | LocalDateTime | Private | Fecha de expiración del token. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| isExpired() | Boolean | Public | Verifica si el token ha expirado. |
+
 
 #### 4.2.1.2 Interface Layer
 Esta capa es responsable de la recepción y formato de peticiones/respuestas externas (API REST), validación básica del formato y los datos de entrada, manejo de errores a nivel de API y delegación de la lógica de negocio a la capa de Aplicación.
@@ -1452,6 +1468,7 @@ Nombre | Categoría | Descripción |
 
 **Attributes**<br>
 | Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
 | roleService | RoleService | Private | Servicio de la capa de Aplicación para lógica de gestión de roles. |
 | roleMapper | RoleMapper | Private | Mapper para convertir entre DTOs y objetos de Rol. |
 
@@ -1622,22 +1639,395 @@ En la capa de Infrastructure Layer, se encuentran los repositorios que permiten 
 - Métodos para extraer información (ej. userId, sessionId, roles) de un token válido.
 
 #### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
+Este diagrama muestra la arquitectura de componentes del sistema, organizado en controladores (AuthController, UserController, RoleController), servicios (AutoService, UserService, RoleService) y repositorios JPA (JpaUserRepositoryImp, JpaRoleRepositoryImp, etc.), que interactúan con una base de datos central. Los controladores gestionan las solicitudes HTTP, los servicios implementan la lógica de negocio y los repositorios manejan el acceso a datos, siguiendo un diseño modular y escalable.
 ![Component Level Diagrams IAM](/assets/chapter04/structurizr-Component-001.png)
 
+El diagrama muestra la arquitectura de un sistema IAM (Identity and Access Management) para una aplicación web, donde el ApiService consume la API IAM y gestiona tokens JWT, mientras que el TokenService se encarga de almacenar y proveer estos tokens. Los módulos funcionales (Auth Module, User Module y Role Module) manejan procesos de autenticación, gestión de usuarios y administración de roles/permisos respectivamente, comunicándose a través de endpoints REST como /login, /users y /roles. La estructura modular asegura escalabilidad y un claro manejo de identidades y accesos.
 ![Component Level Diagrams IAM](/assets/chapter04/structurizr-Component-002.png)
 
+El diagrama presenta la arquitectura de una aplicación móvil Flutter para gestión de perfiles y autenticación, organizada en tres capas principales: la interfaz de usuario (pantallas de perfil, login y registro), la lógica de negocio (casos de uso como Login y GetProfile, con interfaces abstractas) y la gestión de datos (repositorios, fuentes de datos y cliente HTTP para operaciones remotas). Los componentes interactúan de forma modular, permitiendo actualizaciones de perfil, autenticación segura y almacenamiento local/remoto, todo integrado en un contenedor Flutter.
 ![Component Level Diagrams IAM](/assets/chapter04/structurizr-MobileAppPresentationFocusView.png)
 
 ##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams IAM](/assets/chapter04/ClassDiagramas/ClassDiagram_IAM.png)
+El diagrama muestra el diseño del módulo IAM, con las entidades User (autenticación y roles), Session (tokens JWT), Role y Permission (permisos como USER.CREATE). Incluye operaciones clave como login() y refreshToken(), formando un sistema seguro de gestión de accesos.
+
+![Bounded Context Domain Layer Class Diagrams IAM](/assets/chapter04/ClassDiagramas/ClassDiagram_IAM2.png)
 
 ##### 4.2.1.6.2 Bounded Context Database Design Diagram
+El diagrama presenta el diseño de base de datos para el Bounded Context IAM, con tablas principales. La estructura refleja un sistema robusto para autenticación, control de accesos (RBAC) y gestión de sesiones mediante JWT, con integridad referencial garantizada por claves foráneas.
+
 ![Bounded Context Database Design Diagram IAM](/assets/chapter04/ERDiagrams/ERDiagram_IAM.png)
 
-### 4.2.2 Bounded Context: Vehicles & Tracking
-Este bounded context centraliza la gestión de los vehículos de la flota, sus características, rutas asignadas, informes de infracciones y reportes de velocidad mediante geolocalización en tiempo real, asegurando el monitoreo y control de las unidades.
+### 4.2.2 Bounded Context: Profile Management
+El bounded context Profile Management se encarga de la administración de perfiles de usuario, incluyendo la información personal, direcciones, datos de contacto y preferencias de comunicación. Este contexto interactúa con el contexto IAM para autenticar al usuario y mantener la integridad de los datos del perfil asociados a la identidad autenticada.
 
 #### 4.2.2.1 Domain Layer
+En el dominio, se definen las entidades y agregados que componen el perfil de usuario, incluyendo información personal, direcciones, datos de contacto y preferencias de comunicación.
+
+**Aggregate 1: UserProfile**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| UserProfile | Entity | Representa la información base de un usuario del sistema, incluyendo datos personales y de autenticación. Es la entidad raíz para la gestión de usuarios generales. |
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | Long | Private | Identificador único del usuario en el sistema. |
+| userId | Long | Private | Identificador de usuario para el inicio de sesión. |
+| fullName | String | Private | Nombre completo del usuario. |
+| phone | String | Private | Número de teléfono del usuario. |
+| street | String | Private | Calle de la dirección del usuario. |
+| city | String | Private | Ciudad de la dirección del usuario. |
+| postalCode | String | Private | Código postal de la dirección del usuario. |
+| coordinates | Coordinates | Private | Coordenadas geográficas de la dirección del usuario. |
+| nameVerified | Boolean | Private | Indica si el nombre del usuario ha sido verificado. |
+| documentVerified | Boolean | Private | Indica si el documento de identidad del usuario ha sido verificado. |
+| createdAt | LocalDateTime | Private | Fecha y hora de creación del perfil de usuario. |
+| updatedAt | LocalDateTime | Private | Fecha y hora de la última actualización del perfil de usuario. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| verifyIdentity(document: File) | Boolean | Public | Proceso para verificar la identidad del usuario a través de un documento. |
+| updatePhone(newPhone: String) | Void | Public | Actualiza el número de teléfono del usuario. |
+
+**Aggregate 2: DriverProfile**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| DriverProfile | Entity | Extiende el perfil de usuario para incluir información específica de un conductor. Depende de UserProfile. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | Long | Private | Identificador único del perfil de conductor. |
+| vehicleId | Long | Private | Identificador del vehículo asignado al conductor. |
+| hireDate | LocalDate | Private | Fecha de contratación del conductor. |
+| driverStatus | String | Private | Estado actual del conductor (ej: activo, inactivo, de baja). |
+| licenseNumber | String | Private | Número de licencia de conducir. |
+| licenseExpiry | LocalDate | Private | Fecha de expiración de la licencia de conducir. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| renewLicense(expiryDate: LocalDate) | Void | Public | Actualiza la fecha de expiración de la licencia del conductor. |
+
+**Aggregate 3: ManagerProfile**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| ManagerProfile | Entity | Extiende el perfil de usuario para incluir información específica de un manager. Depende de UserProfile. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | Long | Private | Identificador único del perfil de manager. |
+| department | String | Private | Departamento al que pertenece el manager. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| approveRequest(stringRequestId: String) | Void | Public | Permite al manager aprobar una solicitud. |
+| assignVehicle(stringVehicleId: String) | Void | Public | Permite al manager asignar un vehículo. |
+| updateDriverStatus(stringDriverId: String, stringStatus: String) | Void | Public | Permite al manager actualizar el estado de un conductor. |
+
+**Aggregate 4: StaffProfile**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| StaffProfile | Entity | Extiende el perfil de usuario para incluir información específica del personal. Depende de UserProfile. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | Long | Private | Identificador único del perfil del personal. |
+| team | String | Private | Equipo al que pertenece el personal. |
+| skills | Set&lt;String> | Private | Habilidades del personal. |
+| joinDate | LocalDate | Private | Fecha de ingreso del personal. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| assignToProject(longProjectId: Long) | Void | Public | Permite asignar al personal a un proyecto. |
+| addSkill(skill: String) | Void | Public | Permite agregar una habilidad al perfil del personal. |
+
+**Value Object: Coordinates**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| Coordinates | Value Object | Representa las coordenadas geográficas. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| latitude | Double | Private | Latitud de la ubicación. |
+| longitude | Double | Private | Longitud de la ubicación. |
+
+#### 4.2.2.2 Interface Layer
+Esta capa es responsable de la recepción y formato de peticiones/respuestas externas (API REST), validación básica del formato y los datos de entrada, manejo de errores a nivel de API y delegación de la lógica de negocio a la capa de Aplicación.
+
+**Controller 1: UserController**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| UserController | Controller | Controlador para los endpoints relacionados con la gestión de usuarios base (creación, lectura, actualización y eliminación de perfiles de usuario). |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| userService | UserService | Private | Servicio de la capa de Aplicación para la lógica de gestión de usuarios. |
+| userMapper | UserMapper | Private | Mapper para convertir entre DTOs y objetos de dominio de usuario. |
+
+**Endpoints**<br>
+| Ruta | Método | Descripción |
+| --- | --- | --- |
+| /users | POST | Crea un nuevo perfil de usuario. |
+| /users/{id} | GET | Recupera la información de un perfil de usuario por su ID. |
+| /users/{id} | PUT | Actualiza la información de un perfil de usuario existente. |
+| /users/{id} | DELETE | Elimina un perfil de usuario. |
+
+**Controller 2: DriverProfileController**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| DriverProfileController | Controller | Controlador para los endpoints específicos de la gestión de perfiles de conductores (creación, lectura, actualización de información de licencia, etc.). |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| driverProfileService | DriverProfileService | Private | Servicio de la capa de Aplicación para la lógica de gestión de perfiles de conductores. |
+| driverProfileMapper | DriverProfileMapper | Private | Mapper para convertir entre DTOs y objetos de dominio de conductor. | 
+
+**Endpoints**<br>
+| Ruta | Método | Descripción |
+| --- | --- | --- |
+| /drivers | POST | Crea un nuevo perfil de conductor. |
+| /drivers/{id} | GET | Recupera la información de un perfil de conductor por su ID. |
+| /drivers/{id} | PUT | Actualiza la información de un perfil de conductor. |
+| /drivers/{id}/license | PUT | Actualiza la información de la licencia de un conductor. |
+
+**Controller 3: ManagerProfileController**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| ManagerProfileController | Controller | Controlador para los endpoints específicos de la gestión de perfiles de managers (asignación de vehículos, aprobación de solicitudes, etc.). |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| managerProfileService | ManagerProfileService | Private | Servicio de la capa de Aplicación para la lógica de gestión de perfiles de managers. |
+| managerProfileMapper | ManagerProfileMapper | Private | Mapper para convertir entre DTOs y objetos de dominio de manager. |
+
+**Endpoints**<br>
+| Ruta | Método | Descripción |
+| --- | --- | --- |
+| /managers | POST | Crea un nuevo perfil de manager. |
+| /managers/{id} | GET | Recupera la información de un perfil de manager por su ID. |
+| /managers/{id} | PUT | Actualiza la información de un perfil de manager. |
+| /managers/{id}/assign-vehicle/{vehicleId} | POST | Asigna un vehículo a un conductor. |
+| /managers/{id}/approve/{requestId} | POST | Aprueba una solicitud. |
+
+**Controller 4: StaffProfileController**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| StaffProfileController | Controller | Controlador para los endpoints específicos de la gestión de perfiles de personal (asignación a proyectos, gestión de habilidades, etc.). |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| staffProfileService | StaffProfileService | Private | Servicio de la capa de Aplicación para la lógica de gestión de perfiles de personal. |
+| staffProfileMapper | StaffProfileMapper | Private | Mapper para convertir entre DTOs y objetos de dominio de personal. |
+
+**Endpoints**<br>
+| Ruta | Método | Descripción |
+| --- | --- | --- |
+| /staff | POST | Crea un nuevo perfil de personal. |
+| /staff/{id} | GET | Recupera la información de un perfil de personal por su ID. |
+| /staff/{id} | PUT | Actualiza la información de un perfil de personal. |
+| /staff/{id}/assign-project/{projectId} | POST | Asigna personal a un proyecto. |
+| /staff/{id}/add-skill | POST | Agrega una habilidad al perfil del personal. |
+
+**DTOs**<br>
+| Nombre | Descripción |
+| --- | --- |
+| CreateUserRequestDto | { userId: Long, fullName: String, phone: String, street: String, city: String, postalCode: String } |
+| UpdateUserRequestDto | { id: Long, fullName: String, phone: String, street: String, city: String, postalCode: String } |
+| UserResponseDto | { id: Long, userId: Long, fullName: String, phone: String, street: String, city: String, postalCode: String, nameVerified: Boolean, documentVerified: Boolean } |
+| CreateDriverProfileRequestDto | { userId: Long, vehicleId: Long, licenseNumber: String, licenseExpiry: LocalDate } |
+| UpdateDriverProfileRequestDto | { id: Long, vehicleId: Long, licenseNumber: String, licenseExpiry: LocalDate } |
+| DriverProfileResponseDto | { id: Long, userId: Long, vehicleId: Long, hireDate: LocalDate, driverStatus: String, licenseNumber: String, licenseExpiry: LocalDate } |
+| CreateManagerProfileRequestDto | { userId: Long, department: String } |
+| UpdateManagerProfileRequestDto | { id: Long, department: String } |
+| ManagerProfileResponseDto | { id: Long, userId: Long, department: String } |
+| CreateStaffProfileRequestDto | { userId: Long, team: String, skills: List&lt;String>, joinDate: LocalDate } |
+| UpdateStaffProfileRequestDto | { id: Long, team: String, skills: List&lt;String> } |
+| StaffProfileResponseDto | { id: Long, userId: Long, team: String, skills: List&lt;String>, joinDate: LocalDate } |
+
+#### 4.2.2.3 Application Layer
+En la capa de Application Layer se ubican los servicios que contienen la lógica de negocio relacionada con usuarios y roles.
+
+**Service 1: UserService**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| UserService | Service | Servicio que coordina la lógica relacionada con la gestión de perfiles de usuarios base. |
+
+**Dependencies**<br>
+| Nombre | Tipo de Objeto | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| userRepository | UserRepository | Private | Repositorio para la persistencia de información de usuarios. |
+| userMapper | UserMapper | Private | Mapea objetos de transferencia a entidades de dominio de usuario y viceversa. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| createUser | void | Public | Crea un nuevo perfil de usuario. |
+| getUser | UserProfile | Public | Obtiene un perfil de usuario por su ID. |
+| updateUser | void | Public | Actualiza la información de un perfil de usuario. |
+| deleteUser | void | Public | Elimina un perfil de usuario. |
+
+**Service 2: DriverProfileService**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| DriverProfileService | Service | Servicio que coordina la lógica específica para la gestión de perfiles de conductores. |
+
+**Dependencies**<br>
+| Nombre | Tipo de Objeto | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| driverProfileRepository | DriverProfileRepository | Private | Repositorio para la persistencia de información de perfiles de conductores. |
+| driverProfileMapper | DriverProfileMapper | Private | Mapea objetos de transferencia a entidades de dominio de conductor y viceversa. |
+| userService | UserService | Private | Servicio para interactuar con la gestión de usuarios base. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| createDriverProfile | void | Public | Crea un nuevo perfil de conductor. |
+| getDriverProfile | DriverProfile | Public | Obtiene un perfil de conductor por su ID. |
+| updateDriverProfile | void | Public | Actualiza la información de un perfil de conductor. |
+| updateDriverLicense | void | Public | Actualiza la información de la licencia de un conductor. |
+
+**Service 3: ManagerProfileService**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| ManagerProfileService | Service | Servicio que coordina la lógica específica para la gestión de perfiles de managers. |
+
+**Dependencies**<br>
+| Nombre | Tipo de Objeto | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| managerProfileRepository | ManagerProfileRepository | Private | Repositorio para la persistencia de información de perfiles de managers. |
+| managerProfileMapper | ManagerProfileMapper | Private | Mapea objetos de transferencia a entidades de dominio de manager y viceversa. |
+| userService | UserService | Private | Servicio para interactuar con la gestión de usuarios base. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| createManagerProfile | void | Public | Crea un nuevo perfil de manager. |
+| getManagerProfile | ManagerProfile | Public | Obtiene un perfil de manager por su ID. |
+| updateManagerProfile | void | Public | Actualiza la información de un perfil de manager. |
+| assignVehicleToDriver | void | Public | Asigna un vehículo a un conductor. |
+| approveRequest | void | Public | Aprueba una solicitud. |
+| updateDriverStatusByManager | void | Public | Actualiza el estado de un conductor por un manager. |
+
+**Service 4: StaffProfileService**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| StaffProfileService | Service | Servicio que coordina la lógica específica para la gestión de perfiles de personal. |
+
+**Dependencies**<br>
+| Nombre | Tipo de Objeto | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| staffProfileRepository | StaffProfileRepository | Private | Repositorio para la persistencia de información de perfiles de personal. |
+| staffProfileMapper | StaffProfileMapper | Private | Mapea objetos de transferencia a entidades de dominio de personal y viceversa. |
+| userService | UserService | Private | Servicio para interactuar con la gestión de usuarios base. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| createStaffProfile | void | Public | Crea un nuevo perfil de personal. |
+| getStaffProfile | StaffProfile | Public | Obtiene un perfil de personal por su ID. |
+| updateStaffProfile | void | Public | Actualiza la información de un perfil de personal. |
+| assignStaffToProject | void | Public | Asigna personal a un proyecto. |
+| addSkillToStaff | void | Public | Agrega una habilidad al perfil del personal. |
+
+#### 4.2.2.4 Infrastructure Layer
+En la capa de Infrastructure Layer, se encuentran los repositorios que permiten la persistencia de las entidades de usuarios y roles en la base de datos.
+
+**UserProfileRepositoryImpl**<br>
+| Nombre | Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| UserProfileRepositoryImpl | Repositorio | UserProfileRepository | Implementación del repositorio para acceder a la base de datos de perfiles de usuarios. |
+
+**Funcionalidades clave**<br>
+- Busca y carga perfiles de usuario por ID, userId, etc.
+- Guarda (inserta/actualiza) perfiles de usuario.
+- Elimina perfiles de usuario.
+- Verifica la existencia de perfiles de usuario por ID o userId.
+
+**DriverProfileRepositoryImpl**<br>
+| Nombre | Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| DriverProfileRepositoryImpl | Repositorio | DriverProfileRepository | Implementación del repositorio para acceder a la base de datos de perfiles de conductores. |
+
+**Funcionalidades clave**<br>
+- Busca y carga perfiles de conductor por ID, userId, etc.
+- Guarda (inserta/actualiza) perfiles de conductor.
+- Elimina perfiles de conductor.
+- Verifica la existencia de perfiles de conductor por ID o userId.
+
+**ManagerProfileRepositoryImpl**<br>
+| Nombre | Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| ManagerProfileRepositoryImpl | Repositorio | ManagerProfileRepository | Implementación del repositorio para acceder a la base de datos de perfiles de managers. |
+
+**Funcionalidades clave**<br>
+- Busca y carga perfiles de manager por ID, userId, etc.
+- Guarda (inserta/actualiza) perfiles de manager.
+- Elimina perfiles de manager.
+- Verifica la existencia de perfiles de manager por ID o userId.
+
+**StaffProfileRepositoryImpl**<br>
+| Nombre | Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| StaffProfileRepositoryImpl | Repositorio | StaffProfileRepository | Implementación del repositorio para acceder a la base de datos de perfiles de personal. |
+
+**Funcionalidades clave**<br>
+- Busca y carga perfiles de personal por ID, userId, etc.
+- Guarda (inserta/actualiza) perfiles de personal.
+- Elimina perfiles de personal.
+- Verifica la existencia de perfiles de personal por ID o userId.
+
+#### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams
+
+Muestra componentes UI (gestión de perfiles y conductores) y servicios API para operaciones CRUD, incluyendo formularios para cambio de contraseña y edición de datos. (Frontend de administración de usuarios).
+
+![Component Level Diagrams Profile Management](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-Profile.png)
+
+Muestra los componentes clave para gestión de perfiles: UserProfile Repository (datos), Management Service (lógica) y Automated Service (procesos automáticos). (Arquitectura backend simplificada).
+
+![Component Level Diagrams Profile Management](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents%20-%20profile.png)
+
+//![Component Level Diagrams Profile Management](/assets/chapter04/)
+#### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams
+
+El diagrama muestra los componentes backend para gestión de perfiles: UserProfile Repository (almacenamiento), UserProfile Service (operaciones CRUD) y servicios especializados para fotos y atributos específicos de perfiles.
+
+![Bounded Context Software Architecture Code Level Diagrams](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents%20-%20profile.png)
+
+El diagrama muestra los componentes UI y servicios para gestión de perfiles en la versión web de la aplicación.
+
+![Bounded Context Software Architecture Code Level Diagrams](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-Profile.png)
+
+El diagrama muestra los componentes UI y servicios para gestión de perfiles en la versión móvil de la aplicación.
+
+![Bounded Context Software Architecture Code Level Diagrams](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20Profile.png)
+
+##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
+
+Este diagrama UML muestra la jerarquía de perfiles de usuario en un sistema, comenzando con una clase UserProfile genérica y especializándose en DriverProfile, ManagerProfile y StaffProfile. Cada perfil incluye atributos y métodos específicos para su rol, detallando la información relevante para la gestión de usuarios en el sistema.
+
+![Bounded Context Domain Layer Class Diagrams Profile Management](/assets/chapter04/ClassDiagramas/ClassDiagram_ProfileManagement2.png)
+
+##### 4.2.2.6.2 Bounded Context Database Design Diagram
+
+Este diagrama de base de datos detalla las tablas y relaciones para la gestión de perfiles, con user_profiles como tabla principal, extendiéndose a driver_profile, manager_profiles y staff_profile, además de gestionar habilidades (skills y staff_skills).
+
+![Bounded Context Database Design Diagram Profile Management](/assets/chapter04/ERDiagrams/ERDiagram_ProfileManagement.png)
+
+### 4.2.3 Bounded Context: Vehicles & Tracking
+Este bounded context centraliza la gestión de los vehículos de la flota, sus características, rutas asignadas, informes de infracciones y reportes de velocidad mediante geolocalización en tiempo real, asegurando el monitoreo y control de las unidades.
+
+#### 4.2.3.1 Domain Layer
 **Aggregate 1: Vehicles**<br>
 | Nombre| Categoría | Descripción |
 | --- | --- | --- |
@@ -1788,7 +2178,7 @@ Este bounded context centraliza la gestión de los vehículos de la flota, sus c
 | getAccuracy() | Double | Public | Obtiene la precisión del último registro de ubicación. |
 | refreshTimestamp() | Void | Public | Actualiza el tiempo del último registro de datos. |
 
-#### 4.2.2.2 Interface Layer
+#### 4.2.3.2 Interface Layer
 **Controller 1: VehicleController**<br>
 | Nombre| Categoría | Descripción |
 | --- | --- | --- |
@@ -1860,7 +2250,7 @@ Ruta
 | SpeedWarningRequestDto | { vehicleId: UUID, speedLimit: Double, currentSpeed: Double } |
 | SpeedWarningResponseDto | { vehicleId: UUID, speedLimit: Double, isOverSpeeding: Boolean } |
 
-#### 4.2.2.3Application Layer
+#### 4.2.3.3 Application Layer
 
 **Service 1: VehicleService**<br>
 | Nombre| Categoría | Descripción |
@@ -1900,7 +2290,7 @@ Ruta
 | updateRoute | void | Public | Actualiza los detalles de una ruta existente. |
 | deleteRoute | void | Public | Elimina una ruta del sistema. |
 
-#### 4.2.2.4 Infrastructure Layer
+#### 4.2.3.4 Infrastructure Layer
 **VehicleRepositoryImpl**<br>
 | Nombre| Categoría | Implementa | Descripción |
 | --- | --- | --- | --- |
@@ -1949,21 +2339,44 @@ Ruta
 - Proporciona información de tráfico en tiempo real para optimizar rutas.
 - Actualiza la ubicación del vehículo en tiempo real en el sistema de seguimiento.
 
-#### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams V&T]()
+#### 4.2.3.5 Bounded Context Software Architecture Component Level Diagrams
 
-#### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams
+Este diagrama de componentes ilustra un marco conceptual para un sistema de seguimiento de vehículos. Muestra servicios clave como TelemetryIngestion, RealTimeLocation, HistoricalTelemetry y Geofencing, interactuando con un VehicleRegistry Service y un Vehicle & Telemetry Repository para gestionar y analizar datos de telemetría y ubicación.
 
-##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams V&T](/assets/chapter04/ClassDiagramas/ClassDiagram_Vehicle&Tracking.png)
+![Component Level Diagrams V&T](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents-vehicles.png)
 
-##### 4.2.2.6.2 Bounded Context Database Design Diagram
+Este diagrama de componentes detalla un módulo de seguimiento de vehículos, mostrando la interacción entre servicios (VehicleApiService, RealTimeTrackingService) y varios componentes de UI para visualización y gestión de datos de vehículos en tiempo real.
+
+![Component Level Diagrams V&T](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-%20vehicles.png)
+
+Este diagrama de componentes ilustra un módulo de seguimiento de vehículos, mostrando cómo los servicios (RealTimeLocationService, VehicleApiService) y la lógica de negocio (VehicleBloc) interactúan con las pantallas de usuario (FleetMapScreen, VehicleDashboardScreen, VehicleDetailsScreenMobile).
+
+![Component Level Diagrams V&T](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20vehicle.png)
+
+
+Este diagrama de componentes muestra un sistema de adquisición de datos de sensores. DataPollingScheduler coordina las lecturas programadas de TemperatureSensorDriver, HumiditySensorDriver y GPSSensorDriver, y configura sus frecuencias, para enviar datos brutos de sensores.
+
+![Component Level Diagrams V&T](/assets/chapter04/diagramas%20para%20iot/structurizr-VehicleEdgeUnitComponents-iot-vehicles.png)
+
+#### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
+
+Este diagrama de clases UML modela un sistema de "Vehículo y Seguimiento", mostrando cómo clases como Vehicle, TelemetryClient, VehicleRoute y varios sensores (GPS, Temperatura, Humedad) interactúan para gestionar datos telemétricos y la información de ruta.
+
+![Bounded Context Domain Layer Class Diagrams V&T](/assets/chapter04/ClassDiagramas/ClassDiagram_Vehicles&Tracking2.png)
+
+##### 4.2.3.6.2 Bounded Context Database Design Diagram
+
+
+Este diagrama de base de datos detalla las tablas para un sistema de seguimiento de vehículos. Muestra la tabla central vehicles relacionada con humidity_sensors, temperature_sensors, gps_sensors, vehicle_routes y route_tracking, estableciendo la estructura para gestionar datos de vehículos, rutas y sensores.
+
 ![Bounded Context Database Design Diagram V&T](/assets/chapter04/ERDiagrams/ERDiagram_Vehicle&Tracking.png)
 
-### 4.2.3 Bounded Context: Shipment
+### 4.2.4 Bounded Context: Shipment
 El bounded context de envíos gestiona el seguimiento de paquetes, asignaciones de transporte, costos asociados y destinos de entrega, permitiendo una trazabilidad eficiente de la carga dentro del sistema.
 
-#### 4.2.3.1 Domain Layer
+#### 4.2.4.1 Domain Layer
 **Aggregate 1: Packet**<br>
 | Nombre| Categoría | Descripción |
 | --- | --- | --- |
@@ -2089,7 +2502,7 @@ El bounded context de envíos gestiona el seguimiento de paquetes, asignaciones 
 | updateCarrierInfo | Void | Public | Actualiza la información del transportista, como su nombre o datos de contacto. |
 | getCarrierDetails | String | Public | Devuelve los detalles del transportista y los vehículos disponibles. |
 
-#### 4.2.3.2 Interface Layer
+#### 4.2.4.2 Interface Layer
 **Controller 1: PacketController**<br>
 | Nombre| Categoría | Descripción |
 | --- | --- | --- |
@@ -2136,7 +2549,7 @@ El bounded context de envíos gestiona el seguimiento de paquetes, asignaciones 
 | UpdateItemRequestDto | { itemId: UUID, packetId: UUID, description: String, quantity: Integer, weight: Double } |
 | ItemResponseDto | { itemId: UUID, description: String, quantity: Integer, weight: Double } |
 
-#### 4.2.3.3 Application Layer
+#### 4.2.4.3 Application Layer
 
 **Service 1: PacketService**<br>
 | Nombre| Categoría | Descripción |
@@ -2213,7 +2626,7 @@ El bounded context de envíos gestiona el seguimiento de paquetes, asignaciones 
 | getCarrierById | Carrier | Público | Recupera un transportista por su ID. |
 | deleteCarrier | Void | Público | Elimina un transportista dado su ID. |
 
-#### 4.2.3.4 Infrastructure Layer
+#### 4.2.4.4 Infrastructure Layer
 **PacketRepositoryImpl**<br>
 | Nombre| Categoría | Implementa | Descripción |
 | --- | --- | --- | --- |
@@ -2257,21 +2670,39 @@ El bounded context de envíos gestiona el seguimiento de paquetes, asignaciones 
 - Elimina carriers.
 - Lista todos los carriers.
 
-#### 4.2.3.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams Shipment]()
+#### 4.2.4.5 Bounded Context Software Architecture Component Level Diagrams
 
-#### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams
+Este diagrama de componentes ilustra un sistema de gestión de envíos, con servicios que cubren la asignación, órdenes, pruebas de entrega, seguimiento y planificación de rutas, todos utilizando un repositorio central de envíos.
 
-##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams Shipment](/assets/chapter04/ClassDiagramas/ClassDiagram_Shipment.png)
+![Component Level Diagrams Shipment](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents-shipment.png)
 
-##### 4.2.3.6.2 Bounded Context Database Design Diagram
+
+Este diagrama de componentes detalla un módulo de gestión de envíos. Muestra cómo ShipmentApiService interactúa con varios componentes de UI como ShipmentListComponent, ShipmentDashboardPage, ShipmentDetailsPageComponent, CreateShipmentFormComponent, AssignShipmentDialogComponent y RouteDisplayComponent para listar, crear, asignar y visualizar envíos.
+
+![Component Level Diagrams Shipment](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-Shipment.png)
+
+Este diagrama de componentes ilustra un módulo de operaciones de envío para la aplicación móvil de nuestra solución, donde ShipmentBloc coordina los datos del ShipmentApiService con pantallas de usuario (ShipmentDetailsScreen, ShipmentListScreen, UpdateShipmentStatusDialog, ProofOfDeliveryScreen) y un ProofOfDeliveryService para gestionar las pruebas de entrega.
+
+![Component Level Diagrams Shipment](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20Shipment.png)
+
+#### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams
+
+Este diagrama UML muestra un contexto delimitado de "Envío" con dos clases: Delivery, que incluye detalles de envío y métodos para actualizar estado y verificar cumplimiento; y Package, que contiene información dimensional, indicando una relación de composición entre ellas.
+
+![Bounded Context Domain Layer Class Diagrams Shipment](/assets/chapter04/ClassDiagramas/ClassDiagram_Shipments2.png)
+
+##### 4.2.4.6.2 Bounded Context Database Design Diagram
+
+Este diagrama de base de datos muestra las tablas deliveries y packages, con packages relacionada a deliveries a través de una clave foránea, detallando los atributos para la gestión de entregas y sus paquetes asociados.
+
 ![Bounded Context Database Design Diagram Shipment](/assets/chapter04/ERDiagrams/ERDiagram_Shipment.png)
 
-### 4.2.4 Bounded Context: Analytics
+### 4.2.5 Bounded Context: Analytics
 Este bounded context procesa, analiza y genera reportes basados en los datos de operación, como desempeño de los vehículos, incidentes, patrones de velocidad y envíos, proporcionando métricas e insights valiosos para la toma de decisiones. Se incluyen estadísticas visuales según estado de sensores y datos históricos por conductor.
 
-#### 4.2.4.1 Domain Layer
+#### 4.2.5.1 Domain Layer
 Contiene la lógica de negocio pura y las entidades principales relacionadas al análisis y estadísticas de datos operativos, encapsulando comportamiento y reglas relevantes.
 
 **Aggregate 1: VehicleAnalytics**<br>
@@ -2340,7 +2771,7 @@ Contiene la lógica de negocio pura y las entidades principales relacionadas al 
 | generateReport() | Json | Public | Genera un reporte consolidado en formato JSON. |
 | calculateMetrics() | Map<String, Double> | Public | Calcula métricas analíticas clave del documento. |
 
-#### 4.2.4.2 Interface Layer
+#### 4.2.5.2 Interface Layer
 Esta capa se encarga de recibir solicitudes externas (API REST), validar datos, transformar objetos y delegar la lógica al Application Layer.
 
 **Controller: AnalyticsController**<br>
@@ -2375,7 +2806,7 @@ Esta capa se encarga de recibir solicitudes externas (API REST), validar datos, 
 | DriverAnalyticsResponseDTO | Métricas de desempeño y cantidad de reportes. |
 | AnalyticsDocResponseDTO | Reporte analítico consolidado. |
 
-#### 4.2.4.3 Application Layer
+#### 4.2.5.3 Application Layer
 Contiene los casos de uso que orquestan operaciones del dominio, infraestructura y servicios externos.
 
 **Service: AnalyticsApplicationService**<br>
@@ -2396,7 +2827,7 @@ Contiene los casos de uso que orquestan operaciones del dominio, infraestructura
 |getDriverAnalytics() | List<DriverAnalytics> | Public | Devuelve métricas de conductores. |
 | generateAnalyticsDoc() | AnalyticsDoc | Public | Devuelve el documento de análisis general. |
 
-#### 4.2.4.4 Infrastructure Layer
+#### 4.2.5.4 Infrastructure Layer
 Implementaciones técnicas que permiten el acceso a datos, conectividad y persistencia.
 
 **StatisticsRepositoryImpl**<br>
@@ -2409,21 +2840,38 @@ Implementaciones técnicas que permiten el acceso a datos, conectividad y persis
 - Obtiene datos de sensores de vehículos (temperatura, humedad, alertas).
 - Filtra estadísticas por tipo de evento, fechas, zona geográfica, vehículo o conductor.
 
-#### 4.2.4.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams Analytics]()
+#### 4.2.5.5 Bounded Context Software Architecture Component Level Diagrams
 
-#### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams
+Este diagrama de componentes ilustra un sistema de analíticas, donde varios servicios de análisis (VehicleEfficiency, ShipmentInsights, DriverPerformance) usan servicios de consulta, agregación y generación de informes, respaldados por un repositorio de datos analíticos.
 
-##### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams Analytics](/assets/chapter04/ClassDiagramas/ClassDiagram_Analytics.png)
+![Component Level Diagrams Analytics](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents%20-%20analytics.png)
 
-##### 4.2.4.6.2 Bounded Context Database Design Diagram
+Este diagrama de componentes ilustra un módulo de analíticas y reportes donde AnalyticsApiService provee datos a varios componentes de interfaz de usuario para la visualización y filtrado de informes.
+
+![Component Level Diagrams Analytics](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-analytic.png)
+
+Este diagrama de componentes ilustra un módulo de analíticas y reportes donde AnalyticsBloc gestiona la lógica para AnalyticsOverviewScreen y SimpleReportViewScreen, obteniendo datos vía AnalyticsApiService.
+
+![Component Level Diagrams Analytics](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20Analytics.png)
+
+#### 4.2.5.6 Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
+
+La imagen muestra un diagrama de clases del dominio "Analytics" con cuatro clases principales: `VehicleAnalytics`, `ShipmentAnalytics`, `DriverAnalytics` y `AnalyticsDoc`, que gestionan métricas relacionadas con vehículos, envíos, conductores y generación de informes.
+
+![Bounded Context Domain Layer Class Diagrams Analytics](/assets/chapter04/ClassDiagramas/ClassDiagram_Analytics2.png)
+
+##### 4.2.5.6.2 Bounded Context Database Design Diagram
+
+La imagen muestra el diseño de base de datos para el contexto "Analytics", con tablas como analytic_docs, vehicle_analytics, shipment_analytics, driver_analytics y relaciones para almacenar métricas e informes.
+
 ![Bounded Context Database Design Diagram Analytics](/assets/chapter04/ERDiagrams/ERDiagram_Analytics.png)
 
-### 4.2.5 Bounded Context: Subscription and Payments
+### 4.2.6 Bounded Context: Subscription and Payments
 Este bounded context gestiona los pagos de suscripción realizados por los gerentes, su validación por parte de los administradores, y el control del estado de la suscripción (Pendiente, Aceptado, Denegado). También se encarga del almacenamiento seguro del comprobante de pago.
 
-#### 4.2.5.1 Domain Layer
+#### 4.2.6.1 Domain Layer
 Contiene la lógica de negocio pura y las entidades principales relacionadas al flujo de suscripción y validación de pago.
 
 **Aggregate 1: UserSubscription**<br>
@@ -2529,7 +2977,7 @@ Contiene la lógica de negocio pura y las entidades principales relacionadas al 
 | --- | --- | --- | --- |
 | isExpired() | Boolean | Public | Verifica si el método de pago está vencido. |
 
-#### 4.2.5.2 Interface Layer
+#### 4.2.6.2 Interface Layer
 Esta capa se encarga de recibir solicitudes externas (REST), validar los datos de entrada y delegar la lógica a la capa de aplicación.
 
 **Controller 1: SubscriptionController**<br>
@@ -2575,7 +3023,7 @@ Esta capa se encarga de recibir solicitudes externas (REST), validar los datos d
 | --- | --- |
 | SubscriptionStatusResponseDTO | Indica el estado actual de la suscripción (Pendiente, Aceptado, Denegado). |
 
-#### 4.2.5.3 Application Layer
+#### 4.2.6.3 Application Layer
 Contiene la lógica de orquestación de los casos de uso, acceso a repositorios y coordinación de acciones entre capas.
 
 **Service: SubscriptionAppService**<br>
@@ -2597,7 +3045,7 @@ Contiene la lógica de orquestación de los casos de uso, acceso a repositorios 
 | approveSubscription() | Void | Public | Cambia el estado de una suscripción a "Aceptado". |
 | rejectSubscription() | Void | Public | Cambia el estado a "Denegado". |
 
-#### 4.2.5.4 Infrastructure Layer
+#### 4.2.6.4 Infrastructure Layer
 Proporciona implementaciones concretas de persistencia y almacenamiento externo (imágenes, documentos).
 
 **SubscriptionRepositoryImpl**<br>
@@ -2622,21 +3070,24 @@ Proporciona implementaciones concretas de persistencia y almacenamiento externo 
 - Elimina imágenes asociadas a suscripciones canceladas o rechazadas.
 - Verifica si una imagen ya fue almacenada.
 
-#### 4.2.5.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams Subscription and Payments]()
+#### 4.2.6.5 Bounded Context Software Architecture Component Level Diagrams
 
-#### 4.2.5.6 Bounded Context Software Architecture Code Level Diagrams
+![Component Level Diagrams Subscription and Payments](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents-payment.png)
+![Component Level Diagrams Subscription and Payments](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-Payments.png)
+![Component Level Diagrams Subscription and Payments](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20Payments.png)
 
-##### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams Subscription and Payments](/assets/chapter04/ClassDiagramas/ClassDiagram_Subscription&Payment.png)
+#### 4.2.6.6 Bounded Context Software Architecture Code Level Diagrams
 
-##### 4.2.5.6.2 Bounded Context Database Design Diagram
+##### 4.2.6.6.1 Bounded Context Domain Layer Class Diagrams
+![Bounded Context Domain Layer Class Diagrams Subscription and Payments](/assets/chapter04/ClassDiagramas/ClassDiagram_Subscription&Payments2.png)
+
+##### 4.2.6.6.2 Bounded Context Database Design Diagram
 ![Bounded Context Database Design Diagram Subscription and Payments](/assets/chapter04/ERDiagrams/ERDiagram_Subscription&Payment.png)
 
-### 4.2.6 Bounded Context: Issues
+### 4.2.7 Bounded Context: Issues
 Este bounded context permite a los conductores crear y consultar incidencias relacionados con envíos, rutas, vehículos u otros eventos relevantes. También proporciona acceso a todos los reportes generados dentro de la empresa.
 
-#### 4.2.6.1 Domain Layer
+#### 4.2.7.1 Domain Layer
 Contiene la lógica de negocio pura y las entidades principales relacionadas a la creación y consulta de reportes operativos.
 
 **Aggregate 1: Issue**<br>
@@ -2660,7 +3111,7 @@ Contiene la lógica de negocio pura y las entidades principales relacionadas a l
 | updateescription | Void | Public | Permite modificar la descripción del reporte. |
 | changeType | Void | Public | Cambia la categoría/tipo del reporte. |
 
-#### 4.2.6.2 Interface Layer
+#### 4.2.7.2 Interface Layer
 Responsable de la recepción de peticiones externas (REST), validación de entradas y conversión de datos para delegar al Application Layer.
 
 **Controller: IssueController**<br>
@@ -2693,7 +3144,7 @@ Responsable de la recepción de peticiones externas (REST), validación de entra
 | IssueResponseDto | Representa un reporte completo con todos sus campos. |
 | ListIssuesResponseDto | Contiene una lista de reportes accesibles (completa o paginada). |
 
-#### 4.2.6.3 Application Layer
+#### 4.2.7.3 Application Layer
 Esta capa coordina la lógica de negocio entre las entidades del dominio, infraestructura y casos de uso externos.
 
 **Service: IssueApplicationService**<br>
@@ -2713,7 +3164,7 @@ Esta capa coordina la lógica de negocio entre las entidades del dominio, infrae
 | listIssues | List<IssueResponseDto> | Public | Retorna todos los reportes registrados por el conductor. |
 | getIssueById | ReporteResponseDto | Public | Obtiene los detalles de un reporte específico por su ID. |
 
-#### 4.2.6.4 Infrastructure Layer
+#### 4.2.7.4 Infrastructure Layer
 Incluye las implementaciones de acceso a la persistencia y servicios auxiliares utilizados por la capa de aplicación.
 
 | Nombre | Categoría | Implementa | Descripción |
@@ -2727,17 +3178,24 @@ Incluye las implementaciones de acceso a la persistencia y servicios auxiliares 
 - Lista reportes paginados o completos disponibles para el usuario.
 - Actualiza descripciones o tipos de reportes existentes (si aplica políticas de edición).
 
-#### 4.2.6.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams Issues]()
+#### 4.2.7.5 Bounded Context Software Architecture Component Level Diagrams
+![Component Level Diagrams Issues](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents-issue.png)
+![Component Level Diagrams Issues](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-issue.png)
+![Component Level Diagrams Issues](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-issue.png)
 
-#### 4.2.6.6 Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.7.6 Bounded Context Software Architecture Code Level Diagrams
 
-##### 4.2.6.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams Issues](/assets/chapter04/ClassDiagramas/ClassDiagram_Issues.png)
+##### 4.2.6.7.1 Bounded Context Domain Layer Class Diagrams
+![Bounded Context Domain Layer Class Diagrams Issues](/assets/chapter04/ClassDiagramas/ClassDiagram_Issues2.png)
 
-##### 4.2.6.6.2 Bounded Context Database Design Diagram
+##### 4.2.6.7.2 Bounded Context Database Design Diagram
 ![Bounded Context Database Design Diagram Issues](/assets/chapter04/ERDiagrams/ERDiagram_Issues.png)
-﻿# Chapter 05
+
+----
+----
+----
+
+# Chapter 05
  ## 5.1 Style Guidelines
  
 En esta sección, vamos a exponer el plan que hemos desarrollado para el diseño, los estilos y la apariencia de nuestra página web y las páginas de nuestra aplicación, con el fin de asegurar que nuestros
@@ -3230,13 +3688,59 @@ Estas acciones y técnicas contribuyen a una experiencia de usuario fluida y sat
 
 En esta sección presentaremos el prototipo de nuestro producto, en la cual se base en los Mockups previamente realizados y los user flows para la guía de los usuarios al realizar una funcionalidad de la aplicación.
 
-WEB APPLICATION:
+**WEB APPLICATION**:
 
-Link prototype video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/ER8kXIuJc_RBhiSkk7Pxf7wBL9BP8QaQrryzi9i0hjE7dg?e=51zo9b 
+ ![Web Application Prototyping](/assets/chapter05/WebPrototyping.png)
 
-MOBILE APPLICATION:
+Link web application prototype video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/ER8kXIuJc_RBhiSkk7Pxf7wBL9BP8QaQrryzi9i0hjE7dg?e=51zo9b 
 
-Link prototype video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/EW5UtiiJzzNLhzqHN2R_0YABeVG1B-B9yrb1zJYNjsFfkw?e=pTAFWr 
+**MOBILE APPLICATION**:
+
+![Mobile Application Prototyping](/assets/chapter05/MobilePrototyping.png)
+
+Link mobile application prototype video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f572_upc_edu_pe/EW5UtiiJzzNLhzqHN2R_0YABeVG1B-B9yrb1zJYNjsFfkw?e=pTAFWr 
+
+----
+----
+----
+
+# Chatper 6: Product Implementation, Validation & Deployment
+ ## 6.1 Software Configuration Management
+ Para gestionar la configuración del software de nuestra aplicación, abordaremos tres áreas clave: el control del código fuente, que consiste en administrar las versiones y mantener una estructura ordenada del código; la configuración del entorno de desarrollo, con el objetivo de que todos los integrantes del equipo utilicen herramientas homogéneas; y la configuración del despliegue, enfocada en la implementación en entornos productivos. Estas prácticas aseguran consistencia y eficiencia durante todo el ciclo de vida de la aplicación.
+
+ ### 6.1.1 Software Development Environment Configuration
+ 1. Project Management:
+Para la administración del proyecto se utilizaron herramientas de comunicación y control de versiones. Se creó una organización en GitHub para gestionar el código y las versiones del proyecto. Asimismo, se utilizaron plataformas como Google Meet y Discord para coordinar reuniones de equipo y mantener la comunicación interna.
+
+- GitHub: https://github.com/
+
+- Google Meet: https://meet.google.com/
+
+- Discord: https://discord.com/download
+
+2. Requirement Management:
+La recopilación, organización y priorización de requisitos se realizó utilizando herramientas específicas. Se utilizó Trello como una solución visual para la organización de tareas mediante tableros personalizados, mientras que Pivotal Tracker se empleó para gestionar y dar seguimiento al Product Backlog del proyecto.
+
+- Trello: https://trello.com/es
+
+- Pivotal Tracker: https://www.pivotaltracker.com/
+
+3. Product UX/UI Design:
+Para el diseño de la experiencia de usuario (UX) y la interfaz de usuario (UI), se utilizó Figma, permitiendo la creación de wireframes, mockups y prototipos interactivos que ayudaron a validar el diseño antes de su desarrollo. Además, UXPressia se empleó para desarrollar User Personas, Empathy Maps, Journey Maps e Impact Maps, mientras que Miro fue utilizado para diseñar los escenarios As-Is y To-Be.
+
+- Figma: https://www.figma.com/downloads/
+
+- UXPressia: https://uxpressia.com/
+
+- Miro: https://miro.com/es/
+
+4. Software Development:
+Para construir la Landing Page de la startup se utilizaron HTML5, CSS3 y JavaScript. En cuanto a la Web Application, se optó por Angular en el Frontend y Java Spring Boot en el Backend. Por último para el desarrollo movil se utilizó Flutter.
+
+- Visual Studio Code: Usado principalmente para el desarrollo de la Landing Page y el desarrollo movil, con diversas extensiones que facilitaron la productividad.
+
+- JetBrains Toolbox: Proporcionó un entorno robusto para el desarrollo web y móvil, con funcionalidades avanzadas de edición y depuración.
+
 - Visual Studio Code: https://code.visualstudio.com/
 
 - JetBrains Toolbox: https://www.jetbrains.com/toolbox-app/
@@ -3408,11 +3912,11 @@ Dividir las historias grandes en subtareas de máximo 4 horas.</td>
 		<tr>
 			<td>Sprint 1 Goal</td>
 			<td>- Sprint 1 Goal
-Nuestro enfoque está en entregar la experiencia pública inicial mediante la Landing Page e implementar las funcionalidades principales del rol gerente en la aplicación web.
+Nuestro enfoque está en habilitar la visibilidad pública de la solución a través de una landing page informativa, y permitir que los gerentes gestionen vehículos, conductores y visualicen estadísticas desde la aplicación web.
 
-Creemos que esto aportará visibilidad del producto y capacidades de incorporación a potenciales clientes a través de la Landing Page, así como valor de negocio para los gerentes registrados al permitirles gestionar vehículos y conductores, y acceder a estadísticas operativas relevantes.
+Creemos que esto aportará una primera impresión clara del producto a potenciales clientes, así como control y autonomía a los gerentes para organizar sus operaciones logísticas desde el entorno web, reduciendo la dependencia de procesos manuales.
 
-Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente por la Landing Page sin errores visuales o de diseño, y los gerentes registrados puedan iniciar sesión, registrar vehículos y conductores, y visualizar estadísticas de su operación dentro de la plataforma web.</td>
+Esto se confirmará cuando los visitantes puedan acceder correctamente a la landing page y los gerentes registrados puedan iniciar sesión, registrar vehículos y conductores, asignarlos, y visualizar estadísticas operativas desde la interfaz web.</td>
 		</tr>
 		<tr>
 			<td>Sprint 1 Velocity</td>
@@ -3437,12 +3941,12 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
 
 | Team Member | Github Username | IAM | Subscription & Payments | Profile Management | Analytics | Vehicles & Tracking | Shipment | Issues |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Huarcaya, Miguel | MiguelHuarcayaChavez | L | L |  |  | C | C |
+| Huarcaya, Miguel | MiguelHuarcayaChavez | L | L |  |  |  | C | C |
 | Torres, Elias | EliasTorresEzpinoza | C | C |  |  |  | L | L |
-| Tarazona, Piero | pierotm |  |  | C | L |  |  |  |
-| Chacon, Mauricio | mxuriciocm |  |  | L | C |  |  |  |
-| Donayre, Moises | MoisesD19 |  |  |  |  | L |  |  |
-| Valenzuela, Aldhair | AldhaValenzuelaH |  |  |  |  | C |  |  |
+| Tarazona, Piero | pierotm |  |  | L | C |  |  |  |
+| Chacon, Mauricio | mxuriciocm |  |  | C | L |  |  |  |
+| Donayre, Moises | MoisesD19 |  |  |  |  | C |  |  |
+| Valenzuela, Aldhair | AldhaValenzuelaH |  |  |  |  | L |  |  |
 
  #### 6.2.1.3 Sprint Backlog 1
  El Sprint 1 está centrado en la implementación de las funcionalidades clave de la landing page del sitio web, priorizando las historias de usuario identificadas. Nuestro objetivo principal es proporcionar a los visitantes una experiencia inicial sólida al presentar de manera clara y concisa las características y beneficios del sitio, junto con una navegación intuitiva y acceso rápido a la información relevante. Al completar las tareas asociadas a las historias de usuario definidas, sentaremos las bases para futuras iteraciones, asegurando que la página de inicio cumpla con las expectativas de los usuarios y contribuya al éxito del proyecto.
@@ -3474,280 +3978,562 @@ Esto se confirmará cuando los visitantes puedan acceder y navegar correctamente
             <td>Status(To-do / InProcess / ToReview / Done)</td>
         </tr>
         <tr>
-            <td>US01</td>
-            <td>Ver descripción general del sistema</td>
+            <td rowspan="2">US01</td>
+            <td rowspan="2">Ver descripción general del sistema</td>
             <td>T01</td>
-            <td>Diseñar sección de descripción</td>
+            <td>Mostrar resumen al acceder a la página</td>
             <td>Crear el diseño visual y la estructura de la sección de la descripción general del sistema.</td>
-            <td>8</td>
+            <td>2</td>
             <td>Aldahir Valenzuela</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US02</td>
-            <td>Ver funcionalidades clave</td>
+            <td>T02</td>
+            <td>Ver información sin estar autenticado</td>
+            <td>Crear la información que se muestra al acceder a la página sin estar autenticado.</td>
+            <td>1</td>
+            <td>Aldahir Valenzuela</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US02</td>
+            <td rowspan="2">Ver funcionalidades clave</td>
+            <td>T03</td>
+            <td>Mostrar listado de funcionalidades según rol</td>
+            <td>Crear la lista de funcionalidades principales del sistema.</td>
+            <td>2</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
             <td>T04</td>
-            <td>Identificar funcionalidades clave</td>
-            <td>Definir y documentar las funcionalidades más importantes del sistema para mostrar.</td>
-            <td>4</td>
+            <td>Acceso a funcionalidades sin autenticación</td>
+            <td>Permitir a los usuarios acceder a las funcionalidades sin autenticación.</td>
+            <td>1</td>
             <td>Mauricio Chacon</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US03</td>
-            <td>Ver comparativa de cuenta gratuita vs PRO</td>
-            <td>T07</td>
-            <td>Definir comparativa</td>
+            <td rowspan="2">US03</td>
+            <td rowspan="2">Ver comparativa de cuenta gratuita vs PRO</td>
+            <td>T05</td>
+            <td>Mostrar diferencias entre cuenta gratuita y PRO</td>
             <td>Especificar las características y beneficios de las cuentas gratuita y PRO para la comparación.</td>
-            <td>4</td>
+            <td>1</td>
             <td>Moises Donayre</td>
             <td>Done</td>
         </tr>
-		    <td>US04</td>
-            <td>Ver video o animación explicativa</td>
-            <td>T11</td>
-            <td>Crear guion del video</td>
-            <td>Escribir el guion detallado que se utilizará para la creación del video explicativo.</td>
-            <td>5</td>
+        <tr>
+            <td>T06</td>
+            <td>Mostrar restricciones del plan gratuito</td>
+            <td>Definir las restricciones del plan gratuito.</td>
+            <td>1</td>
+            <td>Moises Donayre</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US05</td>
+            <td rowspan="2">Completar formulario de contacto</td>
+            <td>T07</td>
+            <td>Envío esitoso del formulario de contacto</td>
+            <td>Mostrar mensaje de envío correcto.</td>
+            <td>2</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T08</td>
+            <td>Validación de campos obligatorios</td>
+            <td>Crear la interfaz de usuario para el formulario donde los interesados puedan ingresar sus datos.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+		    <td rowspan="2">US04</td>
+            <td rowspan="2">Ver video o animación explicativa</td>
+            <td>T09</td>
+            <td>Acceder a material audiovisual explicativo</td>
+            <td>Permitir a los usuarios acceder a material audiovisual explicativo.</td>
+            <td>1</td>
             <td>Aldahir Valenzuela</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US05</td>
-            <td>Completar formulario de contacto</td>
-            <td>T12</td>
-            <td>Diseñar formulario de contacto</td>
-            <td>Crear la interfaz de usuario para el formulario donde los interesados puedan ingresar sus datos.</td>
-            <td>4</td>
-            <td>Elias Torres</td>
+            <td>T10</td>
+            <td>Disponibilidad del contenido en todos los dispositivos</td>
+            <td>Visualizar el contenido en todos los dispositivos.</td>
+            <td>2</td>
+            <td>Aldahir Valenzuela</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US06</td>
-            <td>Redirigir al registro</td>
-            <td>T09</td>
-            <td>Crear botón de registro</td>
+            <td rowspan="2">US06</td>
+            <td rowspan="2">Redirigir al registro</td>
+            <td>T11</td>
+            <td>Acceso directo al registro desde la landing</td>
             <td>Diseñar e implementar el botón o enlace que lleva a la página de registro.</td>
-            <td>3</td>
+            <td>1</td>
             <td>Elias Torres</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US16</td>
-            <td>Registrar cuenta de gerente</td>
+            <td>T12</td>
+            <td>Accesibilidad sin autenticación</td>
+            <td>Permitir a los usuarios acceder al registro sin restricciones.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+		    <td rowspan="2">US07</td>
+            <td rowspan="2">Acceder desde el móvil sin errores de diseño</td>
             <td>T13</td>
-            <td>Implementar formulario de registro</td>
-            <td>Desarrollar el formulario para que los gerentes puedan crear sus cuentas.</td>
-            <td>8</td>
+            <td>Visualización correcta desde un dispositivo móvil</td>
+            <td>Diseño responsive</td>
+            <td>1</td>
             <td>Piero Tarazona</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US17</td>
-            <td>Iniciar sesión como gerente</td>
             <td>T14</td>
-            <td>Crear formulario de inicio de sesión</td>
-            <td>Desarrollar la interfaz para que los gerentes puedan ingresar con sus credenciales.</td>
-            <td>3</td>
-            <td>Mauricio Chacon</td>
+            <td>Disponibilidad de toda la información en móviles</td>
+            <td>Implementar la visualización de la información en dispositivos móviles.</td>
+            <td>1</td>
+            <td>Piero Tarazona</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US20</td>
-            <td>Ver perfil personal</td>
+            <td rowspan="3">US23</td>
+            <td rowspan="3">Crear vehículo</td>
             <td>T15</td>
-            <td>Mostrar datos del perfil</td>
-            <td>Implementar la visualización de la información personal del usuario autenticado.</td>
-            <td>2</td>
-            <td>Miguel Huarcaya</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>US23</td>
-            <td>Crear vehículo</td>
-            <td>T16</td>
-            <td>Implementar formulario de registro de vehículo</td>
+            <td>Registro exitoso de un nuevo vehículo</td>
             <td>Desarrollar el formulario para que los gerentes puedan registrar nuevos vehículos.</td>
-            <td>3</td>
+            <td>2</td>
             <td>Moises Donayre</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US24</td>
-            <td>Ver listado de vehículos registrados</td>
+            <td>T16</td>
+            <td>Límite alcanzado para cuenta gratuita</td>
+            <td>Notificar al usuario cuando se alcanza el límite de cuenta gratuita.</td>
+            <td>1</td>
+            <td>Moises Donayre</td>
+            <td>Done</td>
+        </tr>
+        <tr>
             <td>T17</td>
-            <td>Mostrar lista de vehículos</td>
+            <td>Impedir creación con datos incompletos</td>
+            <td>Mostrar un mensaje de error cuando se intente crear un vehículo con datos incompletos.</td>
+            <td>1</td>
+            <td>Moises Donayre</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">US25</td>
+            <td rowspan="3">Asignar un conductor a un vehículo</td>
+            <td>T18</td>
+            <td>Asignar conductor correctamente</td>
+            <td>Desarrollar la funcionalidad para vincular un conductor a un vehículo específico.</td>
+            <td>2</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T19</td>
+            <td>Impedir múltiples asignaciones</td>
+            <td>Mostrar un mensaje de error cuando se intente asignar un conductor a un vehículo que ya está asignado.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T20</td>
+            <td>Impedir asignación si el vehículo ya está vinculado a otro conductor</td>
+            <td>Mostrar un mensaje de error cuando se intente asignar un conductor a un vehículo que ya está vinculado a otro conductor.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US24</td>
+            <td rowspan="2">Ver listado de vehículos registrados</td>
+            <td>T21</td>
+            <td>Mostrar todos los vehículos registrados</td>
             <td>Desarrollar la interfaz para visualizar todos los vehículos registrados.</td>
+            <td>1</td>
+            <td>Piero Tarazona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T22</td>
+            <td>Ver datos básicos de cada vehículo</td>
+            <td>Permitir al usuario visualizar los datos básicos de cada vehículo.</td>
             <td>2</td>
             <td>Piero Tarazona</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US25</td>
-            <td>Asignar un conductor a un vehículo</td>
-            <td>T18</td>
-            <td>Crear interfaz de asignación</td>
-            <td>Desarrollar la funcionalidad para vincular un conductor a un vehículo específico.</td>
-            <td>3</td>
-            <td>Elias Torres</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>US27</td>
-            <td>Ver temperatura y humedad del vehículo</td>
-            <td>T19</td>
-            <td>Mostrar datos de sensor</td>
+            <td rowspan="2">US27</td>
+            <td rowspan="2">Ver temperatura y humedad del vehículo</td>
+            <td>T23</td>
+            <td>Mostrar condiciones ambientales actuales</td>
             <td>Implementar la visualización de la temperatura y humedad del vehículo.</td>
             <td>2</td>
             <td>Mauricio Chacon</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US28</td>
-            <td>Ver ubicación actual del vehículo</td>
-            <td>T20</td>
-            <td>Integrar mapa con ubicación</td>
-            <td>Implementar la visualización de la ubicación del vehículo en un mapa.</td>
-            <td>3</td>
-            <td>Miguel Huarcaya</td>
+            <td>T24</td>
+            <td>Mostrar última lectura disponible</td>
+            <td>Señalar la última lectura disponible del sensor al usuario.</td>
+            <td>1</td>
+            <td>Mauricio Chacon</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US34</td>
-            <td>Crear envío</td>
-            <td>T21</td>
-            <td>Implementar formulario de creación de envío</td>
-            <td>Desarrollar el formulario para que los gerentes puedan crear nuevos envíos.</td>
-            <td>5</td>
+            <td rowspan="2">US28</td>
+            <td rowspan="2">Ver ubicación actual del vehículo</td>
+            <td>T25</td>
+            <td>Mostrar ubicación si hay señal GPS disponible</td>
+            <td>Implementar la visualización de la ubicación del vehículo en un mapa.</td>
+            <td>3</td>
             <td>Moises Donayre</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US35</td>
-            <td>Asignar envío a un conductor</td>
-            <td>T22</td>
-            <td>Crear interfaz de asignación de envíos</td>
-            <td>Desarrollar la funcionalidad para asignar un envío a un conductor.</td>
+            <td>T26</td>
+            <td>Indicar pérdida de señal</td>
+            <td>Mostrar un mensaje de error cuando no hay señal GPS disponible.</td>
+            <td>1</td>
+            <td>Moises Donayre</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US53</td>
+            <td rowspan="2">Ver condiciones ambientales por vehículo</td>
+            <td>T27</td>
+            <td>Mostrar temperatura y humedad actuales</td>
+            <td>Implementar la visualización de la temperatura y humedad de cada vehículo.</td>
             <td>3</td>
             <td>Aldahir Valenzuela</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US37</td>
-            <td>Ver estado del envío</td>
-            <td>T23</td>
-            <td>Mostrar estado del envío</td>
+            <td>T28</td>
+            <td>Mostrar valores aunque no haya conductor asignado</td>
+            <td>Mostrar los valores de temperatura y humedad cuando no hay conductor asignado.</td>
+            <td>1</td>
+            <td>Aldahir Valenzuela</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">US34</td>
+            <td rowspan="3">Crear envío</td>
+            <td>T29</td>
+            <td>Crear envío con todos los datos válidos</td>
+            <td>Desarrollar el formulario para que los gerentes puedan crear nuevos envíos.</td>
+            <td>3</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T30</td>
+            <td>Impedir creación con datos incompletos</td>
+            <td>Validar datos ingresados y mostrar un mensaje de error cuando se intente crear un envío con datos incompletos.</td>
+            <td>2</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T31</td>
+            <td>Validar límites de temperatura y humedad</td>
+            <td>Impedir creación de envío con temperatura y humedad fuera de los límites permitidos.</td>
+            <td>1</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US35</td>
+            <td rowspan="2">Asignar envío a un conductor</td>
+            <td>T32</td>
+            <td>Asignación correcta de envío</td>
+            <td>Desarrollar la funcionalidad para asignar un envío a un conductor.</td>
+            <td>3</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T33</td>
+            <td>Impedir asignación a conductor inexistente</td>
+            <td>Mostrar un mensaje de error cuando se intente asignar un envío a un conductor inexistente.</td>
+            <td>1</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US37</td>
+            <td rowspan="2">Ver estado del envío</td>
+            <td>T34</td>
+            <td>Mostrar estado actual del envío</td>
             <td>Implementar la visualización del estado actual del envío.</td>
             <td>1</td>
             <td>Piero Tarazona</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US44</td>
-            <td>Ver reportes por conductor (como gerente)</td>
-            <td>T24</td>
-            <td>Generar reporte de conductor</td>
-            <td>Desarrollar la funcionalidad para generar reportes basados en la actividad de cada conductor.</td>
+            <td>T35</td>
+            <td>Mostrar el estado inicial como pendiente</td>
+            <td>Poner por defecto el estado del envío como pendiente.</td>
+            <td>1</td>
+            <td>Piero Tarazona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">US54</td>
+            <td rowspan="3">Mostrar color según condición ambiental</td>
+            <td>T36</td>
+            <td>Mostrar color rojo si se supera el limite</td>
+            <td>Visualizar el color rojo cuando la temperatura supere el límite permitido.</td>
+            <td>2</td>
+            <td>Aldahir Valenzuela</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T37</td>
+            <td>Mostrar color azul si está dentro del rango</td>
+            <td>Visualiza el color azul cuando la temperatura está dentro del rango permitido.</td>
+            <td>2</td>
+            <td>Aldahir Valenzuela</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T38</td>
+            <td>Mostrar color negro si no hay conductor asignado</td>
+            <td>Visualizar el color negro cuando no hay conductor asignado.</td>
+            <td>1</td>
+            <td>Aldahir Valenzuela</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US44</td>
+            <td rowspan="2">Ver reportes por conductor (como gerente)</td>
+            <td>T39</td>
+            <td>Mostrar reportes por conductor específico</td>
+            <td>Desarrollar la funcionalidad para visualizar los reportes basados en la actividad de cada conductor.</td>
             <td>2</td>
             <td>Elias Torres</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US46</td>
-            <td>Acceder a sección de suscripción</td>
-            <td>T25</td>
-            <td>Crear enlace a suscripción</td>
-            <td>Implementar un enlace o botón para acceder a la sección de gestión de suscripciones.</td>
-            <td>2</td>
-            <td>Mauricio Chacon</td>
+            <td>T40</td>
+            <td>Ver detalles de cada reporte</td>
+            <td>Mostrar los detalles de cada reporte.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US47</td>
-            <td>Subir comprobante de pago</td>
-            <td>T26</td>
-            <td>Implementar formulario de carga</td>
+            <td rowspan="2">US46</td>
+            <td rowspan="2">Acceder a sección de suscripción</td>
+            <td>T41</td>
+            <td>Acceso exitoso a la sección de suscripción</td>
+            <td>Implementar un enlace o botón para acceder a la sección de gestión de suscripciones.</td>
+            <td>1</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T42</td>
+            <td>Mostrar beneficios del modo PRO</td>
+            <td>Visualizar los beneficios del modo PRO.</td>
+            <td>2</td>
+            <td>Elias Torres</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US47</td>
+            <td rowspan="2">Subir comprobante de pago</td>
+            <td>T43</td>
+            <td>Subida corresta del comprobante</td>
             <td>Desarrollar la funcionalidad para que los gerentes puedan subir el comprobante de pago.</td>
             <td>2</td>
             <td>Miguel Huarcaya</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US53</td>
-            <td>Ver condiciones ambientales por vehículo</td>
-            <td>T27</td>
-            <td>Mostrar condiciones por vehículo</td>
-            <td>Implementar la visualización de la temperatura y humedad de cada vehículo.</td>
-            <td>3</td>
-            <td>Moises Donayre</td>
+            <td>T44</td>
+            <td>Impedir subida si falta el archivo</td>
+            <td>Forzar al usuario a subir un archivo.</td>
+            <td>1</td>
+            <td>Miguel Huarcaya</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>US54</td>
-            <td>Mostrar color según condición ambiental</td>
-            <td>T28</td>
-            <td>Implementar indicadores de color</td>
-            <td>Desarrollar la lógica para mostrar colores según los rangos de temperatura y humedad.</td>
-            <td>3</td>
-            <td>Aldahir Valenzuela</td>
+            <td rowspan="2">US16</td>
+            <td rowspan="2">Registrar cuenta de gerente</td>
+            <td>T45</td>
+            <td>Registro exitoso de un nuevo gerente</td>
+            <td>Desarrollar el formulario para que los gerentes puedan crear sus cuentas.</td>
+            <td>2</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T46</td>
+            <td>Impedir registro con datos incompletos o inválidos</td>
+            <td>Validar los campos obligatorios del formulario de registro.</td>
+            <td>2</td>
+            <td>Miguel Huarcaya</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US17</td>
+            <td rowspan="2">Iniciar sesión como gerente</td>
+            <td>T47</td>
+            <td>Acceso correcto con credenciales válidas</td>
+            <td>Desarrollar la interfaz para que los gerentes puedan ingresar con sus credenciales.</td>
+            <td>2</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T48</td>
+            <td>Denegar acceso con credenciales incorrectas</td>
+            <td>Validar las credenciales del gerente.</td>
+            <td>1</td>
+            <td>Mauricio Chacon</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US20</td>
+            <td rowspan="2">Ver perfil personal</td>
+            <td>T49</td>
+            <td>Mostrar información del perfil</td>
+            <td>Implementar la visualización de la información personal del usuario autenticado.</td>
+            <td>1</td>
+            <td>Piero Tarazona</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T50</td>
+            <td>Mostrar perfil según rol</td>
+            <td>Intercambiar la información del perfil según el rol del usuario.</td>
+            <td>1</td>
+            <td>Piero Tarazona</td>
             <td>Done</td>
         </tr>
     </tbody>
 </table>
 
  #### 6.2.1.4 Development Evidence for Sprint Review
- Esta sección documenta y presenta la serie de commits realizados en el repositorio del Landing Page. Estos commits, que son una parte integral del proceso de desarrollo, se han gestionado utilizando la metodología GitFlow y siguiendo estrictamente las convenciones establecidas para los commits. Esta evidencia sirve como un registro transparente y trazable de nuestro progreso y esfuerzos de desarrollo a lo largo del sprint.
+ Esta sección documenta y presenta la serie de commits realizados en el repositorio del Landing Page y AppWeb. Estos commits, que son una parte integral del proceso de desarrollo, se han gestionado utilizando la metodología GitFlow y siguiendo estrictamente las convenciones establecidas para los commits. Esta evidencia sirve como un registro transparente y trazable de nuestro progreso y esfuerzos de desarrollo a lo largo del sprint.
+
+ - Landing Page:
+
  | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
  | --- | --- | --- | --- | --- | --- |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | d3b094b | chore:... | initial commit | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 499f6c3 | feat:... | create structure for landing | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-header | a6fd61f | feat:... | create header section | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-us | f46c9f4 | feat:... | create about us | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 559b871 | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 320162e | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 74db128 | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 6db4844 | feat:... | delete file style | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | f80d9c2 | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 77dcfbf | feat:... | deleted style | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 57cd331 | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 2ac60ee | feat:... | deleted style | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | a89f5a6 | feat:... | add folder for organizing files | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 9c04bc0 | feat:... | create about team | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | e645b3b | feat:... | delete public directory | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 1488c1e | feat:... | add style and images | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-hero | 09191fd | feat:... | implement hero section | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-hero | 0ba7ade | feat:... | implement footer section | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-footer | 77037f0 | feat:... | create footer section | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-pricing | 84c90ea | chore:... | created pricing and contact section | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | c3a6a0c | feat:... | merge branch 'feature/section-hero' | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 4f4b5b7 | feat:... | merge branch 'feature/section-about-us' | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | e63214c | feat:... | merge branch 'feature/section-about-team' into develop | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 7d5209d | feat:... | merge branch 'feature/section-services' into develop | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 432e18e | feat:... | merge branch 'feature/section-pricing' into develop | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 9b278c2 | feat:... | merge branch 'feature/section-footer' into develop | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | fbf4690 | fix:... | fix the ubication for the code | 10-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | c6a949e | feat:... | update index.html | 30-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 2e872c2 | feat:... | update index.html | 30-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 7ca9228 | fix:... | button get star | 30-04-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 80969dc | feat:... | implement video about the product | 05-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | bd8eecb | fix:... | implement video about the product | 05-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 49e5318 | feat:... | implement video about the team | 05-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 1b50053 | fix:... | implement video about the team | 05-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 4446436 | fix:... | implement video about the team | 05-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 5396416 | fix:... | link about the team | 06-06-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 3c21c8a | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 4fd8208 | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 34ad386 | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | a689428 | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | a89718e | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 1bb2d40 | feat:... | update index.html | 28-09-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | bdc70ba | feat:... | apk download | 22-11-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 2bb167c | feat:... | update styles.css | 22-11-2024 |
- | upc-AppWeb-BicasTeam-LandingPage.github.io | main | ab4cdd9 | feat:... | update styles.css | 22-11-2024 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | d3b094b | chore:... | initial commit | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 499f6c3 | feat:... | create structure for landing | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-header | a6fd61f | feat:... | create header section | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-us | f46c9f4 | feat:... | create about us | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 559b871 | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 320162e | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 74db128 | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 6db4844 | feat:... | delete file style | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | f80d9c2 | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 77dcfbf | feat:... | deleted style | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 57cd331 | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 2ac60ee | feat:... | deleted style | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | a89f5a6 | feat:... | add folder for organizing files | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 9c04bc0 | feat:... | create about team | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | e645b3b | feat:... | delete public directory | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-about-team | 1488c1e | feat:... | add style and images | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-hero | 09191fd | feat:... | implement hero section | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-hero | 0ba7ade | feat:... | implement footer section | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-footer | 77037f0 | feat:... | create footer section | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-pricing | 84c90ea | chore:... | created pricing and contact section | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | c3a6a0c | feat:... | merge branch 'feature/section-hero' | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 4f4b5b7 | feat:... | merge branch 'feature/section-about-us' | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | e63214c | feat:... | merge branch 'feature/section-about-team' into develop | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 7d5209d | feat:... | merge branch 'feature/section-services' into develop | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 432e18e | feat:... | merge branch 'feature/section-pricing' into develop | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | develop | 9b278c2 | feat:... | merge branch 'feature/section-footer' into develop | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | fbf4690 | fix:... | fix the ubication for the code | 10-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | c6a949e | feat:... | update index.html | 30-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 2e872c2 | feat:... | update index.html | 30-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 7ca9228 | fix:... | button get star | 30-04-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 80969dc | feat:... | implement video about the product | 05-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | bd8eecb | fix:... | implement video about the product | 05-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 49e5318 | feat:... | implement video about the team | 05-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 1b50053 | fix:... | implement video about the team | 05-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 4446436 | fix:... | implement video about the team | 05-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 5396416 | fix:... | link about the team | 06-06-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 3c21c8a | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 4fd8208 | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 34ad386 | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | a689428 | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | a89718e | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 1bb2d40 | feat:... | update index.html | 28-09-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | bdc70ba | feat:... | apk download | 22-11-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 2bb167c | feat:... | update styles.css | 22-11-2025 |
+ | upc-AppWeb-BicasTeam-LandingPage.github.io | main | ab4cdd9 | feat:... | update styles.css | 22-11-2025 |
  | upc-AppWeb-BicasTeam-LandingPage.github.io | main | 8deffb7 | fix:... | servies implement | 10-05-2025 |
  | upc-AppWeb-BicasTeam-LandingPage.github.io | main | e9cdf14 | fix:... | the styles were modified | 11-05-2025 |
  | upc-AppWeb-BicasTeam-LandingPage.github.io | main | d588b20 | fix:... | update of the hero, pricing, header section | 15-05-2025 |
  | upc-AppWeb-BicasTeam-LandingPage.github.io | feature/section-footer | d352dd8 | feat:... | add new css style | 15-05-2025 |
+
+ - AppWeb:
+ 
+ | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+ | --- | --- | --- | --- | --- | --- |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/profile-management | 5f50c87 | feat:... | update serverBasePath in environment development | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/issues | 7bc3607 | feat:... | Implement issues-management page | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/profile-management | 0b6327c | feat:... | added api-service for profile | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/shipment | 93cc151 | feat:... | Implement Shipments-management page | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/profile-management | 0722f4f | fix:... | api service for iam | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/shipment | brb6ecb | feat:... | Merge branch 'feature/shipment' into develop | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/issues | 6eb281c | fix:... | update of the issue management page | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/issues | ffda52c | feat:... | Merge branch 'feature/issues' into develop | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | 016e782 | fix:... | login | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 266dd89 | feat:... | add iot information and map | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | 61c1ffs | fix:... | iam - login and register | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | 5c26f35 | fix:... | sidebar reparated | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | d99416f | feat:... | Merge branch 'feature/iam' into develop | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/profile-management | 2a7aff8 | feat:... | added authentication form | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/profile-management | 5f97727 | feat:... | added profile editing form | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | 3ff2cf5 | fix:... | Fix problem with sidebar | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | d27fb1c | feat:... | Merge branch 'feature/iam' into develop | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | 0e4f2ec | fix:... | services | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/iam | 5aadbe0 | fix:... | services api | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | 4315f1b | feat:... | structure and css for the component suscription | 15-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | 5b54617 | feat:... | Service of imageApi but not working | 16-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/analytics | fd29871 | feat:... | add analytics page and update sidebar navigation | 16-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | e46fc2b | feat:... | ChangeCredentials | 16-05-2025 |
+ | upc-OpenSource-BicasTeam-AppWeb | develop | dfc2a05 | feat:... | Merge branch 'feature/subscription&payments' into develop | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | a8dc84a | feat:... | Merge branch 'develop' into feature/analytics | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 7a32c48 | fix:... | modulets | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/vehicles-&-tracking | 46ba2c6 | feat:... | added map display | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 3b1706c | fix:... | createUser | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/iam | 5b0366e | fix:... | services | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | d1f5f0e | fix:... | createUser | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/iam | 5b0366e | fix:... | services | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 360c3f8 | feat:... | Merge branch 'feature/profile-management' into develop | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/iam | 2e4f7a5 | fix:... | service | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/iam | d3491d0 | fix:... | services and login | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | 6f95a11 | feat:... | Merge branch 'develop' into feature/analytics | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | 5230798 | feat:... | add pg-analytics | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | 7b41314 | feat:... | add Analytics navigation to sidebar | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | dfffb8f | feat:... | implement analytics dashboard with routing and styling | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | 032e695 | feat:... | enhance analytics component with driver reports and loading/error states | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | feature/analytics | 3901e9a | feat:... | add shipment and vehicle analytics with loading/error handling | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 17cddde | feat:... | Merge branch 'develop' of https://github.com/upc-Soluciones-IOT-BicasTeam/upc-OpenSource-BicasTeam-AppWeb into develop | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | aad01c5 | fix:... | links beeceptor | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 2c870d9 | feat:... | Merge branch 'develop' of https://github.com/upc-Soluciones-IOT-BicasTeam/upc-OpenSource-BicasTeam-AppWeb into develop | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | ac207d4 | fix:... | services | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | 08471df | feat:... | Merge branch 'feature/-vechicles-&-tracking' into develop | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | fc1d529 | fix:... | service login | 16-05-2025 |
+ | upc-Opensource-BicasTeam-api | develop | ded47ce | feat:... | implementation on language change i18n | 17-05-2025 |
 
  #### 6.2.1.5 Execution Evidence for Sprint Review
  Durante el Sprint 1, se logró un progreso significativo en la implementación de las características clave de la página de inicio del sitio web. El equipo completó con éxito todas las historias de usuario asignadas para este sprint, que incluyeron el desarrollo de un resumen claro de las características y beneficios del sitio web, la integración de acceso visible a información detallada de precios, la adición de un resumen conciso al final de la página de inicio, la inclusión de un llamado a la acción prominente para dirigir a los visitantes a la aplicación web principal, la presentación de contenido informativo claro y detallado, y la integración de información de contacto visible en la página de inicio. El equipo trabajó de manera colaborativa para garantizar que las características implementadas cumplan con los requisitos y contribuyan a una experiencia de usuario positiva. Capturas de pantalla:
@@ -3837,8 +4623,1666 @@ Landing Page:<br>
 Application Web (Gerente):<br>
  ![Application Web](/assets/chapter06/collaboration-insights1.2.png)
 
+-------------
+-------------
 
+### 6.2.1 Sprint 2
+En esta sección, documentaremos y explicaremos el progreso tanto en el desarrollo del producto como en la colaboración del equipo durante el Sprint 2. Seguimos un proceso definido que abarca desde la planificación hasta la revisión y documentación del trabajo realizado. A lo largo de las siguientes secciones, detallaremos cómo se llevó a cabo la planificación del sprint, qué tareas se incluyeron en el Sprint Backlog, las pruebas y evidencia de desarrollo para la revisión del sprint, así como la documentación de los servicios y las percepciones clave sobre la colaboración del equipo durante este periodo
+
+#### 6.2.2.1 Sprint Planning 2
+En esta sección, se detallan los aspectos principales del Sprint Planning Meeting para el Sprint n. Este encuentro es crucial para establecer los objetivos del sprint, determinar las user stories que se abordarán y asignar tareas al equipo. A continuación, se presenta un resumen del Sprint Planning Meeting para este período.
+<table>
+  <tbody>
+    <tr>
+      <td>Sprint #</td><td>Sprint 2</td>
+    </tr>
+    <tr>
+      <td colspan="2">Sprint Planning Background</td>
+    </tr>
+		<tr>
+			<td>Date</td>
+			<td>2025-05-28</td>
+		</tr>
+		<tr>
+			<td>Time</td>
+			<td>05:14 PM</td>
+		</tr>
+		<tr>
+			<td>Location</td>
+			<td>Google Meet</td>
+		</tr>
+		<tr>
+			<td>Prepared by</td>
+			<td>Huarcaya Chavez, Miguel Alejandro Daniel</td>
+		</tr>
+		<tr>
+			<td>Attendees (to planning meeting)</td>
+			<td>Huarcaya Chavez, Miguel Alejandro Daniel / Torres Espinoza, Elias / Tarazona Medina, Piero Abel / Chacon Martinez, Mauricio Sebastián / Donayre Peña, Moises Rodolfo / Valenzuela Huillcaya, Aldhair Johan Juan</td>
+		</tr>
+		<tr>
+			<td>Sprint 2 Review Summary</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Sprint 2 Retrospective Summary</td>
+			<td></td>
+	</tr>
+		<tr>
+			<td colspan="2">Sprint Goal & User Stories</td>
+		</tr>
+		<tr>
+			<td>Sprint 2 Goal</td>
+			<td>Nuestro enfoque está en enriquecer la funcionalidad de nuestra solución mediante la mejora del landing page con la inclusión de videos sobre el producto, así como habilitar nuevas capacidades operativas para los usuarios a través de la implementación de pagos en la plataforma, el desarrollo de la aplicación móvil y la integración con dispositivos físicos IoT. En esta entrega, los gerentes podrán gestionar sus operaciones directamente desde la aplicación web y móvil, lo que incluye la creación de conductores, el registro y asignación de vehículos, la creación de envíos, la visualización de problemas reportados por los conductores y el monitoreo en tiempo real de temperatura, humedad y ubicación de cada vehículo. Por su parte, los conductores podrán utilizar la aplicación móvil para registrar reportes relacionados a su envío o vehículo, así como consultar información relevante como el estado ambiental del cargamento y los detalles del envío asignado. Además, se integrarán los dispositivos físicos embebidos instalados en los vehículos, los cuales enviarán automáticamente los datos recolectados hacia el sistema para ser visualizados por los usuarios correspondientes.
+
+
+
+Creemos que esto aportará mayor confianza e interés en el producto por parte de potenciales usuarios gracias a la mejora del business page, y permitirá tanto a gerentes como conductores operar con mayor autonomía, comodidad y eficiencia al contar con acceso móvil y monitoreo en tiempo real. Esta mejora en la experiencia del usuario contribuirá a optimizar el control operativo, facilitar la toma de decisiones y reducir la dependencia de herramientas manuales o de escritorio.
+
+
+
+Esto se confirmará cuando observemos un aumento sostenido en el número de usuarios registrados, particularmente un incremento de al menos un 15% trimestral como resultado del mayor interés generado por el contenido audiovisual del business page, un crecimiento de al menos un 30% en conductores registrados respecto al primer mes, reflejando que los gerentes perciben una mejora al poder gestionar a más miembros de su flota, y un incremento de al menos un 15% en cuentas PRO activadas, lo que indicará que los gerentes requieren ampliar su capacidad operativa mediante el registro de más vehículos y conductores.</td>
+		</tr>
+		<tr>
+			<td>Sprint 2 Velocity</td>
+			<td>- Para este primer Sprint estimamos una velocidad de 51 Story Points, basada en nuestra capacidad de equipo y en la complejidad de las historias seleccionadas.</td>
+		</tr>
+		<tr>
+			<td>Sum of Story Points</td>
+			<td>51</td>
+		</tr>
+  </tbody>
+</table>
+
+#### 6.2.2.2.Aspect Leaders and Collaborators. 
+| Team Member | Github Username | IAM | Subscription & Payments | Profile Management | Analytics | Vehicles & Tracking | Shipment | Issues |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Huarcaya, Miguel | MiguelHuarcayaChavez | L | C |  |  |  | C | C |
+| Torres, Elias | EliasTorresEzpinoza | C | C |  |  |  | L | L |
+| Tarazona, Piero | pierotm |  |  | L | C |  |  |  |
+| Chacon, Mauricio | mxuriciocm |  |  | C | L |  |  |  |
+| Donayre, Moises | MoisesD19 |  |  |  |  | L | C |  |
+| Valenzuela, Aldhair | AldhaValenzuelaH |  | L |  |  | C |  |  |
+
+#### 6.2.2.3. Sprint Backlog 2. 
+
+<table border="1">
+	<tbody>
+		<tr>
+			<td>Sprint #</td>
+			<td colspan="7">Sprint 2</td>
+		</tr>
+		<tr>
+			<td colspan="2">User Story</td>
+			<td colspan="6">Work-Item / Task</td>
+		</tr>
+		<tr>
+			<td>Id</td>
+			<td>Title</td>
+			<td>Id</td>
+			<td>Title</td>
+			<td>Description</td>
+			<td>Estimation (Hours)</td>
+			<td>Assigned To</td>
+			<td>Status(To-do / InProcess / ToReview / Done)</td>
+		</tr>
+        <tr>
+			<td rowspan="3">US29</td>
+			<td rowspan="3">Crear un conductor</td>
+			<td>T51</td>
+			<td>Crear conductor con datos válidos</td>
+			<td>Visualizar el formulario de creación de un conductor.</td>
+			<td>2</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T52</td>
+			<td>Impedir creación con email inválido repetido</td>
+			<td>Mostrar un mensaje de error cuando se intente crear un conductor con un email repetido.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td>T53</td>
+			<td>Impedir creación si se supera el límite</td>
+			<td>Mostrar el limite de 10 conductores si el gerente intenta crear más de 10 conductores.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td rowspan="3">US40</td>
+			<td rowspan="3">Crear un nuevo reporte</td>
+			<td>T54</td>
+			<td>Crear reporte con tipo y descripción válidos</td>
+			<td>Desarrollar el formulario para que los conductores puedan crear nuevos reportes.</td>
+			<td>2</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T55</td>
+			<td>Impedir creación sin tipo de reporte</td>
+			<td>Realizar la validación de que el tipo de reporte sea seleccionado.</td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td>T56</td>
+			<td>Impedir creación con descripción vacía</td>
+			<td>Validar que la descripción del reporte no sea vacía.</td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US26</td>
+			<td rowspan="2">Ver datos de vehículo asignado</td>
+			<td>T57</td>
+			<td>Mostrar información de vehículo al conductor</td>
+			<td>Visualizar la información del vehículo asignado.</td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T57</td>
+			<td>Impedir visualización si no tiene vehículo asignado</td>
+			<td>Mostrar un mensaje cuando el conductor no tiene un vehículo asignado.</td>
+			<td>1</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US36</td>
+			<td rowspan="2">Consultar envío asignado</td>
+			<td>T58</td>
+			<td>Mostrar detalles del envío asignado</td>
+			<td>Visualizar los detalles del envío asignado.</td>
+			<td>2</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T59</td>
+			<td>Indicar ausencia de envío</td>
+			<td>Mostrar el mensaje de error "No se ha encontrado el envío"</td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US39</td>
+			<td rowspan="2">Visualizar lista de envíos por conductor</td>
+			<td>T60</td>
+			<td>Mostrar historial de envíos por conductor</td>
+			<td>Crear la lista de envíos por conductor.</td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T61</td>
+			<td>Mostrar información clave de cada envío</td>
+			<td>Visualizar destino, estado y fecha de envío.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="3">US38</td>
+			<td rowspan="3">Cambiar estado del envío</td>
+			<td>T62</td>
+			<td>Conductor cambia estado a "en proceso"</td>
+			<td>Crear la funcionalidad para que el conductor pueda cambiar el estado del envío a "en proceso".</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T63</td>
+			<td>Conductor cambia estado a "terminado"</td>
+			<td>Crear la funcionalidad para que el conductor pueda cambiar el estado del envío a "terminado".</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td>T64</td>
+			<td>Impedir cambio de estado por otros roles</td>
+			<td>Denegar el cambio de estado por parte de otros roles.</td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US41</td>
+			<td rowspan="2">Guardar la fecha del reporte automáticamente</td>
+			<td>T65</td>
+			<td>Guardar fecha al momento de la creación</td>
+			<td>Crear la funcionalidad para que el conductor pueda guardar la fecha del reporte automáticamente.</td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T66</td>
+			<td>Visualizar la fecha al consultar reportes</td>
+			<td>Implementar la funcionalidad para que el conductor pueda visualizar la fecha del reporte.</td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US45</td>
+			<td rowspan="2">Ver cantidad de reportes por tipo</td>
+			<td>T67</td>
+			<td>Mostrar total de reportes por tipo</td>
+			<td>Permitir al gerente visualizar la cantidad de reportes por tipo.</td>
+			<td>2</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T68</td>
+			<td>Incluir totales por conductor</td>
+			<td>Visualizar el total de reportes por tipo por conductor.</td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US42</td>
+			<td rowspan="2">Ver mis propios reportes</td>
+			<td>T69</td>
+			<td>Mostrar todos los reportes del conductor autenticado</td>
+			<td>Permitir al conductor visualizar sus propios reportes.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T70</td>
+			<td>Mostrar detalles de cada reporte</td>
+			<td>Visualizar los detalles de cada reporte.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US43</td>
+			<td rowspan="2">Ver reportes de otros conductores de mi empresa</td>
+			<td>T71</td>
+			<td>Mostrar reportes de compañeros vinculados al mismo gerente</td>
+			<td>Añadir la funcionalidad para que el conductor pueda ver los reportes de compañeros vinculados al mismo gerente.</td>
+			<td>2</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T72</td>
+			<td>Ocultar reportes de otros gerentes</td>
+			<td>Denegar el acceso a los reportes de otros gerentes.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US58</td>
+			<td rowspan="2">Enviar datos de sensor al backend</td>
+			<td>T73</td>
+			<td>Transmitir datos cada intervalo definido</td>
+			<td>Enviar datos desde el dispositivo IoT al backend cada intervalo definido.</td>
+			<td>2</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T74</td>
+			<td>Confirmar entrega al backend</td>
+			<td>Notificar el recibo de los datos del backend.</td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US60</td>
+			<td rowspan="2">Enviar ubicación GPS del vehículo</td>
+			<td>T77</td>
+			<td>Capturar y transmitir posición GPS</td>
+			<td>Obtener la posición GPS del vehículo y transmitirla al backend.</td>
+			<td>2</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T78</td>
+			<td>Manejar errores de lectura GPS</td>
+			<td>Notificar al usuario cuando se produce un error de lectura de la posición GPS.</td>
+			<td>1</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US57</td>
+			<td rowspan="2">Capturar humeda desde sensor IoT</td>
+			<td>T79</td>
+			<td>Registrar humedad dentro del rango</td>
+			<td>Recibir datosdel sensor que transmite un porcentaje entre 0 y 100.</td>
+			<td>2</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T80</td>
+			<td>Ignorar valores fuera del rango</td>
+			<td>Prohibir el acceso de datos que sean menores de 0 o mayores a 100.</td>
+			<td>1</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US56</td>
+			<td rowspan="2">Capturar temperatura desde sensor IoT</td>
+			<td>T81</td>
+			<td>Recibir lectura válida de temperatura</td>
+			<td>Recibir y almacenar datos con precisión decimal del sensor.</td>
+			<td>2</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T82</td>
+			<td>Rechazar lectura fuera del rango físico aceptable</td>
+			<td>Prohibir el acceso de datos que sean menores a -50 o mayores a 100.</td>
+			<td>1</td>
+			<td>Mauricio Muñoz</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US61</td>
+			<td rowspan="2">Filtrar lecturas erráticas de sensor</td>
+			<td>T83</td>
+			<td>Rechazar valores fuera del rango físico</td>
+			<td>Descartar la lectura del edge service cuando esté fuera de rango.</td>
+			<td>1</td>
+			<td>Mauricio Muñoz</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T84</td>
+			<td>Permitir solo valores dentro de los límites físicos</td>
+			<td>Validar los datos con el edge para que sean enviados.</td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US63</td>
+			<td rowspan="2">Calcular promedios locales antes de enviar</td>
+			<td>T85</td>
+			<td>Promediar lecturas antes del envío</td>
+			<td>Calcular el promedio de las últimas lecturas del edge.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T86</td>
+			<td>Enviar solo promedios cada intervalo</td>
+			<td>Enviar valores al backend cada intervalo definido.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US59</td>
+			<td rowspan="2">Asociar datos de sensor al vehículo correspondiente</td>
+			<td>T87</td>
+			<td>Asociar lectura al vehículo correcto</td>
+			<td>Vincular datos de los sensores al vehículo con identificador único.</td>
+			<td>2</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T88</td>
+			<td>Impedir asociación si no se reconoce el ID del sensor</td>
+			<td>Ignorar la lectura del sensor si no se reconoce el ID o no está registrado.</td>
+			<td>1</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US52</td>
+			<td rowspan="2">Ver cantidad de envíos por conductor</td>
+			<td>T89</td>
+			<td>Mostrar total de envíos por conductor</td>
+			<td>Sección de estadísticas de envíos por conductor.</td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T90</td>
+			<td>Mostrar valores actualizados</td>
+			<td>Actualizar la información cuando un envío sea creado o terminado..</td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US51</td>
+			<td rowspan="2">Ver estadísticas de reportes por conductor</td>
+			<td>T91</td>
+			<td>Mostrar cantidad total de reportes por conductor</td>
+			<td>Visuzalizar la sección de estadísticas de reportes por conductor.</td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T92</td>
+			<td>Mostrar desglose por tipo de reporte</td>
+			<td>Visualizar la sección de estadísticas de reportes por tipo hecho por cada conductor.</td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US55</td>
+			<td rowspan="2">Usar el limite más bajo entre los envíos del conductor</td>
+			<td>T93</td>
+			<td>Usar el valor más estricto al analizar condiciones</td>
+			<td>Validar que el vehículo del conductor tenga un límite bajo de temperatura y humedad.</td>
+			<td>2</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T94</td>
+			<td>Actualizar límites al cambiar asignaciones</td>
+			<td>Actualizar el sistema cuando se modifiquen los nuevos límites.</td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US49</td>
+			<td rowspan="2">Mostrar limites si no soy PRO</td>
+			<td>T95</td>
+			<td>Advertencia al alcanzar el limite de conductores</td>
+			<td>Mostrar un mensaje de advertencia cuando el gerente ponga más de 10 conductores.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T96</td>
+			<td>Advertencia al alcanzar el límite de vehículos</td>
+			<td>Mostrar un mensaje de advertencia cuando el gerente ponga más de 10 vehículos.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">U12</td>
+			<td rowspan="2">Ver todos los usuarios registrados</td>
+			<td>T97</td>
+			<td>Mostrar usuarios registrados</td>
+			<td>Permitir que solo los administradores vean los usuarios registrados.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T98</td>
+			<td>Visualizar información básica del usuario</td>
+			<td>Mostrar información básica del usuario registrado.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US31</td>
+			<td rowspan="2">Ver limite alcanzado (cuenta gratuita)</td>
+			<td>T99</td>
+			<td>Mostrar advertencia al alcanzar el límite</td>
+			<td>Visualizar un mensaje de advertencia cuando el usuario alcanza el límite de cuenta gratuita.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T100</td>
+			<td>Mostrar sugerencia para activar PRO</td>
+			<td>Visualizar un mensaje de sugerencia para que el usuario active el plan PRO cuando llegue al límite.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US32</td>
+			<td rowspan="2">Ver email del gerente (como administrador)</td>
+			<td>T101</td>
+			<td>Visualizar asociación entre conductor y gerente</td>
+			<td>Mostrar el email del gerente asociado al conductor.</td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T102</td>
+			<td>Asegurar integridad de la relación</td>
+			<td>Asociar la información del conductor con su gerente.</td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US33</td>
+			<td rowspan="2">Ver detalles del conductor (como gerente)</td>
+			<td>T103</td>
+			<td>Mostrar datos de un conductor existente</td>
+			<td>Visualizar los datos de los conductores existentes.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T104</td>
+			<td>Ver estado de asignación del conductor</td>
+			<td>Visualizar si un conductor tiene un vehículo asignado.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US30</td>
+			<td rowspan="2">Ver lista de conductores registrados</td>
+			<td>T105</td>
+			<td>Visualizar lista completa de conductores del gerente</td>
+			<td>Mostrar una tabla con todos los conductores del gerente.</td>
+			<td>2</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T106</td>
+			<td>Mostrar información básica por conductor</td>
+			<td>Visualizar email y behiculo asignado del conductor.</td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+        <tr>
+			<td rowspan="2">US22</td>
+			<td rowspan="2">Cambiar contraseña</td>
+			<td>T107</td>
+			<td>Cambio exitoso de contraseña</td>
+			<td>Validar contraseña actuar para crear una nueva.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T108</td>
+			<td>Impedir contraseña inválida</td>
+			<td>Validar las reglas de creación de contraseña.</td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td rowspan="2">US08</td>
+			<td rowspan="2">Login como administrador</td>
+			<td>T109</td>
+			<td>Acceso correcto con credenciales válidas</td>
+			<td>Validar las credenciales del administrador.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T110</td>
+			<td>Acceso denegado con credenciales inválidas</td>
+			<td>Mostrar un mensaje de error cuando las credenciales del administrador no son válidas.</td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td rowspan="2">US18</td>
+			<td rowspan="2">Iniciar sesión como conductor</td>
+			<td>T111</td>
+			<td>Autenticación válida como conductor</td>
+			<td>Validar las credenciales del conductor.</td>
+			<td>1</td>
+			<td>Elias Torres</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T112</td>
+			<td>Impedir acceso con credenciales incorrectas</td>
+			<td>Mostrar un mensaje de error cuando las credenciales del conductor no son válidas.</td>
+			<td>1</td>
+			<td>Moises Donayre</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td rowspan="2">US19</td>
+			<td rowspan="2">Iniciar sesión como administrador</td>
+			<td>T113</td>
+			<td>Autenticación correcta del administrador</td>
+			<td>Validar las credenciales del administrador.</td>
+			<td>1</td>
+			<td>Miguel Huarcaya</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T114</td>
+			<td>Impedir acceso con credenciales inválidas</td>
+			<td>Rechazar el acceso al administrador si sus credenciales son incorrectas.</td>
+			<td>1</td>
+			<td>Mauricio Chacon</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td rowspan="2">US21</td>
+			<td rowspan="2">Editar datos personales</td>
+			<td>T115</td>
+			<td>Actualización exitosa de datos personales</td>
+			<td>Desarrollar formulario para actualizar los datos personales del usuario.</td>
+			<td>1</td>
+			<td>Piero Tarazona</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>T116</td>
+			<td>Impedir datos vacíos o inválidos</td>
+			<td>Validar los campos obligatorios del formulario de edición de datos personales.</td>
+			<td>1</td>
+			<td>Aldahir Valenzuela</td>
+			<td>Done</td>
+		</tr>
+	</tbody>
+</table>
+
+#### 6.2.2.4. Development Evidence for Sprint Review.
+
+- AppWeb:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+|upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | e0dcd26 | feat:... | add new page for vehicle details | 02-06-2025 |
+|upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 53e42fc | feat:... | deleted technical status | 02-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | ba13c28 | feat:... | Merge branch 'feature/shipment' into develop | 03-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/shipment | b3a39a0 | fix:... | update of the shipment section | 03-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 56e7598 | fix:... | fixed warnings | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 392e655 | feat:... | added new page to create a vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | b9b827c | fix:... | fixed page to create a vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 48547fe | feat:... | added new page to update vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 3bfb321 | fix:... | update of the reports module | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 3dcb1fb | fix:... | implement new url shipments | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | a2d7e3d | feat:... | Merge branch 'feature/issues' into develop | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 1e4832d | fix:... | update design and translation | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/issues | ebfb321 | fix:... | update of the reports module | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/iam | 212aa12 | fix:... | login and register models | 15-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | c3e944f | fix:... | sibcripments | 15-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | 82a7822 | fix:... | subscription | 16-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 943b38d | feat:... | fixed update vehicle | 22-06-2025 |
+
+
+- Backend:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+| upc-OpenSource-BicasTeam-api | feature/shipments | 27c7d26 | feat:... | Merge branch 'develop' into feature/shipments | 08-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | 9440d5a | feat:... | Create IAM and modificated Profile | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/subscription&payments | 28e3db6 | feat:... | subscription implement | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | develop | bfd6c1b | feat:... | Merge branch 'feature/subscription&payments' into develop | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/vehicles&tracking | 372a018 | feat:... | update vehicle model and services | 10-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/shipments | 782bfb6 | feat:... | merge develop on shipment | 13-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/profile-management | 806c37c | feat:... | Update local database connection | 14-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | f8198af | fix:... | profile | 15-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | 7c169e6 | fix:... | subscription and profiles and iam | 15-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/vehicles&tracking | d9b4a8d | feat:... | Implement date formatting and enhance vehicle location info | 17-06-2025 |
+
+- AppMobile:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+| upc-iot-BicasTeam-App-mobile | develop | 526cdfd | ... | initial commit | 30-05-2025 |
+| upc-iot-BicasTeam-App-mobile | develop | c5c3ff4 | feat:... | Transferred essential files and structure from the original mobile project. | 30-05-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | b15d32b | feat:... | implemented analytics feature with driver statistics and reports | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7d1fc62 | feat:... | add analytics feature with driver reports and shipment statistics | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 888a5cf | feat:... | add analytics screens and service for driver reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 583fcdf | feat:... | add analytics screen and related functionalities for driver reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7123e8b | feat:... | add analytics option to navigation in carrier profiles, profile, and reports screens | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Iam | aa9f47a | feat:... | Implementation of the reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Vehicles&Tracking | 63cc9f9 | feat:... | added businessman vehicles page | 21-06-2025 |
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review. 
+
+Durante el Sprint 2, el equipo logró avances sustanciales en la expansión de la funcionalidad del sitio web, centrándose en el desarrollo de la aplicación móvil, el backend y la integración de componentes embebidos. Se completaron con éxito todas las historias de usuario asignadas, que abarcaron la implementación de características clave para la aplicación móvil, como la navegación intuitiva y la presentación de información esencial. En paralelo, se consolidó la arquitectura del backend, asegurando la robustez y escalabilidad necesarias para soportar tanto la aplicación web como la nueva aplicación móvil. Además, se trabajó en la integración de componentes embebidos que mejoran la interacción del usuario y amplían las capacidades del sistema. La colaboración del equipo fue fundamental para garantizar que estas implementaciones se alinearan con los requisitos del proyecto y contribuyeran a una experiencia de usuario fluida e integral en todas las plataformas.
+
+App Móvil:
+![Testing Suite Evidence](/assets/chapter06/movil1.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil2.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil3.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil4.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil5.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil6.jpg)
+
+Backend:
+![Testing Suite Evidence](/assets/chapter06/back1.jpg)
+![Testing Suite Evidence](/assets/chapter06/back2.jpg)
+![Testing Suite Evidence](/assets/chapter06/back3.jpg)
+![Testing Suite Evidence](/assets/chapter06/back4.jpg)
+
+#### 6.2.2.6. Execution Evidence for Sprint Review. 
+
+Se desarrolló el despliegeue e integracion del backend:
+
+![Execution evidence for sprint review](/assets/chapter06/Execution%20Evidence%20for%20Sprint%20Review.png)
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review. 
+
+Durante el Sprint 2, un objetivo primordial fue el desarrollo y la documentación rigurosa de los servicios de backend (APIs) que sustentan la lógica de negocio y la interoperabilidad con la aplicación móvil y la aplicación web. Hemos logrado documentar de forma integral todos los endpoints definidos en el alcance de este Sprint, garantizando su claridad y facilidad de uso para los equipos de desarrollo de frontend y para futuras integraciones.
+
+| Endpoint | Acciones Soportadas (Verbo HTTP) | Sintaxis de Llamada | Parámetros | Ejemplo y Explicación del Response
+|---|---|---|---|---|
+| /user/register | POST | POST /user/register Cuerpo de la Solicitud (JSON): - email - password - roles | Ejemplo:json<br>{ "message": "User registered successfully" }<br>	|
+| /user/login | POST | POST /user/login | Cuerpo de la Solicitud (JSON): - email - password | Ejemplo: json<br>{ "token": "eyJhbGciOiJIUzUxMiJ9...", "type": "Bearer" }<br> |
+| /api/roles | GET | GET /api/roles | Ninguno | Ejemplo: json<br>[ { "id": 1, "name": "ADMIN" }, { "id": 2, "name": "USER" } ]<br> |
+| /api/roles | POST | POST /api/roles | Cuerpo de la Solicitud (JSON): - name. | Ejemplo: json<br>{ "message": "Role created successfully" }<br> |
+| /api/userroles | GET | GET /api/userroles | Ninguno | Ejemplo: json<br>[ { "userId": 1, "roleId": 2 }, { "userId": 1, "roleId": 1 } ]<br> |
+| /api/userroles | POST | POST /api/userroles | Cuerpo de la Solicitud (JSON): - userId - roleId | Ejemplo: json<br>{ "message": "User role assigned successfully" }<br> |
+| /api/userroles | PUT | PUT /api/userroles | Cuerpo de la Solicitud (JSON): - userId- roleId | Ejemplo: json<br>{ "message": "User role updated successfully" }<br> |
+| /api/userroles | DELETE | DELETE /api/userroles | Parámetros de Query: - userId- roleId | Ejemplo: json<br>{ "message": "User role deleted successfully" }<br> |
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review. 
+
+Despliegue del Backend
+El despliegue del backend se llevó a cabo para establecer la infraestructura que soportará tanto la aplicación web existente como la nueva aplicación móvil. Los pasos incluyeron:
+
+- Selección y Configuración del Entorno de Despliegue: Elegimos el proveedor de servicios en la nube Azure adecuado para las necesidades de nuestro backend. Se configuraron los servidores y servicios necesarios, como bases de datos, balanceadores de carga y servicios de autenticación.
+- Monitoreo y Registro: Se configuraron herramientas de monitoreo y registro para supervisar el rendimiento del backend, identificar posibles problemas y garantizar la disponibilidad del servicio.
+- Despliegue de Endpoints API: Se desplegaron los endpoints de la API que permitirán la comunicación entre la aplicación móvil, la aplicación web y la base de datos, incluyendo funcionalidades como registro de usuarios, autenticación, gestión de datos y lógica de negocio.
+
+Desarrollo y Preparación para el Despliegue de la Aplicación Móvil
+El desarrollo inicial de la aplicación móvil se centró en la creación de las funcionalidades clave para las plataformas objetivo. Los pasos fueron:
+
+- Creación del Proyecto Móvil: Se inició el proyecto de la aplicación móvil utilizando el framework de desarrollo Flutter.
+- Implementación de la Interfaz de Usuario (UI): Se desarrollaron los componentes visuales y la navegación de la aplicación móvil, asegurando una experiencia de usuario intuitiva y atractiva.
+- Integración con el Backend: Se realizaron las llamadas a la API del backend para consumir y enviar datos, lo que permite a la aplicación móvil interactuar con la lógica de negocio y la base de datos centralizada.
+- Pruebas Iniciales en Dispositivos: Se realizaron pruebas en simuladores y dispositivos reales para verificar la funcionalidad básica y la compatibilidad en diferentes sistemas operativos y tamaños de pantalla.
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint. 
+Durante el Sprint 2, nuestra colaboración se centró en el desarrollo de la aplicación móvil y la construcción del backend. El equipo trabajó en estrecha coordinación, lo que se evidencia en los numerosos commits registrados en los repositorios de GitHub, cada uno debidamente respaldado por capturas de pantalla para documentar el progreso.
+
+Para mantener una colaboración efectiva y organizada, seguimos aplicando la metodología GitFlow. Esta estrategia fue crucial para gestionar el desarrollo paralelo de la aplicación móvil y el backend. Creamos ramas específicas para cada característica o módulo tanto en el frontend de la aplicación móvil (por ejemplo, pantalla de inicio de sesión, listado de vehículos, perfiles de conductor) como en los servicios del backend (como APIs de autenticación, gestión de bases de datos, lógica de negocio para los distintos módulos).
+
+La distribución de tareas fue clave para nuestra eficiencia: cada miembro del equipo se hizo cargo de una sección o funcionalidad distinta. Esto nos permitió avanzar simultáneamente en el desarrollo de la aplicación móvil y en la infraestructura del backend. Esta aproximación no solo optimizó el tiempo de desarrollo, sino que también nos permitió cumplir con todas las historias de usuario planificadas y entregar los resultados de este sprint de manera exitosa, incluso antes de la fecha límite establecida.
+
+App móvil:
+![Team Collaboration Insights](/assets/chapter06/collaboration-insights1.png)
+
+App web (transportista):
+![Team Collaboration Insights](/assets/chapter06/collaboration-insights1.2.png)
+
+Backend:
+![Team Collaboration Insights](/assets/chapter06/colab%20backend.png)
+
+Recuento de Commits de los ultimos 3 meses del backend
+
+----
+----
+
+ ### 6.2.3 Sprint 3
+En esta sección, documentaremos y explicaremos el progreso tanto en el desarrollo del producto como en la colaboración del equipo durante el Sprint 3. Seguimos un proceso definido que abarca desde la planificación hasta la revisión y documentación del trabajo realizado. A lo largo de las siguientes secciones, detallaremos cómo se llevó a cabo la planificación del sprint, qué tareas se incluyeron en el Sprint Backlog, las pruebas y evidencia de desarrollo para la revisión del sprint, así como la documentación de los servicios y las percepciones clave sobre la colaboración del equipo durante este periodo
+ ### 6.2.3.1. Sprint Planning 3. 
+En esta sección, se detallan los aspectos principales del Sprint Planning Meeting para el Sprint 3. Este encuentro es crucial para establecer los objetivos del sprint, determinar las user stories que se abordarán y asignar tareas al equipo. A continuación, se presenta un resumen del Sprint Planning Meeting para este período
+
+<table>
+  <tbody>
+    <tr>
+      <td>Sprint #</td><td>Sprint 3</td>
+    </tr>
+    <tr>
+      <td colspan="2">Sprint Planning Background</td>
+    </tr>
+		<tr>
+			<td>Date</td>
+			<td>2025-06-28</td>
+		</tr>
+		<tr>
+			<td>Time</td>
+			<td>05:14 PM</td>
+		</tr>
+		<tr>
+			<td>Location</td>
+			<td>Google Meet</td>
+		</tr>
+		<tr>
+			<td>Prepared by</td>
+			<td>Huarcaya Chavez, Miguel Alejandro Daniel</td>
+		</tr>
+		<tr>
+			<td>Attendees (to planning meeting)</td>
+			<td>Huarcaya Chavez, Miguel Alejandro Daniel / Torres Espinoza, Elias / Tarazona Medina, Piero Abel / Chacon Martinez, Mauricio Sebastián / Donayre Peña, Moises Rodolfo / Valenzuela Huillcaya, Aldhair Johan Juan</td>
+		</tr>
+		<tr>
+			<td>Sprint 3 Review Summary</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Sprint 3 Retrospective Summary</td>
+			<td></td>
+	</tr>
+		<tr>
+			<td colspan="2">Sprint Goal & User Stories</td>
+		</tr>
+		<tr>
+			<td>Sprint 3 Goal</td>
+			<td>Nuestro enfoque está en consolidar la experiencia del usuario en las plataformas web y móvil mediante la visualización en tiempo real de los datos de temperatura, humedad y ubicación GPS de los vehículos, así como garantizar una experiencia de registro y suscripción fluida, corrigiendo errores previamente identificados en la gestión de conductores en la aplicación móvil y en el flujo de suscripciones dentro de la aplicación web.
+Creemos que esto aportará una mayor transparencia operativa y confianza a los usuarios del sistema al poder monitorear las condiciones ambientales de los vehículos desde cualquier dispositivo, permitiendo respuestas más oportunas ante irregularidades en el transporte. Además, al corregir los errores que impedían el registro de nuevos conductores y afectaban el proceso de validación de pagos, se reducirá la fricción en tareas críticas del gerente, lo que contribuirá a una experiencia más estable, profesional y eficiente, mejorando así la percepción de calidad del sistema y facilitando la expansión de su adopción dentro de las empresas de transporte.
+Esto se confirmará cuando los gerentes puedan visualizar correctamente los datos ambientales de los vehículos tanto en la aplicación web como móvil, registrar conductores sin inconvenientes desde el entorno móvil, y completar el proceso de suscripción sin errores, logrando un aumento en la tasa de conversiones PRO y una reducción de incidencias reportadas por los usuarios en estas funcionalidades clave.
+</td>
+		</tr>
+		<tr>
+			<td>Sprint 2 Velocity</td>
+			<td>- Para este Tercer Sprint estimamos una velocidad de 51 Story Points, basada en nuestra capacidad de equipo y en la complejidad de las historias seleccionadas.</td>
+		</tr>
+		<tr>
+			<td>Sum of Story Points</td>
+			<td>51</td>
+		</tr>
+  </tbody>
+</table>
+
+ ### 6.2.3.2.Aspect Leaders and Collaborators. 
+
+ | Team Member | Github Username | section-header | section-hero | section-about-us | section-about-team | section-services | section-pricing | section-footer |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Huarcaya, Miguel | MiguelHuarcayaChavez | C |  | L |  | C |  |
+| Torres, Elias | EliasTorresEzpinoza |  | L |  | C |  |  | L |
+| Tarazona, Piero | pierotm |  |  |  | L |  | C |  |
+| Chacon, Mauricio | mxuriciocm | L |  |  | C | L |  | C |
+| Donayre, Moises | MoisesD19 |  |  | C |  |  | L |  |
+| Valenzuela, Aldhair | AldhaValenzuelaH |  | C |  |  |  |  | C |
+
+| Team Member | Github Username | IAM | Subscription & Payments | Profile Management | Analytics | Vehicles & Tracking | Shipment | Issues |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Huarcaya, Miguel | MiguelHuarcayaChavez | L | L |  |  |  | C | C |
+| Torres, Elias | EliasTorresEzpinoza | C | C |  |  |  | L | L |
+| Tarazona, Piero | pierotm |  |  | L | C |  |  |  |
+| Chacon, Mauricio | mxuriciocm |  |  | C | L |  |  |  |
+| Donayre, Moises | MoisesD19 |  |  |  |  | C |  |  |
+| Valenzuela, Aldhair | AldhaValenzuelaH |  |  |  |  | L |  |  |
+
+ ### 6.2.3.3. Sprint Backlog 3. 
+
+El Sprint 3 está centrado en la consolidación y refinamiento de la experiencia del usuario en las plataformas web y móvil. Este sprint prioriza la visualización de datos ambientales clave —temperatura, humedad y ubicación GPS— desde ambos entornos, asegurando así un monitoreo en tiempo real que fortalece el control operativo de los usuarios. Asimismo, se abordan correcciones críticas en funcionalidades existentes, tales como el registro de conductores en la aplicación móvil y el proceso de suscripción PRO en la plataforma web. Al completar las tareas asociadas a estas historias de usuario, mejoraremos significativamente la estabilidad y confiabilidad del sistema, sentando una base más robusta para futuras mejoras centradas en la escalabilidad y el uso intensivo del sistema en campo.
+
+![Trello Sprint 3](/assets/chapter06/Sprint3/trello%20s3.png)
+
+<table><tr><th colspan="1">Sprint #</th><th colspan="7">Sprint 3</th></tr>
+<tr><td colspan="2">User Story</td><td colspan="6">Work-Item / Task</td></tr>
+<tr><td colspan="1">Id</td><td colspan="1">Title</td><td colspan="1">Id</td><td colspan="1">Title</td><td colspan="1">Description</td><td colspan="1">Estimation (Hours)</td><td colspan="1">Assigned To</td><td colspan="1">Status(To-do / InProcess / ToReview / Done)</td></tr>
+<tr><td colspan="1" rowspan="3">US29</td><td colspan="1" rowspan="3">Crear un conductor</td><td colspan="1">T01</td><td colspan="1">conductor con datos válidos</td><td colspan="1">Crear conductor con datos válidos Given un gerente está autenticado When proporciona un email y contraseña válidos Then el sistema registra correctamente al nuevo conductor</td><td colspan="1">2</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T02</td><td colspan="1">Impedir creación con email inválido</td><td colspan="1">Scenario: Impedir creación con email inválido o repetido Given el gerente proporciona un email malformado o ya existente When intenta registrar al conductor Then el sistema impide la creación y muestra una validación</td><td colspan="1">1</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T03</td><td colspan="1">Impedir creación si se supera el límite</td><td colspan="1">Impedir creación si se supera el límite Given el gerente no es PRO y ya tiene 10 conductores When intenta crear un nuevo conductor Then el sistema impide la acción y lo informa</td><td colspan="1">3</td><td colspan="1">Miguel Huarcaya </td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US02</td><td colspan="1" rowspan="2">Ver funcionalidades clave</td><td colspan="1">T03</td><td colspan="1">Mostrar listado de funcionalidades según rol</td><td colspan="1">Crear la lista de funcionalidades principales del sistema.</td><td colspan="1">2</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T04</td><td colspan="1">Acceso a funcionalidades sin autenticación</td><td colspan="1">Permitir a los usuarios acceder a las funcionalidades sin autenticación.</td><td colspan="1">1</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US40</td><td colspan="1" rowspan="2">Crear un nuevo reporte</td><td colspan="1">T05</td><td colspan="1">Crear reporte con tipo y descripción válidos Given un conductor autenticado proporciona el tipo de reporte y una descripción When confirma la creación Then el sistema guarda el reporte correctamente</td><td colspan="1">Especificar las características y beneficios de las cuentas gratuita y PRO para la comparación.</td><td colspan="1">1</td><td colspan="1">Moises Donayre</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T06</td><td colspan="1">Impedir creación sin tipo de reporte Given el conductor omite el campo de tipo When intenta crear el reporte Then el sistema rechaza la acción</td><td colspan="1">Definir las restricciones del plan gratuito.</td><td colspan="1">1</td><td colspan="1">Moises Donayre</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US26</td><td colspan="1" rowspan="2">Ver datos del vehículo asignado</td><td colspan="1">T07</td><td colspan="1">Mostrar información del vehículo al conductor</td><td colspan="1">Mostrar información del vehículo al conductor Given un conductor tiene un vehículo asignado When accede a su información Then el sistema muestra los datos del vehículo correctamente</td><td colspan="1">2</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T08</td><td colspan="1">Impedir visualización si no tiene vehículo asignado</td><td colspan="1">Impedir visualización si no tiene vehículo asignado Given un conductor no tiene vehículo vinculado When intenta acceder a los datos Then el sistema muestra un mensaje indicando que no hay vehículo asignado</td><td colspan="1">1</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US36</td><td colspan="1" rowspan="2">onsultar envío asignado</td><td colspan="1">T09</td><td colspan="1">Mostrar detalles del envío asignado</td><td colspan="1">Given un conductor tiene un envío pendiente When accede a su información Then el sistema muestra los datos del envío asignado</td><td colspan="1">1</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T10</td><td colspan="1">Indicar ausencia de envío</td><td colspan="1">Given el conductor no tiene ningún envío asignado When consulta su sección de envíos Then el sistema informa que no hay asignaciones actuales</td><td colspan="1">2</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US39</td><td colspan="1" rowspan="2">Visualizar lista de envíos por conductor</td><td colspan="1">T11</td><td colspan="1">Mostrar historial de envíos por conductor</td><td colspan="1">Given un gerente tiene varios conductores registrados When selecciona uno de ellos Then el sistema muestra todos los envíos que ha realizado</td><td colspan="1">1</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T12</td><td colspan="1">Mostrar información clave de cada envío</td><td colspan="1">Given se muestra la lista de envíos por conductor When el gerente consulta los registros Then el sistema presenta destino, estado y fecha de creación</td><td colspan="1">1</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US38</td><td colspan="1" rowspan="2">Cambiar estado del envío</td><td colspan="1">T13</td><td colspan="1">Conductor cambia estado a "en proceso"</td><td colspan="1">Given un envío está en estado "pendiente" When el conductor lo inicia Then el estado cambia a "en proceso"</td><td colspan="1">1</td><td colspan="1">Piero Tarazona</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T14</td><td colspan="1">Conductor cambia estado a "terminado"</td><td colspan="1">Given un envío está en proceso When el conductor lo finaliza Then el estado cambia a "terminado"</td><td colspan="1">1</td><td colspan="1">Piero Tarazona</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US41</td><td colspan="1" rowspan="2">Guardar la fecha del reporte automáticamente</td><td colspan="1">T15</td><td colspan="1">Guardar fecha al momento de la creación</td><td colspan="1">Given un conductor crea un nuevo reporte When confirma la acción Then el sistema asigna automáticamente la fecha actual al reporte</td><td colspan="1">2</td><td colspan="1">Moises Donayre</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T16</td><td colspan="1">Visualizar la fecha al consultar reportes</td><td colspan="1">Given el reporte ya fue creado When se consulta desde la base de datos o API Then incluye la fecha de creación correctamente registrada</td><td colspan="1">1</td><td colspan="1">Moises Donayre</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US45</td><td colspan="1" rowspan="2">Ver cantidad de reportes por tipo</td><td colspan="1">T18</td><td colspan="1">Mostrar total de reportes por tipo</td><td colspan="1">Given el gerente consulta los datos estadísticos When accede al resumen por tipo de reporte Then el sistema muestra la cantidad total de reportes clasificados por tipo</td><td colspan="1">2</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T19</td><td colspan="1">Incluir totales por conductor</td><td colspan="1">Given el gerente selecciona un conductor When visualiza el resumen Then el sistema muestra la cantidad total de reportes por tipo generados por ese conductor</td><td colspan="1">1</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US42</td><td colspan="1" rowspan="2">Ver mis propios reportes</td><td colspan="1">T21</td><td colspan="1">Mostrar todos los reportes del conductor autenticado</td><td colspan="1">Given un conductor tiene reportes registrados When accede a su historial Then el sistema muestra la lista de sus reportes</td><td colspan="1">1</td><td colspan="1">Piero Tarazona</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T22</td><td colspan="1">Mostrar detalles de cada reporte</td><td colspan="1">Given el conductor revisa uno de sus reportes When lo selecciona desde la lista Then el sistema presenta tipo, descripción y fecha</td><td colspan="1">2</td><td colspan="1">Piero Tarazona</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US43</td><td colspan="1" rowspan="2">Ver reportes de otros conductores de mi empresa</td><td colspan="1">T23</td><td colspan="1">Mostrar reportes de compañeros vinculados al mismo gerente</td><td colspan="1">Given un conductor está autenticado y forma parte de una empresa When accede a la sección de reportes compartidos Then puede ver los reportes de otros conductores del mismo gerente</td><td colspan="1">2</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T24</td><td colspan="1">Ocultar reportes de otros gerentes</td><td colspan="1">Given un conductor no pertenece a una empresa When intenta ver reportes de otros gerentes Then el sistema impide el acceso a esa información</td><td colspan="1">1</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US58</td><td colspan="1" rowspan="2">Enviar datos de sensor al backend</td><td colspan="1">T25</td><td colspan="1">Transmitir datos cada intervalo definido</td><td colspan="1">Given el dispositivo IoT está operativo When se cumple el intervalo de envío (ej. cada 30 segundos) Then el sistema transmite temperatura y humedad al backend</td><td colspan="1">3</td><td colspan="1">Moises Donayre</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T26</td><td colspan="1">Confirmar entrega al backend</td><td colspan="1">Given se envían datos al backend When el backend los recibe exitosamente Then responde con un código de estado confirmando la recepción</td><td colspan="1">1</td><td colspan="1">Moises Donayre</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US60</td><td colspan="1" rowspan="2">Enviar ubicación GPS del vehículo</td><td colspan="1">T27</td><td colspan="1">Capturar y transmitir posición GPS</td><td colspan="1">Given el dispositivo IoT obtiene coordenadas geográficas válidas When se cumple el ciclo de envío Then el sistema transmite la ubicación actual al backend</td><td colspan="1">3</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T28</td><td colspan="1">Manejar errores de lectura GPS</td><td colspan="1">Given el módulo GPS no puede determinar una ubicación When se intenta enviar la ubicación Then el sistema omite el envío e informa error localmente (log)</td><td colspan="1">1</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US57</td><td colspan="1" rowspan="2">Capturar humedad desde sensor IoT</td><td colspan="1">T29</td><td colspan="1">Registrar humedad dentro del rango</td><td colspan="1">Given el sensor transmite un porcentaje entre 0 y 100 When el sistema recibe el dato Then lo almacena correctamente con su timestamp</td><td colspan="1">3</td><td colspan="1">Miguel Huarcaya</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T30</td><td colspan="1">Ignorar valores fuera del rango</td><td colspan="1">Given el sensor envía una humedad menor a 0 o mayor a 100 When el dato llega al sistema Then este descarta la lectura por inconsistencia</td><td colspan="1">2</td><td colspan="1">Miguel Huarcaya</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US56</td><td colspan="1" rowspan="2">Capturar temperatura desde sensor IoT</td><td colspan="1">T32</td><td colspan="1">Recibir lectura válida de temperatura</td><td colspan="1">Given el sensor IoT está conectado y activo When se genera una lectura válida de temperatura Then el sistema recibe y almacena el dato con precisión decima</td><td colspan="1">3</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T33</td><td colspan="1">Rechazar lectura fuera del rango físico aceptable</td><td colspan="1">Given el sensor envía una lectura menor a -50 o mayor a 100 When el sistema recibe el dato Then el sistema descarta la lectura por invalidez</td><td colspan="1">1</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US61</td><td colspan="1" rowspan="2">Filtrar lecturas erráticas de sensor</td><td colspan="1">T34</td><td colspan="1">Rechazar valores fuera del rango físico</td><td colspan="1">Given el sensor genera un dato de temperatura fuera del rango aceptable When el edge device procesa la lectura Then descarta la lectura y no la reenvía al backend</td><td colspan="1">1</td><td colspan="1">Piero Tarazona</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T35</td><td colspan="1">Permitir solo valores dentro de los límites físicos</td><td colspan="1">Given el valor está entre -50°C y 100°C When el edge lo valida Then lo marca como válido para ser enviado</td><td colspan="1">1</td><td colspan="1">Piero Tarazona</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="3">US54</td><td colspan="1" rowspan="3">Mostrar color según condición ambiental</td><td colspan="1">T36</td><td colspan="1">Mostrar color rojo si se supera el limite</td><td colspan="1">Visualizar el color rojo cuando la temperatura supere el límite permitido.</td><td colspan="1">2</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T37</td><td colspan="1">Mostrar color azul si está dentro del rango</td><td colspan="1">Visualiza el color azul cuando la temperatura está dentro del rango permitido.</td><td colspan="1">2</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T38</td><td colspan="1">Mostrar color negro si no hay conductor asignado</td><td colspan="1">Visualizar el color negro cuando no hay conductor asignado.</td><td colspan="1">1</td><td colspan="1">Aldahir Valenzuela</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US63</td><td colspan="1" rowspan="2">Calcular promedios locales antes de enviar</td><td colspan="1">T39</td><td colspan="1">Promediar lecturas antes del envío</td><td colspan="1">Given el sensor emite múltiples datos por minuto When el edge compila las últimas N lecturas Then calcula el promedio y lo marca como representativo</td><td colspan="1">2</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T40</td><td colspan="1">Enviar solo promedios cada intervalo</td><td colspan="1">Given el sistema calcula el promedio cada minuto When se cumple el ciclo de transmisión Then envía solo ese valor al backend</td><td colspan="1">1</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US59</td><td colspan="1" rowspan="2">Asociar datos de sensor al vehículo correspondiente</td><td colspan="1">T41</td><td colspan="1">Asociar lectura al vehículo correcto</td><td colspan="1">Given el sensor está instalado en un vehículo con identificador único When se recibe la lectura Then el sistema vincula los datos al vehículo correspondiente</td><td colspan="1">1</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T42</td><td colspan="1">Impedir asociación si no se reconoce el ID del sensor</td><td colspan="1">Given el sensor no está registrado o el ID no existe When llega la lectura al backend Then el sistema ignora o marca el dato como no vinculado</td><td colspan="1">2</td><td colspan="1">Elias Torres</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US52</td><td colspan="1" rowspan="2">Ver cantidad de envíos por conductor</td><td colspan="1">T43</td><td colspan="1">Mostrar total de envíos por conductor</td><td colspan="1">Given un gerente tiene varios conductores con envíos asignados When accede a la sección de estadísticas de envíos Then el sistema muestra la cantidad de envíos por cada conductor</td><td colspan="1">2</td><td colspan="1">Miguel Huarcaya</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T44</td><td colspan="1">Mostrar valores actualizados</td><td colspan="1">Given un envío ha sido recientemente creado o terminado When el gerente actualiza la vista Then el sistema refleja el cambio en el total de envíos</td><td colspan="1">1</td><td colspan="1">Miguel Huarcaya</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US51</td><td colspan="1" rowspan="2">Ver estadísticas de reportes por conductor</td><td colspan="1">T45</td><td colspan="1">Mostrar cantidad total de reportes por conductor</td><td colspan="1">Given un gerente tiene varios conductores con reportes registrados When consulta la sección de estadísticas de reportes When el sistema muestra la cantidad total de reportes por cada conductor</td><td colspan="1">2</td><td colspan="1">Miguel Huarcaya</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T46</td><td colspan="1">Mostrar desglose por tipo de reporte</td><td colspan="1">Given los reportes tienen tipos definidos When el gerente consulta las estadísticas Then el sistema muestra la cantidad de reportes por tipo (vehículo, ruta, envío, otro)</td><td colspan="1">2</td><td colspan="1">Miguel Huarcaya</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US55</td><td colspan="1" rowspan="2">Usar el límite más bajo entre los envíos del conductor</td><td colspan="1">T47</td><td colspan="1">Usar el valor más estricto al analizar condiciones</td><td colspan="1">Given un conductor tiene múltiples envíos asignados con distintos límites When el sistema evalúa las condiciones de su vehículo Then usa el límite más bajo de temperatura y humedad entre todos los envíos</td><td colspan="1">2</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T48</td><td colspan="1">Actualizar límites al cambiar asignaciones</td><td colspan="1">Given se asigna un nuevo envío al conductor con límites más bajos When se actualiza el estado ambiental Then el sistema usa los nuevos límites automáticamente</td><td colspan="1">1</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US12</td><td colspan="1" rowspan="2">Ver todos los usuarios registrados</td><td colspan="1">T49</td><td colspan="1">Advertencia al alcanzar el límite de conductores</td><td colspan="1">Given el gerente no es PRO y tiene 10 conductores registrados When intenta registrar uno más Then el sistema muestra una advertencia y no permite la acción</td><td colspan="1">1</td><td colspan="1">Piero Tarazona</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T50</td><td colspan="1">Mostrar usuarios registrados</td><td colspan="1">Given el administrador accede al panel de usuarios When se carga la vista Then el sistema muestra todos los gerentes y conductores existentes</td><td colspan="1">1</td><td colspan="1">Piero Tarazon</td><td colspan="1"></td></tr>
+<tr><td colspan="1" rowspan="2">US31</td><td colspan="1" rowspan="2">Ver límite alcanzado (cuenta gratuita)</td><td colspan="1">T47</td><td colspan="1">Mostrar advertencia al alcanzar límite</td><td colspan="1">Given el gerente tiene 10 conductores registrados y no es PRO When intenta registrar otro conductor Then el sistema muestra una advertencia sobre la limitación de su cuenta</td><td colspan="1">2</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T48</td><td colspan="1">Mostrar sugerencia para activar PRO</td><td colspan="1">Given el gerente alcanza el límite de conductores When visualiza el mensaje del sistema Then se sugiere activar la cuenta PRO para continuar registrando usuarios</td><td colspan="1">1</td><td colspan="1">Mauricio Chacon</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1" rowspan="2">US32</td><td colspan="1" rowspan="2">Ver email del gerente (como administrador)</td><td colspan="1">T49</td><td colspan="1">Visualizar asociación entre conductor y gerente</td><td colspan="1">Given el administrador ha iniciado sesión When consulta un conductor específico Then el sistema muestra el email del gerente al que pertenece</td><td colspan="1">3</td><td colspan="1">Miguel Huarcya Chavez</td><td colspan="1">Done</td></tr>
+<tr><td colspan="1">T50</td><td colspan="1">Asegurar integridad de la relación</td><td colspan="1">Given existe una relación válida entre un conductor y un gerente When el administrador revisa la información Then la asociación se presenta correctamente</td><td colspan="1">2</td><td colspan="1">Maurico Chacon</td><td colspan="1"></td></tr>
+</table>
+
+
+ ### 6.2.3.4. Development Evidence for Sprint Review. 
+
+ Esta sección documenta y presenta la serie de commits realizados en el repositorio del  AppWeb, Movil y Backend . Estos commits, que son una parte integral del proceso de desarrollo, se han gestionado utilizando la metodología GitFlow y siguiendo estrictamente las convenciones establecidas para los commits. Esta evidencia sirve como un registro transparente y trazable de nuestro progreso y esfuerzos de desarrollo a lo largo del sprint
+
+ - AppWeb:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+|upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | e0dcd26 | feat:... | add new page for vehicle details | 02-06-2025 |
+|upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 53e42fc | feat:... | deleted technical status | 02-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | ba13c28 | feat:... | Merge branch 'feature/shipment' into develop | 03-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/shipment | b3a39a0 | fix:... | update of the shipment section | 03-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 56e7598 | fix:... | fixed warnings | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 392e655 | feat:... | added new page to create a vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | b9b827c | fix:... | fixed page to create a vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 48547fe | feat:... | added new page to update vehicle | 10-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 3bfb321 | fix:... | update of the reports module | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 3dcb1fb | fix:... | implement new url shipments | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | a2d7e3d | feat:... | Merge branch 'feature/issues' into develop | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | develop | 1e4832d | fix:... | update design and translation | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/issues | ebfb321 | fix:... | update of the reports module | 14-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/iam | 212aa12 | fix:... | login and register models | 15-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | c3e944f | fix:... | sibcripments | 15-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/subscription&payments | 82a7822 | fix:... | subscription | 16-06-2025 |
+| upc-OpenSource-BicasTeam-AppWeb | feature/vehicles-&-tracking | 943b38d | feat:... | fixed update vehicle | 22-06-2025 |
+
+
+- Backend:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+| upc-OpenSource-BicasTeam-api | feature/shipments | 27c7d26 | feat:... | Merge branch 'develop' into feature/shipments | 08-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | 9440d5a | feat:... | Create IAM and modificated Profile | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/subscription&payments | 28e3db6 | feat:... | subscription implement | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | develop | bfd6c1b | feat:... | Merge branch 'feature/subscription&payments' into develop | 09-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/vehicles&tracking | 372a018 | feat:... | update vehicle model and services | 10-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/shipments | 782bfb6 | feat:... | merge develop on shipment | 13-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/profile-management | 806c37c | feat:... | Update local database connection | 14-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | f8198af | fix:... | profile | 15-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/iam | 7c169e6 | fix:... | subscription and profiles and iam | 15-06-2025 |
+| upc-OpenSource-BicasTeam-api | feature/vehicles&tracking | d9b4a8d | feat:... | Implement date formatting and enhance vehicle location info | 17-06-2025 |
+
+- AppMobile:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date)|
+| --- | --- | --- | --- | --- | --- |
+| upc-iot-BicasTeam-App-mobile | develop | 526cdfd | ... | initial commit | 30-05-2025 |
+| upc-iot-BicasTeam-App-mobile | develop | c5c3ff4 | feat:... | Transferred essential files and structure from the original mobile project. | 30-05-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | b15d32b | feat:... | implemented analytics feature with driver statistics and reports | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7d1fc62 | feat:... | add analytics feature with driver reports and shipment statistics | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 888a5cf | feat:... | add analytics screens and service for driver reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 583fcdf | feat:... | add analytics screen and related functionalities for driver reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Analytics | 7123e8b | feat:... | add analytics option to navigation in carrier profiles, profile, and reports screens | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Iam | aa9f47a | feat:... | Implementation of the reports and shipments | 13-06-2025 |
+| upc-iot-BicasTeam-App-mobile | feature/Vehicles&Tracking | 63cc9f9 | feat:... | added businessman vehicles page | 21-06-2025 |
+
+ ### 6.2.3.6. Execution Evidence for Sprint Review. 
+
+Durante el Sprint 3, el equipo consolidó funcionalidades críticas en las plataformas web y móvil, enfocándose en mejorar la experiencia del usuario y garantizar la operatividad del sistema en tiempo real. Se logró con éxito la visualización de los datos de temperatura, humedad y ubicación GPS de los vehículos desde ambas aplicaciones, permitiendo un monitoreo más efectivo. Además, se corrigieron errores clave en el registro de conductores en la aplicación móvil y en el flujo de suscripciones PRO en la plataforma web, asegurando procesos más estables y confiables. Las evidencias generadas incluyen capturas de pantalla, videos funcionales y registros de prueba que demuestran la correcta ejecución de cada funcionalidad. Estos avances reflejan el compromiso del equipo con la calidad del producto y sientan las bases para una operación más fluida, escalable y centrada en el usuario final.
+
+APP WEB:
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/analiticsIssues.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/analiticsShipmetns.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/analiticsTransport.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/goPro.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/home.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/issues.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/login.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/shipments.png)
+![AppWeb](/assets/chapter06/Execution%20evidence%20for%20sprint%20review/vehicles.png)
+
+App Móvil:
+![Testing Suite Evidence](/assets/chapter06/movil1.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil2.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil3.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil4.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil5.jpg)
+![Testing Suite Evidence](/assets/chapter06/movil6.jpg)
+
+ ### 6.2.3.7. Services Documentation Evidence for Sprint Review. 
+
+Link de backend desplegado: https://app-250622151805.azurewebsites.net/swagger-ui/index.html#/
+
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service1.png)
+Endpoint relacionado a la funcionalidad de vehiculos (CRUD). Dentro de ello se almacenará los datos de los vehiculos, pertenecia y datos de sensores
+
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service2.png)
+Endpoint relacionado al manejo de datos de ingreso de datos de usuario (contraseña y email)
+
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service3.png)
+Endpoint relacionado a datos de subsripciones. Almacena datos de registro y obtencion de las subcripciones de los usuarios
+
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service4.png)
+Endpoint relacionado a los envios de la solucion. Manejo de datos de los envios y a quien estan asignados
+
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service5.png)
+endpoint relacionado al manejo de datos personales de los usuarios
+
+![Service Documetnation](/assets/chapter06/Sprint3/back%20service6.png)
+Endpoints relacionado a los reportes de los transportistas.
+
+
+
+ ### 6.2.3.8. Software Deployment Evidence for Sprint Review. 
+
+Para este sprint se buscó que los datos recibidos por los sensores. Fueran mostrados en la apliacion web y movil.
+
+![Software Deployment](/assets/chapter06/Sprint3/deployment%20edge.png)
+Aqui se muestra que los datos se muestran en nuestro edge
+
+![Software Deployment](/assets/chapter06/Sprint3/deployment%20wokwi.png)
+En esta sección se muestra la configuracion de WOKWI utilizada
+
+![Software Deployment](/assets/chapter06/Sprint3/deplyment%20daots%20recibidos.png)
+En esta imagen se nos muestra los datos recibidos por los sensores fisicos (no se encuentra datos de ubicacion pues el dispositivo GPs está dañado)
+
+![Software Deployment](/assets/chapter06/Sprint3/deployment%20data.png)
+En esta imagen se muestra los datos del sensor en la aplicacion movil (se esta ejecutnado el codigo sobre chrome utilizando flutter)
+
+![Software Deployment](/assets/chapter06/Sprint3/deployment%20map.png)
+En esta imagen se muestra el mapa utilizando datos de prueba enviado por nuestro proyecto wokwi
+
+ ### 6.2.3.9. Team Collaboration Insights during Sprint
+
+App móvil:
+![Team Collaboration Insights](/assets/chapter06/collaboration-insights1.png)
+Cuadro de colaboracion del repositorio de App movil
+
+App web (transportista):
+![Team Collaboration Insights](/assets/chapter06/collaboration-insights1.2.png)
+Cuadro de colaboracion del aplicacion web
+
+Backend:
+![Team Collaboration Insights](/assets/chapter06/colab%20backend.png)
+Cuadro de colaboracion del backend
+
+-------------
+-------------
+## 6.3. Validation Interviews. 
+
+### 6.3.1. Diseño de Entrevistas. 
+
+Para los Empresarios:
+* ¿Cuál es su opinión general sobre la plataforma MoviGestion tras la demostración? 
+* ¿Qué características de MoviGestion le resultaron más útiles para la gestión de su flota? 
+* ¿Hay alguna función que no encontró en MoviGestion y que consideraría esencial para su operación? 
+* ¿Cómo evalúa la interfaz de usuario en términos de facilidad de uso y navegación? 
+* ¿Cuánto tiempo cree que le tomaría a su equipo adaptarse al uso de MoviGestion? 
+* ¿Cuáles son los principales desafíos que enfrenta actualmente en la gestión de su flota? 
+* ¿Cómo cree que MoviGestion podría ayudarle a superar esos desafíos? 
+* ¿Qué tan útil considera la funcionalidad de registro de incidencias en la plataforma? 
+* ¿Qué aspectos de la gestión de envíos exitosos le parecen más críticos para su operación? 
+* ¿Está dispuesto a recomendar MoviGestion a otros empresarios del sector? ¿Por qué?
+¿Cómo valora la seguridad de la información y los datos en la plataforma MoviGestion
+
+Para los Transportistas:
+* ¿Cuál fue su impresión general de la plataforma MoviGestion después de la demostración? 
+* ¿Qué tan fácil le resultó navegar y utilizar las funciones de MoviGestion? 
+* ¿Qué características de MoviGestion le parecieron más útiles para su trabajo diario? 
+* ¿Hay alguna función que no encontró en MoviGestion y que consideraría útil para su labor? 
+* ¿Cómo cree que MoviGestion podría ayudarle a realizar su trabajo de manera más eficiente? 
+* ¿Qué tan útil considera la funcionalidad de registro de incidencias para reportar problemas en tiempo real? 
+* ¿Qué tan fácil le resultó el proceso de seguimiento de envíos en MoviGestion? 
+* ¿Cómo valora la capacidad de monitorear los sitios de entrega a través de la plataforma? 
+* ¿Le parece intuitiva la interfaz de usuario de MoviGestion? ¿Hay algo que cambiaría? 
+* ¿Cómo le gustaría que MoviGestion le notificara sobre nuevas tareas o cambios en las entregas? 
+* ¿Qué mejoras le gustaría ver en futuras actualizaciones de la plataforma? 
+* ¿Cómo valora la seguridad de la información y los datos en la plataforma MoviGestion? 
+* ¿Cree que MoviGestion le ayudaría a reducir el tiempo de inactividad y aumentar la productividad? 
+* ¿Estaría dispuesto a recomendar MoviGestion a otros transportistas? ¿Por qué?
+
+
+### 6.3.2. Registro de Entrevistas. 
+
+**Segmento objetivo: Empresarios**
+
+*Entrevista N° 1*
+
+![Entrevista 1 - businessman](/assets/chapter06/Entrevistas/empresarios-1.png)
+
+* Datos principales: 
+* Nombre completo del entrevistado: Abraham Quenta 
+* Edad: 28 años
+* Distrito: Tacna
+* Link: https://upcedupe-my.sharepoint.com/personal/u20191a453_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20191a453%5Fupc%5Fedu%5Fpe%2FDocuments%2FVideo%5F20250620213959027%5Fby%5FVideoShow%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E000139f3%2Dffc6%2D4de3%2D85e5%2D6f6db9c9f5e5
+* Inicio de la entrevista: 0:00
+* Duracion: 10:45
+* Resumen: Abraham se presenta como un profesional del transporte con 5 años de experiencia en el sector transporte provincial, cuya ruta principal es de Tacna a Puno. Comenta sobre la página de destino de su servicio, que incluye información sobre los servicios ofrecidos y permite la personalización del idioma. Abraham explora las características y funcionalidades del sitio web, como la gestión de la flota, los informes de los conductores y la gestión de vehículos, y aprecia el aspecto organizativo de la plataforma, señalando que es fácil encontrar las funciones deseadas. Abraham menciona algunos problemas menores con la visibilidad del texto y la navegación, pero en general considera que la interfaz de usuario es clara y sencilla. información del vehículo, así como las estrategias de marketing y el diseño de la página de destino, pero en general. considera que la aplicación es valiosa, especialmente para monitorear las actividades de los conductores
+
+*Entrevista N° 2*
+
+![Entrevista 2 - businessman](/assets/chapter06/Entrevistas/empresarios-2.png)
+
+* Datos principales: 
+* Nombre completo del entrevistado: Gustavo Manrique
+* Edad: 40 años
+* Distrito: Chorrillos
+* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191a453_upc_edu_pe/ERl5IIXzz4FArsqJHHlEohABGg35OtX4K-X123ewVpRjIw?e=k2DFxD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+* Inicio de la entrevista: 10:46
+* Duracion: 6:40
+* Resumen: El empresario Gustavo Manrique expresó una opinión muy bien sobre MoviGestion, destacando la utilidad de las estadísticas de rendimiento y el seguimiento de envíos exitosos. Considera que la plataforma es fácil de usar y que su equipo podría adaptarse rápidamente. También, identificó como desafíos principales el seguimiento de envíos, gestión de incidencias y optimización de rutas, áreas donde cree que MoviGestion puede ayudar significativamente. Mencionó la necesidad de una herramienta para la optimización de rutas en tiempo real. Valora altamente la seguridad de la información y está dispuesto a recomendar la plataforma a otros empresarios del sector
+
+*Entrevista N° 3*
+
+![Entrevista 3 - businessman](/assets/chapter06/Entrevistas/empresarios-3.png)
+
+* Datos principales: 
+* Nombre completo del entrevistado: Marco Tarazona
+* Edad: 57 años
+* Distrito: Puente Piedra
+* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191a453_upc_edu_pe/ERl5IIXzz4FArsqJHHlEohABGg35OtX4K-X123ewVpRjIw?e=k2DFxD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+* Inicio de la entrevista: 17:34
+* Duracion: 2:17
+* Resumen: El empresario Marco Tarazona expresó una opinión positiva sobre MoviGestion, resaltando su utilidad para la gestión de flotas, especialmente en el seguimiento de envíos y la gestión de incidencias. Mencionó la facilidad de uso de la plataforma y consideró que su equipo podría adaptarse rápidamente. Identificó como posible desafio la optimización de rutas y la necesidad de integración con otros sistemas. Además, valora la seguridad de la información y está dispuesto a recomendar MoviGestion a otros empresarios del sector
+
+
+**Segmento objetivo: Transportistas**
+
+*Entrevista N° 1*
+
+![Entrevista 1 - transportistas](/assets/chapter06/Entrevistas/trans-1.png)
+
+* Datos principales: 
+* Nombre completo del entrevistado: Renzo Cesar Silva Morales
+* Edad: 24 años
+* Distrito: Santiago de Surco
+* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191a453_upc_edu_pe/ERl5IIXzz4FArsqJHHlEohABGg35OtX4K-X123ewVpRjIw?e=k2DFxD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+* Inicio de la entrevista: 19:43
+* Duracion: 7:50
+* Resumen: Renzo es un transportista que recién está comenzando en el negocio, tuvo una experiencia inicial positiva con la plataforma. En donde destaca las secciones que tenemos implementadas por su funcionalidad. La interfaz le pareció amigable y fácil de usar, pero encontró algunas dificultades técnicas. Considera que sería beneficioso añadir seguimiento en tiempo real para envíos, notificaciones automáticas y soporte por chat en vivo. Aunque las opciones actuales son útiles, a él le gustaría tener más información detallada en cada apartado. Por último, sugiere la inclusión de tutoriales interactivos para que los nuevos usuarios puedan familiarizarse.
+
+*Entrevista N° 2*
+
+![Entrevista 2 - transportistas](/assets/chapter06/Entrevistas/trans-2.png)
+
+* Datos principales: 
+* Nombre completo del entrevistado: Ricardo Chate Flores
+* Edad: 45 años
+* Distrito: Cercado de Lima
+* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191a453_upc_edu_pe/ERl5IIXzz4FArsqJHHlEohABGg35OtX4K-X123ewVpRjIw?e=k2DFxD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+* Inicio de la entrevista: 28:01
+* Duracion: 8:00
+* Resumen: El transportista Ricardo Chate Flores expresó una opinión positiva sobre MoviGestion, destacando su facilidad de uso y navegación intuitiva. Consideró útiles las funciones de registro de incidencias y seguimiento de envíos para su trabajo diario. Valora la capacidad de monitorear los sitios de entrega y mencionó que la plataforma podría ayudarle a trabajar de manera más eficiente. Aunque satisfecho con las funcionalidades actuales, sugirió la necesidad de notificaciones más personalizables. José destacó la seguridad de la información y está dispuesto a recomendar MoviGestion a otros transportistas, ya que cree que puede reducir el tiempo de inactividad y aumentar la productividad
+
+*Entrevista N° 3*
+
+![Entrevista 3 - transportistas](/assets/chapter06/Entrevistas/trans-3.png)
+
+* Datos principales: 
+* Nombre completo del entrevistado: Víctor Cuba Bautista
+* Edad: 42 años
+* Distrito: Villa El Salvador
+* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191a453_upc_edu_pe/ERl5IIXzz4FArsqJHHlEohABGg35OtX4K-X123ewVpRjIw?e=k2DFxD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+* Inicio de la entrevista: 35:37
+* Duracion: 4:50
+* Resumen: El transportista Víctor Cuba Bautista tras probar la plataforma, reconoció que el uso de las funciones eran más sencillos de lo que esperaba. Encontró especialmente útil el registro de incidencias en tiempo real. Aunque le gustaría ver mejoras en algunas funcionalidades adicionales, valora la capacidad de monitorear los sitios de entrega y la seguridad de los datos proporcionada por la plataforma. Al final, Víctor concluyó que MoviGestion es una herramienta efectiva que puede mejorar su eficiencia y reducir el tiempo de inactividad, y estaría dispuesto a recomendarla a otros transportistas
+
+### 6.3.3. Evaluaciones según heurísticas. 
+Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información e inclusive design de la experiencia propuesta. Para esto la sección usamos la estructura del formato para evaluaciones de heurísticas indicado.
+
+
+**UX Heuristics & Principles Evaluation**
+
+**Usability – Inclusive Design – Information Architecture**
+\***
+
+
+**CARRERA                	: Ingeniería de Software**
+
+**CURSO                    	: Desarrollo de Soluciones IOT**
+
+**SECCIÓN                   	: 2956**
+
+**PROFESORES         	: Angel Augusto Velasquez Nuñez**
+
+**AUDITOR                 	: Bicas Team**
+
+**CLIENTE                  	: MoviGestion**
+1. ## <a name="_heading=h.3ibjgvegxoc5"></a>** 
+   **SITE o APP A EVALUAR:**
+
+   **MoviGestion**
+
+   **TAREAS A EVALUAR:**
+
+   *El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:*
+
+*1.* 	*Gestión y edición de perfil de usuario.*
+
+*2.     Visualización de asignación de envíos que pertenecen a cada transportista*
+
+*3. 	Agregar un nuevo vehículo a la flota de vehículos.*
+
+*4. 	Eliminar un vehículo de la flota de vehículos.*
+
+*5. 	Visualización de alertas de cada transportista.*
+
+**ESCALA DE SEVERIDAD:**
+
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
+
+|***Nivel***|***Descripción***|
+| :- | :- |
+|*1*|*Problema superficial: puede ser fácilmente superado o hasta ignorado por el usuario ó ocurre con muy poca frecuencia. El error no necesita ser arreglado de forma inmediata en la mayoría de las casos, a no ser que exista disponibilidad de tiempo.*|
+|*2*|*Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara antes de la siguiente entrega o actualización.*|
+|*3*|*Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.*|
+|*4*|*Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.*|
+
+
+**TABLA RESUMEN:**
+
+|*#*|*Problema*|*Escala de severidad*|*Heurística/Principio violada(o)*|
+| :-: | :-: | :-: | :-: |
+|*1*|*Incluye un botón “See More” pero no tiene funcionalidad*|*3*|*Information Architecture: Is it usable?*|
+|*2*|*No parece haber consistencia en la forma en que se presentan las opciones para actualizar la información*|*2*|*Usability: Consistencia y estándares*|
+|*3*|*Información de pagos no está claramente presentada*|*3*|*Usability: Visibilidad del estado del sistema*|
+|*4*|*No funciona cancelar el agregado de un vehículo.*|*2*|*Usability: Libertad y control del usuario*|
+
+
+
+
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+*PROBLEMA #1:* 
+
+*Severidad: 3*
+
+*Heurística violada: Information Architecture: Is it usable?*
+
+*Problema:*
+
+*La aplicación incluye un botón “See More” pero no tiene funcionalidad, lo que confunde a los usuarios y les impide acceder a contenido adicional esperado.*
+
+![Problem 1](/assets/chapter06/h1.png)
+
+*Recomendación:*
+
+*Eliminar el botón “See More” si no hay contenido adicional disponible, o implementar la funcionalidad esperada para que los usuarios puedan acceder a más información.*
+
+*PROBLEMA #2:* 
+
+*Severidad: 2*
+
+*Heurística violada: Usability - Consistencia y estándares*
+
+*Problema:*
+
+*La interfaz de Settings incluye campos para Nickname, Bio, Email y Avatar, pero no parece haber consistencia en la forma en que se presentan las opciones para actualizar la información. Por ejemplo, el botón ‘Choose’ para actualizar el avatar está separado del campo ‘Avatar’, lo que podría confundir a los usuarios.*
+
+![Problem 2](/assets/chapter06/h2.png)
+
+*Recomendación:*
+
+*Asegurar que todos los campos de entrada y botones relacionados estén agrupados de manera coherente y clara para mejorar la comprensión y la facilidad de uso.*
+
+*PROBLEMA #3:* 
+
+*Severidad: 3*
+
+*Heurística violada: Usability: Visibilidad del estado del sistema*
+
+*Problema:*
+
+*La información relacionada con Organization no está claramente presentada, lo que puede causar confusión a la hora de querer tener información y dificulta la asignación de envíos.*
+
+![Problem 3](/assets/chapter06/h3.png)
+
+*Recomendación:*
+
+*Mejorar la presentación y accesibilidad de la información relacionada con "Organization" puede mejorar significativamente la experiencia del usuario y facilitar la asignación de envíos en la aplicación.* 
+
+*PROBLEMA #4:* 
+
+*Severidad: 2*
+
+*Heurística violada: Usability: Libertad y control del usuario*
+
+*Problema:*
+
+*Al momento de ingresar los datos del nuevo vehículo, no se puede cerrar hasta darle darle al botón “Close” y luego se tiene que eliminar en el botón “Delete Vehicle”, esto obliga a agregar nuevos carros no deseados, también incrementando así la cantidad de esfuerzo del usuario.*
+
+![Problem 4](/assets/chapter06/h4.png)
+
+*Recomendación:*
+
+*Hacer que el botón "Close" tenga la funcionalidad para cerrar la ventana emergente sin guardar los datos del vehículo ingresados.*
+
+
+-------------
+-------------
+## 6.4. Video About-the-Product.
+
+El video muestra paso a paso el funcionamiento de la aplicación web MoviGestión. Primero se observa el registro de un nuevo usuario: se introduce la información necesaria y se crea una cuenta. Luego, con esa cuenta, se accede mediante el login. Una vez dentro de la aplicación, se navega por sus principales funcionalidades —como panel de control, gestión de usuarios, seguimiento de tareas o reportes— con explicaciones claras y detalladas sobre cómo utilizar cada módulo.
+
+
+| Sección                   | Descripción                                                            | Tiempo de Inicio |
+|---------------------------|------------------------------------------------------------------------|------------------|
+| 1. Introducción del Equipo | Breve presentación del propósito del proyecto        | 00:00:00         |
+| 2. Registro de usuario      | Introducción y creación de una nueva cuenta en MoviGestión       | 00:00:40         |
+| 3. Navegación por módulos     | Pantalla de inicio ya dentro de la aplicacion                     | 00:01:02         |
+| 4. Funcionalidades detalladas        | Demostración de herramientas como gestión de tareas, reportes y control de usuarios    | 00:01:23         |
+| 5. Cierre y resumen| Recapitulación de lo mostrado y cierre del video                               | 00:02:00         |
+
+
+![About the product](/assets/chapter06/aobut%20the%20product%20image.png)
+
+
+Youtube URL: https://www.youtube.com/watch?v=KTIzP3XTNLM&t=24s
+
+Microsoft Stream URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116207_upc_edu_pe/EVzNfjl7ZRtAvgrVtGxeeSEB24lFo7SCNzRMpCjNjY7bRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sBmRa5
+
+
+-------------
+-------------
+## 6.3. Validation Interviews. 
+
+### 6.3.1. Diseño de Entrevistas. 
+
+Para los Empresarios:
+* ¿Cuál es su opinión general sobre la plataforma MoviGestion tras la demostración? 
+* ¿Qué características de MoviGestion le resultaron más útiles para la gestión de su flota? 
+* ¿Hay alguna función que no encontró en MoviGestion y que consideraría esencial para su operación? 
+* ¿Cómo evalúa la interfaz de usuario en términos de facilidad de uso y navegación? 
+* ¿Cuánto tiempo cree que le tomaría a su equipo adaptarse al uso de MoviGestion? 
+* ¿Cuáles son los principales desafíos que enfrenta actualmente en la gestión de su flota? 
+* ¿Cómo cree que MoviGestion podría ayudarle a superar esos desafíos? 
+* ¿Qué tan útil considera la funcionalidad de registro de incidencias en la plataforma? 
+* ¿Qué aspectos de la gestión de envíos exitosos le parecen más críticos para su operación? 
+* ¿Está dispuesto a recomendar MoviGestion a otros empresarios del sector? ¿Por qué?
+¿Cómo valora la seguridad de la información y los datos en la plataforma MoviGestion
+
+Para los Transportistas:
+* ¿Cuál fue su impresión general de la plataforma MoviGestion después de la demostración? 
+* ¿Qué tan fácil le resultó navegar y utilizar las funciones de MoviGestion? 
+* ¿Qué características de MoviGestion le parecieron más útiles para su trabajo diario? 
+* ¿Hay alguna función que no encontró en MoviGestion y que consideraría útil para su labor? 
+* ¿Cómo cree que MoviGestion podría ayudarle a realizar su trabajo de manera más eficiente? 
+* ¿Qué tan útil considera la funcionalidad de registro de incidencias para reportar problemas en tiempo real? 
+* ¿Qué tan fácil le resultó el proceso de seguimiento de envíos en MoviGestion? 
+* ¿Cómo valora la capacidad de monitorear los sitios de entrega a través de la plataforma? 
+* ¿Le parece intuitiva la interfaz de usuario de MoviGestion? ¿Hay algo que cambiaría? 
+* ¿Cómo le gustaría que MoviGestion le notificara sobre nuevas tareas o cambios en las entregas? 
+* ¿Qué mejoras le gustaría ver en futuras actualizaciones de la plataforma? 
+* ¿Cómo valora la seguridad de la información y los datos en la plataforma MoviGestion? 
+* ¿Cree que MoviGestion le ayudaría a reducir el tiempo de inactividad y aumentar la productividad? 
+* ¿Estaría dispuesto a recomendar MoviGestion a otros transportistas? ¿Por qué?
+
+
+### 6.3.2. Registro de Entrevistas. 
+
+**Segmento objetivo: Empresarios**
+
+*Entrevista N° 1*
+
+![Entrevista 1 - businessman](/assets/chapter06/Entrevistas/empresarios-1.png)
+
+* Datos principales: 
+* Nombre completo del entrevistado: Abraham Quenta 
+* Edad: 28 años
+* Distrito: Tacna
+* Link: https://upcedupe-my.sharepoint.com/personal/u20191a453_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20191a453%5Fupc%5Fedu%5Fpe%2FDocuments%2FVideo%5F20240620213959027%5Fby%5FVideoShow%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E000139f3%2Dffc6%2D4de3%2D85e5%2D6f6db9c9f5e5
+* Inicio de la entrevista: 0:00
+* Duracion: 10:45
+* Resumen: Abraham se presenta como un profesional del transporte con 5 años de experiencia en el sector transporte provincial, cuya ruta principal es de Tacna a Puno. Comenta sobre la página de destino de su servicio, que incluye información sobre los servicios ofrecidos y permite la personalización del idioma. Abraham explora las características y funcionalidades del sitio web, como la gestión de la flota, los informes de los conductores y la gestión de vehículos, y aprecia el aspecto organizativo de la plataforma, señalando que es fácil encontrar las funciones deseadas. Abraham menciona algunos problemas menores con la visibilidad del texto y la navegación, pero en general considera que la interfaz de usuario es clara y sencilla. información del vehículo, así como las estrategias de marketing y el diseño de la página de destino, pero en general. considera que la aplicación es valiosa, especialmente para monitorear las actividades de los conductores
+
+*Entrevista N° 2*
+
+![Entrevista 2 - businessman](/assets/chapter06/Entrevistas/empresarios-2.png)
+
+* Datos principales: 
+* Nombre completo del entrevistado: Gustavo Manrique
+* Edad: 40 años
+* Distrito: Chorrillos
+* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191a453_upc_edu_pe/ERl5IIXzz4FArsqJHHlEohABGg35OtX4K-X123ewVpRjIw?e=k2DFxD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+* Inicio de la entrevista: 10:46
+* Duracion: 6:40
+* Resumen: El empresario Gustavo Manrique expresó una opinión muy bien sobre MoviGestion, destacando la utilidad de las estadísticas de rendimiento y el seguimiento de envíos exitosos. Considera que la plataforma es fácil de usar y que su equipo podría adaptarse rápidamente. También, identificó como desafíos principales el seguimiento de envíos, gestión de incidencias y optimización de rutas, áreas donde cree que MoviGestion puede ayudar significativamente. Mencionó la necesidad de una herramienta para la optimización de rutas en tiempo real. Valora altamente la seguridad de la información y está dispuesto a recomendar la plataforma a otros empresarios del sector
+
+*Entrevista N° 3*
+
+![Entrevista 3 - businessman](/assets/chapter06/Entrevistas/empresarios-3.png)
+
+* Datos principales: 
+* Nombre completo del entrevistado: Marco Tarazona
+* Edad: 57 años
+* Distrito: Puente Piedra
+* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191a453_upc_edu_pe/ERl5IIXzz4FArsqJHHlEohABGg35OtX4K-X123ewVpRjIw?e=k2DFxD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+* Inicio de la entrevista: 17:34
+* Duracion: 2:17
+* Resumen: El empresario Marco Tarazona expresó una opinión positiva sobre MoviGestion, resaltando su utilidad para la gestión de flotas, especialmente en el seguimiento de envíos y la gestión de incidencias. Mencionó la facilidad de uso de la plataforma y consideró que su equipo podría adaptarse rápidamente. Identificó como posible desafio la optimización de rutas y la necesidad de integración con otros sistemas. Además, valora la seguridad de la información y está dispuesto a recomendar MoviGestion a otros empresarios del sector
+
+
+**Segmento objetivo: Transportistas**
+
+*Entrevista N° 1*
+
+![Entrevista 1 - transportistas](/assets/chapter06/Entrevistas/trans-1.png)
+
+* Datos principales: 
+* Nombre completo del entrevistado: Renzo Cesar Silva Morales
+* Edad: 24 años
+* Distrito: Santiago de Surco
+* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191a453_upc_edu_pe/ERl5IIXzz4FArsqJHHlEohABGg35OtX4K-X123ewVpRjIw?e=k2DFxD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+* Inicio de la entrevista: 19:43
+* Duracion: 7:50
+* Resumen: Renzo es un transportista que recién está comenzando en el negocio, tuvo una experiencia inicial positiva con la plataforma. En donde destaca las secciones que tenemos implementadas por su funcionalidad. La interfaz le pareció amigable y fácil de usar, pero encontró algunas dificultades técnicas. Considera que sería beneficioso añadir seguimiento en tiempo real para envíos, notificaciones automáticas y soporte por chat en vivo. Aunque las opciones actuales son útiles, a él le gustaría tener más información detallada en cada apartado. Por último, sugiere la inclusión de tutoriales interactivos para que los nuevos usuarios puedan familiarizarse.
+
+*Entrevista N° 2*
+
+![Entrevista 2 - transportistas](/assets/chapter06/Entrevistas/trans-2.png)
+
+* Datos principales: 
+* Nombre completo del entrevistado: Ricardo Chate Flores
+* Edad: 45 años
+* Distrito: Cercado de Lima
+* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191a453_upc_edu_pe/ERl5IIXzz4FArsqJHHlEohABGg35OtX4K-X123ewVpRjIw?e=k2DFxD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+* Inicio de la entrevista: 28:01
+* Duracion: 8:00
+* Resumen: El transportista Ricardo Chate Flores expresó una opinión positiva sobre MoviGestion, destacando su facilidad de uso y navegación intuitiva. Consideró útiles las funciones de registro de incidencias y seguimiento de envíos para su trabajo diario. Valora la capacidad de monitorear los sitios de entrega y mencionó que la plataforma podría ayudarle a trabajar de manera más eficiente. Aunque satisfecho con las funcionalidades actuales, sugirió la necesidad de notificaciones más personalizables. José destacó la seguridad de la información y está dispuesto a recomendar MoviGestion a otros transportistas, ya que cree que puede reducir el tiempo de inactividad y aumentar la productividad
+
+*Entrevista N° 3*
+
+![Entrevista 3 - transportistas](/assets/chapter06/Entrevistas/trans-3.png)
+
+* Datos principales: 
+* Nombre completo del entrevistado: Víctor Cuba Bautista
+* Edad: 42 años
+* Distrito: Villa El Salvador
+* Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191a453_upc_edu_pe/ERl5IIXzz4FArsqJHHlEohABGg35OtX4K-X123ewVpRjIw?e=k2DFxD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+* Inicio de la entrevista: 35:37
+* Duracion: 4:50
+* Resumen: El transportista Víctor Cuba Bautista tras probar la plataforma, reconoció que el uso de las funciones eran más sencillos de lo que esperaba. Encontró especialmente útil el registro de incidencias en tiempo real. Aunque le gustaría ver mejoras en algunas funcionalidades adicionales, valora la capacidad de monitorear los sitios de entrega y la seguridad de los datos proporcionada por la plataforma. Al final, Víctor concluyó que MoviGestion es una herramienta efectiva que puede mejorar su eficiencia y reducir el tiempo de inactividad, y estaría dispuesto a recomendarla a otros transportistas
+
+### 6.3.3. Evaluaciones según heurísticas. 
+Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información e inclusive design de la experiencia propuesta. Para esto la sección usamos la estructura del formato para evaluaciones de heurísticas indicado.
+
+
+**UX Heuristics & Principles Evaluation**
+
+**Usability – Inclusive Design – Information Architecture**
+\***
+
+
+**CARRERA                	: Ingeniería de Software**
+
+**CURSO                    	: Desarrollo de Soluciones IOT**
+
+**SECCIÓN                   	: 2956**
+
+**PROFESORES         	: Angel Augusto Velasquez Nuñez**
+
+**AUDITOR                 	: Bicas Team**
+
+**CLIENTE                  	: MoviGestion**
+1. ## <a name="_heading=h.3ibjgvegxoc5"></a>** 
+   **SITE o APP A EVALUAR:**
+
+   **MoviGestion**
+
+   **TAREAS A EVALUAR:**
+
+   *El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:*
+
+*1.* 	*Gestión y edición de perfil de usuario.*
+
+*2.     Visualización de asignación de envíos que pertenecen a cada transportista*
+
+*3. 	Agregar un nuevo vehículo a la flota de vehículos.*
+
+*4. 	Eliminar un vehículo de la flota de vehículos.*
+
+*5. 	Visualización de alertas de cada transportista.*
+
+**ESCALA DE SEVERIDAD:**
+
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
+
+|***Nivel***|***Descripción***|
+| :- | :- |
+|*1*|*Problema superficial: puede ser fácilmente superado o hasta ignorado por el usuario ó ocurre con muy poca frecuencia. El error no necesita ser arreglado de forma inmediata en la mayoría de las casos, a no ser que exista disponibilidad de tiempo.*|
+|*2*|*Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara antes de la siguiente entrega o actualización.*|
+|*3*|*Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.*|
+|*4*|*Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.*|
+
+
+**TABLA RESUMEN:**
+
+|*#*|*Problema*|*Escala de severidad*|*Heurística/Principio violada(o)*|
+| :-: | :-: | :-: | :-: |
+|*1*|*Incluye un botón “See More” pero no tiene funcionalidad*|*3*|*Information Architecture: Is it usable?*|
+|*2*|*No parece haber consistencia en la forma en que se presentan las opciones para actualizar la información*|*2*|*Usability: Consistencia y estándares*|
+|*3*|*Información de pagos no está claramente presentada*|*3*|*Usability: Visibilidad del estado del sistema*|
+|*4*|*No funciona cancelar el agregado de un vehículo.*|*2*|*Usability: Libertad y control del usuario*|
+
+
+
+
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+*PROBLEMA #1:* 
+
+*Severidad: 3*
+
+*Heurística violada: Information Architecture: Is it usable?*
+
+*Problema:*
+
+*La aplicación incluye un botón “See More” pero no tiene funcionalidad, lo que confunde a los usuarios y les impide acceder a contenido adicional esperado.*
+
+![Problem 1](/assets/chapter06/h1.png)
+
+*Recomendación:*
+
+*Eliminar el botón “See More” si no hay contenido adicional disponible, o implementar la funcionalidad esperada para que los usuarios puedan acceder a más información.*
+
+*PROBLEMA #2:* 
+
+*Severidad: 2*
+
+*Heurística violada: Usability - Consistencia y estándares*
+
+*Problema:*
+
+*La interfaz de Settings incluye campos para Nickname, Bio, Email y Avatar, pero no parece haber consistencia en la forma en que se presentan las opciones para actualizar la información. Por ejemplo, el botón ‘Choose’ para actualizar el avatar está separado del campo ‘Avatar’, lo que podría confundir a los usuarios.*
+
+![Problem 2](/assets/chapter06/h2.png)
+
+*Recomendación:*
+
+*Asegurar que todos los campos de entrada y botones relacionados estén agrupados de manera coherente y clara para mejorar la comprensión y la facilidad de uso.*
+
+*PROBLEMA #3:* 
+
+*Severidad: 3*
+
+*Heurística violada: Usability: Visibilidad del estado del sistema*
+
+*Problema:*
+
+*La información relacionada con Organization no está claramente presentada, lo que puede causar confusión a la hora de querer tener información y dificulta la asignación de envíos.*
+
+![Problem 3](/assets/chapter06/h3.png)
+
+*Recomendación:*
+
+*Mejorar la presentación y accesibilidad de la información relacionada con "Organization" puede mejorar significativamente la experiencia del usuario y facilitar la asignación de envíos en la aplicación.* 
+
+*PROBLEMA #4:* 
+
+*Severidad: 2*
+
+*Heurística violada: Usability: Libertad y control del usuario*
+
+*Problema:*
+
+*Al momento de ingresar los datos del nuevo vehículo, no se puede cerrar hasta darle darle al botón “Close” y luego se tiene que eliminar en el botón “Delete Vehicle”, esto obliga a agregar nuevos carros no deseados, también incrementando así la cantidad de esfuerzo del usuario.*
+
+![Problem 4](/assets/chapter06/h4.png)
+
+*Recomendación:*
+
+*Hacer que el botón "Close" tenga la funcionalidad para cerrar la ventana emergente sin guardar los datos del vehículo ingresados.*
+
+
+-------------
+-------------
+## 6.4. Video About-the-Product.
+
+El video muestra paso a paso el funcionamiento de la aplicación web MoviGestión. Primero se observa el registro de un nuevo usuario: se introduce la información necesaria y se crea una cuenta. Luego, con esa cuenta, se accede mediante el login. Una vez dentro de la aplicación, se navega por sus principales funcionalidades —como panel de control, gestión de usuarios, seguimiento de tareas o reportes— con explicaciones claras y detalladas sobre cómo utilizar cada módulo.
+
+
+| Sección                   | Descripción                                                            | Tiempo de Inicio |
+|---------------------------|------------------------------------------------------------------------|------------------|
+| 1. Introducción del Equipo | Breve presentación del propósito del proyecto        | 00:00:00         |
+| 2. Registro de usuario      | Introducción y creación de una nueva cuenta en MoviGestión       | 00:00:40         |
+| 3. Navegación por módulos     | Pantalla de inicio ya dentro de la aplicacion                     | 00:01:02         |
+| 4. Funcionalidades detalladas        | Demostración de herramientas como gestión de tareas, reportes y control de usuarios    | 00:01:23         |
+| 5. Cierre y resumen| Recapitulación de lo mostrado y cierre del video                               | 00:02:00         |
+
+
+![About the product](/assets/chapter06/aobut%20the%20product%20image.png)
+
+
+Youtube URL: https://www.youtube.com/watch?v=KTIzP3XTNLM&t=24s
+
+Microsoft Stream URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116207_upc_edu_pe/EVzNfjl7ZRtAvgrVtGxeeSEB24lFo7SCNzRMpCjNjY7bRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sBmRa5
+
+
+----
+----
+----
 # Conclusiones 
+
+## Conclusiones y recomendaciones
 
 - A través de técnicas como la metodología 5W2H, entrevistas cualitativas y análisis contextual, se ha definido de forma precisa la problemática de las empresas de transporte en cuanto a la gestión ineficiente de flotas, falta de trazabilidad operativa y carencia de herramientas tecnológicas integradas.
 
@@ -3853,6 +6297,31 @@ Application Web (Gerente):<br>
 - El uso de herramientas como GitHub para la redacción colaborativa del informe y el desarrollo del prototipo demuestra un buen manejo de metodologías ágiles y control de versiones, lo que favorece la coordinación del equipo y la eficiencia del proceso.
 
 - El equipo demostró un enfoque claro de mejora continua al corregir errores e imprecisiones identificados en la primera entrega (TB1). En la segunda entrega (TP1), se incorporaron ajustes relevantes al diseño de la solución, especialmente en la capa visual del sistema (Figma), así como en la estructuración del contenido técnico y narrativo del informe. Estas correcciones no solo evidencian una revisión crítica del trabajo anterior, sino también la capacidad del equipo para asumir observaciones constructivas y transformarlas en mejoras concretas, fortaleciendo así la calidad del producto entregado y la madurez del proyecto en general.
+
+
+## Video About-the-Team
+
+Resumen del Video  
+El video presenta las conclusiones y reflexiones de los integrantes del equipo **MoviGestión** sobre el proceso de desarrollo del proyecto. Cada miembro aparece en cámara compartiendo su experiencia, aprendizajes técnicos y habilidades desarrolladas. Entre los temas abordados se encuentran: la estructura de trabajo en Sprints, el uso de buenas prácticas y Domain-Driven Design, la implementación de funcionalidades en frontend y backend, la importancia de los *bounded contexts*, y el trabajo colaborativo mediante herramientas como GitHub. Además, se resalta cómo estas prácticas reflejan escenarios reales en la industria del software.
+
+
+Pauta de Secuencias de Contenido
+
+| Tiempo (hh:mm:ss) | Participante / Contenido | Descripción |
+|------------------|--------------------------|-------------|
+| 00:00:05 | Mauricio Chacón | Reflexiona sobre la estructura de Sprints, aprendizaje en frontend y backend con buenas prácticas y DDD. |
+| 00:02:51 | Piero Tarazona | Enfatiza la importancia del Domain-Driven Design y la identificación de *bounded contexts*. |
+| 00:04:18 | Miguel Huarcaya | Analiza cómo se organizaron los Sprints y lo que se aprendió tanto en el desarrollo del proyecto, aplicando buenas prácticas y principios sólidos de diseño de software como el DDD. |
+| 00:06:05 | Moises Donayre | Reflexiona sobre la organización del código y su impacto en el trabajo en equipo y el control de versiones. |
+| 00:06:33 | Elías Torres | Destaca el valor del DDD y la planificación previa al desarrollo técnico, además del uso colaborativo de GitHub. |
+
+
+![About the team](/assets/chapter06/videos%20about%20the%20team.png)
+
+Youtube URL: https://youtu.be/OUfIct2_y6Q?si=SvuyvHlXgYakTBHg
+
+Microsoft Stream URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217633_upc_edu_pe/EVvescXOK7VNqkSU-Iw36aoBGxuw1D0vMpsSYjjdE8-xvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=pzrOni
+
 
 
 # Bibliografia 
@@ -3937,7 +6406,9 @@ Repositorio del Reporte: https://github.com/upc-Soluciones-IOT-BicasTeam/upc-iot
 
 Landing Page desplegado: https://upc-soluciones-iot-bicasteam.github.io/upc-AppWeb-BicasTeam-LandingPage.github.io/
 
-App Web: Desplegado: https://upc-soluciones-iot-bicasteam.github.io/upc-OpenSource-BicasTeam-AppWeb/login
+App Web Desplegado: https://upc-soluciones-iot-bicasteam.github.io/upc-OpenSource-BicasTeam-AppWeb/login
+
+Back End: https://app-250622151805.azurewebsites.net/swagger-ui/index.html#
 
 Diagrama de clases: https://my.vertabelo.com/public-model-view/5yI4V4ChbQGarfXWiMjxVVIcacFNuarlrFWq26NToht19NwAIKDlIQ60hc4OJ0M4?x=1918&y=2759&zoom=0.6028
 
