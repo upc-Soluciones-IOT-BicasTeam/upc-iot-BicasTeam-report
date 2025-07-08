@@ -2005,12 +2005,15 @@ En esta imagen se muestra el mapa utilizando datos de prueba enviado por nuestro
 
 App móvil:
 ![Team Collaboration Insights](/assets/chapter06/collaboration-insights1.png)
+Cuadro de colaboracion del repositorio de App movil
 
 App web (transportista):
 ![Team Collaboration Insights](/assets/chapter06/collaboration-insights1.2.png)
+Cuadro de colaboracion del aplicacion web
 
 Backend:
 ![Team Collaboration Insights](/assets/chapter06/colab%20backend.png)
+Cuadro de colaboracion del backend
 
 -------------
 -------------
