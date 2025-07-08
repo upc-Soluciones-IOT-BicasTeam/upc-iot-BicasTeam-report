@@ -57,29 +57,43 @@ Hemos identificado 7 Bounded Context.
 
 - Subscription & Payments:
 
+Maneja las suscripciones de los usuarios y el procesamiento de pagos. Incluye la solicitud de cuentas PRO, la carga de comprobantes de pago, la validación de pagos y la activación o denegación de cuentas PRO.
+
 ![Subscription & Payments](/assets/chapter04/EventStorming/Subscription%20&%20Payments.png)
 
 - IAM:
+
+Gestiona la autenticación y autorización de usuarios. Cubre los procesos de registro de usuarios, inicio de sesión para diferentes roles (gerente, transportista, personal de plataforma) y el manejo de credenciales incorrectas.
 
 ![IAM](/assets/chapter04/EventStorming/IAM.png)
 
 - Profile Management:
 
+Se ocupa de la actualización y gestión de los perfiles de usuario. Incluye la actualización de datos personales para transportistas y gerentes, el cambio de contraseñas y la gestión de los niveles de usuario por parte de los administradores.
+
 ![Profile Management](/assets/chapter04/EventStorming/Profile%20Management.png)
 
 - Vehicles & Tracking:
+
+Responsable de la gestión de vehículos y su información de rastreo. Implica la creación y asignación de vehículos, la gestión de límites para vehículos y transportistas, la integración con equipos IoT para telemetría (temperatura, humedad) y la recepción de datos de ubicación de vehículos por Google Maps.
 
 ![Vehicles & Tracking](/assets/chapter04/EventStorming/Vehicles%20&%20Tracking.png)
 
 - Shipment:
 
+Gestiona el ciclo de vida de los envíos. Incluye la creación de envíos (que se establecen automáticamente como "pendientes"), la asignación de envíos a transportistas, el cambio del estado del envío a "en proceso" y el marcado de los envíos como "terminados". También incluye reglas sobre quién puede cambiar el estado del envío y la prevención de reasignaciones una vez que un envío ha finalizado.
+
 ![Shipment](/assets/chapter04/EventStorming/Shipment.png)
 
 - Analytics:
 
+Se centra en la gestión y el análisis de estadísticas relacionadas con los envíos, vehículos y condiciones ambientales. Implica consultar informes, analizar vehículos y asignar colores según las condiciones ambientales.
+
 ![Analytics](/assets/chapter04/EventStorming/Analytics.png)
 
 - Issues:
+
+Se enfoca en la gestión de reportes o "incidencias". Implica la consulta de reportes de otros transportistas y la creación de nuevos reportes. También incluye reglas sobre la completitud del tipo y la descripción para la creación de reportes y el registro automático de la fecha de creación.
 
 ![Issues](/assets/chapter04/EventStorming/Issues.png)
 
@@ -91,21 +105,31 @@ En esta sección, se describe el proceso utilizado para visualizar la interacci�
 
 - Subscription & Payments ->  IAM/Profile/Vehicle&Tracking
 
+Cuando una cuenta PRO de gerente se activa, este contexto informa a IAM, Profile Management y Vehicles & Tracking para actualizar los datos y permisos correspondientes. El Personal de Plataforma gestiona esto a través del sitio web.
+
 ![Subscription&Payments->IAM/Profile/Vehicle&Tracking](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Subscription%20&%20Payments%20-%20IAM_Profile_Vehicle&Tracking.jpg)
 
 - Vehicles & Tracking -> Analytics
+
+Recibe datos de temperatura, humedad y ubicación de los vehículos. Envía estos datos a Analytics para análisis de condiciones, asignación de colores ambientales e identificación de límites estrictos. El Gerente puede ver esta información en el sitio web.
 
 ![Vehicles&Tracking->Analytics](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Vehicles%20&%20Tracking%20-%20Analytics.jpg)
 
 - Shipment -> Analytics
 
+Al crearse o asignarse un envío, se envía información a Analytics para el historial de envíos activos del conductor y la actualización de límites ambientales. El Gerente accede a esto vía web.
+
 ![Shipment->Analytics](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Shipment%20-%20Analytics.jpg)
 
 - Issues -> Analytics
 
+Este contexto envía datos de reportes a Analytics para generar estadísticas de incidencias registradas. El Gerente visualiza estas estadísticas en el sitio web.
+
 ![Issues->Analytics](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Issues%20-%20Analytics.jpg)
 
 - Iam -> Profile Management
+
+Cuando un gerente o conductor se registra en IAM, sus datos personales son enviados a Profile Management para su almacenamiento. El Gerente inicia este proceso en el sitio web.
 
 ![Iam->Profile Management](/assets/chapter04/Domain%20Message%20Flows%20Modeling/Iam%20-%20Profile%20Management.jpg)
 
@@ -125,13 +149,19 @@ Gracias a este enfoque, el equipo pudo construir los bounded contexts de forma s
 
 - Bounded Context Canvases IAM:
 
+Representa la base de la seguridad y el control de acceso del sistema. Ilustra cómo se manejan las identidades digitales de los usuarios, desde su registro y autenticación hasta la asignación de permisos. Detalla qué otros módulos del sistema (como vehículos o envíos) necesitan interactuar con IAM para verificar la autorización de un usuario o realizar consultas de permisos. También muestra cómo IAM notifica a otras áreas, como Analytics, sobre cambios en el estado de los usuarios, asegurando que la información de acceso y roles sea coherente en todo el sistema.
+
 ![Bounded Context Canvases IAM](/assets/chapter04/canvases_IAM.png)
 
 - Bounded Context Canvases Vehicles & Tracking:
 
+Se centra en todo lo relacionado con la flota de vehículos y su monitoreo. Explica cómo se gestionan los vehículos registrados, su ubicación en tiempo real y el historial de sus movimientos. Muestra que este contexto recibe actualizaciones de ubicación desde los conductores y de IAM para validar permisos. A su vez, envía información de movimiento y estado a otros contextos como Analytics para análisis, y a la aplicación web para visualización, y a Shipment para la coordinación de entregas. Define los términos clave usados en este dominio, como "Vehículo" y "Ruta histórica", y las decisiones de negocio sobre su seguimiento.
+
 ![Bounded Context Canvases Vehicles & Tracking](/assets/chapter04/canvases_vehicles_tracking.png)
 
 - Bounded Context Canvases Shipment:
+
+Describe el núcleo del proceso de entrega y logística. Presenta cómo se registran y monitorean los envíos desde su origen hasta su destino final. Detalla cómo se coordinan los despachos con los vehículos y conductores, y cómo se gestionan los cambios de estado de las entregas. Muestra las interacciones para registrar nuevos envíos desde las interfaces de usuario y cómo se consulta información de ubicación o de responsables de envío de otros contextos. Además, especifica cómo notifica a Analytics sobre los envíos registrados y entregados, y a Vehicles & Tracking sobre la necesidad de información del estado del vehículo.
 
 ![Bounded Context Canvases Shipment](/assets/chapter04/canvases_shipment.png)
 
@@ -178,6 +208,8 @@ Se concluyó que IAM ya está correctamente enfocado en su Core Capability (Iden
 - Se refuerza que IAM actúa como Supplier para Vehicles & Tracking y Shipment.
 - Analytics actúa como Subscriber de eventos generados por los otros contextos.
 
+El diagrama creado nos permite visualizar las relaciones y dependencias entre los contextos delimitados del sistema. Los bloques representan los Bounded Contexts y las flechas indican la dirección y el tipo de relación.
+
 ![Context Mapping](/assets/chapter04/context_mapping.png)
 
 #### 4.1.3.1 Software Architecture System Lanscape Diagram
@@ -213,24 +245,24 @@ Contiene la lógica de negocio pura y las entidades principales relacionadas a l
 | Nombre| Tipo de dato | Visibilidad | Descripcion |
 | --- | --- | --- | --- |
 | id | UUID | Private | Identificador único del usuario. |
-| name | String | Private | Nombre completo del usuario. |
 | email | Email | Private | Objeto de valor encapsulando la dirección de correo electrónico y su validación. |
 | passwordHash | String | Private | Contraseña hasheada del usuario. |
-| isEmailVerified | Boolean | Private | Estado de verificación del correo electrónico. |
-| status | Enum | Private |Estado del usuario. |
-| roleId | UUID | Private | Referencia al ID del único rol asignado al usuario. |
-| createdAt | Date | Private | Fecha de creación. |
-| updatedAt | Date | Private | Fecha de actualización.|
+| isActive | Boolean | Private | Indica si el usuario está activo. |
+| accountNonExpired | Boolean | Private | Indica si las credenciales no han expirado. |
+| credentialsNonExpired | Boolean | Private | Indica si las credenciales no han expirado. |
+| accountNonLocked | Boolean | Private | Indica si las credenciales no han sido bloqueadas. |
+| roles | Set<Role> | Private | Conjunto de roles asignados al usuario. |
+| sessions | Set<Session> | Private | Conjunto de sesiones asociadas al usuario. |
 
 **Methods**<br>
 | Nombre| Tipo de retorno | Visibilidad | Descripción |
 | --- | --- | --- | --- |
-| create(...) | User | Public | Crea una nueva instancia de User, aplicando validaciones iniciales. |
-| changePassword(newPassword, PasswordEncoder) | Void | Public | Actualiza la contraseña del usuario después de verificar las reglas de negocio. |
-| updateProfile(newName, newEmail, emailService) | Void | Public | Actualiza el nombre y email del usuario. | 
-| assignRole(UUID roleId) | Void | Public | Establece o cambia el rol asignado al usuario al roleId proporcionado. |
-| removeRole(UUID roleId) | Void | Public | Remueve un rol. |
-| isPasswordValid(rawPassword, passwordEncoder) | Boolean | Public | Verifica si una contraseña plana coincide con el hash almacenado. |
+| login(username: String, password: String) | Session | Public | Inicia sesión y genera una nueva sesión válida. |
+| logout(sessionId: Long) | Void | Public | Cierra una sesión específica del usuario. |
+| requestPasswordReset() | Void | Public | Solicita el restablecimiento de contraseña. |
+| hasPermission(code: String) | Boolean | Public | Verifica si el usuario tiene permiso para ejecutar una acción. |
+| addSession(session: Session) | Void | Public | Agrega una sesión activa al usuario. |
+| invalidateAllSessions() | Void | Public | Invalida todas las sesiones del usuario. |
 
 **Agregate 2: Role**<br>
 | Nombre| Categoría | Descripción |
@@ -248,12 +280,9 @@ Contiene la lógica de negocio pura y las entidades principales relacionadas a l
 **Methods**<br>
 | Nombre| Tipo de dato | Visibilidad | Descripción |
 | --- | --- | --- | --- |
-| create(name, description) | Role | Public | Crea una nueva instancia de Role. |
-| changeName(new Name) | Void | Public | Actualiza el nombre del rol. |
-| changeDescription(new Description) | Void | Public | Actualiza la descripción del rol. |
-| addPermission(Permission permission) | Void | Public | Añade un Objeto de Valor Permission al conjunto de rol. |
-| removePermission(Permission permission) | Void | Public | Remueve un Objeto de Valor Permission del conjunto del rol. |
-| hasPermission(String permissionName) | Boolean | Public | Verifica si el rol contiene un permiso específico. |
+| addPermission(permission: Permission) | Void | Public | Añade un permiso al rol.
+| removePermission(permission: Permission) | Void | Public | Elimina un permiso del rol. |
+| canAssign(assigner: User) | Boolean | Public | Verifica si un usuario puede asignar este rol. |
 
 **Aggreate 3: Session**<br>
 | Nombre | Categoría | Descripción |
@@ -268,56 +297,62 @@ Contiene la lógica de negocio pura y las entidades principales relacionadas a l
 | userId | String | Private | Identificador del usuario asociado. |
 | accessToken | String | Private | Token principal usado para autenticar peticiones. |
 | refreshToken | String | Private | Token usado para obtener nuevos Access Tokens sin reautenticar. |
-| creationTime | Date | Private | Marca de tiempo de creación de la sesión. |
-| expiresAt | Date | Private | Fecha de expiración de la sesión. |
+| deviceInfo | String | Private | Información del dispositivo asociado a la sesión. |
+| ipAddress | String | Private | Dirección IP desde la que se inició la sesión. |
+| createdAt | LocalDateTime | Private | Fecha y hora de creación de la sesión. |
+| expiresAt | LocalDateTime | Private | Fecha de expiración del token. |
 | isValid | Boolean | Private | Indica si la sesión ha sido explícitamente invalidada. |
 
 **Methods**<br>
 | Nombre | Tipo de dato | Visibilidad | Descripción |
 | --- | --- | --- | --- |
-| create(userId, accessToken, refreshToken, expiresAt) | Session | Public | Crea una nueva instancia de Session. |
-| invalidate() | Void | Public | Marca la sesión como inválida. |
-| refresh(newAccessToken, newRefreshToken, newExpiresAt) | Void | Public | Actualiza los tokens y el tiempo de expiración de la sesión. |
-| isValid(currentTime: Date) | Boolean | Public | Verifica si la sesión no está expirada y no ha sido invalidada. |
-| getAccessToken() | String | Public | Retorna el Access Token actual de la sesión. |
+| refreshAccessToken(newToken: String) | Void | Public | Refresca el token de acceso. |
+| invalidate() | Void | Public | Invalida la sesión. |
 
-**Value Object: Email**<br>
-| Nombre | Categoría | Descripción | 
-| --- | --- | ---|
-| Email | Value Object | Encapsula una dirección de correo electrónico en formato string. |
-
-**Attributes**<br>
-| Nombre | Tipo de dato | Visibilidad | Descripción | 
-| --- | --- | --- | --- |
-| value | String | Private | La dirección de correo electrónico en formato string. |
-
-**Methods**<br>
-| Nombre | Tipo de dato | Visibilidad | Descripción |
-| --- | --- | --- | --- |
-| of(string value) | Email | Public | Crea una instancia inmutable de Email después de validar su formato. |
-| getValue() | String | Public | Retorna la dirección como string. |
-| equals(object other) | Boolean | Public | Compara si dos emails son iguales. |
-| hashCode() | int | Public | Calcula el hashcode basado en el valor. | 
-| toString() | String | Public | Retorna la representación en cadena. |
-
-**Value Object: Permission**<br>
+**Aggregate 4: Permission**<br>
 | Nombre | Categoría | Descripción |
 | --- | --- | --- |
-| Permission | Value Object | Representa una capacidad específica dentro del sistema. Es inmutable. |
+| Permission | Entity | Representa una capacidad específica dentro del sistema. Es inmutable. |
 
 **Attributes**<br>
 | Nombre | Tipo de dato | Visibilidad | Descripción |
 | --- | --- | --- | --- |
-| value | String | Private | Representación única del permiso. |
+| id | UUID | Private | Identificador único del permiso. |
+| code | PermissionCode (enum) | Private | Código único del permiso. |
+| description | String | Private | Descripción del permiso. |
+| category | String | Private | Categoría a la que pertenece el permiso. |
 
 **Methods**<br>
 | Nombre | Tipo de dato | Visibilidad | Descripción |
 | --- | --- | --- | --- |
-| of(string value) | Email | Public | Crea una instancia inmutable de Permission después de validar su formato. |
-| getValue() | String | Public | Retorna el valor del permiso. |
-| equals(object other) | Boolean | Public | Compara si dos Permission tienen el mismo valor. |
-| hashCode() | int | Public | Calcula el hashcode basado en el valor. |
-| toString() | String | Public | Retorna la representación en cadena. |
+| isGlobal() | Boolean | Public | Indica si el permiso es global. |
+
+**Enum: PermissionCode**<br>
+| Código | Valor |
+| --- | --- |
+| USER_CREATE | "user:create" |
+| USER_DELETE | "user:delete" |
+| VEHICLE_CREATE | "vehicle:create" |
+| VEHICLE_EDIT | "vehicle:edit" |
+| ANALYTICS_VIEW | "analytics:view" |
+
+**Aggregate 5: JwtToken**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| JwtToken | Entity | Representa un token JWT emitido como parte de una sesión. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| token | String | Private | Cadena JWT. |
+| issuedAt | LocalDateTime | Private | Fecha de emisión del token. |
+| expiresAt | LocalDateTime | Private | Fecha de expiración del token. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| isExpired() | Boolean | Public | Verifica si el token ha expirado. |
+
 
 #### 4.2.1.2 Interface Layer
 Esta capa es responsable de la recepción y formato de peticiones/respuestas externas (API REST), validación básica del formato y los datos de entrada, manejo de errores a nivel de API y delegación de la lógica de negocio a la capa de Aplicación.
@@ -369,6 +404,7 @@ Nombre | Categoría | Descripción |
 
 **Attributes**<br>
 | Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
 | roleService | RoleService | Private | Servicio de la capa de Aplicación para lógica de gestión de roles. |
 | roleMapper | RoleMapper | Private | Mapper para convertir entre DTOs y objetos de Rol. |
 
@@ -539,22 +575,395 @@ En la capa de Infrastructure Layer, se encuentran los repositorios que permiten 
 - Métodos para extraer información (ej. userId, sessionId, roles) de un token válido.
 
 #### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams
+Este diagrama muestra la arquitectura de componentes del sistema, organizado en controladores (AuthController, UserController, RoleController), servicios (AutoService, UserService, RoleService) y repositorios JPA (JpaUserRepositoryImp, JpaRoleRepositoryImp, etc.), que interactúan con una base de datos central. Los controladores gestionan las solicitudes HTTP, los servicios implementan la lógica de negocio y los repositorios manejan el acceso a datos, siguiendo un diseño modular y escalable.
 ![Component Level Diagrams IAM](/assets/chapter04/structurizr-Component-001.png)
 
+El diagrama muestra la arquitectura de un sistema IAM (Identity and Access Management) para una aplicación web, donde el ApiService consume la API IAM y gestiona tokens JWT, mientras que el TokenService se encarga de almacenar y proveer estos tokens. Los módulos funcionales (Auth Module, User Module y Role Module) manejan procesos de autenticación, gestión de usuarios y administración de roles/permisos respectivamente, comunicándose a través de endpoints REST como /login, /users y /roles. La estructura modular asegura escalabilidad y un claro manejo de identidades y accesos.
 ![Component Level Diagrams IAM](/assets/chapter04/structurizr-Component-002.png)
 
+El diagrama presenta la arquitectura de una aplicación móvil Flutter para gestión de perfiles y autenticación, organizada en tres capas principales: la interfaz de usuario (pantallas de perfil, login y registro), la lógica de negocio (casos de uso como Login y GetProfile, con interfaces abstractas) y la gestión de datos (repositorios, fuentes de datos y cliente HTTP para operaciones remotas). Los componentes interactúan de forma modular, permitiendo actualizaciones de perfil, autenticación segura y almacenamiento local/remoto, todo integrado en un contenedor Flutter.
 ![Component Level Diagrams IAM](/assets/chapter04/structurizr-MobileAppPresentationFocusView.png)
 
 ##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams IAM](/assets/chapter04/ClassDiagramas/ClassDiagram_IAM.png)
+El diagrama muestra el diseño del módulo IAM, con las entidades User (autenticación y roles), Session (tokens JWT), Role y Permission (permisos como USER.CREATE). Incluye operaciones clave como login() y refreshToken(), formando un sistema seguro de gestión de accesos.
+
+![Bounded Context Domain Layer Class Diagrams IAM](/assets/chapter04/ClassDiagramas/ClassDiagram_IAM2.png)
 
 ##### 4.2.1.6.2 Bounded Context Database Design Diagram
+El diagrama presenta el diseño de base de datos para el Bounded Context IAM, con tablas principales. La estructura refleja un sistema robusto para autenticación, control de accesos (RBAC) y gestión de sesiones mediante JWT, con integridad referencial garantizada por claves foráneas.
+
 ![Bounded Context Database Design Diagram IAM](/assets/chapter04/ERDiagrams/ERDiagram_IAM.png)
 
-### 4.2.2 Bounded Context: Vehicles & Tracking
-Este bounded context centraliza la gestión de los vehículos de la flota, sus características, rutas asignadas, informes de infracciones y reportes de velocidad mediante geolocalización en tiempo real, asegurando el monitoreo y control de las unidades.
+### 4.2.2 Bounded Context: Profile Management
+El bounded context Profile Management se encarga de la administración de perfiles de usuario, incluyendo la información personal, direcciones, datos de contacto y preferencias de comunicación. Este contexto interactúa con el contexto IAM para autenticar al usuario y mantener la integridad de los datos del perfil asociados a la identidad autenticada.
 
 #### 4.2.2.1 Domain Layer
+En el dominio, se definen las entidades y agregados que componen el perfil de usuario, incluyendo información personal, direcciones, datos de contacto y preferencias de comunicación.
+
+**Aggregate 1: UserProfile**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| UserProfile | Entity | Representa la información base de un usuario del sistema, incluyendo datos personales y de autenticación. Es la entidad raíz para la gestión de usuarios generales. |
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | Long | Private | Identificador único del usuario en el sistema. |
+| userId | Long | Private | Identificador de usuario para el inicio de sesión. |
+| fullName | String | Private | Nombre completo del usuario. |
+| phone | String | Private | Número de teléfono del usuario. |
+| street | String | Private | Calle de la dirección del usuario. |
+| city | String | Private | Ciudad de la dirección del usuario. |
+| postalCode | String | Private | Código postal de la dirección del usuario. |
+| coordinates | Coordinates | Private | Coordenadas geográficas de la dirección del usuario. |
+| nameVerified | Boolean | Private | Indica si el nombre del usuario ha sido verificado. |
+| documentVerified | Boolean | Private | Indica si el documento de identidad del usuario ha sido verificado. |
+| createdAt | LocalDateTime | Private | Fecha y hora de creación del perfil de usuario. |
+| updatedAt | LocalDateTime | Private | Fecha y hora de la última actualización del perfil de usuario. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| verifyIdentity(document: File) | Boolean | Public | Proceso para verificar la identidad del usuario a través de un documento. |
+| updatePhone(newPhone: String) | Void | Public | Actualiza el número de teléfono del usuario. |
+
+**Aggregate 2: DriverProfile**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| DriverProfile | Entity | Extiende el perfil de usuario para incluir información específica de un conductor. Depende de UserProfile. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | Long | Private | Identificador único del perfil de conductor. |
+| vehicleId | Long | Private | Identificador del vehículo asignado al conductor. |
+| hireDate | LocalDate | Private | Fecha de contratación del conductor. |
+| driverStatus | String | Private | Estado actual del conductor (ej: activo, inactivo, de baja). |
+| licenseNumber | String | Private | Número de licencia de conducir. |
+| licenseExpiry | LocalDate | Private | Fecha de expiración de la licencia de conducir. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| renewLicense(expiryDate: LocalDate) | Void | Public | Actualiza la fecha de expiración de la licencia del conductor. |
+
+**Aggregate 3: ManagerProfile**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| ManagerProfile | Entity | Extiende el perfil de usuario para incluir información específica de un manager. Depende de UserProfile. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | Long | Private | Identificador único del perfil de manager. |
+| department | String | Private | Departamento al que pertenece el manager. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| approveRequest(stringRequestId: String) | Void | Public | Permite al manager aprobar una solicitud. |
+| assignVehicle(stringVehicleId: String) | Void | Public | Permite al manager asignar un vehículo. |
+| updateDriverStatus(stringDriverId: String, stringStatus: String) | Void | Public | Permite al manager actualizar el estado de un conductor. |
+
+**Aggregate 4: StaffProfile**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| StaffProfile | Entity | Extiende el perfil de usuario para incluir información específica del personal. Depende de UserProfile. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | Long | Private | Identificador único del perfil del personal. |
+| team | String | Private | Equipo al que pertenece el personal. |
+| skills | Set&lt;String> | Private | Habilidades del personal. |
+| joinDate | LocalDate | Private | Fecha de ingreso del personal. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| assignToProject(longProjectId: Long) | Void | Public | Permite asignar al personal a un proyecto. |
+| addSkill(skill: String) | Void | Public | Permite agregar una habilidad al perfil del personal. |
+
+**Value Object: Coordinates**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| Coordinates | Value Object | Representa las coordenadas geográficas. |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| latitude | Double | Private | Latitud de la ubicación. |
+| longitude | Double | Private | Longitud de la ubicación. |
+
+#### 4.2.2.2 Interface Layer
+Esta capa es responsable de la recepción y formato de peticiones/respuestas externas (API REST), validación básica del formato y los datos de entrada, manejo de errores a nivel de API y delegación de la lógica de negocio a la capa de Aplicación.
+
+**Controller 1: UserController**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| UserController | Controller | Controlador para los endpoints relacionados con la gestión de usuarios base (creación, lectura, actualización y eliminación de perfiles de usuario). |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| userService | UserService | Private | Servicio de la capa de Aplicación para la lógica de gestión de usuarios. |
+| userMapper | UserMapper | Private | Mapper para convertir entre DTOs y objetos de dominio de usuario. |
+
+**Endpoints**<br>
+| Ruta | Método | Descripción |
+| --- | --- | --- |
+| /users | POST | Crea un nuevo perfil de usuario. |
+| /users/{id} | GET | Recupera la información de un perfil de usuario por su ID. |
+| /users/{id} | PUT | Actualiza la información de un perfil de usuario existente. |
+| /users/{id} | DELETE | Elimina un perfil de usuario. |
+
+**Controller 2: DriverProfileController**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| DriverProfileController | Controller | Controlador para los endpoints específicos de la gestión de perfiles de conductores (creación, lectura, actualización de información de licencia, etc.). |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| driverProfileService | DriverProfileService | Private | Servicio de la capa de Aplicación para la lógica de gestión de perfiles de conductores. |
+| driverProfileMapper | DriverProfileMapper | Private | Mapper para convertir entre DTOs y objetos de dominio de conductor. | 
+
+**Endpoints**<br>
+| Ruta | Método | Descripción |
+| --- | --- | --- |
+| /drivers | POST | Crea un nuevo perfil de conductor. |
+| /drivers/{id} | GET | Recupera la información de un perfil de conductor por su ID. |
+| /drivers/{id} | PUT | Actualiza la información de un perfil de conductor. |
+| /drivers/{id}/license | PUT | Actualiza la información de la licencia de un conductor. |
+
+**Controller 3: ManagerProfileController**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| ManagerProfileController | Controller | Controlador para los endpoints específicos de la gestión de perfiles de managers (asignación de vehículos, aprobación de solicitudes, etc.). |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| managerProfileService | ManagerProfileService | Private | Servicio de la capa de Aplicación para la lógica de gestión de perfiles de managers. |
+| managerProfileMapper | ManagerProfileMapper | Private | Mapper para convertir entre DTOs y objetos de dominio de manager. |
+
+**Endpoints**<br>
+| Ruta | Método | Descripción |
+| --- | --- | --- |
+| /managers | POST | Crea un nuevo perfil de manager. |
+| /managers/{id} | GET | Recupera la información de un perfil de manager por su ID. |
+| /managers/{id} | PUT | Actualiza la información de un perfil de manager. |
+| /managers/{id}/assign-vehicle/{vehicleId} | POST | Asigna un vehículo a un conductor. |
+| /managers/{id}/approve/{requestId} | POST | Aprueba una solicitud. |
+
+**Controller 4: StaffProfileController**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| StaffProfileController | Controller | Controlador para los endpoints específicos de la gestión de perfiles de personal (asignación a proyectos, gestión de habilidades, etc.). |
+
+**Attributes**<br>
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| staffProfileService | StaffProfileService | Private | Servicio de la capa de Aplicación para la lógica de gestión de perfiles de personal. |
+| staffProfileMapper | StaffProfileMapper | Private | Mapper para convertir entre DTOs y objetos de dominio de personal. |
+
+**Endpoints**<br>
+| Ruta | Método | Descripción |
+| --- | --- | --- |
+| /staff | POST | Crea un nuevo perfil de personal. |
+| /staff/{id} | GET | Recupera la información de un perfil de personal por su ID. |
+| /staff/{id} | PUT | Actualiza la información de un perfil de personal. |
+| /staff/{id}/assign-project/{projectId} | POST | Asigna personal a un proyecto. |
+| /staff/{id}/add-skill | POST | Agrega una habilidad al perfil del personal. |
+
+**DTOs**<br>
+| Nombre | Descripción |
+| --- | --- |
+| CreateUserRequestDto | { userId: Long, fullName: String, phone: String, street: String, city: String, postalCode: String } |
+| UpdateUserRequestDto | { id: Long, fullName: String, phone: String, street: String, city: String, postalCode: String } |
+| UserResponseDto | { id: Long, userId: Long, fullName: String, phone: String, street: String, city: String, postalCode: String, nameVerified: Boolean, documentVerified: Boolean } |
+| CreateDriverProfileRequestDto | { userId: Long, vehicleId: Long, licenseNumber: String, licenseExpiry: LocalDate } |
+| UpdateDriverProfileRequestDto | { id: Long, vehicleId: Long, licenseNumber: String, licenseExpiry: LocalDate } |
+| DriverProfileResponseDto | { id: Long, userId: Long, vehicleId: Long, hireDate: LocalDate, driverStatus: String, licenseNumber: String, licenseExpiry: LocalDate } |
+| CreateManagerProfileRequestDto | { userId: Long, department: String } |
+| UpdateManagerProfileRequestDto | { id: Long, department: String } |
+| ManagerProfileResponseDto | { id: Long, userId: Long, department: String } |
+| CreateStaffProfileRequestDto | { userId: Long, team: String, skills: List&lt;String>, joinDate: LocalDate } |
+| UpdateStaffProfileRequestDto | { id: Long, team: String, skills: List&lt;String> } |
+| StaffProfileResponseDto | { id: Long, userId: Long, team: String, skills: List&lt;String>, joinDate: LocalDate } |
+
+#### 4.2.2.3 Application Layer
+En la capa de Application Layer se ubican los servicios que contienen la lógica de negocio relacionada con usuarios y roles.
+
+**Service 1: UserService**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| UserService | Service | Servicio que coordina la lógica relacionada con la gestión de perfiles de usuarios base. |
+
+**Dependencies**<br>
+| Nombre | Tipo de Objeto | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| userRepository | UserRepository | Private | Repositorio para la persistencia de información de usuarios. |
+| userMapper | UserMapper | Private | Mapea objetos de transferencia a entidades de dominio de usuario y viceversa. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| createUser | void | Public | Crea un nuevo perfil de usuario. |
+| getUser | UserProfile | Public | Obtiene un perfil de usuario por su ID. |
+| updateUser | void | Public | Actualiza la información de un perfil de usuario. |
+| deleteUser | void | Public | Elimina un perfil de usuario. |
+
+**Service 2: DriverProfileService**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| DriverProfileService | Service | Servicio que coordina la lógica específica para la gestión de perfiles de conductores. |
+
+**Dependencies**<br>
+| Nombre | Tipo de Objeto | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| driverProfileRepository | DriverProfileRepository | Private | Repositorio para la persistencia de información de perfiles de conductores. |
+| driverProfileMapper | DriverProfileMapper | Private | Mapea objetos de transferencia a entidades de dominio de conductor y viceversa. |
+| userService | UserService | Private | Servicio para interactuar con la gestión de usuarios base. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| createDriverProfile | void | Public | Crea un nuevo perfil de conductor. |
+| getDriverProfile | DriverProfile | Public | Obtiene un perfil de conductor por su ID. |
+| updateDriverProfile | void | Public | Actualiza la información de un perfil de conductor. |
+| updateDriverLicense | void | Public | Actualiza la información de la licencia de un conductor. |
+
+**Service 3: ManagerProfileService**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| ManagerProfileService | Service | Servicio que coordina la lógica específica para la gestión de perfiles de managers. |
+
+**Dependencies**<br>
+| Nombre | Tipo de Objeto | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| managerProfileRepository | ManagerProfileRepository | Private | Repositorio para la persistencia de información de perfiles de managers. |
+| managerProfileMapper | ManagerProfileMapper | Private | Mapea objetos de transferencia a entidades de dominio de manager y viceversa. |
+| userService | UserService | Private | Servicio para interactuar con la gestión de usuarios base. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| createManagerProfile | void | Public | Crea un nuevo perfil de manager. |
+| getManagerProfile | ManagerProfile | Public | Obtiene un perfil de manager por su ID. |
+| updateManagerProfile | void | Public | Actualiza la información de un perfil de manager. |
+| assignVehicleToDriver | void | Public | Asigna un vehículo a un conductor. |
+| approveRequest | void | Public | Aprueba una solicitud. |
+| updateDriverStatusByManager | void | Public | Actualiza el estado de un conductor por un manager. |
+
+**Service 4: StaffProfileService**<br>
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| StaffProfileService | Service | Servicio que coordina la lógica específica para la gestión de perfiles de personal. |
+
+**Dependencies**<br>
+| Nombre | Tipo de Objeto | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| staffProfileRepository | StaffProfileRepository | Private | Repositorio para la persistencia de información de perfiles de personal. |
+| staffProfileMapper | StaffProfileMapper | Private | Mapea objetos de transferencia a entidades de dominio de personal y viceversa. |
+| userService | UserService | Private | Servicio para interactuar con la gestión de usuarios base. |
+
+**Methods**<br>
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| createStaffProfile | void | Public | Crea un nuevo perfil de personal. |
+| getStaffProfile | StaffProfile | Public | Obtiene un perfil de personal por su ID. |
+| updateStaffProfile | void | Public | Actualiza la información de un perfil de personal. |
+| assignStaffToProject | void | Public | Asigna personal a un proyecto. |
+| addSkillToStaff | void | Public | Agrega una habilidad al perfil del personal. |
+
+#### 4.2.2.4 Infrastructure Layer
+En la capa de Infrastructure Layer, se encuentran los repositorios que permiten la persistencia de las entidades de usuarios y roles en la base de datos.
+
+**UserProfileRepositoryImpl**<br>
+| Nombre | Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| UserProfileRepositoryImpl | Repositorio | UserProfileRepository | Implementación del repositorio para acceder a la base de datos de perfiles de usuarios. |
+
+**Funcionalidades clave**<br>
+- Busca y carga perfiles de usuario por ID, userId, etc.
+- Guarda (inserta/actualiza) perfiles de usuario.
+- Elimina perfiles de usuario.
+- Verifica la existencia de perfiles de usuario por ID o userId.
+
+**DriverProfileRepositoryImpl**<br>
+| Nombre | Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| DriverProfileRepositoryImpl | Repositorio | DriverProfileRepository | Implementación del repositorio para acceder a la base de datos de perfiles de conductores. |
+
+**Funcionalidades clave**<br>
+- Busca y carga perfiles de conductor por ID, userId, etc.
+- Guarda (inserta/actualiza) perfiles de conductor.
+- Elimina perfiles de conductor.
+- Verifica la existencia de perfiles de conductor por ID o userId.
+
+**ManagerProfileRepositoryImpl**<br>
+| Nombre | Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| ManagerProfileRepositoryImpl | Repositorio | ManagerProfileRepository | Implementación del repositorio para acceder a la base de datos de perfiles de managers. |
+
+**Funcionalidades clave**<br>
+- Busca y carga perfiles de manager por ID, userId, etc.
+- Guarda (inserta/actualiza) perfiles de manager.
+- Elimina perfiles de manager.
+- Verifica la existencia de perfiles de manager por ID o userId.
+
+**StaffProfileRepositoryImpl**<br>
+| Nombre | Categoría | Implementa | Descripción |
+| --- | --- | --- | --- |
+| StaffProfileRepositoryImpl | Repositorio | StaffProfileRepository | Implementación del repositorio para acceder a la base de datos de perfiles de personal. |
+
+**Funcionalidades clave**<br>
+- Busca y carga perfiles de personal por ID, userId, etc.
+- Guarda (inserta/actualiza) perfiles de personal.
+- Elimina perfiles de personal.
+- Verifica la existencia de perfiles de personal por ID o userId.
+
+#### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams
+
+Muestra componentes UI (gestión de perfiles y conductores) y servicios API para operaciones CRUD, incluyendo formularios para cambio de contraseña y edición de datos. (Frontend de administración de usuarios).
+
+![Component Level Diagrams Profile Management](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-Profile.png)
+
+Muestra los componentes clave para gestión de perfiles: UserProfile Repository (datos), Management Service (lógica) y Automated Service (procesos automáticos). (Arquitectura backend simplificada).
+
+![Component Level Diagrams Profile Management](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents%20-%20profile.png)
+
+//![Component Level Diagrams Profile Management](/assets/chapter04/)
+#### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams
+
+El diagrama muestra los componentes backend para gestión de perfiles: UserProfile Repository (almacenamiento), UserProfile Service (operaciones CRUD) y servicios especializados para fotos y atributos específicos de perfiles.
+
+![Bounded Context Software Architecture Code Level Diagrams](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents%20-%20profile.png)
+
+El diagrama muestra los componentes UI y servicios para gestión de perfiles en la versión web de la aplicación.
+
+![Bounded Context Software Architecture Code Level Diagrams](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-Profile.png)
+
+El diagrama muestra los componentes UI y servicios para gestión de perfiles en la versión móvil de la aplicación.
+
+![Bounded Context Software Architecture Code Level Diagrams](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20Profile.png)
+
+##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
+
+Este diagrama UML muestra la jerarquía de perfiles de usuario en un sistema, comenzando con una clase UserProfile genérica y especializándose en DriverProfile, ManagerProfile y StaffProfile. Cada perfil incluye atributos y métodos específicos para su rol, detallando la información relevante para la gestión de usuarios en el sistema.
+
+![Bounded Context Domain Layer Class Diagrams Profile Management](/assets/chapter04/ClassDiagramas/ClassDiagram_ProfileManagement2.png)
+
+##### 4.2.2.6.2 Bounded Context Database Design Diagram
+
+Este diagrama de base de datos detalla las tablas y relaciones para la gestión de perfiles, con user_profiles como tabla principal, extendiéndose a driver_profile, manager_profiles y staff_profile, además de gestionar habilidades (skills y staff_skills).
+
+![Bounded Context Database Design Diagram Profile Management](/assets/chapter04/ERDiagrams/ERDiagram_ProfileManagement.png)
+
+### 4.2.3 Bounded Context: Vehicles & Tracking
+Este bounded context centraliza la gestión de los vehículos de la flota, sus características, rutas asignadas, informes de infracciones y reportes de velocidad mediante geolocalización en tiempo real, asegurando el monitoreo y control de las unidades.
+
+#### 4.2.3.1 Domain Layer
 **Aggregate 1: Vehicles**<br>
 | Nombre| Categoría | Descripción |
 | --- | --- | --- |
@@ -705,7 +1114,7 @@ Este bounded context centraliza la gestión de los vehículos de la flota, sus c
 | getAccuracy() | Double | Public | Obtiene la precisión del último registro de ubicación. |
 | refreshTimestamp() | Void | Public | Actualiza el tiempo del último registro de datos. |
 
-#### 4.2.2.2 Interface Layer
+#### 4.2.3.2 Interface Layer
 **Controller 1: VehicleController**<br>
 | Nombre| Categoría | Descripción |
 | --- | --- | --- |
@@ -777,7 +1186,7 @@ Ruta
 | SpeedWarningRequestDto | { vehicleId: UUID, speedLimit: Double, currentSpeed: Double } |
 | SpeedWarningResponseDto | { vehicleId: UUID, speedLimit: Double, isOverSpeeding: Boolean } |
 
-#### 4.2.2.3Application Layer
+#### 4.2.3.3 Application Layer
 
 **Service 1: VehicleService**<br>
 | Nombre| Categoría | Descripción |
@@ -817,7 +1226,7 @@ Ruta
 | updateRoute | void | Public | Actualiza los detalles de una ruta existente. |
 | deleteRoute | void | Public | Elimina una ruta del sistema. |
 
-#### 4.2.2.4 Infrastructure Layer
+#### 4.2.3.4 Infrastructure Layer
 **VehicleRepositoryImpl**<br>
 | Nombre| Categoría | Implementa | Descripción |
 | --- | --- | --- | --- |
@@ -866,21 +1275,44 @@ Ruta
 - Proporciona información de tráfico en tiempo real para optimizar rutas.
 - Actualiza la ubicación del vehículo en tiempo real en el sistema de seguimiento.
 
-#### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams V&T]()
+#### 4.2.3.5 Bounded Context Software Architecture Component Level Diagrams
 
-#### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams
+Este diagrama de componentes ilustra un marco conceptual para un sistema de seguimiento de vehículos. Muestra servicios clave como TelemetryIngestion, RealTimeLocation, HistoricalTelemetry y Geofencing, interactuando con un VehicleRegistry Service y un Vehicle & Telemetry Repository para gestionar y analizar datos de telemetría y ubicación.
 
-##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams V&T](/assets/chapter04/ClassDiagramas/ClassDiagram_Vehicle&Tracking.png)
+![Component Level Diagrams V&T](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents-vehicles.png)
 
-##### 4.2.2.6.2 Bounded Context Database Design Diagram
+Este diagrama de componentes detalla un módulo de seguimiento de vehículos, mostrando la interacción entre servicios (VehicleApiService, RealTimeTrackingService) y varios componentes de UI para visualización y gestión de datos de vehículos en tiempo real.
+
+![Component Level Diagrams V&T](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-%20vehicles.png)
+
+Este diagrama de componentes ilustra un módulo de seguimiento de vehículos, mostrando cómo los servicios (RealTimeLocationService, VehicleApiService) y la lógica de negocio (VehicleBloc) interactúan con las pantallas de usuario (FleetMapScreen, VehicleDashboardScreen, VehicleDetailsScreenMobile).
+
+![Component Level Diagrams V&T](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20vehicle.png)
+
+
+Este diagrama de componentes muestra un sistema de adquisición de datos de sensores. DataPollingScheduler coordina las lecturas programadas de TemperatureSensorDriver, HumiditySensorDriver y GPSSensorDriver, y configura sus frecuencias, para enviar datos brutos de sensores.
+
+![Component Level Diagrams V&T](/assets/chapter04/diagramas%20para%20iot/structurizr-VehicleEdgeUnitComponents-iot-vehicles.png)
+
+#### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
+
+Este diagrama de clases UML modela un sistema de "Vehículo y Seguimiento", mostrando cómo clases como Vehicle, TelemetryClient, VehicleRoute y varios sensores (GPS, Temperatura, Humedad) interactúan para gestionar datos telemétricos y la información de ruta.
+
+![Bounded Context Domain Layer Class Diagrams V&T](/assets/chapter04/ClassDiagramas/ClassDiagram_Vehicles&Tracking2.png)
+
+##### 4.2.3.6.2 Bounded Context Database Design Diagram
+
+
+Este diagrama de base de datos detalla las tablas para un sistema de seguimiento de vehículos. Muestra la tabla central vehicles relacionada con humidity_sensors, temperature_sensors, gps_sensors, vehicle_routes y route_tracking, estableciendo la estructura para gestionar datos de vehículos, rutas y sensores.
+
 ![Bounded Context Database Design Diagram V&T](/assets/chapter04/ERDiagrams/ERDiagram_Vehicle&Tracking.png)
 
-### 4.2.3 Bounded Context: Shipment
+### 4.2.4 Bounded Context: Shipment
 El bounded context de envíos gestiona el seguimiento de paquetes, asignaciones de transporte, costos asociados y destinos de entrega, permitiendo una trazabilidad eficiente de la carga dentro del sistema.
 
-#### 4.2.3.1 Domain Layer
+#### 4.2.4.1 Domain Layer
 **Aggregate 1: Packet**<br>
 | Nombre| Categoría | Descripción |
 | --- | --- | --- |
@@ -1006,7 +1438,7 @@ El bounded context de envíos gestiona el seguimiento de paquetes, asignaciones 
 | updateCarrierInfo | Void | Public | Actualiza la información del transportista, como su nombre o datos de contacto. |
 | getCarrierDetails | String | Public | Devuelve los detalles del transportista y los vehículos disponibles. |
 
-#### 4.2.3.2 Interface Layer
+#### 4.2.4.2 Interface Layer
 **Controller 1: PacketController**<br>
 | Nombre| Categoría | Descripción |
 | --- | --- | --- |
@@ -1053,7 +1485,7 @@ El bounded context de envíos gestiona el seguimiento de paquetes, asignaciones 
 | UpdateItemRequestDto | { itemId: UUID, packetId: UUID, description: String, quantity: Integer, weight: Double } |
 | ItemResponseDto | { itemId: UUID, description: String, quantity: Integer, weight: Double } |
 
-#### 4.2.3.3 Application Layer
+#### 4.2.4.3 Application Layer
 
 **Service 1: PacketService**<br>
 | Nombre| Categoría | Descripción |
@@ -1130,7 +1562,7 @@ El bounded context de envíos gestiona el seguimiento de paquetes, asignaciones 
 | getCarrierById | Carrier | Público | Recupera un transportista por su ID. |
 | deleteCarrier | Void | Público | Elimina un transportista dado su ID. |
 
-#### 4.2.3.4 Infrastructure Layer
+#### 4.2.4.4 Infrastructure Layer
 **PacketRepositoryImpl**<br>
 | Nombre| Categoría | Implementa | Descripción |
 | --- | --- | --- | --- |
@@ -1174,21 +1606,39 @@ El bounded context de envíos gestiona el seguimiento de paquetes, asignaciones 
 - Elimina carriers.
 - Lista todos los carriers.
 
-#### 4.2.3.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams Shipment]()
+#### 4.2.4.5 Bounded Context Software Architecture Component Level Diagrams
 
-#### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams
+Este diagrama de componentes ilustra un sistema de gestión de envíos, con servicios que cubren la asignación, órdenes, pruebas de entrega, seguimiento y planificación de rutas, todos utilizando un repositorio central de envíos.
 
-##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams Shipment](/assets/chapter04/ClassDiagramas/ClassDiagram_Shipment.png)
+![Component Level Diagrams Shipment](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents-shipment.png)
 
-##### 4.2.3.6.2 Bounded Context Database Design Diagram
+
+Este diagrama de componentes detalla un módulo de gestión de envíos. Muestra cómo ShipmentApiService interactúa con varios componentes de UI como ShipmentListComponent, ShipmentDashboardPage, ShipmentDetailsPageComponent, CreateShipmentFormComponent, AssignShipmentDialogComponent y RouteDisplayComponent para listar, crear, asignar y visualizar envíos.
+
+![Component Level Diagrams Shipment](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-Shipment.png)
+
+Este diagrama de componentes ilustra un módulo de operaciones de envío para la aplicación móvil de nuestra solución, donde ShipmentBloc coordina los datos del ShipmentApiService con pantallas de usuario (ShipmentDetailsScreen, ShipmentListScreen, UpdateShipmentStatusDialog, ProofOfDeliveryScreen) y un ProofOfDeliveryService para gestionar las pruebas de entrega.
+
+![Component Level Diagrams Shipment](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20Shipment.png)
+
+#### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams
+
+Este diagrama UML muestra un contexto delimitado de "Envío" con dos clases: Delivery, que incluye detalles de envío y métodos para actualizar estado y verificar cumplimiento; y Package, que contiene información dimensional, indicando una relación de composición entre ellas.
+
+![Bounded Context Domain Layer Class Diagrams Shipment](/assets/chapter04/ClassDiagramas/ClassDiagram_Shipments2.png)
+
+##### 4.2.4.6.2 Bounded Context Database Design Diagram
+
+Este diagrama de base de datos muestra las tablas deliveries y packages, con packages relacionada a deliveries a través de una clave foránea, detallando los atributos para la gestión de entregas y sus paquetes asociados.
+
 ![Bounded Context Database Design Diagram Shipment](/assets/chapter04/ERDiagrams/ERDiagram_Shipment.png)
 
-### 4.2.4 Bounded Context: Analytics
+### 4.2.5 Bounded Context: Analytics
 Este bounded context procesa, analiza y genera reportes basados en los datos de operación, como desempeño de los vehículos, incidentes, patrones de velocidad y envíos, proporcionando métricas e insights valiosos para la toma de decisiones. Se incluyen estadísticas visuales según estado de sensores y datos históricos por conductor.
 
-#### 4.2.4.1 Domain Layer
+#### 4.2.5.1 Domain Layer
 Contiene la lógica de negocio pura y las entidades principales relacionadas al análisis y estadísticas de datos operativos, encapsulando comportamiento y reglas relevantes.
 
 **Aggregate 1: VehicleAnalytics**<br>
@@ -1257,7 +1707,7 @@ Contiene la lógica de negocio pura y las entidades principales relacionadas al 
 | generateReport() | Json | Public | Genera un reporte consolidado en formato JSON. |
 | calculateMetrics() | Map<String, Double> | Public | Calcula métricas analíticas clave del documento. |
 
-#### 4.2.4.2 Interface Layer
+#### 4.2.5.2 Interface Layer
 Esta capa se encarga de recibir solicitudes externas (API REST), validar datos, transformar objetos y delegar la lógica al Application Layer.
 
 **Controller: AnalyticsController**<br>
@@ -1292,7 +1742,7 @@ Esta capa se encarga de recibir solicitudes externas (API REST), validar datos, 
 | DriverAnalyticsResponseDTO | Métricas de desempeño y cantidad de reportes. |
 | AnalyticsDocResponseDTO | Reporte analítico consolidado. |
 
-#### 4.2.4.3 Application Layer
+#### 4.2.5.3 Application Layer
 Contiene los casos de uso que orquestan operaciones del dominio, infraestructura y servicios externos.
 
 **Service: AnalyticsApplicationService**<br>
@@ -1313,7 +1763,7 @@ Contiene los casos de uso que orquestan operaciones del dominio, infraestructura
 |getDriverAnalytics() | List<DriverAnalytics> | Public | Devuelve métricas de conductores. |
 | generateAnalyticsDoc() | AnalyticsDoc | Public | Devuelve el documento de análisis general. |
 
-#### 4.2.4.4 Infrastructure Layer
+#### 4.2.5.4 Infrastructure Layer
 Implementaciones técnicas que permiten el acceso a datos, conectividad y persistencia.
 
 **StatisticsRepositoryImpl**<br>
@@ -1326,21 +1776,38 @@ Implementaciones técnicas que permiten el acceso a datos, conectividad y persis
 - Obtiene datos de sensores de vehículos (temperatura, humedad, alertas).
 - Filtra estadísticas por tipo de evento, fechas, zona geográfica, vehículo o conductor.
 
-#### 4.2.4.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams Analytics]()
+#### 4.2.5.5 Bounded Context Software Architecture Component Level Diagrams
 
-#### 4.2.4.6 Bounded Context Software Architecture Code Level Diagrams
+Este diagrama de componentes ilustra un sistema de analíticas, donde varios servicios de análisis (VehicleEfficiency, ShipmentInsights, DriverPerformance) usan servicios de consulta, agregación y generación de informes, respaldados por un repositorio de datos analíticos.
 
-##### 4.2.4.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams Analytics](/assets/chapter04/ClassDiagramas/ClassDiagram_Analytics.png)
+![Component Level Diagrams Analytics](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents%20-%20analytics.png)
 
-##### 4.2.4.6.2 Bounded Context Database Design Diagram
+Este diagrama de componentes ilustra un módulo de analíticas y reportes donde AnalyticsApiService provee datos a varios componentes de interfaz de usuario para la visualización y filtrado de informes.
+
+![Component Level Diagrams Analytics](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-analytic.png)
+
+Este diagrama de componentes ilustra un módulo de analíticas y reportes donde AnalyticsBloc gestiona la lógica para AnalyticsOverviewScreen y SimpleReportViewScreen, obteniendo datos vía AnalyticsApiService.
+
+![Component Level Diagrams Analytics](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20Analytics.png)
+
+#### 4.2.5.6 Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
+
+La imagen muestra un diagrama de clases del dominio "Analytics" con cuatro clases principales: `VehicleAnalytics`, `ShipmentAnalytics`, `DriverAnalytics` y `AnalyticsDoc`, que gestionan métricas relacionadas con vehículos, envíos, conductores y generación de informes.
+
+![Bounded Context Domain Layer Class Diagrams Analytics](/assets/chapter04/ClassDiagramas/ClassDiagram_Analytics2.png)
+
+##### 4.2.5.6.2 Bounded Context Database Design Diagram
+
+La imagen muestra el diseño de base de datos para el contexto "Analytics", con tablas como analytic_docs, vehicle_analytics, shipment_analytics, driver_analytics y relaciones para almacenar métricas e informes.
+
 ![Bounded Context Database Design Diagram Analytics](/assets/chapter04/ERDiagrams/ERDiagram_Analytics.png)
 
-### 4.2.5 Bounded Context: Subscription and Payments
+### 4.2.6 Bounded Context: Subscription and Payments
 Este bounded context gestiona los pagos de suscripción realizados por los gerentes, su validación por parte de los administradores, y el control del estado de la suscripción (Pendiente, Aceptado, Denegado). También se encarga del almacenamiento seguro del comprobante de pago.
 
-#### 4.2.5.1 Domain Layer
+#### 4.2.6.1 Domain Layer
 Contiene la lógica de negocio pura y las entidades principales relacionadas al flujo de suscripción y validación de pago.
 
 **Aggregate 1: UserSubscription**<br>
@@ -1446,7 +1913,7 @@ Contiene la lógica de negocio pura y las entidades principales relacionadas al 
 | --- | --- | --- | --- |
 | isExpired() | Boolean | Public | Verifica si el método de pago está vencido. |
 
-#### 4.2.5.2 Interface Layer
+#### 4.2.6.2 Interface Layer
 Esta capa se encarga de recibir solicitudes externas (REST), validar los datos de entrada y delegar la lógica a la capa de aplicación.
 
 **Controller 1: SubscriptionController**<br>
@@ -1492,7 +1959,7 @@ Esta capa se encarga de recibir solicitudes externas (REST), validar los datos d
 | --- | --- |
 | SubscriptionStatusResponseDTO | Indica el estado actual de la suscripción (Pendiente, Aceptado, Denegado). |
 
-#### 4.2.5.3 Application Layer
+#### 4.2.6.3 Application Layer
 Contiene la lógica de orquestación de los casos de uso, acceso a repositorios y coordinación de acciones entre capas.
 
 **Service: SubscriptionAppService**<br>
@@ -1514,7 +1981,7 @@ Contiene la lógica de orquestación de los casos de uso, acceso a repositorios 
 | approveSubscription() | Void | Public | Cambia el estado de una suscripción a "Aceptado". |
 | rejectSubscription() | Void | Public | Cambia el estado a "Denegado". |
 
-#### 4.2.5.4 Infrastructure Layer
+#### 4.2.6.4 Infrastructure Layer
 Proporciona implementaciones concretas de persistencia y almacenamiento externo (imágenes, documentos).
 
 **SubscriptionRepositoryImpl**<br>
@@ -1539,21 +2006,24 @@ Proporciona implementaciones concretas de persistencia y almacenamiento externo 
 - Elimina imágenes asociadas a suscripciones canceladas o rechazadas.
 - Verifica si una imagen ya fue almacenada.
 
-#### 4.2.5.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams Subscription and Payments]()
+#### 4.2.6.5 Bounded Context Software Architecture Component Level Diagrams
 
-#### 4.2.5.6 Bounded Context Software Architecture Code Level Diagrams
+![Component Level Diagrams Subscription and Payments](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents-payment.png)
+![Component Level Diagrams Subscription and Payments](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-Payments.png)
+![Component Level Diagrams Subscription and Payments](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-%20Payments.png)
 
-##### 4.2.5.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams Subscription and Payments](/assets/chapter04/ClassDiagramas/ClassDiagram_Subscription&Payment.png)
+#### 4.2.6.6 Bounded Context Software Architecture Code Level Diagrams
 
-##### 4.2.5.6.2 Bounded Context Database Design Diagram
+##### 4.2.6.6.1 Bounded Context Domain Layer Class Diagrams
+![Bounded Context Domain Layer Class Diagrams Subscription and Payments](/assets/chapter04/ClassDiagramas/ClassDiagram_Subscription&Payments2.png)
+
+##### 4.2.6.6.2 Bounded Context Database Design Diagram
 ![Bounded Context Database Design Diagram Subscription and Payments](/assets/chapter04/ERDiagrams/ERDiagram_Subscription&Payment.png)
 
-### 4.2.6 Bounded Context: Issues
+### 4.2.7 Bounded Context: Issues
 Este bounded context permite a los conductores crear y consultar incidencias relacionados con envíos, rutas, vehículos u otros eventos relevantes. También proporciona acceso a todos los reportes generados dentro de la empresa.
 
-#### 4.2.6.1 Domain Layer
+#### 4.2.7.1 Domain Layer
 Contiene la lógica de negocio pura y las entidades principales relacionadas a la creación y consulta de reportes operativos.
 
 **Aggregate 1: Issue**<br>
@@ -1577,7 +2047,7 @@ Contiene la lógica de negocio pura y las entidades principales relacionadas a l
 | updateescription | Void | Public | Permite modificar la descripción del reporte. |
 | changeType | Void | Public | Cambia la categoría/tipo del reporte. |
 
-#### 4.2.6.2 Interface Layer
+#### 4.2.7.2 Interface Layer
 Responsable de la recepción de peticiones externas (REST), validación de entradas y conversión de datos para delegar al Application Layer.
 
 **Controller: IssueController**<br>
@@ -1610,7 +2080,7 @@ Responsable de la recepción de peticiones externas (REST), validación de entra
 | IssueResponseDto | Representa un reporte completo con todos sus campos. |
 | ListIssuesResponseDto | Contiene una lista de reportes accesibles (completa o paginada). |
 
-#### 4.2.6.3 Application Layer
+#### 4.2.7.3 Application Layer
 Esta capa coordina la lógica de negocio entre las entidades del dominio, infraestructura y casos de uso externos.
 
 **Service: IssueApplicationService**<br>
@@ -1630,7 +2100,7 @@ Esta capa coordina la lógica de negocio entre las entidades del dominio, infrae
 | listIssues | List<IssueResponseDto> | Public | Retorna todos los reportes registrados por el conductor. |
 | getIssueById | ReporteResponseDto | Public | Obtiene los detalles de un reporte específico por su ID. |
 
-#### 4.2.6.4 Infrastructure Layer
+#### 4.2.7.4 Infrastructure Layer
 Incluye las implementaciones de acceso a la persistencia y servicios auxiliares utilizados por la capa de aplicación.
 
 | Nombre | Categoría | Implementa | Descripción |
@@ -1644,13 +2114,15 @@ Incluye las implementaciones de acceso a la persistencia y servicios auxiliares 
 - Lista reportes paginados o completos disponibles para el usuario.
 - Actualiza descripciones o tipos de reportes existentes (si aplica políticas de edición).
 
-#### 4.2.6.5 Bounded Context Software Architecture Component Level Diagrams
-![Component Level Diagrams Issues]()
+#### 4.2.7.5 Bounded Context Software Architecture Component Level Diagrams
+![Component Level Diagrams Issues](/assets/chapter04/Diagramas%20para%20backend/structurizr-BackendComponents-issue.png)
+![Component Level Diagrams Issues](/assets/chapter04/Diagramas%20para%20web/structurizr-MoviGestionWebAppComponents-issue.png)
+![Component Level Diagrams Issues](/assets/chapter04/diagramas%20para%20mobile/structurizr-MoviGestionMobileComponents-issue.png)
 
-#### 4.2.6.6 Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.7.6 Bounded Context Software Architecture Code Level Diagrams
 
-##### 4.2.6.6.1 Bounded Context Domain Layer Class Diagrams
-![Bounded Context Domain Layer Class Diagrams Issues](/assets/chapter04/ClassDiagramas/ClassDiagram_Issues.png)
+##### 4.2.6.7.1 Bounded Context Domain Layer Class Diagrams
+![Bounded Context Domain Layer Class Diagrams Issues](/assets/chapter04/ClassDiagramas/ClassDiagram_Issues2.png)
 
-##### 4.2.6.6.2 Bounded Context Database Design Diagram
+##### 4.2.6.7.2 Bounded Context Database Design Diagram
 ![Bounded Context Database Design Diagram Issues](/assets/chapter04/ERDiagrams/ERDiagram_Issues.png)

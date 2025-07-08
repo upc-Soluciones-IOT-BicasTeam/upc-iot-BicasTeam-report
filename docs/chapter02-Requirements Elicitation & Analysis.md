@@ -363,11 +363,11 @@ Las fichas de User Persona son herramientas fundamentales para comprender las ne
 
 **Figura 7.**<br>
 *User Persona del primer segmento objetivo: Conductor.*
-![User Persona del primer segmento objetivo: Conductor.](/assets/chapter02/user_persona_conductor.png)
+![User Persona del primer segmento objetivo: Conductor.](/assets/chapter02/user_persona_conductor_1.png)
 
 **Figura 8.**<br>
 *User Persona del segundo segmento objetivo: Empresario.*
-![User Persona del segundo segmento objetivo: Empresario.](/assets/chapter02/user_persona_empresario.png)
+![User Persona del segundo segmento objetivo: Empresario.](/assets/chapter02/user_persona_empresario_1.png)
 
 
 ### 2.3.2 User Task Matrix
